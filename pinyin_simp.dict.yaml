@@ -1,16 +1,30 @@
 # Rime dictionary
 # encoding: utf-8
 #
-# A minimal Pinyin dictionary for simplified Chinese script
+# 袖珍简化字拼音主词库
 #
-# Derived from android open source project:
-# http://android.git.kernel.org/?p=platform/packages/inputmethods/PinyinIME.git
+# Neko7ina <hua199057+Rime@gmail.com>
 #
+# 部署位置：
+# ~/.config/ibus/rime  (Linux)
+# ~/Library/Rime  (Mac OS)
+# %APPDATA%\Rime  (Windows)
+#
+# 编辑完后重新部署才会生效
+# 「...」以下不能添加备注内容
 
 ---
-name: pinyin_simp
-version: "0.1"
+name: pinyin_simp.main
+version: "2019.02.27"
 sort: by_weight
+use_preset_vocabulary: false
+import_tables:
+# 英文及中英混输词库
+  - cn_en
+# 袖珍简化字拼音自定义词语
+  - pinyin_simp_custom
+# 袖珍简化字拼音基础词库，采用「现代汉语常用词表」，来源 https://github.com/alswl/Rime
+  - pinyin_simp_base
 ...
 
 鼥	ba	0
