@@ -33,7 +33,14 @@ import_tables:
 # 搜狗古诗细胞词库 https://pinyin.sogou.com/dict/detail/index/2
   - pinyin_simp_gushi
 ...
-
+囍	xi	2
+叒	ruo	1
+叕	zhuo	0
+㸚	li	0
+巜	kuai	0
+㙓	kui	0
+𠨕	ji	0
+赑	bi	1
 嘚	de	1
 鼥	ba	0
 釛	ba	0
