@@ -4,6 +4,7 @@
 # 袖珍简化字拼音自定义配置
 #
 # Neko7ina <hua199057+Rime@gmail.com>
+# tumuyan，in 2020.08.20
 #
 # 部署位置：
 # ~/.config/ibus/rime  (Linux)
@@ -13,9 +14,12 @@
 # 编辑完后重新部署才会生效
 
 patch:
+  # 導入英文輸入方案easy_en
   # 如果直接改寫方案，在文件頂端寫__patch:easy_en:/patch?
   # __include: easy_en:/patch?
   
+  # 直接复制了easy_en.yaml的内容
+  "schema/dependencies/@next": melt_eng
   "engine/translators/@before 0": table_translator@melt_eng
   
   melt_eng:
