@@ -1,0 +1,55 @@
+# Rime
+# encoding: utf-8
+#
+# 袖珍简化字拼音自定义配置
+#
+# Neko7ina <hua199057+Rime@gmail.com>
+#
+# 部署位置：
+# ~/.config/ibus/rime  (Linux)
+# ~/Library/Rime  (Mac OS)
+# %APPDATA%\Rime  (Windows)
+#
+# 编辑完后重新部署才会生效
+
+patch:
+# 设置主词典
+  "translator/dictionary": pinyin_simp.main
+# 候选去重
+  engine/filters:
+    - uniquifier
+# 默认输入状态为中文
+  "switches/@0/reset": 0
+# 开启拼音纠错
+  translator/enable_correction: false
+# 自定义标点
+# 固定候选单字，在用户目录下创建 pinyin_simp_pin.txt 文件并编辑
+  "engine/translators/@next": table_translator@pinyin_simp_pin
+  pinyin_simp_pin:
+    dictionary: ""
+    user_dict: pinyin_simp_pin
+    db_class: stabledb
+    enable_completion: false
+    enable_sentence: false
+    initial_quality: 1
+  punctuator:
+    import_preset: default
+    half_shape:
+      '`': '`'
+      '@': '@'
+      '#': '#'
+      '%': '%'
+      '=': '='
+      '/': '/'
+      '\': '、'
+      '~': '~'
+    full_shape:
+      '`': '`'
+      '@': '@'
+      '#': '#'
+      '%': '%'
+      '=': '='
+      '/': '/'
+      '\': '、'
+# 释放「`」键（同时关闭反查）
+  "recognizer/patterns/reverse_lookup": {}

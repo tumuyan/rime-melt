@@ -1,0 +1,28 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# 袖珍简化字拼音自定义词语
+#
+# Neko7ina <hua199057+Rime@gmail.com>
+#
+# 部署位置：
+# ~/.config/ibus/rime  (Linux)
+# ~/Library/Rime  (Mac OS)
+# %APPDATA%\Rime  (Windows)
+#
+# 编辑完后重新部署才会生效
+# 「...」以下不能添加备注内容
+
+---
+name: pinyin_simp_custom
+version: "2019.02.02"
+sort: by_weight
+use_preset_vocabulary: false
+...
+
+満貫	mangan
+跳満	haneman
+倍満	baiman
+役滿	yakuman
+签有	qian you
+不太有	bu tai you
