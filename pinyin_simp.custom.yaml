@@ -13,6 +13,28 @@
 # 编辑完后重新部署才会生效
 
 patch:
+  # 如果直接改寫方案，在文件頂端寫__patch:easy_en:/patch?
+  # __include: easy_en:/patch?
+  
+  "engine/translators/@before 0": table_translator@melt_eng
+  
+  melt_eng:
+    dictionary: melt_eng
+    spelling_hints: 9
+    enable_completion: true
+    enable_sentence: false
+    initial_quality: -1
+  # 關閉外語自造詞，節約候選詞列表
+  easy_en/enable_sentence: false
+  # 令輸入方案對大寫字符生效
+  "speller/alphabet": zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA-_
+  recognizer/patterns/uppercase: ''
+  
+  # 顯示9個候選詞
+  "menu/page_size": 9
+  "schema/name": 融合拼音
+  
+
 # 设置主词典
   "translator/dictionary": pinyin_simp.main
 # 候选去重
