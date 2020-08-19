@@ -1,0 +1,98 @@
+# Rime dictionary
+# mim: set ts=8 sw=8 noet:
+# encoding: utf-8
+#
+# melt_mult_language
+# 常用的英文自动调整大小写（比如输入i 候选词显示I）；
+# 在不切换键盘/不寻找符号键盘的前提下，通过拼写中英文显示其他外语或者符号（比如输入pi显示π，输入de显示の）
+# ⅠⅱⅲⅣⅤⅥⅦⅷⅨⅩ☆★♡✓✗♪§
+# •×のŋæ
+# ≈≠≤≥≡‰
+# á	a
+# æ	ae
+# 
+# ⅠⅱⅲⅣⅤⅥⅦⅷⅨⅩ☆★♡✓✗♪§
+# •≈≠×のüŋæΔεΦγ
+# 
+# ≈≠≤≥≡
+# ‰
+---
+name: melt_mult_language
+version: "2019.10.27"
+sort: by_weight
+use_preset_vocabulary: false
+...
+°	degrees
+℉	degreesFahrenheit
+℃	degreeCelsius
+℃	centidegree
+ü	v
+Σ	sigma
+Φ	phi
+φ	phi
+Ω	omega
+ω	omega
+α	alpha
+β	beta
+γ	gamma
+Δ	delta
+ε	epsilon
+ζ	zeta
+η	eta
+θ	theta
+ι	iota
+κ	kappa
+λ	lambda
+μ	mu
+ν	nu
+ξ	xi
+ο	omicron
+π	pi
+ρ	rho
+σ	sigma
+τ	tau
+υ	upsilon
+χ	chi
+ψ	psi
+I'	i
+APP	app
+Android	android
+DNA	dna
+DVD	dvd
+CD	cd
+MP	mp
+HP	hp
+Linux	linux
+iPad	ipad
+iPod	ipod
+iOS	ios
+Steam	steam
+Google	google
+Nexus	nexus
+Nintendo	nintendo
+Pixel	pixel
+Mac	mac
+Chrome	chrome
+Windows	windows
+Wire	wire
+Guard	guard
+GND	gnd
+iPhone	iphone
+Azure	azure
+Cloudflare	cloudflare
+Wii U	wiiu
+Wii	wii
+DOTA	dota
+Ubuntu	ubuntu
+Arch	arch
+WiFi	wifi
+MacBook	macbook
+Deepin	deepin
+eSIM	esim
+Gmail	gmail
+Python	python
+Ctrl	ctrl
+Shift	shift
+Alt	alt
+卡拉OK	kalaok
+i了	ile
