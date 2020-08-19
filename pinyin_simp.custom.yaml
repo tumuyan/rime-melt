@@ -58,24 +58,24 @@ patch:
     enable_completion: false
     enable_sentence: false
     initial_quality: 1
-  punctuator:
-    import_preset: default
-    half_shape:
-      '`': '`'
-      '@': '@'
-      '#': '#'
-      '%': '%'
-      '=': '='
-      '/': '/'
-      '\': '、'
-      '~': '~'
-    full_shape:
-      '`': '`'
-      '@': '@'
-      '#': '#'
-      '%': '%'
-      '=': '='
-      '/': '/'
-      '\': '、'
+#  punctuator:
+#    import_preset: default
+#    half_shape:
+#      '`': '`'
+#      '@': '@'
+#      '#': '#'
+#      '%': '%'
+#      '=': '='
+#      '/': '/'
+#      '\': '、'
+#      '~': '~'
+#    full_shape:
+#      '`': '`'
+#      '@': '@'
+#      '#': '#'
+#      '%': '%'
+#      '=': '='
+#      '/': '/'
+#      '\': '、'
 # 释放「`」键（同时关闭反查）
-  "recognizer/patterns/reverse_lookup": {}
+#  "recognizer/patterns/reverse_lookup": {}
