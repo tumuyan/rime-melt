@@ -38,17 +38,17 @@
 - `pinyin_simp_pin.txt` ：候选固定，使用另一个翻译器并给极高权重来达到固定候选列表的目的，编辑时请记得给极高权重。
 
 【Easy English Nano】
-* `melt_eng.schema.yaml` 归属于【Easy English】，原作者是Patrick (ipatrickmac@gmail.com)，但是在Patrick的主页没有这个项目的仓库。
-而github上BlindingDark（https://github.com/BlindingDark/rime-easy-en）有在维护，使用了**LGPLv3**协议，但是与本方案分属不同分支。
-* `melt_eng.dict.yaml` 英文主词库，作者tanzi，没有找到相关信息。主要在2016考研词汇大纲和六级单词的基础上进行修订。
+* `melt_eng.schema.yaml` 归属于【Easy English】，原作者是Patrick <ipatrickmac@gmail.com>，但是在Patrick的主页没有这个项目的仓库。
+而github上[BlindingDark](https://github.com/BlindingDark/rime-easy-en)有在维护，使用了**LGPLv3**协议，但是与本方案分属不同分支。
+* `melt_eng.dict.yaml` 英文主词库，作者tanzi，没有更多信息。在2016考研词汇大纲和六级单词的基础上进行修订。
 
-【融合拼音增补词库】
+【融合拼音增补词库】  
 求人不如求己，用[【深蓝词库转换】](https://github.com/studyzy/imewlconverter)转换搜狗细胞词库，并手动更新。（然而显而易见，搜狗目前的策略并不是通过更新离线词库来改善用户的输入体验）
 - `pinyin_simp_chengyu.dict.yaml`：搜狗成语俗语细胞词库 https://pinyin.sogou.com/dict/detail/index/15097
 - `pinyin_simp_lishi.dict.yaml`: 搜狗历史细胞词库 https://pinyin.sogou.com/dict/detail/index/15130
 - `pinyin_simp_gushi.dict.yaml`：搜狗古诗细胞词库 https://pinyin.sogou.com/dict/detail/index/2
 
-**Note** 以上文件清单仅供参考，存在仓库增加了文件，但是本说明没有及时更新的情况。  
+**Note**：以上文件清单仅供参考，存在仓库增加了文件，但是本说明没有及时更新的情况。  
 
 
 ## 其他
