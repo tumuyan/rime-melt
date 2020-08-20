@@ -15,33 +15,30 @@
 
 ---
 name: pinyin_simp.main
-version: "2019.02.27"
+version: "2020.08.19"
 sort: by_weight
 use_preset_vocabulary: false
 import_tables:
+# 袖珍简化字拼音
+#  - pinyin_simp
 # 英文及中英混输词库
 # 如果中文字典包含了英语，会产生英文+中文类型的造词，故此字典需关闭（比如输入qq候选词只有QQ，而没有出现其他词汇比如全球）
 #  - cn_en
 # 袖珍简化字拼音自定义词语
   - pinyin_simp_custom
-# 袖珍简化字拼音基础词库，采用「现代汉语常用词表」，来源 https://github.com/alswl/Rime
+# 现代汉语常用词表，来源 https://github.com/alswl/Rime
+#  - xiandaihanyuchangyongcibiao
+# 重命名为：
   - pinyin_simp_base
+# 肥猫词库，来源 https://github.com/felixonmars/fcitx5-pinyin-zhwiki
+  - zhwiki
 # 搜狗成语俗语细胞词库 https://pinyin.sogou.com/dict/detail/index/15097
   - pinyin_simp_chengyu
 # 搜狗历史细胞词库 https://pinyin.sogou.com/dict/detail/index/15130
-  - pinyin_simp_lishi
+#  - pinyin_simp_lishi
 # 搜狗古诗细胞词库 https://pinyin.sogou.com/dict/detail/index/2
   - pinyin_simp_gushi
 ...
-囍	xi	2
-叒	ruo	1
-叕	zhuo	0
-㸚	li	0
-巜	kuai	0
-㙓	kui	0
-𠨕	ji	0
-赑	bi	1
-嘚	de	1
 鼥	ba	0
 釛	ba	0
 軷	ba	0
@@ -1266,9 +1263,6 @@ import_tables:
 扑	pu	1247
 铺	pu	1930
 普	pu	2269
-呣	m	1
-嘸	m	1
-呒	m	1
 礣	ma	0
 榪	ma	0
 溤	ma	0
@@ -3889,8 +3883,6 @@ import_tables:
 腿	tui	4066
 推	tui	5296
 退	tui	7395
-唔	n	1126
-嗯	n	31982
 餪	nuan	0
 渜	nuan	0
 奻	nuan	3
@@ -15096,6 +15088,7 @@ import_tables:
 暘	yang	8
 旸	yang	8
 蛘	yang	8
+飏	yang	10
 烊	yang	12
 揚	yang	13
 炴	yang	16
@@ -17080,9 +17073,6 @@ import_tables:
 藕	ou	499
 欧	ou	3041
 偶	ou	24864
-噷	hm	6
-唔	ng	1126
-嗯	ng	31982
 粑粑	ba ba	149
 巴巴	ba ba	322
 爸爸	ba ba	9814

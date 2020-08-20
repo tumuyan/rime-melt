@@ -16,7 +16,9 @@ import_tables:
 # 英文及中英混输词库
   - melt_mult_language
 ...	
-
+NG	NG	100
+OK	OK	100
+upstream	upstream	100
 April	April	100
 August	August	100
 Bible	Bible	100

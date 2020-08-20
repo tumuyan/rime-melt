@@ -37,8 +37,10 @@ patch:
   # 顯示9個候選詞
   "menu/page_size": 9
   "schema/name": 融合拼音
-  
-
+# 语言模型数据包
+#  __include: grammar:/hans
+# 修改切换时提示
+#  "schema/name": "简体中文"
 # 设置主词典
   "translator/dictionary": pinyin_simp.main
 # 候选去重
