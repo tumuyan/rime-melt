@@ -33,8 +33,10 @@
 - `pinyin_simp.custom.yaml` ：袖珍简化字拼音方案的客制化配置文件。
 - `pinyin_simp.main.dict.yaml` ：词库中心文件。词库内容由 [袖珍简化字拼音](https://github.com/rime/rime-pinyin-simp) 默认词库pinyin_simp.dict.yaml修改而来，故合并两者并保持同步。
 - `pinyin_simp_base.dict.yaml` ：基础词库，由额外词库文件引用使用，来源为项目 [https://github.com/alswl/Rime](https://github.com/alswl/Rime) 中的[「现代汉语常用词表」](https://raw.githubusercontent.com/alswl/Rime/master/luna_pinyin.xiandaihanyuchangyongcibiao.dict.yaml)。
+- `cn_en.dict.yaml` ： 更名为 `melt_mult_language.dict.yaml`中英混合及其他语言的词库，本人（tumuyan）会着重维护。
+- `zhwiki.dict.yaml` ：肥猫词库。来源为项目 [fcitx5-pinyin-zhwiki](https://github.com/felixonmars/fcitx5-pinyin-zhwiki)
+以下词库仅保持结构，实际上并没用在维护：
 - `pinyin_simp_custom.dict.yaml` ：自定义词语，由额外词库文件引用使用。如需添加自定义短语，建议编辑此文件。
--  `cn_en.dict.yaml`： 更名为 `melt_mult_language.dict.yaml`英文及中英混输词库，本人会着重（tumuyan）维护
 - `pinyin_simp_pin.txt` ：候选固定，使用另一个翻译器并给极高权重来达到固定候选列表的目的，编辑时请记得给极高权重。
 
 【Easy English Nano】
@@ -45,7 +47,6 @@
 【融合拼音增补词库】  
 求人不如求己，用[【深蓝词库转换】](https://github.com/studyzy/imewlconverter)转换搜狗细胞词库，并手动更新。（然而显而易见，搜狗目前的策略并不是通过更新离线词库来改善用户的输入体验）
 - `pinyin_simp_chengyu.dict.yaml`：搜狗成语俗语细胞词库 https://pinyin.sogou.com/dict/detail/index/15097
-- `pinyin_simp_lishi.dict.yaml`: 搜狗历史细胞词库 https://pinyin.sogou.com/dict/detail/index/15130
 - `pinyin_simp_gushi.dict.yaml`：搜狗古诗细胞词库 https://pinyin.sogou.com/dict/detail/index/2
 
 **Note**：以上文件清单仅供参考，存在仓库增加了文件，但是本说明没有及时更新的情况。  
