@@ -5,7 +5,7 @@
 ## 意义
 * Rime新手使用此方案，可以快速上手简体中文和常用英语的混合输入。 
 * 众所周知，拼音输入是使用人数最多的中文输入方式；而rime默认拼音方案为明月拼音，该方案使用了繁体词库，通过脚本转换得到中文，而转换的结果事实上并不理想。故使用简体字典输入中文是很有必要的。
-* 本方案使用的英文词库与Easy English词汇量差异极大，只保留了较常用的词汇，并非单纯为了提高混打中英文时的打字速度，而是借用字典机制对输入的单词进行自动校正。基于@tanzi制作的包含2016考研词汇大纲和六级单词词库进行更新，故更名为Easy English Nano。
+* 本方案使用的英文词库与Easy English词汇量差异极大，只保留了较常用的词汇，并非单纯为了提高混打中英文时的打字速度，而是借用字典机制对输入的单词的正确性和大小写进行校对。基于@tanzi制作的包含2016考研词汇大纲和六级单词词库进行更新，故更名为Easy English Nano。
 * 如果你已经安装Easy English方案，与本方案互不影响。
 * 如果你已经安装袖珍简化拼音，但是没有修改对应的custom文件，那么既可以选择使用本方案的文件替换冲突的文件，也可以选择保留原有文件，两者基本没有差别。   
 
@@ -19,8 +19,10 @@
 3. 打开 Rime 方案选单（输入状态下按Ctrl + ~），切换至「融合拼音」即可开始使用。
 
 
-## 问题
-* 输入的英语不会生成自造词（我认为这是一个好的特性，避免了输入错误造成的字典污染）
+## 注意事项
+* Easy English Nano方案内置了大小写转换，允许用小写字母输入拼大小写混合的单词，允许首字母大写输入全大写的单词。（也就是说，首字母大写不能输入全小写的单词）因此在维护词典时，无需手动对大小写的词条做编码优化即可得到较好的体验，词条和编码完全一致即可。
+* Easy English Nano方案能够自动处理编码中的单个+-_符号。如果词条包含了其他符号或多个符号，比如空格，需要手动去除特殊符号。
+* 输入英语不会生成自造词（我认为这是一个好的特性，避免了输入错误造成的字典污染）
 
 
 ## 文件组成及授权
@@ -33,7 +35,7 @@
 - `pinyin_simp.custom.yaml` ：袖珍简化字拼音方案的客制化配置文件。
 - `pinyin_simp.main.dict.yaml` ：词库中心文件。词库内容由 [袖珍简化字拼音](https://github.com/rime/rime-pinyin-simp) 默认词库pinyin_simp.dict.yaml修改而来，故合并两者并保持同步。
 - `pinyin_simp_base.dict.yaml` ：基础词库，由额外词库文件引用使用，来源为项目 [https://github.com/alswl/Rime](https://github.com/alswl/Rime) 中的[「现代汉语常用词表」](https://raw.githubusercontent.com/alswl/Rime/master/luna_pinyin.xiandaihanyuchangyongcibiao.dict.yaml)。
-- `cn_en.dict.yaml` ： 更名为 `melt_mult_language.dict.yaml`中英混合及其他语言的词库，本人（tumuyan）会着重维护。
+- `cn_en.dict.yaml` ： 弃用，改为引用Easy English Nano方案输入英文。
 - `zhwiki.dict.yaml` ：肥猫词库。来源为项目 [fcitx5-pinyin-zhwiki](https://github.com/felixonmars/fcitx5-pinyin-zhwiki)
 以下词库仅保持结构，实际上并没用在维护：
 - `pinyin_simp_custom.dict.yaml` ：自定义词语，由额外词库文件引用使用。如需添加自定义短语，建议编辑此文件。
@@ -43,6 +45,7 @@
 * `melt_eng.schema.yaml` 归属于【Easy English】，原作者是Patrick <ipatrickmac@gmail.com>，但是在Patrick的主页没有这个项目的仓库。
 而github上[BlindingDark](https://github.com/BlindingDark/rime-easy-en)有在维护，使用了**LGPLv3**协议，但是与本方案分属不同分支。
 * `melt_eng.dict.yaml` 英文主词库，作者tanzi，没有更多信息。在2016考研词汇大纲和六级单词的基础上进行修订。
+* `melt_mult_language.dict.yaml`中英混合及其他语言的词库。
 
 【融合拼音增补词库】  
 求人不如求己，用[【深蓝词库转换】](https://github.com/studyzy/imewlconverter)转换搜狗细胞词库，并手动更新。（然而显而易见，搜狗目前的策略并不是通过更新离线词库来改善用户的输入体验）

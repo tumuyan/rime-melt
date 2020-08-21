@@ -50,8 +50,11 @@ speller:
 #    - derive/^([a-z]+)$/\u$1/
 # 把大小写混写的单词转写为全小写
     - derive/^([a-zA-Z]+)$/\L$1/
-# 把大写单词转写为首字母大写
-    - derive/^([A-Z])([a-zA-Z]+)$/\U$1$2/
+# 把大写首字母的大小写混合的单词转写为首字母大写
+    - derive/^([A-Z])([a-zA-Z]+)$/$1\L$2/
+# 把带1个符号的大小写混写的单词转写为无符号全小写
+    - derive/^([a-zA-Z]+)([\-_+]*)([a-zA-Z]*)$/\L$1\L$3/
+    - derive/^([a-zA-Z])([a-zA-Z]*)([\-_+]*)([a-zA-Z]*)$/$1\L$2\L$4/
 translator:
   dictionary: melt_eng
   spelling_hints: 9
