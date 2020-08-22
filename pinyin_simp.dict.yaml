@@ -15,7 +15,7 @@
 
 ---
 name: pinyin_simp.main
-version: "2019.02.27"
+version: "2020.08.22"
 sort: by_weight
 use_preset_vocabulary: false
 import_tables:

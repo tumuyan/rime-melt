@@ -1,82 +1,93 @@
 # Rime dictionary		
 # encoding: utf-8		
 #		
-# 包含了2016考研词汇大纲和六级单词，共6133个		
 #	原作verson 2017.03.31@tanzi	
 #	修订@tumuyan
-#	2019.10.27	把原省略字符的字典，改为全文字典，并进行了一些扩展
-#	2020.08.18	更正大小写并对词条排序
+#	2019.10	把原省略字符的字典，改为全文字典，并进行了一些扩展
+#	2020.08	添加大写单词（放置在词典顶部），并对词条排序
 
 ---	
 name: melt_eng		
-version: "2019.10.27"		
+version: "2020.08.22"		
 #sort: by_weight		
 use_preset_vocabulary: true		
 import_tables:
 # 英文及中英混输词库
   - melt_mult_language
 ...	
-NG	NG	100
 OK	OK	100
+NG	NG	100
+TRUE	TRUE	100
+FALSE	FALSE	100
+TV	TV	100
+VTuber	VTuber	100
 CPU	CPU	100
 MCU	MCU	100
 RAM	RAM	100
 ROM	ROM	100
 SSD	SSD	100
+NVMe	NVMe	100
+M.2	M2	100
+NGFF	NGFF	100
+PCIe	PCIe	100
+SATA	SATA	100
+eSATA	eSATA	100
+mSATA	mSATA	100
+Mac	Mac	100
 LCD	LCD	100
 DVD	DVD	100
 CD	CD	100
+WiFi	WiFi	100
+Bluetooth	Bluetooth	100
+eSIM	eSIM	100
+UTF	UTF	100
+ASCII	ASCII	100
+ANSI	ANSI	100
+DjVu	DjVu	100
+LaTeX	LaTeX	100
 PS	PS	100
-FFT	FFT	100
 Wire	Wire	100
 Guard	Guard	100
 GND	GND	100
 VCC	VCC	100
-eSIM	eSIM	100
 Alt+	Alt+	100
 Ctrl+	Ctrl+	100
 Shift+	Shift+	100
 Win+	Win+	100
-server	server	100
 Ethernet	Ethernet	100
+SOCKS	SOCKS	100
 PrintScreen	PrintScreen	100
 Backspace	Backspace	100
-wiki	wiki	100
-WiFi	WiFi	100
-DjVu	DjVu	100
-LaTeX	LaTeX	100
-upstream	upstream	100
 C++	cpp	100
 Python	Python	100
 Perl	Perl	100
 Swift	Swift	100
-gradle	gradle	100
 MIT	MIT	100
 LGPL	LGPL	100
 Mozilla	Mozilla	100
 Apache	Apache	100
+Steam	Steam	100
 App	App	100
 Android	Android	100
-MacBook	MacBook	100
-Ubuntu	Ubuntu	100
 Arch	Arch	100
-Steam	Steam	100
+iOS	iOS	100
+Linux	Linux	100
+Ubuntu	Ubuntu	100
+Windows	Windows	100
+Microsoft	Microsoft	100
+Nintendo	Nintendo	100
 Google	Google	100
 Nexus	Nexus	100
-Nintendo	Nintendo	100
 Pixel	Pixel	100
-Mac	Mac	100
-Chrome	Chrome	100
-iPhone	iPhone	100
-Azure	Azure	100
-Cloudflare	Cloudflare	100
 Wii U	WiiU	100
 Wii	Wii	100
-Linux	Linux	100
+Chrome	Chrome	100
+iPhone	iPhone	100
 iPad	iPad	100
 iPod	iPod	100
-iOS	iOS	100
-Windows	Windows	100
+MacBook	MacBook	100
+Azure	Azure	100
+Cloudflare	Cloudflare	100
 April	April	100
 August	August	100
 Bible	Bible	100
@@ -88,7 +99,6 @@ Christmas	Christmas	100
 December	December	100
 Easter	Easter	100
 Egyptian	Egyptian	100
-FALSE	FALSE	100
 February	February	100
 Friday	Friday	100
 I	I	100
@@ -113,8 +123,6 @@ Saturday	Saturday	100
 Saturn	Saturn	100
 September	September	100
 Sunday	Sunday	100
-TRUE	TRUE	100
-TV	TV	100
 Thanksgiving	Thanksgiving	100
 Thursday	Thursday	100
 Tuesday	Tuesday	100
@@ -122,7 +130,6 @@ Venus	Venus	100
 Wednesday	Wednesday	100
 X-ray	X-ray	100
 a	a	100
-awesome	awesome	100
 abandon	abandon	100
 abbreviation	abbreviation	100
 abdomen	abdomen	100
@@ -262,13 +269,13 @@ agreeable	agreeable	100
 agreement	agreement	100
 agriculture	agriculture	100
 ahead	ahead	100
+aid	aid	100
+aim	aim	100
+air	air	100
 air-conditioning	air-conditioning	100
 aircraft	aircraft	100
 airline	airline	100
 airport	airport	100
-aid	aid	100
-aim	aim	100
-air	air	100
 aisle	aisle	100
 alarm	alarm	100
 alas	alas	100
@@ -278,12 +285,17 @@ alert	alert	100
 algebra	algebra	100
 alien	alien	100
 alignment	alignment	100
+alike	alike	100
+alive	alive	100
+all	all	100
 allege	allege	100
 alleviate	alleviate	100
 alliance	alliance	100
 allied	allied	100
 allocate	allocate	100
+allow	allow	100
 allowance	allowance	100
+alloy	alloy	100
 ally	ally	100
 almost	almost	100
 alone	alone	100
@@ -292,6 +304,8 @@ alongside	alongside	100
 aloud	aloud	100
 alphabet	alphabet	100
 already	already	100
+also	also	100
+alter	alter	100
 alteration	alteration	100
 alternate	alternate	100
 alternative	alternative	100
@@ -300,14 +314,6 @@ altitude	altitude	100
 altogether	altogether	100
 aluminum	aluminum	100
 always	always	100
-alike	alike	100
-alive	alive	100
-all	all	100
-allow	allow	100
-alloy	alloy	100
-also	also	100
-alter	alter	100
-amid	amid	100
 amateur	amateur	100
 amaze	amaze	100
 ambassador	ambassador	100
@@ -318,6 +324,7 @@ ambitious	ambitious	100
 ambulance	ambulance	100
 amend	amend	100
 amiable	amiable	100
+amid	amid	100
 among	among	100
 amount	amount	100
 ample	ample	100
@@ -514,6 +521,7 @@ award	award	100
 aware	aware	100
 away	away	100
 awe	awe	100
+awesome	awesome	100
 awful	awful	100
 awkward	awkward	100
 axe	axe	100
@@ -993,6 +1001,7 @@ chip	chip	100
 chocolate	chocolate	100
 choice	choice	100
 choke	choke	100
+choker	choker	100
 choose	choose	100
 chop	chop	100
 chord	chord	100
@@ -1278,6 +1287,7 @@ convict	convict	100
 conviction	conviction	100
 convince	convince	100
 cook	cook	100
+cookie	cookie	100
 cool	cool	100
 cooperate	cooperate	100
 cooperative	cooperative	100
@@ -2472,6 +2482,7 @@ graceful	graceful	100
 gracious	gracious	100
 grade	grade	100
 gradient	gradient	100
+gradle	gradle	100
 gradual	gradual	100
 graduate	graduate	100
 grain	grain	100
@@ -4432,6 +4443,7 @@ quality	quality	100
 quantify	quantify	100
 quantitative	quantitative	100
 quantity	quantity	100
+quark	quark	100
 quarrel	quarrel	100
 quart	quart	100
 quarter	quarter	100
@@ -4472,7 +4484,7 @@ rag	rag	100
 rage	rage	100
 raid	raid	100
 rail	rail	100
-railroad	railroad	100
+railway	railway	100
 rain	rain	100
 rainbow	rainbow	100
 raise	raise	100
@@ -4944,6 +4956,7 @@ sermon	sermon	100
 serpent	serpent	100
 servant	servant	100
 serve	serve	100
+server	server	100
 service	service	100
 session	session	100
 set	set	100
@@ -5132,7 +5145,7 @@ socialism	socialism	100
 society	society	100
 sociology	sociology	100
 sock	sock	100
-sockets	sockets	100
+socket	socket	100
 soda	soda	100
 sofa	sofa	100
 soft	soft	100
@@ -5159,6 +5172,7 @@ sometimes	sometimes	100
 somewhat	somewhat	100
 somewhere	somewhere	100
 son	son	100
+sonar	sonar	100
 song	song	100
 soon	soon	100
 sophisticated	sophisticated	100
@@ -5874,6 +5888,7 @@ upright	upright	100
 uproar	uproar	100
 upset	upset	100
 upstairs	upstairs	100
+upstream	upstream	100
 up-to-date	up-to-date	100
 upward	upward	100
 uranium	uranium	100
@@ -6113,6 +6128,7 @@ widow	widow	100
 width	width	100
 wield	wield	100
 wife	wife	100
+wiki	wiki	100
 wild	wild	100
 will	will	100
 willing	willing	100
