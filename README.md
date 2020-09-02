@@ -1,17 +1,16 @@
 # 融合拼音(rime_melt)
-融合了[【袖珍简化字拼音】](https://github.com/rime/rime-pinyin-simp/)[【Rime 简体中文用户定制文件】](https://github.com/huaxianyan/Rime)和【Easy English】以实现中英文混合输入，故名融合拼音(rime_melt)。   
+融合了[【袖珍简化字拼音】](https://github.com/rime/rime-pinyin-simp/)、[【Rime 简体中文用户定制文件】](https://github.com/huaxianyan/Rime)和【Easy English】以实现中英文混合输入，故名融合拼音(rime_melt)。   
 因此本仓库实际是包含了这2种输入方案的「配方」。Rime新手使用此方案，可以快速上手简体中文和常用英语的混合输入。
 
-## 意义
-* Rime新手使用此方案，可以快速上手简体中文和常用英语的混合输入。 
+## 意义 
 * 众所周知，拼音输入是使用人数最多的中文输入方式；而rime默认拼音方案为明月拼音，该方案使用了繁体词库，通过脚本转换得到中文，而转换的结果事实上并不理想。故使用简体字典输入中文是很有必要的。
 * 本方案使用的英文词库与Easy English词汇量差异极大，只保留了较常用的词汇，并非单纯为了提高混打中英文时的打字速度，而是借用字典机制对输入的单词的正确性和大小写进行校对。基于@tanzi制作的包含2016考研词汇大纲和六级单词词库进行更新，故更名为Easy English Nano。
 * 如果你已经安装Easy English方案，与本方案互不影响。
-* 如果你已经安装袖珍简化拼音，但是没有修改对应的custom文件，那么既可以选择使用本方案的文件替换冲突的文件，也可以选择保留原有文件，两者基本没有差别。   
+* 如果你已经安装袖珍简化拼音，但是没有修改对应的custom文件，那么既可以选择使用本方案的文件替换冲突的文件，也可以选择保留原有文件，两者基本没有大的差别。   
 
 ## 使用方法
 * 目前本方案没有加入东风破，需要下载文件并放置到方案目录来使用。 
-1. 将文件下载并复制到 Rime 用户文件夹内。用戶資料夾位置：  
+1. [下载文件](https://github.com/tumuyan/rime-pinyin-simp/releases)、解压文件并复制到`Rime用户文件夹`内。用戶資料夾位置：  
     * 【中州韻】 ~/.config/ibus/rime/ （0.9.1 以下版本爲 ~/.ibus/rime/）
     * 【小狼毫】 %APPDATA%\Rime
     * 【鼠鬚管】 ~/Library/Rime/
@@ -68,6 +67,9 @@
 求人不如求己，用[【深蓝词库转换】](https://github.com/studyzy/imewlconverter)转换搜狗细胞词库，并手动更新。（然而显而易见，搜狗目前的策略并不是通过更新离线词库来改善用户的输入体验）
 - `pinyin_simp_chengyu.dict.yaml`：搜狗成语俗语细胞词库 https://pinyin.sogou.com/dict/detail/index/15097
 - `pinyin_simp_gushi.dict.yaml`：搜狗古诗细胞词库 https://pinyin.sogou.com/dict/detail/index/2
+
+【融合拼音参考文件】  
+- `/others/*.csv`: 整理中的增补字典，除常见国家和语言外均未实装。  
 
 **Note**：以上文件清单仅供参考，存在仓库增加了文件，但是本说明没有及时更新的情况。  
 

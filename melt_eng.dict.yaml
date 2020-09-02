@@ -1,8 +1,9 @@
 # Rime dictionary		
 # encoding: utf-8		
 #		
-#	原作verson 2017.03.31@tanzi	
-#	修订@tumuyan
+# Easy English Nano使用的英文主词典，主要构成为2016考研词汇大纲和六级单词，数据量6K条。
+#	原作version 2017.03.31@tanzi	
+#	修订version 2020.09.02@tumuyan
 #	2019.10	把原省略字符的字典，改为全文字典，并进行了一些扩展
 #	2020.08	添加大写单词（放置在词典顶部），并对词条排序
 
@@ -33,6 +34,9 @@ PCIe	PCIe	100
 SATA	SATA	100
 eSATA	eSATA	100
 mSATA	mSATA	100
+USB	USB	100
+GPIB	GPIB	100
+GPIO	GPIO	100
 Mac	Mac	100
 LCD	LCD	100
 DVD	DVD	100
@@ -43,6 +47,7 @@ eSIM	eSIM	100
 UTF	UTF	100
 ASCII	ASCII	100
 ANSI	ANSI	100
+IEEE	IEEE	100
 DjVu	DjVu	100
 LaTeX	LaTeX	100
 PS	PS	100
@@ -58,9 +63,14 @@ Ethernet	Ethernet	100
 SOCKS	SOCKS	100
 PrintScreen	PrintScreen	100
 Backspace	Backspace	100
+DNA	DNA	100
+RNA	RNA	100
+mRNA	mRNA	100
+NDA	NDA	100
 C++	cpp	100
 Python	Python	100
 Perl	Perl	100
+Javascript	Javascript	100
 Swift	Swift	100
 MIT	MIT	100
 LGPL	LGPL	100
@@ -129,6 +139,87 @@ Tuesday	Tuesday	100
 Venus	Venus	100
 Wednesday	Wednesday	100
 X-ray	X-ray	100
+America	America	100
+American	American	100
+Arab	Arab	100
+Arabic	Arabic	100
+Australia	Australia	100
+Australian	Australian	100
+Brazil	Brazil	100
+Brazilian	Brazilian	100
+Britain	Britain	100
+Canada	Canada	100
+Canadian	Canadian	100
+China	China	100
+Chinese	Chinese	100
+Danish	Danish	100
+Denmark	Denmark	100
+Dutch	Dutch	100
+Egypt	Egypt	100
+Egyptian	Egyptian	100
+England	England	100
+English	English	100
+Filipino	Filipino	100
+Finland	Finland	100
+Finn	Finn	100
+Finnish	Finnish	100
+France	France	100
+French	French	100
+German	German	100
+Germany	Germany	100
+Greece	Greece	100
+Greek	Greek	100
+Hebrew	Hebrew	100
+Hindi	Hindi	100
+Iceland	Iceland	100
+Icelander	Icelander	100
+Icelandic	Icelandic	100
+India	India	100
+Indian	Indian	100
+Iran	Iran	100
+Iranian	Iranian	100
+Ireland	Ireland	100
+Irish	Irish	100
+Irishman	Irishman	100
+Israel	Israel	100
+Israeli	Israeli	100
+Italian	Italian	100
+Italilian	Italilian	100
+Italy	Italy	100
+Japan	Japan	100
+Japanese	Japanese	100
+Korea	Korea	100
+Korean	Korean	100
+native American	nativeAmerican	100
+Netherlands	Netherlands	100
+New Zealand	NewZealand	100
+New Zealander	NewZealander	100
+Philppines	Philppines	100
+Poland	Poland	100
+Pole	Pole	100
+Polish	Polish	100
+Portugal	Portugal	100
+Portuguese	Portuguese	100
+Russia	Russia	100
+Russian	Russian	100
+Scotland	Scotland	100
+Scots	Scots	100
+Scottish	Scottish	100
+Simplified Chinese	SimplifiedChinese	100
+Singapore	Singapore	100
+Spain	Spain	100
+Spanish	Spanish	100
+Swede	Swede	100
+Sweden	Sweden	100
+Swedish	Swedish	100
+Swiss	Swiss	100
+Thai	Thai	100
+Thailand	Thailand	100
+Traditional Chinese	TraditionalChinese	100
+United Kingdom	UnitedKingdom	100
+United States	UnitedStates	100
+Wales	Wales	100
+Welsh	Welsh	100
 a	a	100
 abandon	abandon	100
 abbreviation	abbreviation	100
@@ -712,6 +803,7 @@ bond	bond	100
 bone	bone	100
 bonus	bonus	100
 book	book	100
+bookmark	bookmark	100
 boom	boom	100
 boost	boost	100
 boot	boot	100
@@ -3443,6 +3535,7 @@ melon	melon	100
 melt	melt	100
 member	member	100
 membership	membership	100
+meme	meme	100
 memo	memo	100
 memorial	memorial	100
 memory	memory	100
@@ -3859,6 +3952,7 @@ ornament	ornament	100
 ornamental	ornamental	100
 orphan	orphan	100
 orthodox	orthodox	100
+oscilloscope	oscilloscope	100
 other	other	100
 otherwise	otherwise	100
 ought	ought	100
@@ -5823,6 +5917,7 @@ typist	typist	100
 tyranny	tyranny	100
 tyrant	tyrant	100
 ugly	ugly	100
+ukulele	ukulele	100
 ultimate	ultimate	100
 ultrasonic	ultrasonic	100
 ultraviolet	ultraviolet	100
