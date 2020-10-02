@@ -1,6 +1,6 @@
 # 融合拼音(rime_melt)
-融合了[【袖珍简化字拼音】](https://github.com/rime/rime-pinyin-simp/)、[【Rime 简体中文用户定制文件】](https://github.com/huaxianyan/Rime)和【Easy English】以实现中英文混合输入，故名融合拼音(rime_melt)。   
-因此本仓库实际是包含了这2种输入方案的「配方」。Rime新手使用此方案，可以快速上手简体中文和常用英语的混合输入。
+融合了[【袖珍简化字拼音】](https://github.com/rime/rime-pinyin-simp/)、[【Rime 简体中文用户定制文件】](https://github.com/huaxianyan/Rime)和【Easy English】以实现中英文混合输入，故名[融合拼音(rime_melt)](https://github.com/tumuyan/rime-pinyin-simp)。   
+Rime新手使用此方案，可以快速上手简体中文和常用英语的混合输入。
 
 ## 意义 
 * 众所周知，拼音输入是使用人数最多的中文输入方式；而rime默认拼音方案为明月拼音，该方案使用了繁体词库，通过脚本转换得到中文，而转换的结果事实上并不理想。故使用简体字典输入中文是很有必要的。
@@ -44,8 +44,8 @@
 ## 文件组成及授权
 
 [【袖珍简化字拼音】](https://github.com/rime/rime-pinyin-simp/)项目使用**Apache 2.0**协议，涉及的文件包含：  
-* pinyin_simp.dict.yaml
-* pinyin_simp.schema.yaml
+* `pinyin_simp.dict.yaml` ：袖珍简化字拼音词库文件。此文件仅用于和原方案词库对比差异、保持同步，可直接删除
+* `pinyin_simp.schema.yaml` ：袖珍简化字拼音方案文件。
 
 [【Rime 简体中文用户定制文件】](https://github.com/huaxianyan/Rime)项目使用**MIT**协议，涉及的文件包含：
 - `pinyin_simp.custom.yaml` ：袖珍简化字拼音方案的客制化配置文件。
@@ -69,7 +69,7 @@
 - `pinyin_simp_gushi.dict.yaml`：搜狗古诗细胞词库 https://pinyin.sogou.com/dict/detail/index/2
 
 【融合拼音参考文件】  
-- `/others/*.csv`: 整理中的增补字典，除常见国家和语言外均未实装。  
+- `/others/*.csv`: 整理中的增补字典，除常见国家和语言外均未实装。可直接删除  
 
 **Note**：以上文件清单仅供参考，存在仓库增加了文件，但是本说明没有及时更新的情况。  
 

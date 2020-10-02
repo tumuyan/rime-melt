@@ -9,7 +9,7 @@
 
 ---	
 name: melt_eng		
-version: "2020.08.22"		
+version: "2020.10.02"		
 #sort: by_weight		
 use_preset_vocabulary: true		
 import_tables:
@@ -63,6 +63,7 @@ Ethernet	Ethernet	100
 SOCKS	SOCKS	100
 PrintScreen	PrintScreen	100
 Backspace	Backspace	100
+DIY DIY 100
 DNA	DNA	100
 RNA	RNA	100
 mRNA	mRNA	100
@@ -96,6 +97,7 @@ iPhone	iPhone	100
 iPad	iPad	100
 iPod	iPod	100
 MacBook	MacBook	100
+UI	UI	100
 Azure	Azure	100
 Cloudflare	Cloudflare	100
 April	April	100
@@ -3499,6 +3501,7 @@ mate	mate	100
 material	material	100
 mathematical	mathematical	100
 maths	maths	100
+matrix	matrix	100
 matter	matter	100
 mature	mature	100
 maximum	maximum	100
@@ -4547,6 +4550,7 @@ quartz	quartz	100
 queen	queen	100
 queer	queer	100
 quench	quench	100
+query	query	100
 quest	quest	100
 question	question	100
 questionable	questionable	100
@@ -4690,6 +4694,7 @@ regard	regard	100
 regarding	regarding	100
 regardless	regardless	100
 regenerative	regenerative	100
+regex	regex	100
 regime	regime	100
 regiment	regiment	100
 region	region	100
@@ -5766,6 +5771,7 @@ tobacco	tobacco	100
 today	today	100
 toe	toe	100
 together	together	100
+toggle	toggle	100
 toilet	toilet	100
 token	token	100
 tolerance	tolerance	100
