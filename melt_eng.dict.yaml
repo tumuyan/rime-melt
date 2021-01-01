@@ -2,14 +2,14 @@
 # encoding: utf-8		
 #		
 # Easy English Nano使用的英文主词典，主要构成为2016考研词汇大纲和六级单词，数据量6K条。
-#	原作version 2017.03.31@tanzi	
-#	修订version 2020.09.02@tumuyan
+#	原作version 2017.03.31 by tanzi	
+#	修订version by tumuyan
 #	2019.10	把原省略字符的字典，改为全文字典，并进行了一些扩展
 #	2020.08	添加大写单词（放置在词典顶部），并对词条排序
 
 ---	
 name: melt_eng		
-version: "2020.10.02"		
+version: "2021.01.02"		
 #sort: by_weight		
 use_preset_vocabulary: true		
 import_tables:
@@ -681,6 +681,7 @@ basin	basin	100
 basis	basis	100
 basket	basket	100
 basketball	basketball	100
+bass	bass	100
 bat	bat	100
 batch	batch	100
 bath	bath	100
@@ -5862,6 +5863,7 @@ treasure	treasure	100
 treasurer	treasurer	100
 treat	treat	100
 treaty	treaty	100
+treble	treble	100
 tree	tree	100
 tremble	tremble	100
 tremendous	tremendous	100
