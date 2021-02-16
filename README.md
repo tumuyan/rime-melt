@@ -53,6 +53,7 @@ Rime新手使用此方案，可以快速上手简体中文和常用英语的混�
 - `pinyin_simp_base.dict.yaml` ：基础词库，由额外词库文件引用使用，来源为项目 [https://github.com/alswl/Rime](https://github.com/alswl/Rime) 中的[「现代汉语常用词表」](https://raw.githubusercontent.com/alswl/Rime/master/luna_pinyin.xiandaihanyuchangyongcibiao.dict.yaml)。
 - `cn_en.dict.yaml` ： 弃用，改为引用Easy English Nano方案输入英文。
 - `zhwiki.dict.yaml` ：肥猫词库。来源为项目 [fcitx5-pinyin-zhwiki](https://github.com/felixonmars/fcitx5-pinyin-zhwiki)  。原项目的词库文件较旧，本fork分支会不定期从肥猫词库的release页面下载并更新。
+更新：2021-02-01 0.2.2
     
 以下词库仅保持结构，实际上并没有在维护：  
 - `pinyin_simp_custom.dict.yaml` ：自定义词语，由额外词库文件引用使用。如需添加自定义短语，建议编辑此文件。

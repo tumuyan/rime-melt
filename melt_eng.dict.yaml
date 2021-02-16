@@ -9,13 +9,19 @@
 
 ---	
 name: melt_eng		
-version: "2021.01.02"		
+version: "2021.02.17"		
 #sort: by_weight		
 use_preset_vocabulary: true		
 import_tables:
 # 英文及中英混输词库
   - melt_mult_language
 ...	
+Trojan	Trojan	100
+AVAST!	AVAST	100
+Bitdefender	Bitdefender	100
+ClamAV	ClamAV	100
+Comodo	Comodo	100
+McAfee	McAfee	100
 OK	OK	100
 NG	NG	100
 TRUE	TRUE	100
@@ -1724,6 +1730,7 @@ disappoint	disappoint	100
 disaster	disaster	100
 disastrous	disastrous	100
 disc	disc	100
+disco	disco	100
 discard	discard	100
 discern	discern	100
 discharge	discharge	100
