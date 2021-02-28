@@ -10,12 +10,12 @@ Rime新手使用此方案，可以快速上手简体中文和常用英语的混�
 
 ## 使用方法
 * 目前本方案没有加入东风破，需要下载文件并放置到方案目录来使用。 
-1. [下载文件](https://github.com/tumuyan/rime-pinyin-simp/releases)、解压文件并复制到`Rime用户文件夹`内。用戶資料夾位置：  
+1. [下载文件](https://github.com/tumuyan/rime-pinyin-simp/archive/master.zip)、解压文件并复制到`Rime用户文件夹`内。用户文件夹位置：  
     * 【中州韻】 ~/.config/ibus/rime/ （0.9.1 以下版本爲 ~/.ibus/rime/）
     * 【小狼毫】 %APPDATA%\Rime
     * 【鼠鬚管】 ~/Library/Rime/
-2. 启用[袖珍简化字拼音]和［Easy English Nano]方案。
-3. 打开 Rime 方案选单（输入状态下按Ctrl + ~），切换至「融合拼音」即可开始使用。
+2. 启用 [袖珍简化字拼音] 和 [Easy English Nano] 方案。
+3. 打开 Rime 方案选单（输入状态下按Ctrl + ~），切换至 [融合拼音] 即可开始使用。
 
 
 ## 注意事项
@@ -45,8 +45,8 @@ Rime新手使用此方案，可以快速上手简体中文和常用英语的混�
 
 [【袖珍简化字拼音】](https://github.com/rime/rime-pinyin-simp/)项目使用**Apache 2.0**协议，涉及的文件包含：  
 * `pinyin_simp.dict.yaml` ：袖珍简化字拼音词库文件。此文件仅用于和原方案词库对比差异、保持同步，可直接删除  
-* `pinyin_simp.schema.yaml` ：袖珍简化字拼音方案文件。  
-更新：2020-11-9 23:00
+* `pinyin_simp.schema.yaml` ：袖珍简化字拼音方案文件。仅用于数据合并和同步，实际未在使用。  
+上游更新：2020-11-9 23:00
 [【Rime 简体中文用户定制文件】](https://github.com/huaxianyan/Rime)项目使用**MIT**协议，涉及的文件包含：
 - `pinyin_simp.custom.yaml` ：袖珍简化字拼音方案的客制化配置文件。
 - `pinyin_simp.main.dict.yaml` ：词库中心文件。词库内容由 [袖珍简化字拼音](https://github.com/rime/rime-pinyin-simp) 默认词库pinyin_simp.dict.yaml修改而来，故合并两者并保持同步。
@@ -55,7 +55,7 @@ Rime新手使用此方案，可以快速上手简体中文和常用英语的混�
 - `zhwiki.dict.yaml` ：肥猫词库。来源为项目 [fcitx5-pinyin-zhwiki](https://github.com/felixonmars/fcitx5-pinyin-zhwiki)  。原项目的词库文件较旧，本fork分支会不定期从肥猫词库的release页面下载并更新。
 更新：2021-2-22 19:20
     
-以下词库仅保持结构，实际上并没有在维护：  
+以下词库仅保持结构，实际上并没有在维护，由最终用户根据实际需求来编辑：  
 - `pinyin_simp_custom.dict.yaml` ：自定义词语，由额外词库文件引用使用。如需添加自定义短语，建议编辑此文件。
 - `pinyin_simp_pin.txt` ：候选固定，使用另一个翻译器并给极高权重来达到固定候选列表的目的，编辑时请记得给极高权重。
 
