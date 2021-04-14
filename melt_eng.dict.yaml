@@ -61,6 +61,7 @@ Wire	Wire	100
 Guard	Guard	100
 GND	GND	100
 VCC	VCC	100
+API	API	100
 Alt+	Alt+	100
 Ctrl+	Ctrl+	100
 Shift+	Shift+	100
@@ -79,6 +80,7 @@ Python	Python	100
 Perl	Perl	100
 Javascript	Javascript	100
 Swift	Swift	100
+nginx	nginx	100
 MIT	MIT	100
 LGPL	LGPL	100
 Mozilla	Mozilla	100
@@ -1712,6 +1714,7 @@ dimension	dimension	100
 diminish	diminish	100
 dine	dine	100
 dinner	dinner	100
+diode	diode	100
 dioxide	dioxide	100
 dip	dip	100
 diploma	diploma	100
@@ -1974,6 +1977,7 @@ emigrate	emigrate	100
 eminent	eminent	100
 emission	emission	100
 emit	emit	100
+emitter	emitter	100
 emotion	emotion	100
 emperor	emperor	100
 emphasis	emphasis	100
@@ -2418,6 +2422,7 @@ foul	foul	100
 found	found	100
 foundation	foundation	100
 fountain	fountain	100
+foundry	foundry	100
 four	four	100
 fourteen	fourteen	100
 fowl	fowl	100
@@ -3440,6 +3445,7 @@ lung	lung	100
 lure	lure	100
 luxurious	luxurious	100
 luxury	luxury	100
+lyric	lyric	100
 machine	machine	100
 machinery	machinery	100
 mad	mad	100
@@ -3516,6 +3522,7 @@ mate	mate	100
 material	material	100
 mathematical	mathematical	100
 maths	maths	100
+matlab	matlab	100
 matrix	matrix	100
 matter	matter	100
 mature	mature	100
@@ -3693,6 +3700,7 @@ morning	morning	100
 mortal	mortal	100
 mortgage	mortgage	100
 mosaic	mosaic	100
+MOSFET	MOSFET	100
 mosque	mosque	100
 mosquito	mosquito	100
 moss	moss	100
@@ -4787,6 +4795,7 @@ repression	repression	100
 reproach	reproach	100
 reproduce	reproduce	100
 reproduction	reproduction	100
+repository	repository	100
 reptile	reptile	100
 republic	republic	100
 republican	republican	100
