@@ -30,8 +30,10 @@ import_tables:
 #  - xiandaihanyuchangyongcibiao
 # 重命名为：
   - pinyin_simp_base
-# 肥猫词库，来源 https://github.com/felixonmars/fcitx5-pinyin-zhwiki
+# 维基词库，来源 https://github.com/felixonmars/fcitx5-pinyin-zhwiki
   - zhwiki
+# 萌娘词库，来源 https://github.com/outloudvi/mw2fcitx/
+  - moegirl
 # 搜狗成语俗语细胞词库 https://pinyin.sogou.com/dict/detail/index/15097
   - pinyin_simp_chengyu
 # 搜狗历史细胞词库 https://pinyin.sogou.com/dict/detail/index/15130

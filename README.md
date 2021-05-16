@@ -53,8 +53,8 @@ Rime新手使用此方案，可以快速上手简体中文和常用英语的混�
 - `pinyin_simp.main.dict.yaml` ：词库中心文件。词库内容由 [袖珍简化字拼音](https://github.com/rime/rime-pinyin-simp) 默认词库pinyin_simp.dict.yaml修改而来，故合并两者并保持同步。
 - `pinyin_simp_base.dict.yaml` ：基础词库，由额外词库文件引用使用，来源为项目 [https://github.com/alswl/Rime](https://github.com/alswl/Rime) 中的[「现代汉语常用词表」](https://raw.githubusercontent.com/alswl/Rime/master/luna_pinyin.xiandaihanyuchangyongcibiao.dict.yaml)。
 - `cn_en.dict.yaml` ： 弃用，改为引用Easy English Nano方案输入英文。
-- `zhwiki.dict.yaml` ：肥猫词库。来源为项目 [fcitx5-pinyin-zhwiki](https://github.com/felixonmars/fcitx5-pinyin-zhwiki)  。原项目的词库文件较旧，本fork分支会不定期从肥猫词库的release页面下载并更新。
-更新：zhwiki-20210401.dict.yaml  
+- `zhwiki.dict.yaml` ：维基词库。来源为项目 [fcitx5-pinyin-zhwiki](https://github.com/felixonmars/fcitx5-pinyin-zhwiki)。本fork分支会不定期从肥猫词库的release页面下载并更新。
+更新：zhwiki-20210501.dict.yaml  
     
 以下词库仅保持结构，实际上并没有在维护，由最终用户根据实际需求来编辑：  
 - `pinyin_simp_custom.dict.yaml` ：自定义词语，由额外词库文件引用使用。如需添加自定义短语，建议编辑此文件。
@@ -67,6 +67,8 @@ Rime新手使用此方案，可以快速上手简体中文和常用英语的混�
 * `melt_mult_language.dict.yaml`中英混合及其他语言的词库。
 
 【融合拼音增补词库】  
+- `moegirl.dict.yaml`：萌娘百科词库。来源为项目[mw2fcitx](https://github.com/outloudvi/mw2fcitx/)  
+更新：2021-04-15  
 求人不如求己，用[【深蓝词库转换】](https://github.com/studyzy/imewlconverter)转换搜狗细胞词库，并手动更新。（然而显而易见，搜狗目前的策略并不是通过更新离线词库来改善用户的输入体验，聊胜于无罢了）
 - `pinyin_simp_chengyu.dict.yaml`：搜狗成语俗语细胞词库 https://pinyin.sogou.com/dict/detail/index/15097   
 更新：2017-03-30 20:46:10
