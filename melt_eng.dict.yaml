@@ -16,6 +16,7 @@ import_tables:
 # 英文及中英混输词库
   - melt_mult_language
 ...	
+AA	AA	100
 Trojan	Trojan	100
 AVAST!	AVAST	100
 Bitdefender	Bitdefender	100

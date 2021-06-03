@@ -32,20 +32,22 @@ patch:
   easy_en/enable_sentence: false
   # 令輸入方案對大寫字符生效
   "speller/alphabet": zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA-_
+  "speller/initials": zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
   recognizer/patterns/uppercase: ''
-  
+  "key_binder/bindings":
+    - {accept: minus, send: '-', when: has_menu}
+    - {accept: equal, send: '=', when: has_menu}
   # 顯示9個候選詞
   "menu/page_size": 9
   "schema/name": 融合拼音
 # 语言模型数据包
 #  __include: grammar:/hans
-# 修改切换时提示
-#  "schema/name": "简体中文"
 # 设置主词典
   "translator/dictionary": pinyin_simp.main
 # 候选去重
   engine/filters:
     - uniquifier
+    - simplifier@s2t_conversion
 # 默认输入状态为中文
   "switches/@0/reset": 0
 # 开启拼音纠错
@@ -53,6 +55,7 @@ patch:
 # 自定义标点
 # 固定候选单字，在用户目录下创建 pinyin_simp_pin.txt 文件并编辑
   "engine/translators/@next": table_translator@pinyin_simp_pin
+  "engine/translators/@next2": lua_translator@get_date
   pinyin_simp_pin:
     dictionary: ""
     user_dict: pinyin_simp_pin
@@ -81,3 +84,11 @@ patch:
 #      '\': '、'
 # 释放「`」键（同时关闭反查）
 #  "recognizer/patterns/reverse_lookup": {}
+
+  "switches/@next2": 
+    name: show_s2t
+    reset: 0
+    states: [ 简体, 繁體 ]
+  s2t_conversion:
+    opencc_config: s2t.json
+    option_name: show_s2t
