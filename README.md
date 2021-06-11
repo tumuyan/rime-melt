@@ -42,6 +42,7 @@ Rime新手使用此方案，可以快速上手简体中文和常用英语的混�
 
 
 ## 文件组成及授权
+本方案基于多个方案和词库，并且尽量保持不对原文件修改，以便保持与上游的同步和随时调整。缺点是包含的文件总数较多。
 
 [【袖珍简化字拼音】](https://github.com/rime/rime-pinyin-simp/)项目使用**Apache 2.0**协议，涉及的文件包含：  
 * `pinyin_simp.dict.yaml` ：袖珍简化字拼音词库文件。此文件仅用于和原方案词库对比差异、保持同步，可直接删除  
@@ -52,9 +53,9 @@ Rime新手使用此方案，可以快速上手简体中文和常用英语的混�
 - `pinyin_simp.custom.yaml` ：袖珍简化字拼音方案的客制化配置文件。
 - `pinyin_simp.main.dict.yaml` ：词库中心文件。词库内容由 [袖珍简化字拼音](https://github.com/rime/rime-pinyin-simp) 默认词库pinyin_simp.dict.yaml修改而来，故合并两者并保持同步。
 - `pinyin_simp_base.dict.yaml` ：基础词库，由额外词库文件引用使用，来源为项目 [https://github.com/alswl/Rime](https://github.com/alswl/Rime) 中的[「现代汉语常用词表」](https://raw.githubusercontent.com/alswl/Rime/master/luna_pinyin.xiandaihanyuchangyongcibiao.dict.yaml)。
-- `cn_en.dict.yaml` ： 弃用，改为引用Easy English Nano方案输入英文。
-- `zhwiki.dict.yaml` ：维基词库。来源为项目 [fcitx5-pinyin-zhwiki](https://github.com/felixonmars/fcitx5-pinyin-zhwiki)。本fork分支会不定期从肥猫词库的release页面下载并更新。
-更新：zhwiki-20210520.dict.yaml  
+- `cn_en.dict.yaml` ： 英文词库，已删除。
+- `zhwiki.dict.yaml` ：维基词库。来源为项目 [fcitx5-pinyin-zhwiki](https://github.com/felixonmars/fcitx5-pinyin-zhwiki)。本fork分支会不定期从该词库的release页面下载并更新。
+更新：zhwiki-20210605.dict.yaml  
     
 以下词库仅保持结构，实际上并没有在维护，由最终用户根据实际需求来编辑：  
 - `pinyin_simp_custom.dict.yaml` ：自定义词语，由额外词库文件引用使用。如需添加自定义短语，建议编辑此文件。
