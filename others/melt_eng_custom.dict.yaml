@@ -1,0 +1,14 @@
+# Rime dictionary		
+# encoding: utf-8		
+#		
+# Easy English Nano使用的英文自定义词典，
+# 方案关闭了自造词，但是可以在输入字符后输入--，lua滤镜会保存键盘字符到此字典中。
+
+---	
+name: melt_eng_custom		
+version: "2021.06.12"		
+#sort: by_weight		
+use_preset_vocabulary: true		
+...	
+
+NERV	NERV	100

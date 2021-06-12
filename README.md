@@ -10,17 +10,24 @@ Rime新手使用此方案，可以快速上手简体中文和常用英语的混�
 
 ## 使用方法
 * 目前本方案没有加入东风破，需要下载文件并放置到方案目录来使用。 
-1. [下载文件](https://github.com/tumuyan/rime-pinyin-simp/archive/master.zip)、解压文件并复制到`Rime用户文件夹`内。用户文件夹位置：  
+1. [下载文件](https://github.com/tumuyan/rime-pinyin-simp/archive/master.zip)、解压文件
+2. 删除解压后others目录中不必要的文件。
+    * `others/rime.lua`是lua滤镜，如果你的其他输入方案已经预设了lua滤镜，需要手动合并此文件的内容到用户文件夹内的rime.lua文件中去。否则直接复制到`Rime用户文件夹`内即可
+    * `others`目录下`melt_eng_custom.dict.yaml`和`pinyin_simp_custom.dict.yaml` `pinyin_simp_pin.txt`分别是英文、中文用户自定义词库，由用户自己维护。如果`Rime用户文件夹`内没有这几个文件，请拷贝；如果存在，，请不要替换。
+    * `others`目录的其他文件仅供参考，可以直接删除。
+3. 复制剩余文件到`Rime用户文件夹`内。用户文件夹位置：  
     * 【中州韻】 ~/.config/ibus/rime/ （0.9.1 以下版本爲 ~/.ibus/rime/）
     * 【小狼毫】 %APPDATA%\Rime
     * 【鼠鬚管】 ~/Library/Rime/
-2. 启用 [袖珍简化字拼音] 和 [Easy English Nano] 方案。
-3. 打开 Rime 方案选单（输入状态下按Ctrl + ~），切换至 [融合拼音] 即可开始使用。
-
+4. 启用 [袖珍简化字拼音] 和 [Easy English Nano] 方案。
+5. 打开 Rime 方案选单（输入状态下按Ctrl + ~），切换至 [融合拼音] 即可开始使用。
 
 ## 注意事项
 * Easy English Nano方案内置了大小写转换，允许用小写字母输入拼大小写混合的单词，允许首字母大写输入全大写的单词。（也就是说，首字母大写不能输入全小写的单词）因此在维护词典时，无需手动对大小写的词条做编码优化即可得到较好的体验，词条和编码完全一致即可。
-* Easy English Nano方案能够自动处理编码中的单个+-_符号。如果词条包含了其他符号或多个符号，比如空格，需要手动去除特殊符号。
+* Easy English Nano方案能够自动处理编码中的单个+-_符号。如果词条包含了其他符号或多个符号，比如空格，需要手动去除码表中的特殊符号。
+
+* Easy English Nano方案不会生成自造词（避免输入错误造成的字典污染）。作为补充，制作了自动编辑用户字典的lua滤镜输入。输入单词并使用`--`结尾时，输入的键盘码会自动保存到`melt_eng_custom.dict.yaml`中。当用户重新部署时，新的词条会生效。
+
 * 部分单词拼写存在英式英语和美式英语的差别，以符合国内（其实是本人）拼写习惯。通过核查，多数单词实际上是美式拼写习惯，少部分为英式，也有少部分保留了两种拼写。此部分改动并未完全落实。  
     使用美式的有如下参考规律：  
 
@@ -35,10 +42,6 @@ Rime新手使用此方案，可以快速上手简体中文和常用英语的混�
     
     选用英式英语的例子：  
     - railway 是英式英语，railroad是美式英语，使用railway  
-
-
-
-* 输入的英语不会生成自造词（我认为这是一个好的特性，避免了输入错误造成的字典污染）
 
 
 ## 文件组成及授权
@@ -66,6 +69,7 @@ Rime新手使用此方案，可以快速上手简体中文和常用英语的混�
 而github上[BlindingDark](https://github.com/BlindingDark/rime-easy-en)有在维护，使用了**LGPLv3**协议，但是与本方案分属不同分支。
 * `melt_eng.dict.yaml` 英文主词库，作者tanzi，没有更多信息。在2016考研词汇大纲和六级单词的基础上进行修订。
 * `melt_mult_language.dict.yaml`中英混合及其他语言的词库。
+* `melt_eng_custom.dict.yaml` 用户自定义英文词库。
 
 【融合拼音增补词库】  
 - `moegirl.dict.yaml`：萌娘百科词库。来源为项目[mw2fcitx](https://github.com/outloudvi/mw2fcitx/)  
