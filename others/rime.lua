@@ -24,7 +24,7 @@ function get_date(input, seg, env)
       yield(Candidate("date", seg.start, seg._end, os.date("%Y年%m月%d日 %H:%M"), ""))
     else
       inpu = string.gsub(input,"[-]+$","")
-      if (string.len(inpu) > 1) then
+      if (string.len(inpu) > 1 and string.sub(input,1,1) ~= "-") then
         if ( string.sub(input,-2)  == "--") then
 --          file = io.open("C:\\Users\\Yazii\\AppData\\Roaming\\Rime\\pinyin_simp_pin.txt", "a")
 --          user_path = (rime_api ~= nil and rime_api.get_user_data_dir ~= nil and {rime_api:get_user_data_dir()} or {'%appdata%\\Rime'})[1]
@@ -53,4 +53,36 @@ function getCurrentDir()
   spacer = string.match(path,"[\\/]")
   path=string.gsub(path,'[\\/]',spacer)
   return path
+end
+
+function jpcharset_filter(input, env)
+  sw =  env.engine.context:get_option("jpcharset_filter")
+  if( env.engine.context:get_option("jpcharset_c")) then
+    for cand in input:iter() do
+      text = cand.text
+      for i in utf8.codes(text) do
+         local c = utf8.codepoint(text, i)
+         if (c< 0x3041 or c> 0x30FF) then
+            yield(cand)
+--            yield(Candidate("pin", seg.start, seg._end, text , string.format("%x %c",c,c)))
+            break
+         end
+      end
+    end
+  elseif( env.engine.context:get_option("jpcharset_j")) then
+    for cand in input:iter() do
+      text = cand.text
+      for i in utf8.codes(text) do
+         local c = utf8.codepoint(text, i)
+         if (c>= 0x3041 and c<= 0x30FF) then
+            yield(cand)
+            break
+         end
+      end
+    end
+  else
+    for cand in input:iter() do
+      yield(cand)
+    end
+  end
 end

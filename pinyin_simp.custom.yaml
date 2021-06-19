@@ -19,7 +19,7 @@ patch:
   # __include: easy_en:/patch?
   
   # 直接复制了easy_en.yaml的内容
-  "schema/dependencies/@next": melt_eng
+  "schema/dependencies/@0": melt_eng
   "engine/translators/@before 0": table_translator@melt_eng
   
   melt_eng:
@@ -84,7 +84,11 @@ patch:
 #      '\': '、'
 # 释放「`」键（同时关闭反查）
 #  "recognizer/patterns/reverse_lookup": {}
-
+#  "reverse_lookup/prefix": "`V"
+  "reverse_lookup/dictionary": liangfen
+  "reverse_lookup/tips": 〔两分〕
+  "reverse_lookup/preedit_format": "xlit|v|ü"
+    
   "switches/@next2": 
     name: show_s2t
     reset: 0
