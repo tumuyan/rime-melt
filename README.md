@@ -7,8 +7,9 @@ Rime新手使用此方案，可以快速上手简体中文和常用英语的混�
 * 本方案使用的英文词库与Easy English词汇量差异极大，只保留了较常用的词汇，并非单纯为了提高混打中英文时的打字速度，而是借用字典机制对输入的单词的正确性和大小写进行校对。基于@tanzi制作的包含2016考研词汇大纲和六级单词词库进行更新，故更名为Easy English Nano。
 * 如果你已经安装Easy English方案，与本方案互不影响。
 * 如果你已经安装袖珍简化拼音，但是没有修改对应的custom文件，那么既可以选择使用本方案的文件替换冲突的文件，也可以选择保留原有文件，两者基本没有大的差别。   
-* 本方案引入叶典网[【两分输入方案】](http://cheonhyeong.com/Simplified/download.html)作为反查滤镜。当用户需要输入生僻字时，可以对复杂文字进行拆分，先输入"`"，再输入第一部分的拼音，最后输入第二部分的拼音。候选词如果较为常见，会通过opencc滤镜显示该文字的读音。
+* 本方案引入叶典网[【两分输入方案】](http://cheonhyeong.com/Simplified/download.html)作为反查滤镜。当用户需要输入生僻字时，可以对复杂文字进行拆分，先输入"`"，再输入第一部分的拼音，最后输入第二部分的拼音。如果本地存在候选词的拼音，会通过opencc滤镜显示该文字的读音。
 * 引入的两分方案与原版存在冲突，词库可替换也可不替换。（打包的词库删除了大部分日语假名）
+* 本方案包含了大量中英文混拼词条、含标点词条，如：`汉斯·阿尔伯特·爱因斯坦`、`梅赛德斯-奔驰`、`哆啦A梦`、`高Ping战士`等。
 
 ## 使用方法
 * 目前本方案没有加入东风破，需要下载文件并放置到方案目录来使用。 
@@ -52,17 +53,16 @@ Rime新手使用此方案，可以快速上手简体中文和常用英语的混�
 本方案基于多个方案和词库，并且尽量保持不对原文件修改，以便保持与上游的同步和随时调整。缺点是包含的文件总数较多。
 
 [【袖珍简化字拼音】](https://github.com/rime/rime-pinyin-simp/)项目使用**Apache 2.0**协议，涉及的文件包含：  
-* `pinyin_simp.dict.yaml` ：袖珍简化字拼音词库文件。此文件仅用于和原方案词库对比差异、保持同步，可直接删除  
-* `pinyin_simp.schema.yaml` ：袖珍简化字拼音方案文件。仅用于数据合并和同步，实际未在使用。  
+* ~~`pinyin_simp.dict.yaml` ：袖珍简化字拼音词库文件。此文件仅用于和原方案词库对比差异、保持同步。~~ 已删除  
+* `pinyin_simp.schema.yaml` ：袖珍简化字拼音方案文件。所有改动均在custom文件中。  
 上游更新：2020-11-9 23:00    
 
 [【Rime 简体中文用户定制文件】](https://github.com/huaxianyan/Rime)项目使用**MIT**协议，涉及的文件包含：
-- `pinyin_simp.custom.yaml` ：袖珍简化字拼音方案的客制化配置文件。
+- `pinyin_simp.custom.yaml` ：袖珍简化字拼音方案的客制化配置文件，有改动。
 - `pinyin_simp.main.dict.yaml` ：词库中心文件。词库内容由 [袖珍简化字拼音](https://github.com/rime/rime-pinyin-simp) 默认词库pinyin_simp.dict.yaml修改而来，故合并两者并保持同步。
 - `pinyin_simp_base.dict.yaml` ：基础词库，由额外词库文件引用使用，来源为项目 [https://github.com/alswl/Rime](https://github.com/alswl/Rime) 中的[「现代汉语常用词表」](https://raw.githubusercontent.com/alswl/Rime/master/luna_pinyin.xiandaihanyuchangyongcibiao.dict.yaml)。
-- `cn_en.dict.yaml` ： 英文词库，已删除。
-- `zhwiki.dict.yaml` ：维基词库。来源为项目 [fcitx5-pinyin-zhwiki](https://github.com/felixonmars/fcitx5-pinyin-zhwiki)。本fork分支会不定期从该词库的release页面下载并更新。
-更新：zhwiki-20210605.dict.yaml  
+- ~~`cn_en.dict.yaml` ： 英文词库。~~ 已删除。
+- ~~`zhwiki.dict.yaml` ：维基词库。来源为项目 [fcitx5-pinyin-zhwiki](https://github.com/felixonmars/fcitx5-pinyin-zhwiki)。~~ 已经删除，改为自己解析wiki dump文件并生成词库。  
     
 以下词库仅保持结构，实际上并没有在维护，由最终用户根据实际需求来编辑：  
 - `pinyin_simp_custom.dict.yaml` ：自定义词语，由额外词库文件引用使用。如需添加自定义短语，建议编辑此文件。
@@ -81,19 +81,23 @@ Rime新手使用此方案，可以快速上手简体中文和常用英语的混�
 * `liangfen.dict.yaml` 两分方案的词库，去除了大部分假名
 
 【融合拼音增补词库】  
-- `moegirl.dict.yaml`：萌娘百科词库。来源为项目[mw2fcitx](https://github.com/outloudvi/mw2fcitx/)  
-更新：2021-04-15  
-求人不如求己，用[【深蓝词库转换】](https://github.com/studyzy/imewlconverter)转换搜狗细胞词库，并手动更新。（然而显而易见，搜狗目前的策略并不是通过更新离线词库来改善用户的输入体验，聊胜于无罢了）
+求人不如求己，用[【深蓝词库转换】](https://github.com/studyzy/imewlconverter)转换搜狗细胞词库及其他方式获取的语料，并手动更新。（然而显而易见，搜狗目前的策略并不是通过更新离线词库来改善用户的输入体验，聊胜于无罢了；wiki作为词库，也并非上佳选择）
 - `pinyin_simp_chengyu.dict.yaml`：搜狗成语俗语细胞词库 https://pinyin.sogou.com/dict/detail/index/15097   
 更新：2017-03-30 20:46:10
 - `pinyin_simp_gushi.dict.yaml`：搜狗古诗细胞词库 https://pinyin.sogou.com/dict/detail/index/2  
-更新：2020-12-28 15:05:44
-
-
+更新：2020-12-28 15:05:44  
+- `pinyin_simp_wiki.dict.yaml`：使用维基百科提供的dump数据解析而得。和别人作品不同，包含了大量中英文混拼词条、含标点的词条。不定期更新，每月至少1次。  
+[下载直链](https://github.com/tumuyan/rime-pinyin-simp/raw/master/pinyin_simp_wiki.dict.yaml)
+- `pinyin_simp_moe.dict.yaml`：使用萌娘百科提供的API数据解析而得，含大量二次元词条。和别人作品不同，包含了大量中英文混拼词条、含标点的词条。不定期更新，每月至少1次。    
+[下载直链](https://github.com/tumuyan/rime-pinyin-simp/raw/master/pinyin_simp_moe.dict.yaml)
 
 【融合拼音参考文件】  
 - `/others/*.csv`: 整理中的增补字典，除常见国家和语言外均未实装。可直接删除  
 - `/others/rime.lua`：lua滤镜，可以剪切内容并与其他lua滤镜文件合并。
+- `/opencc`: opencc拼音滤镜。单字拼音基于两分输入法的单字，从国学大师网查得，并处理多音字为`[读音1&nbsp读音2]`的形式。词条拼音也略有调整。
+
+【其他停止引用的文件】
+- ~~`moegirl.dict.yaml`：萌娘百科词库。来源为项目[mw2fcitx](https://github.com/outloudvi/mw2fcitx/)~~ 已删除，改为自己从萌娘百科API获取词条。
 
 **Note**：以上文件清单仅供参考，存在仓库增加了文件，但是本说明没有及时更新的情况。  
 

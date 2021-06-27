@@ -18,7 +18,7 @@ patch:
   # 如果直接改寫方案，在文件頂端寫__patch:easy_en:/patch?
   # __include: easy_en:/patch?
   
-  # 直接复制了easy_en.yaml的内容
+  # 引入方案把笔画替换为英语
   "schema/dependencies/@0": melt_eng
   "engine/translators/@before 0": table_translator@melt_eng
   
@@ -33,6 +33,10 @@ patch:
   # 令輸入方案對大寫字符生效
   "speller/alphabet": zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA-_
   "speller/initials": zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
+#  "speller/algebra/@next1": abbrev/(.)[ ]_([a-zA-Z])/$1/
+  "speller/algebra/@next1": derive/(.+)/\L$1/
+  "speller/algebra/@next2": abbrev/_([a-zA-Z])(.*)/$1/
+  "speller/algebra/@next3": abbrev/_(.+)/$1/
   recognizer/patterns/uppercase: ''
   "key_binder/bindings":
     - {accept: minus, send: '-', when: has_menu}
@@ -48,14 +52,16 @@ patch:
   engine/filters:
     - uniquifier
     - simplifier@s2t_conversion
+    - simplifier@pinyin
 # 默认输入状态为中文
   "switches/@0/reset": 0
 # 开启拼音纠错
   translator/enable_correction: false
 # 自定义标点
 # 固定候选单字，在用户目录下创建 pinyin_simp_pin.txt 文件并编辑
-  "engine/translators/@next": table_translator@pinyin_simp_pin
+  "engine/translators/@next1": table_translator@pinyin_simp_pin
   "engine/translators/@next2": lua_translator@get_date
+  
   pinyin_simp_pin:
     dictionary: ""
     user_dict: pinyin_simp_pin
@@ -93,6 +99,19 @@ patch:
     name: show_s2t
     reset: 0
     states: [ 简体, 繁體 ]
+  "switches/@next3": 
+    name: pinyin
+    reset: 0
+    states: [滤镜,拼音] 
   s2t_conversion:
     opencc_config: s2t.json
     option_name: show_s2t
+  pinyin:
+    opencc_config: pinyin.json
+    option_name: pinyin
+    show_in_comment: true
+    comment_format:
+      - "xform/&nbsp/ /"
+#      - "xform/<br>/\r/"
+#    - "xform/<br>/\r/"  #编码滤镜内容换行。注意: 如果用于小狼毫,请将\n改为\r,否则无效
+    tips: all

@@ -30,10 +30,10 @@ import_tables:
 #  - xiandaihanyuchangyongcibiao
 # 重命名为：
   - pinyin_simp_base
-# 维基词库，来源 https://github.com/felixonmars/fcitx5-pinyin-zhwiki
-  - zhwiki
-# 萌娘词库，来源 https://github.com/outloudvi/mw2fcitx/
-  - moegirl
+# 维基词库，自制
+  - pinyin_simp_wiki
+# 萌娘词库，自制
+  - pinyin_simp_moe
 # 搜狗成语俗语细胞词库 https://pinyin.sogou.com/dict/detail/index/15097
   - pinyin_simp_chengyu
 # 搜狗历史细胞词库 https://pinyin.sogou.com/dict/detail/index/15130
@@ -65164,3 +65164,11 @@ import_tables:
 欧洲国家	ou zhou guo jia	193
 欧洲市场	ou zhou shi chang	170
 宫保拼音	gong bao pin yin	100
+一波未平，一波又起	yi bo wei ping yi bo you qi
+一不做，二不休	yi bu zuo er bu xiu
+一而再，再而三	yi er zai zai er san
+一人得道，鸡犬升天	yi ren de dao ji quan sheng tian
+一是一，二是二	yi shi yi er shi er
+一言既出，驷马难追	yi yan ji chu si ma nan zhui
+以眼还眼，以牙还牙	yi yan huan yan yi ya huan ya
+以子之矛，攻子之盾	yi zi zhi mao gong zi zhi dun
