@@ -62,6 +62,12 @@ speller:
     - derive/^([a-zA-Z]+)([\-_+]*)([a-zA-Z]*)/\L$1\L$3/
     - derive/^([a-zA-Z]+)([\-_+]*)([a-zA-Z]*)([\-_+]*)([a-zA-Z]*)/\L$1\L$3\L$5/
     - derive/^([a-zA-Z]+)([\-_+]*)([a-zA-Z]*)([\-_+]*)([a-zA-Z]*)([\-_+]*)([a-zA-Z]*)/\L$1\L$3\L$5\L$7/
+# 把小写的单词转写为全大写写
+    - derive/^([a-z]+)$/\U$1/
+# 把小写的单词转写为首字母大写
+    - derive/^([a-z])/\U$1/
+# 把小写的单词转写为前2字母大写
+    - derive/^([a-z][a-z])/\U$1/
 translator:
   dictionary: melt_eng
   spelling_hints: 9

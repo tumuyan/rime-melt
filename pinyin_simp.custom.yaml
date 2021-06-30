@@ -50,9 +50,10 @@ patch:
   "translator/dictionary": pinyin_simp.main
 # 候选去重
   engine/filters:
-    - uniquifier
     - simplifier@s2t_conversion
     - simplifier@pinyin
+    - lua_filter@autocap_filter
+    - uniquifier
 # 默认输入状态为中文
   "switches/@0/reset": 0
 # 开启拼音纠错

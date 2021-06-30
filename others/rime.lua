@@ -22,6 +22,9 @@ function get_date(input, seg, env)
       yield(Candidate("date", seg.start, seg._end, os.date("%Y%m%d%H%M%S"), ""))
       yield(Candidate("date", seg.start, seg._end, os.date("%B %d %H:%M"), ""))
       yield(Candidate("date", seg.start, seg._end, os.date("%Y年%m月%d日 %H:%M"), ""))
+    elseif ( input == "re-" ) then
+--      env.engine.context:PushInput('x')
+      yield(Candidate("date", seg.start, seg._end, "x", "上屏"))
     else
       inpu = string.gsub(input,"[-]+$","")
       if (string.len(inpu) > 1 and string.sub(input,1,1) ~= "-") then
@@ -86,3 +89,36 @@ function jpcharset_filter(input, env)
     end
   end
 end
+
+function autocap_filter(input, env)
+  if true then
+--  if( env.engine.context:get_option("autocap_filter")) then
+    for cand in input:iter() do
+      text = cand.text
+      commit = env.engine.context:get_commit_text()
+      if (string.find(text, "^%l%l.*") and string.find(commit, "^%u%u.*")) then
+        if(string.len(text) == 2) then
+          yield(Candidate("cap", 0, 2, commit , "+" ))
+        else
+          yield(Candidate("cap", 0, string.len(commit), string.upper(text) , "+" .. string.sub(cand.comment, 2)))
+        end
+        --[[ 修改候选的注释 `cand.comment`
+            因复杂类型候选项的注释不能被直接修改，
+            因此使用 `get_genuine()` 得到其对应真实的候选项
+            cand:get_genuine().comment = cand.comment .. " " .. s
+        --]]
+      elseif (string.find(text, "^%l+$") and string.find(commit, "^%u+")) then
+        suffix = string.sub(text,string.len(commit)+1)
+        yield(Candidate("cap", 0, string.len(commit), commit .. suffix , "+" .. suffix))
+      else
+        yield(cand)
+      end
+    end
+  else
+    for cand in input:iter() do
+      yield(cand)
+    end
+  end
+end
+
+
