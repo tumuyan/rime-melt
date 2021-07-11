@@ -1,0 +1,18 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# tumuyan自建增补词库。
+# 内容比较杂。
+# 由于对wiki词库使用了程序自动处理，会过度过滤，为免除影响，需补充部分词条。
+# 另外增加了部分诗文，成句
+
+---
+name: melt_chs
+version: "2021.07.09"
+sort: by_weight
+use_preset_vocabulary: false
+...
+秋·张	qiu zhang
+简·爱	jian ai
+羽·泉	yu quan
+卡拉OK	ka la _OK

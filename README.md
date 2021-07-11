@@ -10,6 +10,8 @@ Rime新手使用此方案，可以快速上手简体中文和常用英语的混�
 * 本方案与Easy English词汇和方案差异极大，故更名为Easy English Nano。相关特性详见[关于Easy English Nano](#关于Easy_English_Nano)章节。
 * 本方案创造性地在中文词库中加入了大量中英文混拼词条、含标点词条，如：`汉斯·阿尔伯特·爱因斯坦`、`梅赛德斯-奔驰`、`哆啦A梦`、`高Ping战士`等。这些词条既可以全拼（包含完整英语单词或者字母），也可以简拼（只拼写拼音和英语的首字母）。
 * 本方案引入叶典网[【两分输入方案】](http://cheonhyeong.com/Simplified/download.html)作为反查滤镜。当用户需要输入生僻字时，可以对复杂文字进行拆分，先输入"`"，再输入第一部分的拼音，最后输入第二部分的拼音。如果本地存在候选词的拼音，会通过opencc滤镜显示该文字的读音。
+* 本方案设计了长词优先算法。比如Rime拼音方案输入"xian"，第一页候选词通常没有"xi'an"读音的词条（因为简拼的优先级要低于全拼）；使用本方案，，会强行提升至多3个中文、2个英文长词候选的排序到第一页。
+* 本方案设计了变量算法。输入`值=oo`和`值=ii`，可以设置oo和ii两个变量。当候选词为成句时，算法自动替换候选词中的"Oo"和“Xx”为变量值（注意大小写。另外换行请使用`<br>`而不是`\n`）。`pinyin_simp_custom.dict.yaml`中已经预设了若干示例作为参考。
 
 ## 冲突
 * 如果你已经安装Easy English方案，与本方案互不影响。
@@ -22,12 +24,12 @@ Rime新手使用此方案，可以快速上手简体中文和常用英语的混�
  目前本方案没有加入东风破，需要下载文件并放置到方案目录来使用。 
 1. [下载文件](https://github.com/tumuyan/rime-pinyin-simp/archive/master.zip)、解压文件
 2. 删除解压后others目录中不必要的文件。
-    * `others/rime.lua`是lua滤镜，如果你的其他输入方案已经预设了lua滤镜，需要手动合并此文件的内容到用户文件夹内的rime.lua文件中去。否则直接复制到`Rime用户文件夹`内即可
+    * `rime.lua`是lua滤镜，如果你的其他输入方案已经预设了lua滤镜，需要手动合并此文件的内容到用户文件夹内的rime.lua文件中，完成文件引用。否则直接复制到`Rime用户文件夹`内即可
     * `others`目录下`melt_eng_custom.dict.yaml`和`pinyin_simp_custom.dict.yaml` `pinyin_simp_pin.txt`分别是英文、中文用户自定义词库，由用户自己维护。如果`Rime用户文件夹`内没有这几个文件，请拷贝；如果存在，，请不要替换。
     * `others`目录的其他文件仅供参考，可以直接删除。
 3. 剪切opencc目録到`程序文件夾`内。路径位置：
     * 【小狼毫】 C:\Program Files (x86)\Rime\weasel-0.14.3\data
-4. 复制剩余文件到`Rime用户文件夹`内。用户文件夹位置：  
+4. 复制剩余文件(包含lua子目录)到`Rime用户文件夹`内。用户文件夹位置：  
     * 【中州韻】 ~/.config/ibus/rime/ （0.9.1 以下版本爲 ~/.ibus/rime/）
     * 【小狼毫】 %APPDATA%\Rime
     * 【鼠鬚管】 ~/Library/Rime/
@@ -38,7 +40,7 @@ Rime新手使用此方案，可以快速上手简体中文和常用英语的混�
 本项目基于多个公开的方案和词库，并且尽量不对原文件修改，以便保持与上游的同步和随时调整，同时也方便理清权利归属。缺点是包含的文件总数较多。  
 本项目沿用上游项目[【袖珍简化字拼音】](https://github.com/rime/rime-pinyin-simp/)所使用**Apache 2.0**的协议，但是授权仅限于已明确标注由作者tumuyan制作的文件，其他文件遵循相应项目的授权。 
 以下文件清单存在仓库增加了文件，但是本说明没有及时更新的情况。  
-下载、复制、修改、使用及分享此项目或其中的部分文件，默认已经知悉此章节内容。
+下载、复制、修改、使用及分享此项目部分或全部文件时，默认已经知悉此章节内容。
 
 [【袖珍简化字拼音】](https://github.com/rime/rime-pinyin-simp/)项目使用**Apache 2.0**协议，涉及的文件包含：  
 * ~~`pinyin_simp.dict.yaml` ：袖珍简化字拼音词库文件。此文件仅用于和原方案词库对比差异、保持同步。~~ 已删除  
@@ -58,9 +60,9 @@ Rime新手使用此方案，可以快速上手简体中文和常用英语的混�
 
 【Easy English Nano】
 * `melt_eng.schema.yaml` 归属于【Easy English】，原作者是Patrick <ipatrickmac@gmail.com>，但是在Patrick的主页没有这个项目的仓库。
-而github上[BlindingDark](https://github.com/BlindingDark/rime-easy-en)有在维护，使用了**LGPLv3**协议，但是与本方案分属不同分支。方案本体有修改。
+而github上[BlindingDark](https://github.com/BlindingDark/rime-easy-en)有在维护，使用了**LGPLv3**协议，但是与本方案分属不同分支。
 * `melt_eng.dict.yaml` 英文主词库，作者tanzi，没有更多信息。在2016考研词汇大纲和六级单词的基础上进行修订。
-* `melt_mult_language.dict.yaml`中英混合及其他语言的词库。
+* `melt_mult_language.dict.yaml`少量中英混合及其他语言的词库。
 * `melt_eng_custom.dict.yaml` 用户自定义英文词库。
 
 [【两分输入方案】](http://cheonhyeong.com/Simplified/download.html)来自叶典网。
@@ -82,6 +84,7 @@ Rime新手使用此方案，可以快速上手简体中文和常用英语的混�
 【融合拼音参考文件】  
 - `/others/*.csv`: 整理中的增补字典，除常见国家和语言外均未实装。可直接删除  
 - `/others/rime.lua`：lua滤镜。可以剪切内容并与其他lua滤镜文件合并。作者tumuyan
+- `/others/废词.txt`：废词列表。
 - `/opencc`: opencc拼音滤镜。原作者不祥。`PYCharacters.txt`为单字拼音，文字基于两分输入法词库列出的单字，拼音查自国学大师网，并处理多音字为`[读音1&nbsp读音2]`的形式。`PYPhrases.txt`为词条拼音，也略有调整。
 
 【其他停止引用的文件】

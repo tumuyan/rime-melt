@@ -40,6 +40,8 @@ import_tables:
 #  - pinyin_simp_lishi
 # 搜狗古诗细胞词库 https://pinyin.sogou.com/dict/detail/index/2
   - pinyin_simp_gushi
+# 自建增补词库。内容比较杂。包括对wiki词库的补充，部分诗文，部分成句
+  - melt_chs
 ...
 囍	xi	2
 叒	ruo	1

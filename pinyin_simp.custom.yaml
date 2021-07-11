@@ -30,17 +30,17 @@ patch:
     initial_quality: -1
   # 關閉外語自造詞，節約候選詞列表
   easy_en/enable_sentence: false
-  # 令輸入方案對大寫字符生效
-  "speller/alphabet": zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA-_
+  # 令输入方案对大写字母、部分符号生效
+  "speller/alphabet": zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA-_=
   "speller/initials": zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
-#  "speller/algebra/@next1": abbrev/(.)[ ]_([a-zA-Z])/$1/
+#  处理混拼词条
   "speller/algebra/@next1": derive/(.+)/\L$1/
   "speller/algebra/@next2": abbrev/_([a-zA-Z])(.*)/$1/
   "speller/algebra/@next3": abbrev/_(.+)/$1/
   recognizer/patterns/uppercase: ''
   "key_binder/bindings":
     - {accept: minus, send: '-', when: has_menu}
-    - {accept: equal, send: '=', when: has_menu}
+    - {accept: equal, send: "=", when: has_menu}
   # 顯示9個候選詞
   "menu/page_size": 9
   "schema/name": 融合拼音
@@ -53,6 +53,8 @@ patch:
     - simplifier@s2t_conversion
     - simplifier@pinyin
     - lua_filter@autocap_filter
+    - lua_filter@long_word_filter
+    - lua_filter@oo_filter
     - uniquifier
 # 默认输入状态为中文
   "switches/@0/reset": 0
@@ -62,6 +64,7 @@ patch:
 # 固定候选单字，在用户目录下创建 pinyin_simp_pin.txt 文件并编辑
   "engine/translators/@next1": table_translator@pinyin_simp_pin
   "engine/translators/@next2": lua_translator@get_date
+  "engine/processors/@before 0": lua_processor@oo_processor
   
   pinyin_simp_pin:
     dictionary: ""
@@ -70,37 +73,21 @@ patch:
     enable_completion: false
     enable_sentence: false
     initial_quality: 1
-#  punctuator:
-#    import_preset: default
-#    half_shape:
-#      '`': '`'
-#      '@': '@'
-#      '#': '#'
-#      '%': '%'
-#      '=': '='
-#      '/': '/'
-#      '\': '、'
-#      '~': '~'
-#    full_shape:
-#      '`': '`'
-#      '@': '@'
-#      '#': '#'
-#      '%': '%'
-#      '=': '='
-#      '/': '/'
-#      '\': '、'
 # 释放「`」键（同时关闭反查）
 #  "recognizer/patterns/reverse_lookup": {}
 #  "reverse_lookup/prefix": "`V"
+#  "punctuator/full_shape/=" : '='
+#  "punctuator/half_shape" : ''
+#  punctuator/half_shape/= : =
   "reverse_lookup/dictionary": liangfen
   "reverse_lookup/tips": 〔两分〕
   "reverse_lookup/preedit_format": "xlit|v|ü"
     
-  "switches/@next2": 
+  "switches/@1": 
     name: show_s2t
     reset: 0
     states: [ 简体, 繁體 ]
-  "switches/@next3": 
+  "switches/@next1": 
     name: pinyin
     reset: 0
     states: [滤镜,拼音] 
@@ -113,6 +100,7 @@ patch:
     show_in_comment: true
     comment_format:
       - "xform/&nbsp/ /"
+#      - "xform/<br>/\r\n/"
 #      - "xform/<br>/\r/"
 #    - "xform/<br>/\r/"  #编码滤镜内容换行。注意: 如果用于小狼毫,请将\n改为\r,否则无效
     tips: all
