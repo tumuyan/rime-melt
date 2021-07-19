@@ -12,3 +12,10 @@ use_preset_vocabulary: true
 ...	
 
 NERV	NERV	100
+Enter	Enter	100
+markdown	markdown	100
+maven	maven	100
+bilibili	bilibili	100
+Trime	Trime	100
+Talk is cheap, show me the code.	Talkischeap	100
+double	double	100

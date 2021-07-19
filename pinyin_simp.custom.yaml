@@ -41,6 +41,7 @@ patch:
   "key_binder/bindings":
     - {accept: minus, send: '-', when: has_menu}
     - {accept: equal, send: "=", when: has_menu}
+    - {accept: "Control+Shift+space", toggle: show_s2t, when: always}
   # 顯示9個候選詞
   "menu/page_size": 9
   "schema/name": 融合拼音
