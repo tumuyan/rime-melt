@@ -201,6 +201,7 @@ local function oo_filter(input,env)
   if string.len(history_oo)>0 then
     for cand in input:iter() do
       local text= string.gsub(cand.text,"<br>",next_line)
+      text= string.gsub(text,"&nbsp"," ")
       local comment = cand.comment
       
       if string.find(text, "Oo")~=nil then
@@ -226,8 +227,10 @@ local function oo_filter(input,env)
     for cand in input:iter() do
       local text = cand.text
       if string.len(text)>110 then
+        text= string.gsub(text,"&nbsp"," ")
         local key = get_sub_string(text,100)
 --        local key = string.sub(text,0,100)
+        text= string.gsub(text,"<br>",next_line)
         oo_buffer[key] = text
         yield(Candidate(cand.type, 0,input_len, key, "..." .. cand.comment ))
       else

@@ -5,7 +5,7 @@
 schema:
   schema_id: melt_eng
   name: Easy English Nano
-  version: "0.2.1"
+  version: "0.2.2"
   author:
     - Patrick <ipatrickmac@gmail.com>
     - tumuyan <tumuyan@21cn.com>
@@ -43,29 +43,14 @@ speller:
   alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA-_
   delimiter: " '"
   algebra:
-# 拼写规则的本质，是把字典按照规则改写，而不是把输入的按键码转写。故以前两条是错误的
-# 小写字母输入，匹配全大写的单词
-#    - derive/^([a-zA-Z]+)$/\U$1/
-# 小写字母输入，匹配首字母大写的单词
-#    - derive/^([a-z]+)$/\u$1/
+# 拼写规则的本质，是把字典按照规则改写，而不是把输入的按键码转写。
+    - derive/['\-_+,.]+//
 # 把大小写混写的单词转写为全小写
-    - derive/([a-zA-Z]+)/\L$1/
-# 把大写首字母的大小写混合的单词转写为首字母大写
-    - derive/^([A-Z])(.+)$/$1\L$2/
-# 把带1个符号的大小写混写的单词转写为无符号首字母大写
-    - derive/^([A-Z])([a-zA-Z]*)([\-_+]*)(.*)$/$1\L$2\L$4/
-# 把带1-3个连字符的单词转写为无符号
-    - derive/^([a-zA-Z]+)([\-_+]*)([a-zA-Z]*)/$1$3/
-    - derive/^([a-zA-Z]+)([\-_+]*)([a-zA-Z]*)([\-_+]*)([a-zA-Z]*)/$1$3$5/
-    - derive/^([a-zA-Z]+)([\-_+]*)([a-zA-Z]*)([\-_+]*)([a-zA-Z]*)([\-_+]*)([a-zA-Z]*)/$1$3$5$7/
-# 把带1-3个连字符的单词转写为无符号全小写
-    - derive/^([a-zA-Z]+)([\-_+]*)([a-zA-Z]*)/\L$1\L$3/
-    - derive/^([a-zA-Z]+)([\-_+]*)([a-zA-Z]*)([\-_+]*)([a-zA-Z]*)/\L$1\L$3\L$5/
-    - derive/^([a-zA-Z]+)([\-_+]*)([a-zA-Z]*)([\-_+]*)([a-zA-Z]*)([\-_+]*)([a-zA-Z]*)/\L$1\L$3\L$5\L$7/
+    - derive/^(.+)$/\L$1/
 # 把小写的单词转写为全大写写
-    - derive/^([a-z]+)$/\U$1/
-# 把小写的单词转写为首字母大写
-    - derive/^([a-z])/\U$1/
+    - derive/^([a-z].+)$/\U$1/
+# 把单词转写为首字母大写
+    - derive/^([a-zA-Z])/\U$1/
 # 把小写的单词转写为前2字母大写
     - derive/^([a-z][a-z])/\U$1/
 translator:

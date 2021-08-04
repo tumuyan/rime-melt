@@ -73,7 +73,7 @@ Ethernet	Ethernet	100
 SOCKS	SOCKS	100
 PrintScreen	PrintScreen	100
 Backspace	Backspace	100
-DIY DIY 100
+DIY	DIY	100
 DNA	DNA	100
 RNA	RNA	100
 mRNA	mRNA	100
@@ -459,6 +459,7 @@ angle	angle	100
 angry	angry	100
 anguish	anguish	100
 animal	animal	100
+animation	animation	100
 ankle	ankle	100
 anniversary	anniversary	100
 announce	announce	100
@@ -1830,6 +1831,7 @@ dorm	dorm	100
 dose	dose	100
 dot	dot	100
 doubt	doubt	100
+double	double	100
 doubtless	doubtless	100
 dove	dove	100
 down	down	100
@@ -3504,6 +3506,7 @@ marginal	marginal	100
 marine	marine	100
 marital	marital	100
 mark	mark	100
+markdown	markdown	100
 market	market	100
 marriage	marriage	100
 married	married	100
@@ -3531,6 +3534,7 @@ matlab	matlab	100
 matrix	matrix	100
 matter	matter	100
 mature	mature	100
+maven	maven	100
 maximum	maximum	100
 may	may	100
 maybe	maybe	100

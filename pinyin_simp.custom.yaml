@@ -42,6 +42,7 @@ patch:
     - {accept: minus, send: '-', when: has_menu}
     - {accept: equal, send: "=", when: has_menu}
     - {accept: "Control+Shift+space", toggle: show_s2t, when: always}
+    - {accept: "Control+Shift+P", toggle: show_pinyin, when: composing}
   # 顯示9個候選詞
   "menu/page_size": 9
   "schema/name": 融合拼音
@@ -52,7 +53,7 @@ patch:
 # 候选去重
   engine/filters:
     - simplifier@s2t_conversion
-    - simplifier@pinyin
+    - simplifier@show_pinyin
     - lua_filter@autocap_filter
     - lua_filter@long_word_filter
     - lua_filter@oo_filter
@@ -89,15 +90,15 @@ patch:
     reset: 0
     states: [ 简体, 繁體 ]
   "switches/@next1": 
-    name: pinyin
+    name: show_pinyin
     reset: 0
     states: [滤镜,拼音] 
   s2t_conversion:
     opencc_config: s2t.json
     option_name: show_s2t
-  pinyin:
+  show_pinyin:
     opencc_config: pinyin.json
-    option_name: pinyin
+    option_name: show_pinyin
     show_in_comment: true
     comment_format:
       - "xform/&nbsp/ /"
