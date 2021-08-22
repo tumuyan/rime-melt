@@ -1,6 +1,7 @@
 local history_str = ""
 local history_oo = ""
 local history_ii = ""
+local history_uu = 1
 
 -- 获取用户目录
 local function getCurrentDir()
@@ -21,7 +22,9 @@ local function get_date(input, seg, env)
   if (init_tran) then
 --    tran_init(env)
   end
-  if ( input == "date") then
+  if ( input == "guid" or input == "uuid") then
+    yield(Candidate("UUID", seg.start, seg._end, guid(), " -V4"))
+  elseif ( input == "date") then
     yield(Candidate("date", seg.start, seg._end, os.date("%Y-%m-%d"), " -"))
   elseif ( input == "time"  or  input == "date---") then
     yield(Candidate("time", seg.start, seg._end, os.date("%H:%M"), " -"))
@@ -39,7 +42,7 @@ local function get_date(input, seg, env)
       yield(Candidate("date", seg.start, seg._end, os.date("%Y.%m.%d"), ""))
       yield(Candidate("date", seg.start, seg._end, os.date("%Y%m%d"), ""))
       yield(Candidate("date", seg.start, seg._end, os.date("%B %d"), ""))
-      yield(Candidate("date", seg.start, seg._end, os.date("%Y年%m月%d日"), ""))
+      yield(Candidate("date", seg.start, seg._end,  string.gsub(os.date("%Y年%m月%d日"),"([年月])0","%1"), ""))
     elseif ( input == "time-" or  input == "date--") then
       yield(Candidate("date", seg.start, seg._end, os.date("%m/%d %H:%M"), ""))
       yield(Candidate("date", seg.start, seg._end, os.date("%Y/%m/%d %H:%M"), ""))
@@ -47,7 +50,8 @@ local function get_date(input, seg, env)
       yield(Candidate("date", seg.start, seg._end, os.date("%Y.%m.%d %H:%M"), ""))
       yield(Candidate("date", seg.start, seg._end, os.date("%Y%m%d%H%M%S"), ""))
       yield(Candidate("date", seg.start, seg._end, os.date("%B %d %H:%M"), ""))
-      yield(Candidate("date", seg.start, seg._end, os.date("%Y年%m月%d日 %H:%M"), ""))
+      yield(Candidate("date", seg.start, seg._end,  string.gsub(os.date("%Y年%m月%d日 %H:%M"),"([年月])0","%1"), ""))
+      yield(Candidate("date", seg.start, seg._end, os.time() , "-秒"))
     else
       local inpu = string.gsub(input,"[-]+$","")
       if (string.len(inpu) > 1 and string.sub(input,1,1) ~= "-") then
@@ -166,6 +170,31 @@ local function long_word_filter(input)
     yield(cand)
   end
 end
+
+
+function guid()
+    local seed={'0','1','2','3','4','5','6','7','8','9','a','b','c','d','e','f'}
+    local tb={}
+    for i=1,32 do
+        table.insert(tb,seed[math.random(1,16)])
+    end
+    local sid=table.concat(tb)
+    return string.format('%s-%s-%s-%s-%s',
+        string.sub(sid,1,8),
+        string.sub(sid,9,12),
+        string.sub(sid,13,16),
+        string.sub(sid,17,20),
+        string.sub(sid,21,32)
+    )
+end
+
+local s=0
+local start_time=os.clock()
+while s<50000 do
+    s=s+1
+    print(s,guid())
+end
+print('execute_time='..tostring(os.clock()-start_time))
 
 
 -- 获取子字符串。根据UTF8编码规则，避免了末位输出乱码
