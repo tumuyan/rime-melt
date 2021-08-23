@@ -32,7 +32,7 @@ local function get_date(input, seg, env)
     yield(Candidate("time", seg.start, seg._end, os.date("%H%M%S"), " -"))
   elseif input == "oo" and string.len(history_oo)>0 then
     yield(Candidate("oo", seg.start, seg._end, history_oo, "get oo"))
-  elseif input == "ii" and string.len(history_oo)>0 then
+  elseif input == "ii" and string.len(history_ii)>0 then
     yield(Candidate("oo", seg.start, seg._end, history_ii, "get ii"))
   elseif ( string.sub(input,-1)  == "-") then
     if ( input == "date-"  or  input == "time--") then
