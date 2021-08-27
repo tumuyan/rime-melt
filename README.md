@@ -26,8 +26,8 @@ Rime新手使用此方案，可以快速上手简体中文和常用英语的混�
 1. [下载文件](https://github.com/tumuyan/rime-pinyin-simp/archive/master.zip)、解压文件
 2. 删除解压后others目录中不必要的文件。
     * `rime.lua`是lua滤镜，如果你的其他输入方案已经预设了lua滤镜，需要手动合并此文件的内容到用户文件夹内的rime.lua文件中，完成文件引用。否则直接复制到`Rime用户文件夹`内即可
-    * `others`目录下`melt_eng_custom.dict.yaml`和`pinyin_simp_custom.dict.yaml` `pinyin_simp_pin.txt`分别是英文、中文用户自定义词库，由用户自己维护。如果`Rime用户文件夹`内没有这几个文件，请拷贝；如果存在，，请不要替换。
-    * `others`目录的其他文件仅供参考，可以直接删除。
+    * `custom`目录下`melt_eng_custom.dict.yaml`和`pinyin_simp_custom.dict.yaml` `pinyin_simp_pin.txt`分别是英文、中文用户自定义词库，由用户自己维护。如果`Rime用户文件夹`内没有这几个文件，请拷贝；如果存在，请不要替换，避免自己积累的词条被覆盖。
+    * `others`目录的其他文件仅供参考，可以直接删除。其中`symbols.yaml`为符号配置文件（可能目录中缺少文件）。`melt.schema.yaml`为袖珍简化字拼音、客制化文件合并后的文件。
 3. 剪切opencc目録到`程序文件夾`内。路径位置：
     * 【小狼毫】 C:\Program Files (x86)\Rime\weasel-0.14.3\data
 4. 复制剩余文件(包含lua子目录)到`Rime用户文件夹`内。用户文件夹位置：  
@@ -61,7 +61,8 @@ Rime新手使用此方案，可以快速上手简体中文和常用英语的混�
 - `pinyin_simp_base.dict.yaml` ：基础词库，由额外词库文件引用使用，来源为项目 [https://github.com/alswl/Rime](https://github.com/alswl/Rime) 中的[「现代汉语常用词表」](https://raw.githubusercontent.com/alswl/Rime/master/luna_pinyin.xiandaihanyuchangyongcibiao.dict.yaml)。
 - ~~`cn_en.dict.yaml` ： 英文词库。~~ 已删除。
 - ~~`zhwiki.dict.yaml` ：维基词库。来源为项目 [fcitx5-pinyin-zhwiki](https://github.com/felixonmars/fcitx5-pinyin-zhwiki)。~~ 已经删除，改为自己解析wiki dump文件并生成词库。  
-    
+  
+
 以下词库仅保持结构，实际上并没有在维护，由最终用户根据实际需求来编辑：  
 - `pinyin_simp_custom.dict.yaml` ：自定义词语，由额外词库文件引用使用。如需添加自定义短语，建议编辑此文件。
 - `pinyin_simp_pin.txt` ：候选固定，使用另一个翻译器并给极高权重来达到固定候选列表的目的，编辑时请记得给极高权重。
@@ -91,9 +92,9 @@ Rime新手使用此方案，可以快速上手简体中文和常用英语的混�
 
 【融合拼音参考文件】  
 - `/others/*.csv`: 整理中的增补字典，除常见国家和语言外均未实装。可直接删除  
-- `/others/rime.lua`：lua滤镜。可以剪切内容并与其他lua滤镜文件合并。作者tumuyan
 - `/others/废词.txt`：废词列表。
 - `/opencc`: opencc拼音滤镜。原作者不祥。`PYCharacters.txt`为单字拼音，文字基于两分输入法词库列出的单字，拼音查自国学大师网，并处理多音字为`[读音1&nbsp读音2]`的形式。`PYPhrases.txt`为词条拼音，也略有调整。
+- `/lua/melt.lua`：本人预设的lua滤镜。
 
 【其他停止引用的文件】
 - ~~`moegirl.dict.yaml`：萌娘百科词库。来源为项目[mw2fcitx](https://github.com/outloudvi/mw2fcitx/)~~   

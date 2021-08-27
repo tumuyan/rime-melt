@@ -1,0 +1,16 @@
+﻿# Rime table
+# coding: utf-8
+#@/db_name  pinyin_simp_pin.txt
+#@/db_type	tabledb
+#
+# Neko7ina <hua199057+Rime@gmail.com>
+#
+# 请将该文件以UTF-8编码保存
+# Rime用户文件夹/pinyin_simp_pin.txt
+#
+# 「no comment」以下内容#号不实现注释功能
+# no comment
+
+怎么	zm	7777777
+怎么办	zmb	7777777
+朋友	py	7777777

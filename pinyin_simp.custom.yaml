@@ -37,6 +37,7 @@ patch:
   "speller/algebra/@next1": derive/(.+)/\L$1/
   "speller/algebra/@next2": abbrev/_([a-zA-Z])(.*)/$1/
   "speller/algebra/@next3": abbrev/_(.+)/$1/
+  "speller/algebra/@next4": abbrev/_(.+)/\L$1/
   recognizer/patterns/uppercase: ''
   "key_binder/bindings":
     - {accept: minus, send: '-', when: has_menu}
