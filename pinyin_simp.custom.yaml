@@ -34,8 +34,9 @@ patch:
   "speller/alphabet": zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA-_=
   "speller/initials": zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
 #  处理混拼词条
-  "speller/algebra/@next1": derive/(.+)/\L$1/
-  "speller/algebra/@next2": abbrev/_([a-zA-Z])(.*)/$1/
+  "speller/algebra/@next0": derive/(.+)/\L$1/
+  "speller/algebra/@next1": abbrev/_([a-zA-Z])(.*)/$1/
+  "speller/algebra/@next2": abbrev/_([a-zA-Z])(.*)/$\L1/
   "speller/algebra/@next3": abbrev/_(.+)/$1/
   "speller/algebra/@next4": abbrev/_(.+)/\L$1/
   recognizer/patterns/uppercase: ''
