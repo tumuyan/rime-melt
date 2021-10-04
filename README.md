@@ -1,16 +1,15 @@
 # 融合拼音(rime_melt)
-融合了[【袖珍简化字拼音】](https://github.com/rime/rime-pinyin-simp/)[【Rime 简体中文用户定制文件】](https://github.com/huaxianyan/Rime)和【Easy English】以实现中英文混合输入，故名[融合拼音(rime_melt)](https://github.com/tumuyan/rime-pinyin-simp)。   
-Rime新手使用此方案，可以快速上手简体中文和常用英语的混合输入。
+融合了[【袖珍简化字拼音】](https://github.com/rime/rime-pinyin-simp/)[【Rime 简体中文用户定制文件】](https://github.com/huaxianyan/Rime)和【Easy English】从而实现了简体中文和常用英语的混合输入，故名[融合拼音(rime_melt)](https://github.com/tumuyan/rime-pinyin-simp)。 
 
 ## 意义 
 众所周知，拼音输入是使用人数最多的中文输入方式；而rime默认拼音方案为明月拼音，该方案使用了繁体词库，通过OpenCC转换繁体中文为简体，而转换的结果事实上并不理想。故使用简体字典输入中文是很有必要的。
 
 ## 特点
-* 这是一个打包解决方案，尽量保持原有项目的文件结构，通过引用、patch实现修改效果。因此当用户对rime稍微熟悉后，可以方便地更换其中的某些部分，而不至于产生严重的错误。
+* 这是一个打包解决方案，尽量保持原有项目的文件结构，通过引用、patch实现修改效果。因此当用户对rime稍微熟悉后，可以方便地更换、增删其中的某部分，而不至于产生严重的错误。
 * 本方案与Easy English词汇和方案差异极大，故更名为Easy English Nano。相关特性详见[关于Easy English Nano](#关于Easy_English_Nano)章节。
 * 本方案创造性地在中文词库中加入了大量中英文混拼词条、含标点词条，如：`汉斯·阿尔伯特·爱因斯坦`、`梅赛德斯-奔驰`、`哆啦A梦`、`高Ping战士`等。这些词条既可以全拼（包含完整英语单词或者字母），也可以简拼（只拼写拼音和英语的首字母）。
 * 本方案引入叶典网[【两分输入方案】](http://cheonhyeong.com/Simplified/download.html)作为反查滤镜。当用户需要输入生僻字时，可以对复杂文字进行拆分，先输入"`"，再输入第一部分的拼音，最后输入第二部分的拼音。如果本地存在候选词的拼音，会通过opencc滤镜显示该文字的读音。
-* 本方案设计了长词优先算法。比如Rime拼音方案输入"xian"，第一页候选词通常没有"xi'an"读音的词条（因为简拼的优先级要低于全拼）；使用本方案，，会强行提升至多3个中文、2个英文长词候选的排序到第一页。
+* 本方案设计了长词优先算法。比如Rime拼音方案输入"xian"，第一页候选词通常没有"xi'an"读音的词条（因为简拼的优先级要低于全拼）；使用本方案会强行提升至多3个中文、2个英文长词候选的排序到第一页。
 * 本方案设计了变量算法。输入`值=oo`和`值=ii`，可以设置oo和ii两个变量。当候选词为成句时，算法自动替换候选词中的"Oo"和“Xx”为变量值（注意大小写。另外换行请使用`<br>`而不是`\n`）。`pinyin_simp_custom.dict.yaml`中已经预设了若干示例作为参考。当需要输入词库中没有的英语作为变量，且中文候选词造成干扰时，可以先输入一部分字符，按shift切换至英文状态，再继续输入剩余内容。
 
 ## 冲突
@@ -35,7 +34,7 @@ Rime新手使用此方案，可以快速上手简体中文和常用英语的混�
     * 【小狼毫】 %APPDATA%\Rime
     * 【鼠鬚管】 ~/Library/Rime/
 5. 启用 [袖珍简化字拼音] [liangfen]和 [Easy English Nano] 方案。
-6. 打开 Rime 方案选单（输入状态下按Ctrl + ~），切换至 [融合拼音] 即可开始使用。
+6. 打开 Rime 方案选单（输入状态下按`Ctrl + ~`），切换至 [融合拼音] 即可开始使用。
 
 
 ## 使用
@@ -56,6 +55,7 @@ Rime新手使用此方案，可以快速上手简体中文和常用英语的混�
 上游更新：2020-11-9 23:00    
 
 [【Rime 简体中文用户定制文件】](https://github.com/huaxianyan/Rime)项目使用**MIT**协议，涉及的文件包含：
+
 - `pinyin_simp.custom.yaml` ：袖珍简化字拼音方案的客制化配置文件，有改动。
 - `pinyin_simp.main.dict.yaml` ：词库中心文件。词库内容由 [袖珍简化字拼音](https://github.com/rime/rime-pinyin-simp) 默认词库pinyin_simp.dict.yaml修改而来，故合并两者并保持同步。
 - `pinyin_simp_base.dict.yaml` ：基础词库，由额外词库文件引用使用，来源为项目 [https://github.com/alswl/Rime](https://github.com/alswl/Rime) 中的[「现代汉语常用词表」](https://raw.githubusercontent.com/alswl/Rime/master/luna_pinyin.xiandaihanyuchangyongcibiao.dict.yaml)。
@@ -76,6 +76,7 @@ Rime新手使用此方案，可以快速上手简体中文和常用英语的混�
 
 [【两分输入方案】](http://cheonhyeong.com/Simplified/download.html)来自叶典网。
 引入两分方案作为反查滤镜。当用户需要输入生僻字时，可以对复杂文字进行拆分，先输入"`"，再输入第一部分的拼音，最后输入第二部分的拼音。候选词如果存在读音，会通过opencc滤镜显示该文字的拼音。
+
 * `liangfen.schema.yaml` 两分方案，有调整，并引入拼音滤镜。
 * `liangfen.dict.yaml` 两分方案的词库，去除了大部分假名
 
@@ -94,7 +95,7 @@ Rime新手使用此方案，可以快速上手简体中文和常用英语的混�
 - `/others/*.csv`: 整理中的增补字典，除常见国家和语言外均未实装。可直接删除  
 - `/others/废词.txt`：废词列表。
 - `/opencc`: opencc拼音滤镜。原作者不祥。`PYCharacters.txt`为单字拼音，文字基于两分输入法词库列出的单字，拼音查自国学大师网，并处理多音字为`[读音1&nbsp读音2]`的形式。`PYPhrases.txt`为词条拼音，也略有调整。
-- `/lua/melt.lua`：本人预设的lua滤镜。
+- `/lua/melt.lua`：融合拼音的预设lua滤镜。
 
 【其他停止引用的文件】
 - ~~`moegirl.dict.yaml`：萌娘百科词库。来源为项目[mw2fcitx](https://github.com/outloudvi/mw2fcitx/)~~   
