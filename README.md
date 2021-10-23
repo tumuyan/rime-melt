@@ -71,7 +71,6 @@
 * `melt_eng.schema.yaml` 归属于【Easy English】，原作者是Patrick <ipatrickmac@gmail.com>，但是在Patrick的主页没有这个项目的仓库。
 而github上[BlindingDark](https://github.com/BlindingDark/rime-easy-en)有在维护，使用了**LGPLv3**协议，但是与本方案分属不同分支。
 * `melt_eng.dict.yaml` 英文主词库，作者tanzi，没有更多信息。在2016考研词汇大纲和六级单词的基础上进行修订。
-* `melt_mult_language.dict.yaml`少量中英混合及其他语言的词库。
 * `melt_eng_custom.dict.yaml` 用户自定义英文词库。
 
 [【两分输入方案】](http://cheonhyeong.com/Simplified/download.html)来自叶典网。
@@ -89,7 +88,11 @@
 - `pinyin_simp_wiki.dict.yaml`：使用维基百科提供的dump数据解析而得。和别人作品不同，包含了大量中英文混拼词条、含标点的词条。不定期更新，每月至少1次。  
 [下载直链](https://github.com/tumuyan/rime-pinyin-simp/raw/master/pinyin_simp_wiki.dict.yaml)
 - `pinyin_simp_moe.dict.yaml`：使用萌娘百科提供的API数据解析而得，含大量二次元词条。和别人作品不同，包含了大量中英文混拼词条、含标点的词条。不定期更新，每月至少1次。    
-[下载直链](https://github.com/tumuyan/rime-pinyin-simp/raw/master/pinyin_simp_moe.dict.yaml)
+[下载直链](https://github.com/tumuyan/rime-pinyin-simp/raw/master/pinyin_simp_moe.dict.yaml)  
+
+手动维护的含外语、数字和符号混合的词条：  
+- `melt_mult_language.dict.yaml`：少量中外语、数字和符号混合的词库，供`Easy English Nano`方案引用。
+- `melt_chs.dict.yaml`：少量中外语、数字和符号混合的词库，供`袖珍简化字拼音`方案引用。
 
 【融合拼音参考文件】  
 - `/others/*.csv`: 整理中的增补字典，除常见国家和语言外均未实装。可直接删除  
