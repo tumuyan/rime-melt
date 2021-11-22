@@ -3,12 +3,13 @@
 #
 # tumuyan自建增补词库。
 # 内容比较杂。
-# 由于对wiki词库使用了程序自动处理，会过度过滤，为免除影响，需补充部分词条。
-# 另外增加了部分诗文，成句
+# 1.由于对wiki词库使用了程序自动处理，会过度过滤，为免除影响，需补充部分词条。
+# 2.增加了部分诗文，成句
+# 3.部分不符合普通话标准读音的词，比如`牛丼 niu dong`
 
 ---
 name: melt_chs
-version: "2021.09.19"
+version: "2021.11.09"
 sort: by_weight
 use_preset_vocabulary: false
 ...
@@ -20,6 +21,13 @@ C语言	_C yu yan
 G代码	_G dai ma
 ⑨	ben dan
 (<ゝω·)☆ 绮罗星~	qi luo xing
+牛丼	niu dong
+亲子丼	qin zi dong
+天丼	tian dong
+胜丼	sheng dong
+鳗丼	man dong
+玉子丼	yu zi dong
+天津丼	tian jin dong
 磁路	ci lu
 阿姆斯特丹	a mu si te dan
 古罗马道路	gu luo ma dao lu

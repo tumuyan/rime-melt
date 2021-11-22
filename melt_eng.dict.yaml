@@ -9,7 +9,7 @@
 
 ---	
 name: melt_eng		
-version: "2021.06.12"		
+version: "2021.11.12"		
 #sort: by_weight		
 use_preset_vocabulary: true		
 import_tables:
@@ -19,6 +19,7 @@ import_tables:
   - melt_eng_custom
 ...	
 AA	AA	100
+COVID-19	COVID	100
 Trojan	Trojan	100
 AVAST!	AVAST	100
 Bitdefender	Bitdefender	100
@@ -114,6 +115,7 @@ MacBook	MacBook	100
 UI	UI	100
 DirectX	DirectX	100
 Kinect	Kinect	100
+GUNDAM	GUNDAM	100
 Azure	Azure	100
 Cloudflare	Cloudflare	100
 April	April	100
@@ -933,7 +935,6 @@ bush	bush	100
 bushel	bushel	100
 business	business	100
 busy	busy	100
-but	but	100
 butcher	butcher	100
 butt	butt	100
 butter	butter	100
@@ -6352,7 +6353,6 @@ yearn	yearn	100
 yeast	yeast	100
 yell	yell	100
 yellow	yellow	100
-yes	yes	100
 yesterday	yesterday	100
 yet	yet	100
 yield	yield	100
