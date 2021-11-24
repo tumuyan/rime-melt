@@ -1,0 +1,457 @@
+# Trime default style settings
+# encoding: utf-8
+
+config_version: "3.2" #配置版本号
+name: wendao #方案名称
+author: dao_mingze #作者信息
+description: 修改自预设、同文风主题，适配trime3.2.3
+
+
+android_keys:
+  __include: trime:/android_keys
+
+preset_keys:
+  __include: trime:/preset_keys
+
+#键盘高度
+height:
+  1: &jpgd1 30 #表情键盘
+  2: &jpgd2 24 #颜文字键盘1
+  3: &jpgd3 24 #颜文字键盘2
+  4: &jpgd4 45 #主键盘
+  5: &jpgd5 39.5 #符号键盘
+  6: &hgap 2 #键盘横缝大小
+  7: &sgap 6 #键盘竖缝大小
+  8: &keyboard 45 #键盘高度
+round_corner:
+  1: &round1 12 #按键圆角半径
+  2: &round2 0 #候选窗口圆角
+  3: &round3 12 #回车键圆角
+  
+#界面风格、功能开关
+style:
+  auto_caps: false #自動句首大寫:true|false|ascii
+  background_dim_amount: 0.5
+  root_background: keyboard_back_color # 整个键盘区+候选栏的背景图/色
+  candidate_font: han.ttf  #候选字体
+  candidate_padding: 5  #候选项内边距
+  candidate_spacing: 0.5  #候选间距
+  candidate_text_size: 18  #候选字号
+  candidate_use_cursor: true #高亮候选项
+  candidate_view_height: 28 #候选区高度
+  color_scheme: default #配色方案
+  comment_font: comment.ttf #编码提示字体
+  comment_height: 14 #编码提示区高度
+  comment_on_top: true #编码提示在上方或右侧
+  comment_text_size: 12 #编码提示字号
+  hanb_font: hanb.ttf #扩充字体
+  horizontal: true #水平模式
+  horizontal_gap: *hgap #键水平间距
+  layout:
+    position: fixed #候选窗口位置：left|right|left_up|right_up|fixed|bottom_left|bottom_right|top_left|top_right(left、right需要Android5.0以上)
+    min_length: 4 #候选窗口最小词长
+    max_length: 14 #超过字数则换行
+    sticky_lines: 1 #固顶行数
+    max_entries: 5 #候选窗口最大词条数
+    border: 0 #候选窗口边框宽度
+    max_width: 360 #最大宽度，超过则自动换行
+    max_height: 300 #最大高度
+    min_width: 0 #最小宽度
+    min_height: 50 #最小高度
+    margin_x: 5 #水平边距
+    margin_y: 5 #竖直边距
+    line_spacing: 0 #候选词的行间距(px)
+    line_spacing_multiplier: 1.2 #候选词的行间距(倍数)
+    spacing: 1 #与预编辑或边缘的距离
+    round_corner: *round2 #候选窗口圆角
+    alpha: 0xff #透明度(0-255)
+    elevation: 0 #阴影(>=Android5.0)
+    background: background.png #颜色或者backgrounds目录下的图片文档名
+    movable: false #是否可移动窗口，或仅移动一次 true|false|once
+    all_phrases: false #显示所有长词
+  window: #悬浮窗口组件
+    #- {start: "", move: 'ㄓ ', end: ""}
+    - {start: "", composition: "%s", end: "", letter_spacing: 0.12} #letter_spacing需要Android5.0
+    - {start: "\n", label: "%s.", candidate: "%s", comment: "%s", end: "", sep: "☁️️"}
+  key_font: symbol.ttf #键盘字体
+  key_height: *jpgd4 #键高
+  key_long_text_size: 16 #长标签字号
+  key_text_size: 24 #键字号
+  key_width: 10.0 #键宽，占屏幕宽的百分比
+  keyboards: [.default, letter, default, number, symbols] #键盘配置
+  label_text_size: 22 #标签字号
+  label_font: label.ttf #编标签字体
+  latin_font: latin.ttf #西文本体
+  latin_locale: en_US #西文语言
+  locale: zh_CN #缺省语言 zh_TW,zh_CN,zh_HK,""
+  preview_font: latin.ttf #按键提示字体
+  preview_height: 56 #按键提示高度
+  preview_offset: -32 #按键提示纵向偏移
+  preview_text_size: 40 #按键提示字号
+  proximity_correction: true #按键纠错
+  reset_ascii_mode: false #显示键盘时重置为中文状态
+  round_corner: *round1 #按键圆角半径
+  shadow_radius: 0.0 #按键阴影半径
+  speech_opencc_config: none #语音输入简繁转换
+  symbol_font: symbol.ttf #符号字体
+  symbol_text_size: 10 #符号字号
+  text_font: latin.ttf #编码字体
+  #text_height: 32 #编码区高度
+  text_size: 14 #编码区字号
+  vertical_correction: -5
+  vertical_gap: *sgap #键盘行距
+
+fallback_colors:
+  __include: trime:/fallback_colors
+  
+#配色方案
+preset_color_schemes:
+  __include: trime:/preset_color_schemes
+
+liquid_keyboard:
+  # 目前只能直接写参数，不支持变量或者fallback机制。
+  # 缺少参数时，自动从style中加载参数。除非需要指定liquid_keyboard使用与主键盘不同的背景色、背景图，否则不应设置被注释掉的参数。
+  author: "tumuyan"
+  key_height: 40      #按键高度
+  key_height_land: 40 #横屏模式按键高度
+  single_width: 60    #single类型的按键宽度
+  vertical_gap: 1     #纵向按键间隙
+  margin_x: 0.5         #左右按键间隙的1/2
+  keyboards: [emoji, math, ascii, cn, clipboard, history, exit, list , table, symbol, ids , pinyin, jp, unit, exit, grease, rusa, korea, lation, yinbiao, exit]  #tab列表
+  exit:
+    name: 返回
+    type: NO_KEY
+    keys: EXIT
+  emoji:
+    type: SINGLE
+    keys: "🙂😂🤣😆🙃😅🙈🙉🙊☹😑😄🤐😨😱🌚🌝🤔❤💔♡🌹💣👌👍😣😥😮🙄😏😕😯😪😫😴😌🤑😉😋😎😍😘😚😛😜😝😒😓😔😲😷🤒😇🤓🤗🤕🙁😖😞😟😤😢😭😦😧😨😩😬😰😳😵😡😠☝✌🖕👎🙏🤘👏💪💋☘🍀🌸☕🍵🍺🍻🍦🍬🍚🍜🍲🍖🎂💤"
+  clipboard:
+    type: CLIPBOARD
+    name: 剪贴
+  history:
+    name: 最近
+    type: HISTORY
+  math:   #tab名称
+    type: SINGLE
+    name: 数学
+    keys: "≈＝≠≌<>≤≥≡()[]{}-+±×*/÷&∥%‰‱°′″∫∮∯∬∭∰∞∑∧∏∈∵∴⊥∝∨∪•√〒∝∽∈∩∧⊙⌒∥∟∣∂∆∞≌∉∪∨⊕⊿⊥∠∫∬∭"  #tab中的按键列表
+  cn:
+    type: SINGLE
+    name: 中文
+    keys:  #keys列表可以使用多种格式混合书写。
+      - ，
+      - 。
+      - ？
+      - ！
+      - ：
+      - 、
+      - “
+      - ”
+      - ‘
+      - ···
+      - ……
+      - （
+      - ）
+      - 【
+      - 】
+      - 《
+      - 》
+      - ［
+      - ］
+      - ｛
+      - ｝
+      - 「
+      - 」
+      - 『
+      - 』
+      - ～
+  symbol:
+    name: 特殊
+    keys: "△▽○◇□☆▲▼●◆■★▷◁▶◀♻♲†⚝✡⚹✦✸✹￼�×⌫☑☒✅❎✔✘✓✗☼☽♀☻◐㏂☀☾♂☹◑㏘☜☝☞☚☟☛▪•‥…∷※♩♪♫♬§°♭♯♮‖¶№◎¤۞℗®©卍卐℡™㏇Φ↖↑↗◤㊤◥←↔→㊧㊥㊨↙↓↘◣㊦◢⇄⇅⇆⇤↩⇥❏❐◲〼▢▣⇦⇧⇨⇩⇪↶▸◂▴▾✁↷✍⏍ϟ📝✎✆☱☰☴⚿⛮⚙☲☯☵⛶☩☐☳☷☶💬🗨⟲ღ✈☂🎤🌐🔍"
+  unit:
+    name: 单位
+    type: SINGLE
+    keys: "℃¥$€฿￡㎡m³℉￥£￠₠¹²³⁴⁵ⁿ⁶⁷⁸⁹⁰ˣ⁺⁻⁼⁽⁾½⅓¼⅔¾₁₂₃₄₅ₙ₆₇₈₉₀ₓ₊₋₌₍₎℅"
+  list:
+    name: 列表
+    type: SINGLE
+    keys: "①②③④⑤⑥⑦⑧⑨⑩⒈⒉⒊⒋⒌⒍⒎⒏⒐⒑⒒⒓⒔⒕⒖⒗⒘⒙⒚⒛⑴⑵⑶⑷⑸⑹⑺⑻⑼⑽⑾⑿⒀⒁⒂⒃⒄⒅⒆⒇㈠㈡㈢㈣㈤㈥㈦㈧㈨㈩➊➋➌➍➎➏➐➑➒➓㊀㊁㊂㊃㊄㊅㊆㊇㊈㊉ⅰⅱⅲⅳⅴⅵⅶⅷⅸⅹⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ"
+  pinyin:
+    name: 拼音
+    type: SINGLE
+    keys: "āáǎàōóēéěèǒòīíǐìūúǖǘǚǜǔùêüńňㄚㄛㄜㄧㄨㄩㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙ"
+  grease:
+    type: SINGLE
+    name: 希腊
+    keys: "ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩαβγδεζηθικλμνξοπρστυφχψω"
+  rusa:
+    name: 俄语
+    type: SINGLE
+    keys: "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя"
+  lation:
+    name: 拉丁
+    type: SINGLE
+    keys: "ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞŠŸŒàáâãäåæçèéêëìíîïðñòóõôöøùúûüýþšÿœ"
+  korea:
+    type: SINGLE
+    name: "韩文"
+    keys: "dㅏㅑㅓㅕㅗㅛㅜㅠㅡㅣㅐㅒㅔㅖㅘㅙㅚㅝㅞㅟㅢㄱㄴㄷㄹㅁㅂㅅㅇㅈㅊㅋㅌㅍㅎㄲㄸㅚㅆㅉ㉠㉡㉢㉣㉤㉥㉦㉧㉨㉩㉪㉫㉬㉭㉮㉯㉰㉱㉲㉳㉴㉵㉶㉷㉸㉹㉺㉻㈀㈁㈂㈃㈄㈅㈆㈇㈈㈉㈊㈋㈌㈍㈎㈏㈐㈑㈒㈓㈔㈕㈖㈗㈘㈙㈚㈛"
+  yinbiao:
+    type: SINGLE
+    name: "音标"
+    keys: ["a:", "ɔ:", "ɜː", "i:", "u:", "ʌ", "ɒ", "ə", "ɪ", "ʊ", "e", "æ", "eɪ", "aɪ", "ɔɪ", "ɪə", "eə", "ʊə", "əʊ", "aʊ", "p", "t", "k", "f", "θ", "s", "b", "d", "g", "v", "ð", "z", "ʃ", "h", "ts", "tʃ", "j", "tr", "ʒ", "r", "dz", "dʒ", "dr", "w", "m", "n", "ŋ", "l"]
+  ascii:
+    type: SINGLE
+    name: 英文
+    keys: ",.?!:;/\\|*-+=^$`'\"^~@#%&()[]{}_"
+  ids:
+    type: SINGLE
+    name: IDS
+    keys: "⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻"
+  jp:
+    type: SINGLE
+    name: 假名
+    keys: "あいうえおかがきぎくぐけげこごさざしじすずせぜそぞただちぢつづてでとどなにぬねのはばぱひびぴふぶぷへべぺほぼぽまみむめもゃやゅゆょよらりるれろわをんアィイウェエオカガキギクグケゲコゴサザシジスズセゼソゾタダチヂツヅテデトドナニヌネノハバパヒビピフブプヘベペホボポマミムメモャヤュユョヨラリルレロワヲン"
+
+#预设键盘
+preset_keyboards:
+  default:
+    name: 44键解决方案
+    author: wendaozhai
+    ascii_mode: 0
+    label_transform: uppercase
+    lock: true
+    width: 10
+    height: *keyboard
+    keys: 
+    # line 1
+    - {click: '1', long_click: '!'}
+    - {click: '2', long_click: '@'}
+    - {click: '3', long_click: '#'}
+    - {click: '4', long_click: '$'}
+    - {click: '5', long_click: '%'}
+    - {click: '6', long_click: '^'}
+    - {click: '7', long_click: '&'}
+    - {click: '8', long_click: '*'}
+    - {click: '9', long_click: '('}
+    - {click: '0', long_click: ')'}
+    # line 2
+    - {click: 'q', long_click: '_'}
+    - {click: 'w', long_click: '-'}
+    - {click: 'e', long_click: '+'}
+    - {click: 'r', long_click: '='}
+    - {click: 't', long_click: '|'}
+    - {click: 'y', long_click: '\'}
+    - {click: 'u', long_click: '['}
+    - {click: 'i', long_click: ']'}
+    - {click: 'o', long_click: '{'}
+    - {click: 'p', long_click: '}'}
+    # line 3
+    - {width: 5}
+    - {click: 'a', long_click: copy_all}
+    - {click: 's', long_click: Time}
+    - {click: 'd', long_click: Date}
+    - {click: 'f', long_click: '`'}
+    - {click: 'g', long_click: '·'}
+    - {click: 'h', long_click: '~'}
+    - {click: 'j', long_click: '/'}
+    - {click: 'k', long_click: ':'}
+    - {click: 'l', long_click: ';'}
+    - {width: 5}
+    # line 4
+    - {click: Shift_L, label: '⇧', width: 15}
+    - {click: 'z', long_click: "'"}
+    - {click: 'x', long_click: cut}
+    - {click: 'c', long_click: copy}
+    - {click: 'v', long_click: paste}
+    - {click: 'b', long_click: '?'}
+    - {click: 'n', long_click: ChineseDate}
+    - {click: 'm', long_click: '"'}
+    - {click: BackSpace, label: '⌫', width: 15}
+    #line 5
+    - {click: Keyboard_default, long_click: Menu, width: 15}
+    - {click: Keyboard_number, label: '123', long_click: Theme_settings}
+    - {click: ',', long_click: '<'}
+    - {click: space, long_click: Mode_switch,width: 30}
+    - {click: '.', long_click: '>'}
+    - {click: liquid_keyboard_switch, label: '🙂', long_click: Color_settings}
+    - {click: Return, label: '⏎', width: 15}
+  letter:
+    name: 26键解决方案
+    author: wendaozhai
+    ascii_mode: 0
+    width: 10 #单个按键宽度
+    height: *keyboard #键盘高度
+    label_transform: uppercase #uppercase|none 中文模式下的字母标签自动大写
+    lock: true #切换进程时记忆键盘
+    keys:
+    # line 1
+    - {click: 'q', long_click: '1'}
+    - {click: 'w', long_click: '2'}
+    - {click: 'e', long_click: '3'}
+    - {click: 'r', long_click: '4'}
+    - {click: 't', long_click: '5'}
+    - {click: 'y', long_click: '6'}
+    - {click: 'u', long_click: '7'}
+    - {click: 'i', long_click: '8'}
+    - {click: 'o', long_click: '9'}
+    - {click: 'p', long_click: '0'}
+    # line 2
+    - {width: 5}
+    - {click: 'a', long_click: select_all}
+    - {click: 's', long_click: Time}
+    - {click: 'd', long_click: Date}
+    - {click: 'f', long_click: '!'}
+    - {click: 'g', long_click: '·'}
+    - {click: 'h', long_click: '""{Left}'}
+    - {click: 'j', long_click: '^'}
+    - {click: 'k', long_click: ':'}
+    - {click: 'l', long_click: ';'}
+    - {width: 5}
+    # line 3
+    - {click: Shift_L, has_menu: "'", width: 15}
+    - {click: 'z', long_click: "/"}
+    - {click: 'x', long_click: cut}
+    - {click: 'c', long_click: copy}
+    - {click: 'v', long_click: paste}
+    - {click: 'b', long_click: '?'}
+    - {click: 'n', long_click: ChineseDate}
+    - {click: 'm', long_click: '\'}
+    - {click: BackSpace, width: 15}
+    #line 4
+    - {click: Keyboard_symbols, long_click: Menu, width: 15}
+    - {click: Keyboard_number, label: '123', long_click: Theme_settings}
+    - {label: '，', click: ',', long_click: '<'}
+    - {click: space, width: 30}
+    - {label: '。', click: '.', long_click: '>'}
+    - {click: liquid_keyboard_switch, label: '🙂', long_click: Color_settings}
+    - {click: Return, width: 15}
+  number:
+    name: 25键数字小键盘
+    author: wendaozhai
+    width: 20
+    height: *keyboard
+    keys:
+    #line 1
+    - {click: '+', long_click: Insert}
+    - {click: '1', long_click: Home}
+    - {click: '2', long_click: Up}
+    - {click: '3', long_click: Page_Up}
+    - {click: '%', long_click: Delete}
+    #line 2
+    - {click: '-', long_click: Keyboard_letter}
+    - {click: '4', long_click: Left}
+    - {click: '5', long_click: select_all}
+    - {click: '6', long_click: Right}
+    - {click: '#', long_click: }
+    #line 3
+    - {click: '*', long_click: liquid_keyboard_switch}
+    - {click: '7', long_click: End}
+    - {click: '8', long_click: Down}
+    - {click: '9', long_click: Page_Down}
+    - {click: ':', long_click: ';'}
+    #line 4
+    - {click: '/', long_click: Deploy}
+    - {click: '±', long_click: copy}
+    - {click: '0', long_click: cut}
+    - {click: '=', long_click: paste}
+    - {click: BackSpace}
+    #line 5
+    - {click: Keyboard_default, long_click: Keyboard_symbols}
+    - {click: ',', long_click: '('}
+    - {click: space}
+    - {click: '.', long_click: ')'}
+    - {click: 'Return', long_click: Hide}
+  symbols:
+    name: 符号键盘
+    author: wendaozhai
+    ascii_mode: 1
+    width: 10
+    height: *keyboard
+    keys:
+    #line 1
+    - {click: '1'}
+    - {click: '2'}
+    - {click: '3'}
+    - {click: '4'}
+    - {click: '5'}
+    - {click: '6'}
+    - {click: '7'}
+    - {click: '8'}
+    - {click: '9'}
+    - {click: '0'}
+    #line 2
+    - {click: '~', long_click: '`'}
+    - {click: '!'}
+    - {click: '@'}
+    - {click: '#'}
+    - {click: '$'}
+    - {click: '￥'}
+    - {click: '%'}
+    - {click: '^'}
+    - {click: '&'}
+    - {click: '*'}
+    #line 3
+    - {click: '(', long_click: '{'}
+    - {click: ')', long_click: '}'}
+    - {click: '[', long_click: '【'}
+    - {click: ']', long_click: '】'}
+    - {click: '「', long_click: '『'}
+    - {click: '」', long_click: '』'}
+    - {click: '、', ascii: '\', long_click: '|'}
+    - {click: '/', long_click: '√'}
+    - {click: ':'}
+    - {click: ';'}
+    #line 4
+    - {click: Tab, width: 20}
+    - {click: '+'}
+    - {click: '-', long_click: '_'}
+    - {click: '《》{Left}', ascii: '<>{Left}', long_click: '〔〕{Left}'}
+    - {click: '“”{Left}', ascii: '""{Left}', long_click: '‘’{Left}'}
+    - {click: '='}
+    - {click: '？', ascii: '?'}
+    - {click: BackSpace, long_click: Escape, width: 20}
+    #line 5
+    - {click: Keyboard_number, label: '123', long_click: Keyboard_default, width: 20}
+    - {click: '，', ascii: ',', long_click: Left}
+    - {click: space, width: 40}
+    - {click: '。', ascii: '.', long_click: Right}
+    - {click: Return, long_click: Hide, width: 20}
+  stroke:
+    name: 五笔画
+    author: wendaozhai
+    ascii_mode: 0
+    ascii_keyboard: letter
+    width: 20
+    height: *keyboard
+    keys:
+    #line 1
+    - {click: Home}
+    - {click: 'h', label: '一'}
+    - {click: Up}
+    - {click: 's', label: '丨'}
+    - {click: End}
+    #line 2
+    - {click: Page_Up}
+    - {click: Left}
+    - {click: 'z', label: '乙'}
+    - {click: Right}
+    - {click: Page_Down}
+    #line 3
+    - {click: cut}
+    - {click: 'p', label: '丿'}
+    - {click: Down}
+    - {click: 'n', label: '丶'}
+    - {click: paste}
+    #line 4
+    - {click: '/'}
+    - {click: select_all}
+    - {click: Deploy}
+    - {click: copy}
+    - {click: BackSpace}
+    #line 5
+    - {click: Keyboard_default, long_click: Menu}
+    - {click: ',', long_click: Theme_settings}
+    - {click: space}
+    - {click: '.', long_click: Color_settings}
+    - {click: Return, long_click: Hide}
