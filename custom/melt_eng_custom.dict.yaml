@@ -1,0 +1,19 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# Easy English Nano自定义词语
+#
+#
+# 部署位置：
+# ~/.config/ibus/rime  (Linux)
+# ~/Library/Rime  (Mac OS)
+# %APPDATA%\Rime  (Windows)
+#
+# 编辑完后重新部署才会生效
+# 「...」以下不能添加备注内容
+---
+name: melt_eng_custom
+version: "2021.11"
+sort: by_weight
+use_preset_vocabulary: false
+...
