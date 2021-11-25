@@ -1,0 +1,5 @@
+patch:
+  schema_list:
+    - schema: melt_eng
+    - schema: pinyin_simp
+...

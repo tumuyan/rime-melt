@@ -17,7 +17,7 @@ IF errorlevel 1 goto ONE
 :ONE
 xcopy .\basic .\release\ /E
 xcopy .\schema .\release\ /E
-xcopy .\ex_dictionary .\release\ /E
+xcopy .\ex_dict .\release\ /E
 xcopy .\custom .\release\ /E
 goto end
 

@@ -10,7 +10,7 @@
 
 ### 文件结构树
 
-```
+```cmd
 ├─basic
 │  ├─lua
 │  └─opencc
@@ -26,11 +26,15 @@
 
 #### 基础与支持文件，basic
 
-- `lua`，来自[融合拼音](https://github.com/tumuyan/rime-melt)
-- `opencc`，ver.1.1.2，提取自Trime 3.2.3，与[融合拼音](https://github.com/tumuyan/rime-melt)滤镜合并
+- `default.yaml`，预设文件，来自 [rime-prelude](https://github.com/rime/rime-prelude)
+- `default.custom.yaml`，启用方案记录。
+- `key_bindings.yaml`，来自 [rime-prelude](https://github.com/rime/rime-prelude)
+- `punctuation.yaml`，来自 [rime-prelude](https://github.com/rime/rime-prelude)
+- `symbols.yaml`，ver.1.5，2021-10-24，来自 [rime-prelude](https://github.com/rime/rime-prelude)
+- `opencc/`，ver.1.1.2，提取自Trime 3.2.3，与[融合拼音](https://github.com/tumuyan/rime-melt)滤镜合并
 - `essay.txt`，2021-08-05，来自 [rime-easay](https://github.com/rime/rime-essay) 八股文，预设词汇表和语言模型
 - `rime.lua`，来自[融合拼音](https://github.com/tumuyan/rime-melt)
-- `symbols`，ver.1.5，2021-10-24，来自 [rime-prelude](https://github.com/rime/rime-prelude)
+- `lua/`，来自[融合拼音](https://github.com/tumuyan/rime-melt)
 
 字库推荐[天珩字库](http://cheonhyeong.com/Simplified/download.html)。
 
@@ -42,15 +46,20 @@
 
 #### 方案词库文件，ex_dict
 
-见[融合拼音](Original_README.md)**[文件组成及授权](https://github.com/tumuyan/rime-melt#文件组成及授权)**一节。`other`文件夹中存放部分拟作词典的中间产物（即未完成）。
+见[融合拼音](Original_README.md)[文件组成及授权](https://github.com/tumuyan/rime-melt#文件组成及授权)一节。`other`文件夹中存放部分拟作词典的中间产物（即未完成）。
 
 [融合拼音](https://github.com/tumuyan/rime-melt)的主词库为`pinyin_simp.main.dict.yaml`，并未分离词库和词库加载文件。
 
-#### 主题文件
+#### 自定义词库，custom
 
-- `trime.yaml`，预设主题，提取自Trime 3.2.3，注释改为简体（opencc转换）。用于Trime。
-- `tongwenfeng.yaml`，同文风主题，提取自Trime 3.2.3。用于Trime。
-- `wendao.yaml`，自定义，依赖trime。用于Trime。
+- 新建空内容的`melt_eng_custom.dict.yaml`文件，以保证Trime能正常部署。
+- **【警告！】**私人输入数据不要上传，以防隐私泄露。
+
+#### 主题文件，theme
+
+- `trime.yaml`，预设主题，提取自Trime 3.2.3，注释改为简体（opencc转换）、部分`preset_keys`label修改。用于Trime。
+- `tongwenfeng.trime.yaml`，同文风主题，提取自Trime 3.2.3。用于Trime。
+- `wendao.trime.yaml`，自定义，依赖trime。用于Trime。
 - `weasel.custom.yaml`，用于小狼毫。
 
 ## 运行环境
@@ -68,11 +77,19 @@
 
 1. 输入目标fcitx、fcitx5、ibus、squirrel、trime or weasel，目前只支持trime or weasel
 2. 复制base、schema、ex_dictionary、custom到releases文件夹
-4. 根据输入，复制theme到releases文件夹
+3. 根据输入，复制theme到releases文件夹
 4. 将releases文件夹重命名为rime。
 
 ### 设置
 
-1. 启用【袖珍简化字拼音】【Easy English Nano】[^2]
+1. 在“方案”启用【袖珍简化字拼音】【Easy English Nano】[^2]方案
+1. 【Trime】在“键盘外观”启用`wendao`
+1. Trime初次部署时间较长，需耐心等待
+
+### 错误检查与修复
+
+1、在【融合拼音】方案下无法混输英文
+
+验证部署，查看`rime/build/`文件夹，是否存在`melt_eng.table.bin`。此步意在确定`melt_eng`词库部署是否出错，若缺失词库文件，则不会生成`melt_eng.table.bin`。
 
 [^2]: 个人习惯，两分输入仅作为反查使用。
