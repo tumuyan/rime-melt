@@ -1,12 +1,16 @@
+---
+title: 我的TRIME配置
+---
+
 # 我的TRIME配置
 
 [:cn:](README.md) | [:gb:](README_en.md) | [融合拼音](Original_README.md)
 
 ## 简介
 
-以[融合拼音](https://github.com/tumuyan/rime-melt)为基础，参考rimerc设置release。
+以[融合拼音](https://github.com/tumuyan/rime-melt)为基础，参考[rimerc](https://github.com/Bambooin/rimerc)设置release。
 
-目前仅适配同文（trime）输入法
+目前仅适配[同文（Trime）输入法](https://github.com/osfans/trime/releases)
 
 ### 文件结构树
 
@@ -27,11 +31,11 @@
 #### 基础与支持文件，basic
 
 - `default.yaml`，预设文件，来自 [rime-prelude](https://github.com/rime/rime-prelude)
-- `default.custom.yaml`，启用方案记录。
+- `default.custom.yaml`，启用方案记录，空文件。
 - `key_bindings.yaml`，来自 [rime-prelude](https://github.com/rime/rime-prelude)
 - `punctuation.yaml`，来自 [rime-prelude](https://github.com/rime/rime-prelude)
 - `symbols.yaml`，ver.1.5，2021-10-24，来自 [rime-prelude](https://github.com/rime/rime-prelude)
-- `opencc/`，ver.1.1.2，提取自Trime 3.2.3，与[融合拼音](https://github.com/tumuyan/rime-melt)滤镜合并
+- `opencc/`，ver.1.1.3，提取自[Trime 3.2.4](https://github.com/osfans/trime/releases/tag/v3.2.4)，与[融合拼音](https://github.com/tumuyan/rime-melt)滤镜合并
 - `essay.txt`，2021-08-05，来自 [rime-easay](https://github.com/rime/rime-essay) 八股文，预设词汇表和语言模型
 - `rime.lua`，来自[融合拼音](https://github.com/tumuyan/rime-melt)
 - `lua/`，来自[融合拼音](https://github.com/tumuyan/rime-melt)
@@ -53,13 +57,12 @@
 #### 自定义词库，custom
 
 - 新建空内容的`melt_eng_custom.dict.yaml`文件，以保证Trime能正常部署。
-- **【警告！】**私人输入数据不要上传，以防隐私泄露。
 
 #### 主题文件，theme
 
-- `trime.yaml`，预设主题，提取自Trime 3.2.3，注释改为简体（opencc转换）、部分`preset_keys`label修改。用于Trime。
-- `tongwenfeng.trime.yaml`，同文风主题，提取自Trime 3.2.3。用于Trime。
-- `wendao.trime.yaml`，自定义，依赖trime。用于Trime。
+- `trime_cn.yaml`，预设主题，提取自[Trime 3.2.4](https://github.com/osfans/trime/releases/tag/v3.2.4)，文字标签和注释改为简体（opencc转换）、部分`preset_keys`label修改。用于Trime依赖，避免Trime更新后被覆盖。
+- `tongwenfeng.trime.yaml`，同文风主题，提取自[Trime 3.2.4](https://github.com/osfans/trime/releases/tag/v3.2.4)。用于Trime。
+- `wendao.trime.yaml`，自定义，改为依赖`trime_cn.yaml`。用于Trime。
 - `weasel.custom.yaml`，用于小狼毫。
 
 ## 运行环境
@@ -73,12 +76,18 @@
 
 ### 下载
 
-生成思路参考rimerc，提供bat文件。
+①生成更新包。生成思路参考[rimerc](https://github.com/Bambooin/rimerc)，提供bat文件。
+
+下载项目
 
 1. 输入目标fcitx、fcitx5、ibus、squirrel、trime or weasel，目前只支持trime or weasel
-2. 复制base、schema、ex_dictionary、custom到releases文件夹
-3. 根据输入，复制theme到releases文件夹
-4. 将releases文件夹重命名为rime。
+2. 自动复制basic、schema、ex_dict、custom中的所有文件到releases文件夹
+3. 根据输入，复制theme文件到releases文件夹
+4. 【手动】将releases文件夹重命名为rime。
+
+②使用提供的更新包
+
+下载提供的releases
 
 ### 设置
 

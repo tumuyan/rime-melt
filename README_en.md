@@ -1,12 +1,16 @@
 # My Trime Config
 
-[:cn:](README.md) | [:gb:](README_en.md) | [rime-melt](Original_README.md)
+[:cn:](README.md) | [:gb:](README_en.md) | [Rime-melt](Original_README.md)
 
 ## Introduction
 
+build on [Rime-melt](https://github.com/tumuyan/rime-melt), refer [rimerc](https://github.com/Bambooin/rimerc) to release.
+
+Now, just match with [Trime](https://github.com/osfans/trime/releases)
+
 ### files tree
 
-```
+```cmd
 ├─basic
 │  ├─lua
 │  └─opencc
@@ -20,13 +24,19 @@
 
 ### Category
 
-#### Base & Support
+#### Basic
 
-- `lua`, from [rime-melt](https://github.com/tumuyan/rime-melt)
-- `opencc`, ver.1.1.2, extract from Trime 3.2.3, merger [rime-melt](https://github.com/tumuyan/rime-melt)
-- `essay.txt`, 2021-08-05, from [rime-easay](https://github.com/rime/rime-essay)
-- `rime.lua`, from [融合拼音](https://github.com/tumuyan/rime-melt)
-- `symbols`, ver.1.5, 2021-10-24, from [rime-prelude](https://github.com/rime/rime-prelude)
+- `default.yaml`,  [rime-prelude](https://github.com/rime/rime-prelude)
+- `default.custom.yaml`.
+- `key_bindings.yaml`, from [rime-prelude](https://github.com/rime/rime-prelude)
+- `punctuation.yaml`, from [rime-prelude](https://github.com/rime/rime-prelude)
+- `symbols.yaml`, ver.1.5, 2021-10-24, from [rime-prelude](https://github.com/rime/rime-prelude)
+- `opencc/`, ver.1.1.3, extract from [Trime 3.2.4](https://github.com/osfans/trime/releases/tag/v3.2.4), merger with [Rime-melt](https://github.com/tumuyan/rime-melt).
+- `essay.txt`, 2021-08-05, from [rime-easay](https://github.com/rime/rime-essay) 
+- `rime.lua`, from [Rime-melt](https://github.com/tumuyan/rime-melt)
+- `lua/`, from [Rime-melt](https://github.com/tumuyan/rime-melt)
+
+Recommend PanCJK font which called [TH-Tshyn](http://cheonhyeong.com/English/download.html)()
 
 #### Schema
 
@@ -38,9 +48,9 @@ see [rime-melt](https://github.com/tumuyan/rime-melt#文件组成及授权)
 
 #### Theme
 
-- `trime.yaml`, for Trime.
+- `trime_cn.yaml`, for Trime, simplified Chinese.
 - `tongwenfeng.yaml`, for Trime.
-- `wendao.yaml`, for Trime.
+- `wendao.yaml`, for Trime, depends on `trime_cn.yaml`.
 - `weasel.custom.yaml`, for Weasel.
 
 ## Prerequisites

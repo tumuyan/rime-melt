@@ -8,10 +8,10 @@ description: 修改自预设、同文风主题，适配trime3.2.3
 
 
 android_keys:
-  __include: trime:/android_keys
+  __include: trime_cn:/android_keys
 
 preset_keys:
-  __include: trime:/preset_keys
+  __include: trime_cn:/preset_keys
   liquid_keyboard_clipboard: {label: 剪贴板, send: function, command: liquid_keyboard, option: "剪贴"}
 
 #键盘高度
@@ -98,11 +98,11 @@ style:
   vertical_gap: *sgap #键盘行距
 
 fallback_colors:
-  __include: trime:/fallback_colors
+  __include: trime_cn:/fallback_colors
   
 #配色方案
 preset_color_schemes:
-  __include: trime:/preset_color_schemes
+  __include: trime_cn:/preset_color_schemes
 
 liquid_keyboard:
   # 目前只能直接写参数，不支持变量或者fallback机制。
