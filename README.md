@@ -1,7 +1,3 @@
----
-title: 我的TRIME配置
----
-
 # 我的TRIME配置
 
 [:cn:](README.md) | [:gb:](README_en.md) | [融合拼音](Original_README.md)
@@ -50,9 +46,16 @@ title: 我的TRIME配置
 
 #### 方案词库文件，ex_dict
 
-见[融合拼音](Original_README.md)[文件组成及授权](https://github.com/tumuyan/rime-melt#文件组成及授权)一节。`other`文件夹中存放部分拟作词典的中间产物（即未完成）。
+详见[融合拼音](Original_README.md)[文件组成及授权](https://github.com/tumuyan/rime-melt#文件组成及授权)一节。`other`文件夹中存放部分拟作词典的中间产物（即未完成）。
 
-[融合拼音](https://github.com/tumuyan/rime-melt)的主词库为`pinyin_simp.main.dict.yaml`，并未分离词库和词库加载文件。
+- `pinyin_simp.main.dict.yaml`，主词库，亦为词库加载文件。
+- `pinyin_simp_base.dict.yaml`，基础词库，现代汉语常用词表
+- `pinyin_simp_chengyu.dict.yaml`，搜狗成语词库
+- `pinyin_simp_gushi.dict.yaml`，搜狗古诗词库
+- `pinyin_simp_moe.dict.yaml`，萌娘百科
+- `pinyin_simp_wiki.dict.yaml`，维基百科
+- `pinyin_simp_custom.dict.yaml`，自定义词库
+- `melt_chs.dict.yaml`，融合拼音增补词库
 
 #### 自定义词库，custom
 
