@@ -9,7 +9,7 @@
 
 ---	
 name: melt_eng		
-version: "2021.11.12"		
+version: "2021.11.29"		
 #sort: by_weight		
 use_preset_vocabulary: true		
 import_tables:
@@ -19,6 +19,10 @@ import_tables:
   - melt_eng_custom
 ...	
 AA	AA	100
+aptX	aptX	100
+LDAC	LDAC	100
+AAC	AAC	100
+SBC	SBC	100
 COVID-19	COVID	100
 Trojan	Trojan	100
 AVAST!	AVAST	100
@@ -3215,7 +3219,6 @@ keen	keen	100
 keep	keep	100
 kernel	kernel	100
 kettle	kettle	100
-key	key	100
 keyboard	keyboard	100
 kick	kick	100
 kid	kid	100
