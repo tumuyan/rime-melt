@@ -34,16 +34,16 @@ patch:
   "speller/alphabet": zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA-_=
   "speller/initials": zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
 #  处理混拼词条
-  "speller/algebra/@next0": derive/(.+)/\L$1/
-  "speller/algebra/@next1": abbrev/_([a-zA-Z])(.*)/$1/
+  "speller/algebra/@before0": derive/^(.+)$/\L$1/
+  "speller/algebra/@0": abbrev/^_?([a-zA-Z]).*$/$1/
 #  "speller/algebra/@next2": abbrev/_([a-zA-Z])(.*)/$\L1/
-  "speller/algebra/@next3": abbrev/_(.+)/$1/
+  "speller/algebra/@next3": abbrev/^_(.+)$/$1/
 #  "speller/algebra/@next4": abbrev/_(.+)/\L$1/
   recognizer/patterns/uppercase: ''
   "key_binder/bindings":
     - {accept: minus, send: '-', when: has_menu}
     - {accept: equal, send: "=", when: has_menu}
-    - {accept: "Control+Shift+space", toggle: show_s2t, when: always}
+    - {accept: "Control+Shift+space", toggle: simplification, when: always}
     - {accept: "Control+Shift+P", toggle: show_pinyin, when: composing}
   # 顯示9個候選詞
   "menu/page_size": 9
@@ -88,7 +88,7 @@ patch:
   "reverse_lookup/preedit_format": "xlit|v|ü"
     
   "switches/@1": 
-    name: show_s2t
+    name: simplification
     reset: 0
     states: [ 简体, 繁體 ]
   "switches/@next1": 
@@ -97,7 +97,7 @@ patch:
     states: [滤镜,拼音] 
   s2t_conversion:
     opencc_config: s2t.json
-    option_name: show_s2t
+    option_name: simplification
   show_pinyin:
     opencc_config: pinyin.json
     option_name: show_pinyin
