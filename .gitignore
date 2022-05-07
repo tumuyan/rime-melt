@@ -1,3 +1,4 @@
 
 *.zip
-melt_eng_custom.dict.yaml
+**userdb.txt
+release/

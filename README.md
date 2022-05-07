@@ -30,8 +30,8 @@
 - `default.custom.yaml`，启用方案记录，空文件。
 - `key_bindings.yaml`，来自 [rime-prelude](https://github.com/rime/rime-prelude)
 - `punctuation.yaml`，来自 [rime-prelude](https://github.com/rime/rime-prelude)
-- `symbols.yaml`，ver.1.5，2021-10-24，来自 [rime-prelude](https://github.com/rime/rime-prelude)
-- `opencc/`，ver.1.1.3，提取自[Trime 3.2.4](https://github.com/osfans/trime/releases/tag/v3.2.4)，与[融合拼音](https://github.com/tumuyan/rime-melt)滤镜合并
+- `symbols.yaml`，ver.1.6，2022-4-10，来自 [rime-prelude](https://github.com/rime/rime-prelude)
+- `opencc/`，合并[opencc@master/data](https://github.com/BYVoid/OpenCC/tree/master/data)中`config`和	`dictionary`，以及[融合拼音](https://github.com/tumuyan/rime-melt)中的`opencc`
 - `essay.txt`，2021-08-05，来自 [rime-easay](https://github.com/rime/rime-essay) 八股文，预设词汇表和语言模型
 - `rime.lua`，来自[融合拼音](https://github.com/tumuyan/rime-melt)
 - `lua/`，来自[融合拼音](https://github.com/tumuyan/rime-melt)
@@ -63,8 +63,8 @@
 
 #### 主题文件，theme
 
-- `trime_cn.yaml`，预设主题，提取自[Trime 3.2.4](https://github.com/osfans/trime/releases/tag/v3.2.4)，文字标签和注释改为简体（opencc转换）、部分`preset_keys`label修改。用于Trime依赖，避免Trime更新后被覆盖。
-- `tongwenfeng.trime.yaml`，同文风主题，提取自[Trime 3.2.4](https://github.com/osfans/trime/releases/tag/v3.2.4)。用于Trime。
+- `trime_cn.yaml`，预设主题，提取自[Trime 3.2.6](https://github.com/osfans/trime/releases/tag/v3.2.6)，文字标签和注释改为简体（opencc转换tw2sp）、部分`preset_keys`label修改。用于Trime依赖，避免Trime更新后被覆盖。
+- `tongwenfeng.trime.yaml`，同文风主题，提取自[Trime 3.2.6](https://github.com/osfans/trime/releases/tag/v3.2.6)。用于Trime。
 - `wendao.trime.yaml`，自定义，改为依赖`trime_cn.yaml`。用于Trime。
 - `weasel.custom.yaml`，用于小狼毫。
 
