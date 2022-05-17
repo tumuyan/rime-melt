@@ -4,7 +4,13 @@
 
 ## 简介
 
-以[融合拼音](https://github.com/tumuyan/rime-melt)为基础，参考[rimerc](https://github.com/Bambooin/rimerc)设置release。
+母语与文字输入需求：普通话、汉字
+
+简体字或言规范字，可以《通用规范汉字表》8105字为标准。在此之外则用《GB 18030-2005 信息技术 中文编码字符集》（单字节、双字节编码和四字节编码部分的CJK统一汉字扩充A部分为强制性）。
+
+常用：[融合拼音](https://github.com/tumuyan/rime-melt)：以[袖珍簡化字拼音](https://github.com/rime/rime-pinyin-simp)为基础，[字海两分](http://cheonhyeong.com/Simplified/download.html)为反查，配合[Easy English](https://github.com/BlindingDark/rime-easy-en)。
+
+参考[rimerc](https://github.com/Bambooin/rimerc)设置release。
 
 目前仅适配[同文（Trime）输入法](https://github.com/osfans/trime/releases)
 
@@ -31,10 +37,12 @@
 - `key_bindings.yaml`，来自 [rime-prelude](https://github.com/rime/rime-prelude)
 - `punctuation.yaml`，来自 [rime-prelude](https://github.com/rime/rime-prelude)
 - `symbols.yaml`，ver.1.6，2022-4-10，来自 [rime-prelude](https://github.com/rime/rime-prelude)
-- `opencc/`，合并[opencc@master/data](https://github.com/BYVoid/OpenCC/tree/master/data)中`config`和	`dictionary`，以及[融合拼音](https://github.com/tumuyan/rime-melt)中的`opencc`
+- `opencc/`，合并[opencc预编译包](https://github.com/BYVoid/OpenCC/wiki/Download#prebuild-%E9%A0%90%E7%B7%A8%E8%AD%AF)中`\build\share\opencc`，以及[融合拼音](https://github.com/tumuyan/rime-melt)中的`opencc`
 - `essay.txt`，2021-08-05，来自 [rime-easay](https://github.com/rime/rime-essay) 八股文，预设词汇表和语言模型
 - `rime.lua`，来自[融合拼音](https://github.com/tumuyan/rime-melt)
 - `lua/`，来自[融合拼音](https://github.com/tumuyan/rime-melt)
+
+加入Unicode输入方案
 
 字库推荐[天珩字库](http://cheonhyeong.com/Simplified/download.html)。
 

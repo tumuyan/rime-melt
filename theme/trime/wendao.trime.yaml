@@ -6,13 +6,13 @@ name: wendao #方案名称
 author: dao_mingze #作者信息
 description: 修改自默认、同文风主题，适配trime3.2.3
 
+author: &au dao_mingze@163.com
 
 android_keys:
   __include: trime_cn:/android_keys
 
 preset_keys:
   __include: trime_cn:/preset_keys
-  liquid_keyboard_clipboard: {label: 剪贴板, send: function, command: liquid_keyboard, option: "剪贴"}
 
 #键盘高度
 height:
@@ -224,7 +224,7 @@ liquid_keyboard:
 preset_keyboards:
   default:
     name: 44键解决方案
-    author: dao_mingze
+    author: *au
     ascii_mode: 0
     label_transform: uppercase
     lock: true
@@ -270,7 +270,7 @@ preset_keyboards:
     - {click: 'z', long_click: "'"}
     - {click: 'x', long_click: cut}
     - {click: 'c', long_click: copy}
-    - {click: 'v', long_click: liquid_keyboard_clipboard}
+    - {click: 'v', long_click: paste}
     - {click: 'b', long_click: '?'}
     - {click: 'n', long_click: ChineseDate}
     - {click: 'm', long_click: '"'}
@@ -285,7 +285,7 @@ preset_keyboards:
     - {click: Return, width: 15}
   letter:
     name: 26键解决方案
-    author: dao_mingze
+    author: *au
     ascii_mode: 0
     width: 10 #单个按键宽度
     height: *keyboard #键盘高度
@@ -335,7 +335,7 @@ preset_keyboards:
     - {click: Return, width: 15}
   number:
     name: 25键数字小键盘
-    author: dao_mingze
+    author: *au
     width: 20
     height: *keyboard
     keys:
@@ -371,7 +371,7 @@ preset_keyboards:
     - {click: 'Return', long_click: Hide}
   symbols:
     name: 符号键盘
-    author: dao_mingze
+    author: *au
     ascii_mode: 1
     width: 10
     height: *keyboard
@@ -426,7 +426,7 @@ preset_keyboards:
     - {click: Return, long_click: Hide, width: 20}
   stroke:
     name: 五笔画
-    author: dao_mingze
+    author: *au
     ascii_mode: 0
     ascii_keyboard: letter
     width: 20
@@ -462,3 +462,80 @@ preset_keyboards:
     - {click: space}
     - {click: '.', long_click: Color_settings}
     - {click: Return, long_click: Hide}
+  unicode:
+    name: 统一码
+    author: *au
+    width: 25
+    height: *keyboard
+    keys: 
+    #line1
+    - {click: "A"}
+    - {click: "B"}
+    - {click: "C"}
+    - {click: BackSpace}
+    #line2
+    - {click: "7"}
+    - {click: "8"}
+    - {click: "9"}
+    - {click: "D"}
+    #line3
+    - {click: "4"}
+    - {click: "5"}
+    - {click: "6"}
+    - {click: "E"}
+    #line4
+    - {click: "1"}
+    - {click: "2"}
+    - {click: "3"}
+    - {click: "F"}
+    #line5
+    - {click: Schema_switch, long_click: Menu}
+    - {click: "0"}
+    - {click: space, width: 50}
+  bopomofo:
+    name: 注音键盘
+    author: *au
+    width: 10
+    height: *keyboard
+    keys:
+    # line 1
+    - {click: "ㄅ", long_click: "ㄆ"}
+    - {click: "ㄉ", long_click: "ㄊ"}
+    - {click: "ㄏ", long_click: ""}
+    - {click: "ㄓ", long_click: "ㄗ"}
+    - {click: "ㄧ", long_click: ""}
+    - {click: "ㄚ", long_click: ""}
+    - {click: "ㄞ", long_click: ""}
+    - {click: "ㄡ", long_click: ""}
+    - {click: "ㄣ", long_click: ""}
+    - {click: "ㄥ", long_click: ""}
+    #line2
+    - {width: 5}
+    - {click: "ㄇ", long_click: ""}
+    - {click: "ㄋ", long_click: "ㄌ"}
+    - {click: "ㄍ", long_click: "ㄎ"}
+    - {click: "ㄔ", long_click: "ㄘ"}
+    - {click: "ㄨ", long_click: ""}
+    - {click: "ㄛ", long_click: ""}
+    - {click: "ㄟ", long_click: ""}
+    - {click: "ㄢ", long_click: ""}
+    - {click: "ㄤ", long_click: ""}
+    - {width: 5}
+    #line3
+    - {click: Shift_L, width: 15}
+    - {click: "ㄈ", long_click: ""}
+    - {click: "ㄐ", long_click: "ㄑ"}
+    - {click: "ㄒ", long_click: ""}
+    - {click: "ㄕ", long_click: "ㄙ"}
+    - {click: "ㄩ", long_click: ""}
+    - {click: "ㄜ", long_click: "ㄝ"}
+    - {click: "ㄠ", long_click: ""}
+    - {click: BackSpace, width: 15}
+    #line4
+    - {click: Keyboard_number, label: '123', long_click: Menu, width: 15}
+    - {click: ',', long_click: '<'}
+    - {click: "ㄖ", long_click: ""}
+    - {click: space, long_click: Mode_switch,width: 30}
+    - {click: "ㄦ", long_click: liquid_keyboard_switch}
+    - {click: '.', long_click: '>'}
+    - {click: Return, width: 15}

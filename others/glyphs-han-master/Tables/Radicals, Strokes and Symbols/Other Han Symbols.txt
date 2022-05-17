@@ -1,0 +1,10 @@
+space-han
+iterationmark-han
+close-han
+zero-han
+leveltone-han
+risingtone-han
+departingtone-han
+enteringtone-han
+telegraphLineFeed-han
+ninojiten-han
