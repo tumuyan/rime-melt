@@ -27,6 +27,9 @@ switches:
   - name: show_pinyin
     reset: 0
     states: [滤镜,拼音] 
+  - name: full_shape
+    states: [ 半角, 全角 ]
+    reset: 0
 engine:
   processors:
     - lua_processor@oo_processor

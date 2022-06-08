@@ -42,21 +42,26 @@
 - `rime.lua`，来自[融合拼音](https://github.com/tumuyan/rime-melt)
 - `lua/`，来自[融合拼音](https://github.com/tumuyan/rime-melt)
 
-加入Unicode输入方案
+修改：
 
-字库推荐[天珩字库](http://cheonhyeong.com/Simplified/download.html)。
+1. 在`symbols.yaml`全角→多个相似符号中，插入部分常用半角符号（圆括号、方括号）
+2. 【可选性】字库推荐[天珩字库](http://cheonhyeong.com/Simplified/download.html)、[霞鹜文楷](https://github.com/lxgw/LxgwWenKai)。
 
 #### 输入方案文件，schema
 
-以[融合拼音](https://github.com/tumuyan/rime-melt)为基础，关闭长词优先功能[^1]（`melt.schema.yaml`58行）。
+- `liangfen.schema.yaml`，字海两分输入方案，来自[天珩的小站-下载页](http://cheonhyeong.com/Simplified/download.html)
+- `melt.schema.yaml`，来自[融合拼音](https://github.com/tumuyan/rime-melt)
+- `melt_eng.schema.yaml`，来自[融合拼音](https://github.com/tumuyan/rime-melt)
+- `pinyin_simp.schema.yaml`，来自[融合拼音](https://github.com/tumuyan/rime-melt)
+- `unicode.schema.yaml`，来自[Trime同文输入法QQ群]
 
-[^1]: 个人习惯输入短词，且输入情境差异较大（生活聊天和专业交流频繁切换），长词优先干扰了输入效率。若需开启，则去掉`#`注释即可。
+以[融合拼音](https://github.com/tumuyan/rime-melt)(即袖珍简化字拼音+Easy Englishi+两分反查)为主。加入基于Lua脚本的Unicode字符输入方案。
 
 #### 方案词库文件，ex_dict
 
 详见[融合拼音](Original_README.md)[文件组成及授权](https://github.com/tumuyan/rime-melt#文件组成及授权)一节。`other`文件夹中存放部分拟作词典的中间产物（即未完成）。
 
-- `pinyin_simp.main.dict.yaml`，主词库，亦为词库加载文件。
+- `pinyin_simp.main.dict.yaml`，主词库，词库加载文件
 - `pinyin_simp_base.dict.yaml`，基础词库，现代汉语常用词表
 - `pinyin_simp_chengyu.dict.yaml`，搜狗成语词库
 - `pinyin_simp_gushi.dict.yaml`，搜狗古诗词库
@@ -71,9 +76,8 @@
 
 #### 主题文件，theme
 
-- `trime_cn.yaml`，预设主题，提取自[Trime 3.2.6](https://github.com/osfans/trime/releases/tag/v3.2.6)，文字标签和注释改为简体（opencc转换tw2sp）、部分`preset_keys`label修改。用于Trime依赖，避免Trime更新后被覆盖。
-- `tongwenfeng.trime.yaml`，同文风主题，提取自[Trime 3.2.6](https://github.com/osfans/trime/releases/tag/v3.2.6)。用于Trime。
-- `wendao.trime.yaml`，自定义，改为依赖`trime_cn.yaml`。用于Trime。
+- `wendao.trime.yaml`，自定义。用于Trime。
+- `tongwenfeng.trime.yaml`，同文风主题，提取自[Trime 2022-06-05测试版](https://github.com/osfans/trime/actions/runs/2443077838)。用于Trime。增加了自动切换明暗模式。
 - `weasel.custom.yaml`，用于小狼毫。
 
 ## 运行环境
