@@ -85,7 +85,7 @@
 更新：2017-03-30 20:46:10
 - `pinyin_simp_gushi.dict.yaml`：搜狗古诗细胞词库 https://pinyin.sogou.com/dict/detail/index/2  
 更新：2020-12-28 15:05:44  
-- `pinyin_simp_wiki.dict.yaml`：使用维基百科提供的dump数据解析而得。和别人作品不同，包含了大量中英文混拼词条、含标点的词条。不定期更新，每月至少1次。  
+- `pinyin_simp_wiki.dict.yaml`：使用维基百科提供的dump数据解析而得。和别人作品不同，包含了大量中英文混拼词条、含标点的词条。**由于实用性较低，在1.6之后不再保留纯中文词条，以降低简拼运算量**。不定期更新，每月至少1次。  
 [下载直链](https://github.com/tumuyan/rime-pinyin-simp/raw/master/pinyin_simp_wiki.dict.yaml)
 - `pinyin_simp_moe.dict.yaml`：使用萌娘百科提供的API数据解析而得，含大量二次元词条。和别人作品不同，包含了大量中英文混拼词条、含标点的词条。不定期更新，每月至少1次。    
 [下载直链](https://github.com/tumuyan/rime-pinyin-simp/raw/master/pinyin_simp_moe.dict.yaml)  
@@ -96,7 +96,8 @@
 
 【融合拼音参考文件】  
 - `/others/*.csv`: 整理中的增补字典，除常见国家和语言外均未实装。可直接删除  
-- `/others/废词.txt`：废词列表。
+- `/others/废词*.txt`：废词列表。
+- `/others/修复*.txt`：为避免预处理词条时被正则过杀，设置的废词白名单。
 - `/opencc`: opencc拼音滤镜。原作者不祥。`PYCharacters.txt`为单字拼音，文字基于两分输入法词库列出的单字，拼音查自国学大师网，并处理多音字为`[读音1&nbsp读音2]`的形式。`PYPhrases.txt`为词条拼音，也略有调整。
 - `/lua/melt.lua`：融合拼音的预设lua滤镜。
 
