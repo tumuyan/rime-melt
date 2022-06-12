@@ -4,7 +4,7 @@
 config_version: "1.2" #配置版本号
 name: wendao #方案名称
 author: dao_mingze #作者信息
-description: 修改自默认、同文风主题，适配trime3.2.7
+description: 修改自默认、同文风主题，适配trime3.2.7。
 
 author: &au dao_mingze@163.com
 
@@ -113,7 +113,7 @@ fallback_colors:
 #配色方案
 preset_color_schemes:
   default:
-    name: 預設／default #方案名稱
+    name: 缺省／default #方案名稱
     author: osfans #作者資訊
     dark_scheme: steam
     back_color: 0xe4e7e9 #候選區背景
@@ -322,10 +322,6 @@ preset_keys:
   redo: {label: 重做, functional: false, send: Control+Shift+z} #>=Android 6.0
   undo: {label: 撤销, functional: false, send: Control+z} #>=Android 6.0
   delimiter: {label: 分词, text: ''''}
-  x1: {text: '{Home}{Right}{Right}', label: 单字, functional: false}
-  x2: {text: '{Home}{Right}{Right}{Right}{Right}', label: 二字, functional: false}
-  x3: {text: '{Home}{Right}{Right}{Right}{Right}{Right}{Right}', label: 三字, functional: false}
-  x4: {text: '{Home}{Right}{Right}{Right}{Right}{Right}{Right}{Right}{Right}', label: 四字, functional: false}
   # rime组合键
   F4: {label: 方案菜单, send: F4}
   BackToPreviousSyllable: {label: 删音节, send: Control+BackSpace}
@@ -373,7 +369,6 @@ preset_keys:
   WebSearch: {label: 搜索网页, command: web_search, option: "%4$s"} #搜索，其他view、dial、edit、search等intent，参考安卓的intent文档：https://developer.android.com/reference/android/content/Intent.html
   Deploy: {label: 部署, command: broadcast, option: "com.osfans.trime.deploy"}
   Sync: {label: 同步, command: broadcast, option: "com.osfans.trime.sync"}
-
 #键盘布局
 preset_keyboards:
   default:
@@ -394,19 +389,19 @@ preset_keyboards:
     - {click: '6', long_click: '^'}
     - {click: '7', long_click: '&'}
     - {click: '8', long_click: '*'}
-    - {click: '9', long_click: '(){Left}'}
-    - {click: '0', long_click: '[]{Left}'}
+    - {click: '9', long_click: '('}
+    - {click: '0', long_click: ')'}
     # line 2
-    - {click: 'q', long_click: '> '} #quote，md中的引用
+    - {click: 'q', long_click: '_'}
     - {click: 'w', long_click: '-'}
     - {click: 'e', long_click: '+'}
     - {click: 'r', long_click: '='}
     - {click: 't', long_click: '|'}
     - {click: 'y', long_click: '\'}
-    - {click: 'u', long_click: "<u></u>{Left}{Left}{Left}{Left}"} #underline，css格式下划线，HTML5 中重新定义了 <u> 元素，它定义与常规文本风格不同的文本，像拼写错误的单词或者汉语中的专有名词。
-    - {click: 'i', long_click: '**{Left}'} #italic，md中的倾斜
-    - {click: 'o', long_click: "{}{Left}"}
-    - {click: 'p', long_click: '?'}
+    - {click: 'u', long_click: '['}
+    - {click: 'i', long_click: ']'}
+    - {click: 'o', long_click: '{'}
+    - {click: 'p', long_click: '}'}
     # line 3
     - {width: 5}
     - {click: 'a', long_click: select_all}
@@ -420,12 +415,12 @@ preset_keyboards:
     - {click: 'l', long_click: ';'}
     - {width: 5}
     # line 4
-    - {click: Shift_L, width: 15}
+    - {click: Shift_L, composing: delimiter, width: 15}
     - {click: 'z', long_click: "'"}
     - {click: 'x', long_click: cut}
     - {click: 'c', long_click: copy}
     - {click: 'v', long_click: paste}
-    - {click: 'b', long_click: '****{Left}{Left}'} #bold，md中的加粗 
+    - {click: 'b', long_click: '?'}
     - {click: 'n', long_click: ChineseDate}
     - {click: 'm', long_click: '"'}
     - {click: BackSpace, width: 15}
@@ -437,7 +432,7 @@ preset_keyboards:
     - {click: '.', long_click: '>'}
     - {click: liquid_keyboard_switch, long_click: Color_settings}
     - {click: Return, width: 15}
-    #line 6 小米全面屏优化导致键盘下移，因此添加一行输入法功能栏。
+    #line 6 小米全面屏优化仅针对定制版，加长全面屏导致键盘下移，因此添加一行输入法功能栏。
     - {click: Hide, width: 20}
     - {click: VOICE_ASSIST, swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, width: 60}
     - {click: liquid_keyboard_clipboard, width: 20}
@@ -496,7 +491,7 @@ preset_keyboards:
     author: *au
     width: 20
     height: *keyboard
-    keys:
+    keys:#模仿搜狗输入法小键盘
     #line 1
     - {click: '+', long_click: Insert}
     - {click: '1', long_click: Home}
@@ -517,7 +512,7 @@ preset_keyboards:
     - {click: ':', long_click: ';'}
     #line 4
     - {click: '/', long_click: Deploy}
-    - {click: '±', long_click: copy}
+    - {click: '@', long_click: copy}
     - {click: '0', long_click: cut}
     - {click: '=', long_click: paste}
     - {click: BackSpace}

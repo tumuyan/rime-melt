@@ -3,5 +3,8 @@
 		{
 			"path": "."
 		}
-	]
+	],
+	"settings": {
+		"svg.preview.background": "editor"
+	}
 }

@@ -1,0 +1,21 @@
+﻿# Rime table
+# coding: utf-8
+#@/db_name  pinyin_simp_pin.txt
+#@/db_type	tabledb
+#
+# Neko7ina <hua199057+Rime@gmail.com>
+#
+# 请将该文件以UTF-8编码保存
+# Rime用户文件夹/pinyin_simp_pin.txt
+#
+# 「no comment」以下内容#号不实现注释功能
+# no comment
+
+@163.com	at	777777
+@qq.com	at	777777
+@gmail.com	at	777777
+@126.com	at	777777
+@139.com	at	777777
+@hotmail.com	at	777777
+@sina.com	at	777777
+@foxmail.com	at	777777

@@ -27,9 +27,6 @@ switches:
   - name: show_pinyin
     reset: 0
     states: [滤镜,拼音] 
-  - name: full_shape
-    states: [ 半角, 全角 ]
-    reset: 0
 engine:
   processors:
     - lua_processor@oo_processor
@@ -58,7 +55,7 @@ engine:
     - simplifier@s2t_conversion
     - simplifier@show_pinyin
     - lua_filter@autocap_filter
-    #- lua_filter@long_word_filter
+    - lua_filter@long_word_filter
     - lua_filter@oo_filter
     - uniquifier
 

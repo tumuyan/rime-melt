@@ -10,7 +10,7 @@ schema:
     - Patrick <ipatrickmac@gmail.com>
     - tumuyan <tumuyan@21cn.com>
   description:
-    Easy English Nano，只包含少量常用词汇，方便中英文混合输入度方案调用。
+    Easy English Nano，只包含少量常用词汇，方便中英文混合输入方案调用。
 
 switches:
   - name: ascii_mode
