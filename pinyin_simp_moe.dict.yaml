@@ -8,8 +8,8 @@
 #
 ---
 name: pinyin_simp_moe
-version: "20220623"
-dump: moegirl_20220623
+version: "20220706"
+dump: moegirl_20220706
 sort: by_weight
 use_preset_vocabulary: false
 ...
@@ -100,6 +100,7 @@ use_preset_vocabulary: false
 塞娜留丝	sai na liu si	1
 明日的淑女	ming ri de shu nv	1
 佐藤美梦	zuo teng mei meng	1
+张馨予	zhang xin yu	1
 新手姐妹的双人餐桌	xin shou jie mei de shuang ren can zhuo	1
 玛丽·世良	ma li shi liang	1
 邓红	deng hong	1
@@ -232,6 +233,7 @@ use_preset_vocabulary: false
 支援型艾妮多	zhi yuan xing ai ni duo	1
 布鲁诺·布差拉迪	bu lu nuo bu cha la di	1
 上海震雷文化传播有限公司	shang hai zhen lei wen hua chuan bo you xian gong si	1
+织部诚	zhi bu cheng	1
 轻型卡车	qing xing ka che	1
 音乐游戏玩家	yin yue you xi wan jia	1
 洛丽塔法则	luo li ta fa ze	1
@@ -404,7 +406,6 @@ use_preset_vocabulary: false
 陈彦亦	chen yan yi	1
 魔女术的演示	mo nv shu de yan shi	1
 罗隐	luo yin	1
-坏苹果	huai ping guo	1
 静音型沥青路面切缝机	jing yin xing li qing lu mian qie feng ji	1
 恋爱绽放之花	lian ai zhan fang zhi hua	1
 特托拉	te tuo la	1
@@ -709,6 +710,7 @@ use_preset_vocabulary: false
 生写真	sheng xie zhen	1
 角斗场	jue dou chang	1
 幽谷响	you gu xiang	1
+直至燃为灰烬	zhi zhi ran wei hui jin	1
 啸天引	xiao tian yin	1
 速通	su tong	1
 新世纪舞者	xin shi ji wu zhe	1
@@ -831,6 +833,7 @@ use_preset_vocabulary: false
 纯洁的玛利亚	chun jie de ma li ya	1
 田井中聪	tian jing zhong cong	1
 小岛崇史	xiao dao chong shi	1
+邓芝	deng zhi	1
 现在就想告诉哥哥，我是妹妹	xian zai jiu xiang gao su ge ge wo shi mei mei	1
 姜白夜	jiang bai ye	1
 金色琴弦系列	jin se qin xian xi lie	1
@@ -901,7 +904,6 @@ use_preset_vocabulary: false
 天使的手镜	tian shi de shou jing	1
 格列佛兄弟	ge lie fo xiong di	1
 白银莉莉	bai yin li li	1
-火柴	huo chai	1
 破坏抽卡	po huai chou ka	1
 离巢之歌	li chao zhi ge	1
 结城友奈是勇者	jie cheng you nai shi yong zhe	1
@@ -923,6 +925,7 @@ use_preset_vocabulary: false
 虚空之女	xu kong zhi nv	1
 安德烈·赫岑朵夫	an de lie he cen duo fu	1
 鹰原白羽	ying yuan bai yu	1
+佐菲亚	zuo fei ya	1
 成都城	cheng dou cheng	1
 灯果	deng guo	1
 但这也是，恋爱	dan zhe ye shi lian ai	1
@@ -1043,6 +1046,7 @@ use_preset_vocabulary: false
 山西娘	shan xi niang	1
 西诺克斯	xi nuo ke si	1
 火焰飞镖	huo yan fei biao	1
+安全词	an quan ci	1
 王座守护者	wang zuo shou hu zhe	1
 稗田阿未	bai tian a wei	1
 鸭嘴兽泰瑞	ya zui shou tai rui	1
@@ -1050,11 +1054,13 @@ use_preset_vocabulary: false
 堀川仁	ku chuan ren	1
 妖鸟女郎	yao niao nv lang	1
 心流	xin liu	1
+鸟不拉鸡	niao bu la ji	1
 欧贝利斯克的巨神兵	ou bei li si ke de ju shen bing	1
 里帐	li zhang	1
 房间与衬衫与我	fang jian yu chen shan yu wo	1
 死亡魔龙	si wang mo long	1
 高规格Neet	gao gui ge _Neet	1
+植物大战僵尸系列	zhi wu da zhan jiang shi xi lie	1
 浅见美和子	qian jian mei he zi	1
 只要长得可爱即使是变态你也喜欢吗	zhi yao zhang de ke ai ji shi shi bian tai ni ye xi huan ma	1
 我得了不想上班的病	wo dei le bu xiang shang ban de bing	1
@@ -1151,9 +1157,11 @@ use_preset_vocabulary: false
 狩人斯特雷	shou ren si te lei	1
 蒂伊·恩吉·史特拉特米特斯	di yi en ji shi te la te mi te si	1
 绝对可怜少女	jue dui ke lian shao nv	1
+失败者的失败	shi bai zhe de shi bai	1
 心中充满了不行	xin zhong chong man le bu xing	1
 老虚	lao xu	1
 燃堂力	ran tang li	1
+毒夕绯	du xi fei	1
 美丽的花	mei li de hua	1
 娃娃脸效应	wa wa lian xiao ying	1
 待宵姬	dai xiao ji	1
@@ -1228,6 +1236,7 @@ use_preset_vocabulary: false
 背反之料理人	bei fan zhi liao li ren	1
 无可挑剔的恋爱喜剧	wu ke tiao ti de lian ai xi ju	1
 肖璟	xiao jing	1
+伊藤红叶	yi teng hong ye	1
 双子向日葵娘	shuang zi xiang ri kui niang	1
 苏联采矿车娘	su lian cai kuang che niang	1
 天川那由多	tian chuan na you duo	1
@@ -1336,6 +1345,7 @@ use_preset_vocabulary: false
 在梦的尽头	zai meng de jin tou	1
 无伤通关	wu shang tong guan	1
 早起喵	zao qi miao	1
+泥鯭的士	ni meng di shi	1
 我在海边等着你哦	wo zai hai bian deng zhe ni o	1
 梵妮莎·范克里夫	fan ni sha fan ke li fu	1
 风雷上京物语	feng lei shang jing wu yu	1
@@ -1401,6 +1411,7 @@ use_preset_vocabulary: false
 恶女	e nv	1
 娜贝拉尔	na bei la er	1
 索拉卡	suo la ka	1
+缱绻心迹	qian quan xin ji	1
 肯特	ken te	1
 民安智惠	min an zhi hui	1
 大不列颠及北爱尔兰联合王国	da bu lie dian ji bei ai er lan lian he wang guo	1
@@ -1668,6 +1679,7 @@ use_preset_vocabulary: false
 也许	ye xu	1
 亚蒙	ya meng	1
 脑残舞	nao can wu	1
+杨东旭	yang dong xu	1
 比企谷小町	bi qi gu xiao ding	1
 十河城	shi he cheng	1
 余浪	yu lang	1
@@ -1786,6 +1798,7 @@ use_preset_vocabulary: false
 伊瞳	yi tong	1
 雾都吸血鬼	wu dou xi xue gui	1
 黄金数	huang jin shu	1
+阿罗德斯	a luo de si	1
 乔特鲁德	qiao te lu de	1
 快逃走吧	kuai tao zou ba	1
 冲天辫	chong tian bian	1
@@ -1826,6 +1839,7 @@ use_preset_vocabulary: false
 圆谷真奈	yuan gu zhen nai	1
 草莓狂魔	cao mei kuang mo	1
 青眼白龙娘	qing yan bai long niang	1
+龙蛇演义	long she yan yi	1
 电脑网冲突	dian nao wang chong tu	1
 萨莱·玛雅	sa lai ma ya	1
 萤火虫之墓	ying huo chong zhi mu	1
@@ -2016,6 +2030,7 @@ use_preset_vocabulary: false
 埃阿斯	ai a si	1
 两面性	liang mian xing	1
 宫本芙蕾德莉卡	gong ben fu lei de li ka	1
+假面骑士海鳐	jia mian qi shi hai yao	1
 德班	de ban	1
 朱雀橙	zhu que cheng	1
 必爷	bi ye	1
@@ -2024,6 +2039,7 @@ use_preset_vocabulary: false
 水神的护符	shui shen de hu fu	1
 翩跹	pian xian	1
 吴羽策	wu yu ce	1
+张虎	zhang hu	1
 咕碌咕碌	gu lu gu lu	1
 饭野和明	fan ye he ming	1
 想让我爱你游戏快点结束	xiang rang wo ai ni you xi kuai dian jie shu	1
@@ -2037,6 +2053,7 @@ use_preset_vocabulary: false
 海之龙王	hai zhi long wang	1
 优奈儿	you nai er	1
 伤痕	shang hen	1
+大路吾平	da lu wu ping	1
 喷气式景云改	pen qi shi jing yun gai	1
 逃课税	tao ke shui	1
 东方旧作	dong fang jiu zuo	1
@@ -2788,6 +2805,7 @@ use_preset_vocabulary: false
 偶像	ou xiang	1
 鲇川日向	nian chuan ri xiang	1
 超战士的仪式	chao zhan shi de yi shi	1
+幻日的夜羽	huan ri de ye yu	1
 魔女眷属	mo nv juan shu	1
 严颜	yan yan	1
 对月戏言	dui yue xi yan	1
@@ -2846,6 +2864,7 @@ use_preset_vocabulary: false
 磁力召唤圆	ci li zhao huan yuan	1
 理发师	li fa shi	1
 告诉Oo我还爱她	gao su _Oo wo hai ai ta	1
+楚原莲荷	chu yuan lian he	1
 灭爸	mie ba	1
 炼金魔术师	lian jin mo shu shi	1
 婚礼服的水之炼金术师	hun li fu de shui zhi lian jin shu shi	1
@@ -3073,6 +3092,7 @@ use_preset_vocabulary: false
 月光交响曲	yue guang jiao xiang qu	1
 随风飘的月影兰	sui feng piao de yue ying lan	1
 埃及神	ai ji shen	1
+张让	zhang rang	1
 但我说不出口	dan wo shuo bu chu kou	1
 毒奶粉	du nai fen	1
 灵王寺蓝	ling wang si lan	1
@@ -3087,6 +3107,7 @@ use_preset_vocabulary: false
 村田太志	cun tian tai zhi	1
 烟斗	yan dou	1
 阿形胜平	a xing sheng ping	1
+恶手	e shou	1
 何畅	he chang	1
 关闭虚拟窗口	guan bi xu ni chuang kou	1
 幡紫龙	fan zi long	1
@@ -3135,6 +3156,7 @@ use_preset_vocabulary: false
 乐悲我	le bei wo	1
 航空鲨	hang kong sha	1
 老郑	lao zheng	1
+白色丛林	bai se cong lin	1
 拌梅西	ban mei xi	1
 国际漫画家大会	guo ji man hua jia da hui	1
 时空裂缝	shi kong lie feng	1
@@ -3224,6 +3246,7 @@ use_preset_vocabulary: false
 透龙	tou long	1
 伊薇特·L·雷曼	yi wei te _L lei man	1
 戴比鲁里巴斯	dai bi lu li ba si	1
+我的推是反派大小姐	wo de tui shi fan pai da xiao jie	1
 青沼音瑠	qing zhao yin liu	1
 想君	xiang jun	1
 艾熙珸	ai xi wu	1
@@ -3334,6 +3357,7 @@ use_preset_vocabulary: false
 自觉症状	zi jue zheng zhuang	1
 圣哈辛托	sheng ha xin tuo	1
 主食	zhu shi	1
+闹腾嬉戏东煌春节	nao teng xi xi dong huang chun jie	1
 舞于空镜	wu yu kong jing	1
 杉山纪彰	shan shan ji zhang	1
 狂气之瞳	kuang qi zhi tong	1
@@ -3366,6 +3390,7 @@ use_preset_vocabulary: false
 林奎教	lin kui jiao	1
 彼岸花之恋	bi an hua zhi lian	1
 长濑麻奈	zhang lai ma nai	1
+电子界到临者	dian zi jie dao lin zhe	1
 夏川久依奈	xia chuan jiu yi nai	1
 青木红爱	qing mu hong ai	1
 至此我不再独自前行	zhi ci wo bu zai du zi qian xing	1
@@ -3507,6 +3532,7 @@ use_preset_vocabulary: false
 罪·星尘龙娘	zui xing chen long niang	1
 因为女朋友被前辈NTR了，所以我也要NTR前辈的女朋友	yin wei nv peng you bei qian bei _NTR le suo yi wo ye yao _NTR qian bei de nv peng you	1
 濒临留级的魔法师联手最强灾厄勇闯魔法世界	bin lin liu ji de mo fa shi lian shou zui qiang zai e yong chuang mo fa shi jie	1
+木雕鸽子	mu diao ge zi	1
 白银勺勺	bai yin shao shao	1
 冷冻直升机	leng dong zhi sheng ji	1
 零式水中听音机	ling shi shui zhong ting yin ji	1
@@ -3717,6 +3743,7 @@ use_preset_vocabulary: false
 彩虹	cai hong	1
 请让我撒娇仙狐大人	qing rang wo sa jiao xian hu da ren	1
 怪力少女蒂娜	guai li shao nv di na	1
+阿修斯	a xiu si	1
 火眼	huo yan	1
 吴越争霸	wu yue zheng ba	1
 晓佳奈	xiao jia nai	1
@@ -3825,6 +3852,7 @@ use_preset_vocabulary: false
 洋梨乙女	yang li yi nv	1
 迪亚哥	di ya ge	1
 巨濑惠梨香	ju lai hui li xiang	1
+江壹纯	jiang yi chun	1
 萌译☆孔子酱的论语	meng yi kong zi jiang de lun yu	1
 墓地封印	mu di feng yin	1
 最初的声音	zui chu de sheng yin	1
@@ -4162,12 +4190,14 @@ use_preset_vocabulary: false
 库莉希奴·布鲁梅尔	ku li xi nu bu lu mei er	1
 拉斯普廷	la si pu ting	1
 春色绚烂	chun se xuan lan	1
+我把头发剪掉的理由	wo ba tou fa jian diao de li you	1
 只有我知道的一宫同学	zhi you wo zhi dao de yi gong tong xue	1
 太空战士系列	tai kong zhan shi xi lie	1
 瘟疫医生	wen yi yi sheng	1
 利库·多拉	li ku duo la	1
 鸣海圣子	ming hai sheng zi	1
 回忆杀	hui yi sha	1
+永濑杏奈	yong lai xing nai	1
 草薙百花	cao zhi bai hua	1
 七濑花凛	qi lai hua lin	1
 献给空想少女的情书	xian gei kong xiang shao nv de qing shu	1
@@ -4195,6 +4225,7 @@ use_preset_vocabulary: false
 忒提丝	te ti si	1
 非凡物品	fei fan wu pin	1
 我差点就信了	wo cha dian jiu xin le	1
+奇妙大营救	qi miao da ying jiu	1
 莱维尔	lai wei er	1
 索尼株式会社	suo ni zhu shi hui she	1
 神奈米卡	shen nai mi ka	1
@@ -4225,6 +4256,7 @@ use_preset_vocabulary: false
 保龄泡泡	bao ling pao pao	1
 诗格莱	shi ge lai	1
 鬼畜眼镜	gui chu yan jing	1
+英雄联盟2015赛季全球总决赛	ying xiong lian meng sai ji quan qiu zong jue sai	1
 携带版	xie dai ban	1
 情强	qing qiang	1
 德井青空	de jing qing kong	1
@@ -4312,6 +4344,7 @@ use_preset_vocabulary: false
 精神病患处理说明书	jing shen bing huan chu li shuo ming shu	1
 三头夹	san tou jia	1
 尹仁完	yin ren wan	1
+港区逃离大作战	gang qu tao li da zuo zhan	1
 尼多王娘	ni duo wang niang	1
 欢迎大家	huan ying da jia	1
 含糊回避	han hu hui bi	1
@@ -4530,6 +4563,7 @@ use_preset_vocabulary: false
 何来有神宫	he lai you shen gong	1
 和哥哥认真地谈恋爱不能让任何人知道吧	he ge ge ren zhen de tan lian ai bu neng rang ren he ren zhi dao ba	1
 剑之荣耀手游	jian zhi rong yao shou you	1
+赌场乐园区域	du chang le yuan qu yu	1
 辣眼睛	la yan jing	1
 郑轩	zheng xuan	1
 山添羽希	shan tian yu xi	1
@@ -4545,6 +4579,7 @@ use_preset_vocabulary: false
 世界将合而为一	shi jie jiang he er wei yi	1
 绯丝·康纳斯	fei si kang na si	1
 炎夏型永恒烈焰	yan xia xing yong heng lie yan	1
+驱动器	qu dong qi	1
 高雪轮	gao xue lun	1
 感染监控装置	gan ran jian kong zhuang zhi	1
 伦茨	lun ci	1
@@ -4553,6 +4588,7 @@ use_preset_vocabulary: false
 微芯	wei xin	1
 黑井柴	hei jing chai	1
 乡田穗积	xiang tian sui ji	1
+莉莉娜·匹斯克拉福特	li li na pi si ke la fu te	1
 永井圭	yong jing gui	1
 归路	gui lu	1
 早起的鸟儿有聪吃	zao qi de niao er you cong chi	1
@@ -4659,6 +4695,7 @@ use_preset_vocabulary: false
 灵笼	ling long	1
 桃子男孩渡海而来	tao zi nan hai du hai er lai	1
 复古疯狂狂想曲	fu gu feng kuang kuang xiang qu	1
+琉璃月	liu li yue	1
 自带	zi dai	1
 舞冰的祈愿	wu bing de qi yuan	1
 野崎津幡	ye qi jin fan	1
@@ -4753,6 +4790,7 @@ use_preset_vocabulary: false
 恋上你的恋爱配方	lian shang ni de lian ai pei fang	1
 幼儿退行	you er tui hang	1
 张锐	zhang rui	1
+罗曼蒂克之死	luo man di ke zhi si	1
 青蛙旅行	qing wa lv xing	1
 从断头台开始	cong duan tou tai kai shi	1
 蝶之短剑-回音	die zhi duan jian hui yin	1
@@ -4960,6 +4998,7 @@ use_preset_vocabulary: false
 萤火虫-拉德利	ying huo chong la de li	1
 星尘号手	xing chen hao shou	1
 东风战	dong feng zhan	1
+伊欧娜·齐柏林	yi ou na qi bo lin	1
 法尔梅	fa er mei	1
 辛梅尔	xin mei er	1
 舞妓	wu ji	1
@@ -5046,6 +5085,7 @@ use_preset_vocabulary: false
 柚子乐队	you zi le dui	1
 僧侣	seng lv	1
 国家球	guo jia qiu	1
+亚雪	ya xue	1
 亚多米尼史特蕾达	ya duo mi ni shi te lei da	1
 舞姬	wu ji	1
 花圃无笑	hua pu wu xiao	1
@@ -5247,6 +5287,7 @@ use_preset_vocabulary: false
 血红满月之夜	xue hong man yue zhi ye	1
 凯瑟琳	kai se lin	1
 山飞隼	shan fei sun	1
+四宫雁庵	si gong yan an	1
 怒突	nu tu	1
 爱卖萌的狐狸	ai mai meng de hu li	1
 门章臣	men zhang chen	1
@@ -5285,6 +5326,7 @@ use_preset_vocabulary: false
 张韦	zhang wei	1
 装甲艇	zhuang jia ting	1
 心萪	xin ke	1
+先知的衣钵	xian zhi de yi bo	1
 突击兵	tu ji bing	1
 征谣	zheng yao	1
 卡普斯莉	ka pu si li	1
@@ -5544,6 +5586,7 @@ use_preset_vocabulary: false
 小野坂小春	xiao ye ban xiao chun	1
 红狗文化馆	hong gou wen hua guan	1
 没有名字的怪物	mei you ming zi de guai wu	1
+老鸭	lao ya	1
 大垣千明	da yuan qian ming	1
 象棋王	xiang qi wang	1
 新大陆古龙调查团	xin da lu gu long diao cha tuan	1
@@ -5591,6 +5634,7 @@ use_preset_vocabulary: false
 克劳德·布诺·里维奇	ke lao de bu nuo li wei qi	1
 建鹏	jian peng	1
 维内加·多比欧	wei nei jia duo bi ou	1
+喜羊羊与灰太狼之奇妙大营救	xi yang yang yu hui tai lang zhi qi miao da ying jiu	1
 艾克	ai ke	1
 老鹰	lao ying	1
 网络巨魔	wang luo ju mo	1
@@ -5842,7 +5886,6 @@ use_preset_vocabulary: false
 灰色	hui se	1
 龙呼相争	long hu xiang zheng	1
 金瞳	jin tong	1
-网络作品	wang luo zuo pin	1
 氏井田京乐	shi jing tian jing le	1
 这个好欸	zhe ge hao ei	1
 赤星梅露	chi xing mei lu	1
@@ -5962,6 +6005,7 @@ use_preset_vocabulary: false
 博丽神社例大祭	bo li shen she li da ji	1
 伊欧玟	yi ou min	1
 修理要员	xiu li yao yuan	1
+糖小小	tang xiao xiao	1
 于离别早晨饰上约定之花	yu li bie zao chen shi shang yue ding zhi hua	1
 耳骚	er sao	1
 魔鬼恋人	mo gui lian ren	1
@@ -6123,6 +6167,7 @@ use_preset_vocabulary: false
 花丸	hua wan	1
 二语十	er yu shi	1
 青眼少女	qing yan shao nv	1
+花朵会再度散落	hua duo hui zai du san luo	1
 焦渚	jiao zhu	1
 致迈步向前的你	zhi mai bu xiang qian de ni	1
 猫耳型发型	mao er xing fa xing	1
@@ -6152,6 +6197,7 @@ use_preset_vocabulary: false
 谷尻麻理亚	gu kao ma li ya	1
 圣弗朗西斯科	sheng fu lang xi si ke	1
 把大家都给MIKUMIKU掉	ba da jia dou gei _MIKUMIKU diao	1
+言语之歌	yan yu zhi ge	1
 陈美贞	chen mei zhen	1
 影六武众-理半	ying liu wu zhong li ban	1
 八秒之语	ba miao zhi yu	1
@@ -6174,6 +6220,7 @@ use_preset_vocabulary: false
 妖怪之山	yao guai zhi shan	1
 琪露诺的数学教室	qi lu nuo de shu xue jiao shi	1
 混沌老师	hun dun lao shi	1
+坎特伯雷王国	kan te bo lei wang guo	1
 超级全国大会篇	chao ji quan guo da hui pian	1
 安洁莉娅·艾柏蓉	an jie li ya ai bai rong	1
 花赠曲	hua zeng qu	1
@@ -6347,6 +6394,7 @@ use_preset_vocabulary: false
 傻屌	sha diao	1
 斯卡哈	si ka ha	1
 也没有后悔	ye mei you hou hui	1
+亡灵巫师	wang ling wu shi	1
 情欲	qing yu	1
 凯莉·古兰瑟留斯	kai li gu lan se liu si	1
 良垣	liang yuan	1
@@ -6483,6 +6531,7 @@ use_preset_vocabulary: false
 樱庭梦拉	ying ting meng la	1
 向阳庄	xiang yang zhuang	1
 风色琴音	feng se qin yin	1
+蒸汽美少女	zheng qi mei shao nv	1
 安薇娜	an wei na	1
 奇迹的发掘	qi ji de fa jue	1
 空条仗世文	kong tiao zhang shi wen	1
@@ -6791,6 +6840,7 @@ use_preset_vocabulary: false
 灵摆风暴	ling bai feng bao	1
 铃木洋平	ling mu yang ping	1
 青色天马	qing se tian ma	1
+成年志摩凛	cheng nian zhi mo lin	1
 盟军非遭遇战单位	meng jun fei zao yu zhan dan wei	1
 柊泽艾力欧	zhong ze ai li ou	1
 魔法少女与恶之参谋	mo fa shao nv yu e zhi can mou	1
@@ -6830,6 +6880,7 @@ use_preset_vocabulary: false
 励辉士	li hui shi	1
 优里	you li	1
 八重垣艾莉卡	ba zhong yuan ai li ka	1
+山田·弗兰西斯卡·夏织	shan tian fu lan xi si ka xia zhi	1
 花宝燕	hua bao yan	1
 克蕾尔·露裘	ke lei er lu qiu	1
 虞美人	yu mei ren	1
@@ -6926,6 +6977,7 @@ use_preset_vocabulary: false
 羊羊顶呱呱	yang yang ding gua gua	1
 白斗气海豚	bai dou qi hai tun	1
 多护盾盾构机	duo hu dun dun gou ji	1
+阿芒凯	a mang kai	1
 姐姐死了	jie jie si le	1
 金盾娘	jin dun niang	1
 格雷少年	ge lei shao nian	1
@@ -7006,6 +7058,7 @@ use_preset_vocabulary: false
 一定是我打开方式不对	yi ding shi wo da kai fang shi bu dui	1
 天降未来新娘	tian jiang wei lai xin niang	1
 点心时间	dian xin shi jian	1
+定如所想	ding ru suo xiang	1
 超机怪虫·圣言神经元虫	chao ji guai chong sheng yan shen jing yuan chong	1
 夜幡伴江	ye fan ban jiang	1
 无梦之梦	wu meng zhi meng	1
@@ -7013,6 +7066,7 @@ use_preset_vocabulary: false
 苏俣	su yu	1
 时雨泽惠一	shi yu ze hui yi	1
 胜龙寺城	sheng long si cheng	1
+以结婚为前提的恋爱喜剧	yi jie hun wei qian ti de lian ai xi ju	1
 熊本	xiong ben	1
 伪郎	wei lang	1
 手榴弹	shou liu dan	1
@@ -7240,6 +7294,7 @@ use_preset_vocabulary: false
 极品飞车	ji pin fei che	1
 牡丹	mu dan	1
 孙权[莲华]	sun quan lian hua	1
+四六杨桃	si liu yang tao	1
 大谷肇	da gu zhao	1
 律队	lv dui	1
 李若胤	li ruo yin	1
@@ -7290,6 +7345,7 @@ use_preset_vocabulary: false
 唱给雅音宫羽·终	chang gei ya yin gong yu zhong	1
 神秘祭坛	shen mi ji tan	1
 年中姆Q的大图书馆	nian zhong mu _Q de da tu shu guan	1
+宣公主	xuan gong zhu	1
 魔法少女莉莉卡露奈叶	mo fa shao nv li li ka lu nai ye	1
 如意机	ru yi ji	1
 虚无祭典	xu wu ji dian	1
@@ -7300,6 +7356,7 @@ use_preset_vocabulary: false
 仪式之槛	yi shi zhi kan	1
 伊莎贝拉·霍利	yi sha bei la huo li	1
 我如何学会停止恐惧并爱上基低斯-娜娜亚	wo ru he xue hui ting zhi kong ju bing ai shang ji di si na na ya	1
+若云	ruo yun	1
 沙发套	sha fa tao	1
 史塔拉公主	shi ta la gong zhu	1
 怀表	huai biao	1
@@ -7337,6 +7394,7 @@ use_preset_vocabulary: false
 俾斯麦娘	bi si mai niang	1
 吃茶白玉楼	chi cha bai yu lou	1
 贝璐卡	bei lu ka	1
+寒鸦号	han ya hao	1
 镜之孤城	jing zhi gu cheng	1
 柒玖or伍陆	qi jiu _or wu lu	1
 流星的奇迹	liu xing de qi ji	1
@@ -7442,6 +7500,7 @@ use_preset_vocabulary: false
 贝瑟妮	bei se ni	1
 东方龙	dong fang long	1
 仙波绫子	xian bo ling zi	1
+藤见野勋	teng jian ye xun	1
 忠贞	zhong zhen	1
 次日朝梦	ci ri chao meng	1
 尾崎玲子	wei qi ling zi	1
@@ -7602,6 +7661,8 @@ use_preset_vocabulary: false
 你与我的未来	ni yu wo de wei lai	1
 超龙珠英雄	chao long zhu ying xiong	1
 影魔	ying mo	1
+理科实验时间	li ke shi yan shi jian	1
+陆之道	lu zhi dao	1
 直枝理树	zhi zhi li shu	1
 野吕穗花	ye lv sui hua	1
 王钰涵	wang yu han	1
@@ -7628,6 +7689,7 @@ use_preset_vocabulary: false
 哀温之诗	ai wen zhi shi	1
 长瀞同学	zhang jing tong xue	1
 臂环	bi huan	1
+请叫糖小小老婆	qing jiao tang xiao xiao lao po	1
 诸位再见	zhu wei zai jian	1
 科技树外战车	ke ji shu wai zhan che	1
 加斯科涅	jia si ke nie	1
@@ -7672,6 +7734,7 @@ use_preset_vocabulary: false
 唯是此般	wei shi ci ban	1
 炽天使兽	chi tian shi shou	1
 墨非斯特	mo fei si te	1
+野良	ye liang	1
 最终我成为了一束微光	zui zhong wo cheng wei le yi shu wei guang	1
 动物帽子	dong wu mao zi	1
 水侦型	shui zhen xing	1
@@ -7952,7 +8015,6 @@ use_preset_vocabulary: false
 放学后桌游俱乐部	fang xue hou zhuo you ju le bu	1
 肥音	fei yin	1
 夺笋呐	duo sun na	1
-蔡光镇	cai guang zhen	1
 薛定谔的猫	xue ding e de mao	1
 鹤野有纱	he ye you sha	1
 系统崩溃	xi tong beng kui	1
@@ -8055,7 +8117,9 @@ use_preset_vocabulary: false
 樱泽墨	ying ze mo	1
 宝玉的契约	bao yu de qi yue	1
 击球手	ji qiu shou	1
+交汇协奏曲	jiao hui xie zou qu	1
 田头里奈	tian tou li nai	1
+三笠前辈的收藏大公开	san li qian bei de shou cang da gong kai	1
 黑五类	hei wu lei	1
 单亲妈妈	dan qin ma ma	1
 绫部和也	ling bu he ye	1
@@ -8219,6 +8283,7 @@ use_preset_vocabulary: false
 中二病也想谈恋爱	zhong er bing ye xiang tan lian ai	1
 酋长	qiu zhang	1
 汤婆婆	tang po po	1
+宠物店	chong wu dian	1
 领家薰	ling jia xun	1
 笨拙的感觉	ben zhuo de gan jue	1
 火影忍者疾风传	huo ying ren zhe ji feng chuan	1
@@ -8356,6 +8421,7 @@ use_preset_vocabulary: false
 急袭猛禽-战备	ji xi meng qin zhan bei	1
 永不消失的希望	yong bu xiao shi de xi wang	1
 光战队覆面人	guang zhan dui fu mian ren	1
+再临	zai lin	1
 白痴渴望异常	bai chi ke wang yi chang	1
 有欧派	you ou pai	1
 百万胖虎	bai wan pang hu	1
@@ -8385,6 +8451,7 @@ use_preset_vocabulary: false
 使命召唤手游	shi ming zhao huan shou you	1
 神之右手	shen zhi you shou	1
 成了	cheng le	1
+演习神秘事件调查	yan xi shen mi shi jian diao cha	1
 镭射炮机甲铠	lei she pao ji jia kai	1
 悔恨复活	hui hen fu huo	1
 斩兽之刃	zhan shou zhi ren	1
@@ -8515,6 +8582,7 @@ use_preset_vocabulary: false
 芹泽文乃	qin ze wen nai	1
 藤田奈央	teng tian nai yang	1
 食魂的魔刀	shi hun de mo dao	1
+小恶魔之约	xiao e mo zhi yue	1
 致身处孤岛的你	zhi shen chu gu dao de ni	1
 雷克多·亚兰德尔	lei ke duo ya lan de er	1
 吹雪加油	chui xue jia you	1
@@ -8649,6 +8717,7 @@ use_preset_vocabulary: false
 心层麻醉	xin ceng ma zui	1
 羁绊剧情	ji ban ju qing	1
 久濑修一	jiu lai xiu yi	1
+星海诺伦	xing hai nuo lun	1
 昨日子	zuo ri zi	1
 久领堤缠	jiu ling di chan	1
 玲明学园	ling ming xue yuan	1
@@ -8887,6 +8956,7 @@ use_preset_vocabulary: false
 空气吸收者	kong qi xi shou zhe	1
 粗暴帝王	cu bao di wang	1
 放学后的旅行者	fang xue hou de lv xing zhe	1
+冒失鬼男友和急性子女友	mao shi gui nan you he ji xing zi nv you	1
 精致之城	jing zhi zhi cheng	1
 自由之晓	zi you zhi xiao	1
 草莓狂热	cao mei kuang re	1
@@ -9158,6 +9228,7 @@ use_preset_vocabulary: false
 达菲鸭	da fei ya	1
 内卷	nei juan	1
 小镇有你	xiao zhen you ni	1
+未来画布	wei lai hua bu	1
 节操	jie cao	1
 抽象话	chou xiang hua	1
 早川芽衣	zao chuan ya yi	1
@@ -9248,6 +9319,7 @@ use_preset_vocabulary: false
 奇异三叶草	qi yi san ye cao	1
 灭门	mie men	1
 顾七七	gu qi qi	1
+立见七百人	li jian qi bai ren	1
 偷盗之夜的骗局	tou dao zhi ye de pian ju	1
 李-恩菲尔德	li en fei er de	1
 迷迷可	mi mi ke	1
@@ -9321,7 +9393,6 @@ use_preset_vocabulary: false
 大洗之女	da xi zhi nv	1
 机皇城	ji huang cheng	1
 同人漫画	tong ren man hua	1
-突进迅猛龙	tu jin xun meng long	1
 超游世界	chao you shi jie	1
 飞毛腿剑士拉比	fei mao tui jian shi la bi	1
 乌尔莉卡·缪贝莉	wu er li ka miu bei li	1
@@ -9364,8 +9435,8 @@ use_preset_vocabulary: false
 前田金泽城	qian tian jin ze cheng	1
 最终之所	zui zhong zhi suo	1
 武器种族传说	wu qi zhong zu chuan shuo	1
-茜卓	qian zhuo	1
 买不起周边	mai bu qi zhou bian	1
+茜卓	qian zhuo	1
 桃音桃	tao yin tao	1
 胡须	hu xu	1
 修藏	xiu cang	1
@@ -9386,6 +9457,7 @@ use_preset_vocabulary: false
 节日	jie ri	1
 水谷优子	shui gu you zi	1
 私立山吹高等学校	si li shan chui gao deng xue xiao	1
+火雁	huo yan	1
 脑补不宜过度	nao bu bu yi guo du	1
 蛙形史莱姆	wa xing shi lai mu	1
 音乐会	yin yue hui	1
@@ -9702,6 +9774,7 @@ use_preset_vocabulary: false
 暗黑欧布	an hei ou bu	1
 似身旁绽放的花朵	shi shen pang zhan fang de hua duo	1
 我啊	wo a	1
+毒气弹	du qi dan	1
 自称	zi cheng	1
 泽村遥	ze cun yao	1
 阳茉莉	yang mo li	1
@@ -10343,6 +10416,7 @@ use_preset_vocabulary: false
 不也挺好嘛	bu ye ting hao ma	1
 友情不变	you qing bu bian	1
 手冲	shou chong	1
+拉札尔·迪尔梅德	la zha er di er mei de	1
 地核侠	di he xia	1
 我我我少女	wo wo wo shao nv	1
 狗与剪刀必有用	gou yu jian dao bi you yong	1
@@ -10392,6 +10466,7 @@ use_preset_vocabulary: false
 洗碗精勇者	xi wan jing yong zhe	1
 冰鱼龙	bing yu long	1
 失语症	shi yu zheng	1
+齐亚德联邦	qi ya de lian bang	1
 你和我的绝对恋爱规则	ni he wo de jue dui lian ai gui ze	1
 恋选	lian xuan	1
 真柴直	zhen chai zhi	1
@@ -10417,6 +10492,7 @@ use_preset_vocabulary: false
 徒云八尾吕智	tu yun ba wei lv zhi	1
 凉凉	liang liang	1
 常蓉珊	chang rong shan	1
+蓝色果实	lan se guo shi	1
 假肢	jia zhi	1
 蔡蔡子	cai cai zi	1
 弍大猫丸	er da mao wan	1
@@ -10723,13 +10799,14 @@ use_preset_vocabulary: false
 妄想症	wang xiang zheng	1
 小之森夏音	xiao zhi sen xia yin	1
 永久花	yong jiu hua	1
+讨厌是恋爱的开端	tao yan shi lian ai de kai duan	1
 永远酱	yong yuan jiang	1
 若狭悠里	ruo xia you li	1
 辻野朱里	shi ye zhu li	1
 兄控	xiong kong	1
 手友	shou you	1
-多美代	duo mei dai	1
 凯伊	kai yi	1
+多美代	duo mei dai	1
 异卵同生	yi luan tong sheng	1
 抹杀的指名者	mo sha de zhi ming zhe	1
 关帅	guan shuai	1
@@ -10825,6 +10902,7 @@ use_preset_vocabulary: false
 苏摩	su mo	1
 龙武盛唐	long wu sheng tang	1
 急雨	ji yu	1
+苦昼短	ku zhou duan	1
 堀京子	ku jing zi	1
 魔界战记	mo jie zhan ji	1
 黄金弗雷迪	huang jin fu lei di	1
@@ -10873,6 +10951,7 @@ use_preset_vocabulary: false
 你在这里	ni zai zhe li	1
 花样	hua yang	1
 田中摩美美	tian zhong mo mei mei	1
+明智秀满	ming zhi xiu man	1
 茱莉·西格图纳	zhu li xi ge tu na	1
 假面骑士德尔塔	jia mian qi shi de er ta	1
 星圣暴风	xing sheng bao feng	1
@@ -10894,6 +10973,7 @@ use_preset_vocabulary: false
 茨姫	ci zhen	1
 孟姜女	meng jiang nv	1
 炎狱反击	yan yu fan ji	1
+夏淳风	xia chun feng	1
 龙之灵庙	long zhi ling miao	1
 泽村·斯宾塞·英梨梨	ze cun si bin sai ying li li	1
 特异型白雪公主	te yi xing bai xue gong zhu	1
@@ -11028,6 +11108,7 @@ use_preset_vocabulary: false
 茶壶	cha hu	1
 兰陶倚	lan tao yi	1
 清秀佳人	qing xiu jia ren	1
+野泽那智	ye ze na zhi	1
 命运战士	ming yun zhan shi	1
 露娜萨·普莉兹姆利巴	lu na sa pu li zi mu li ba	1
 牛排	niu pai	1
@@ -11179,11 +11260,13 @@ use_preset_vocabulary: false
 猎人	lie ren	1
 朝雾卡夫卡	chao wu ka fu ka	1
 切尔努什卡·伊万诺芙娜·斯特鲁加卡亚	qie er nu shen ka yi wan nuo fu na si te lu jia ka ya	1
+俺才是独一无二的	an cai shi du yi wu er de	1
 混乱善良	hun luan shan liang	1
 莫拉·奥尔	mo la ao er	1
 赛洛普	sai luo pu	1
 浦筱鸰	pu xiao ling	1
 福原克己	fu yuan ke ji	1
+多彩标签团队	duo cai biao qian tuan dui	1
 念力调整	nian li tiao zheng	1
 麻花辫	ma hua bian	1
 毘沙门天	pi sha men tian	1
@@ -11244,6 +11327,7 @@ use_preset_vocabulary: false
 盲人摸象	mang ren mo xiang	1
 玛莉嘉	ma li jia	1
 万天行	wan tian hang	1
+不相匹配	bu xiang pi pei	1
 冲天	chong tian	1
 某科学的心理掌握	mou ke xue de xin li zhang wo	1
 一秒之序	yi miao zhi xu	1
@@ -11268,6 +11352,7 @@ use_preset_vocabulary: false
 节田蕾霞	jie tian lei xia	1
 珍惜彼此的相遇	zhen xi bi ci de xiang yu	1
 我怎么可能成为你的恋人	wo zen me ke neng cheng wei ni de lian ren	1
+是轻冰哒	shi qing bing da	1
 观崎花凛	guan qi hua lin	1
 文豪野犬	wen hao ye quan	1
 冰川纱夜	bing chuan sha ye	1
@@ -11433,6 +11518,7 @@ use_preset_vocabulary: false
 入江正一	ru jiang zheng yi	1
 佐久间玲	zuo jiu jian ling	1
 伊泽塔	yi ze ta	1
+害羞幽灵	hai xiu you ling	1
 花欺	hua qi	1
 西西里岛登陆战	xi xi li dao deng lu zhan	1
 大黑天	da hei tian	1
@@ -11582,6 +11668,7 @@ use_preset_vocabulary: false
 伪骸虚龙	wei hai xu long	1
 菅原侑一	jian yuan you yi	1
 三崎一也	san qi yi ye	1
+归来与新生	gui lai yu xin sheng	1
 竭泽而愉	jie ze er yu	1
 紫电里特	zi dian li te	1
 苦无	ku wu	1
@@ -11596,6 +11683,7 @@ use_preset_vocabulary: false
 刘照坤	liu zhao kun	1
 金村大	jin cun da	1
 星尘探索者	xing chen tan suo zhe	1
+蜜柑站长	mi gan zhan zhang	1
 冰冷的房间	bing leng de fang jian	1
 击剑	ji jian	1
 破坏炮	po huai pao	1
@@ -11619,6 +11707,7 @@ use_preset_vocabulary: false
 中华白海豚	zhong hua bai hai tun	1
 寒蝉鸣泣之时系列	han chan ming qi zhi shi xi lie	1
 重音	zhong yin	1
+月影的梦幻曲	yue ying de meng huan qu	1
 赫灼的Resist	he zhuo de _Resist	1
 恐怖分子vs复活男	kong bu fen zi _vs fu huo nan	1
 未发见的心之名	wei fa jian de xin zhi ming	1
@@ -11709,6 +11798,7 @@ use_preset_vocabulary: false
 猫一	mao yi	1
 白金银火	bai jin yin huo	1
 阿撒兹勒	a sa zi le	1
+阿内恩	a nei en	1
 不去大海	bu qu da hai	1
 蔚蓝蓝	wei lan lan	1
 齐克建	qi ke jian	1
@@ -11807,6 +11897,7 @@ use_preset_vocabulary: false
 烛阴	zhu yin	1
 托莱茵·萨南德	tuo lai yin sa nan de	1
 猎刃	lie ren	1
+傅肜	fu rong	1
 鹰山仁	ying shan ren	1
 冯岚	feng lan	1
 望古神话之天选者	wang gu shen hua zhi tian xuan zhe	1
@@ -11884,6 +11975,7 @@ use_preset_vocabulary: false
 刀匠	dao jiang	1
 领洋者	ling yang zhe	1
 失衡天平	shi heng tian ping	1
+幽零幻镜	you ling huan jing	1
 等级重调	deng ji zhong tiao	1
 电脑网络编解码	dian nao wang luo bian jie ma	1
 月亮姐姐	yue liang jie jie	1
@@ -11901,6 +11993,7 @@ use_preset_vocabulary: false
 龙骑兵团骑士-魔枪龙骑士	long qi bing tuan qi shi mo qiang long qi shi	1
 买买买	mai mai mai	1
 埃里克·里奇	ai li ke li qi	1
+伊芙莉娅	yi fu li ya	1
 成海七海	cheng hai qi hai	1
 熔岩谷龙骑士	rong yan gu long qi shi	1
 北埋川大地	bei mai chuan da di	1
@@ -11956,6 +12049,7 @@ use_preset_vocabulary: false
 三宅乱丈	san zhai luan zhang	1
 国际米兰	guo ji mi lan	1
 百兽王高莱恩	bai shou wang gao lai en	1
+久久知兵助	jiu jiu zhi bing zhu	1
 有学问的英国	you xue wen de ying guo	1
 食物语	shi wu yu	1
 莉可	li ke	1
@@ -12138,6 +12232,7 @@ use_preset_vocabulary: false
 孤身一人的狂欢	gu shen yi ren de kuang huan	1
 非死不可	fei si bu ke	1
 两行泪	liang hang lei	1
+我的老婆可能是个变态	wo de lao po ke neng shi ge bian tai	1
 何塞·奥利维拉	he sai ao li wei la	1
 半田修平	ban tian xiu ping	1
 胖吉猫	pang ji mao	1
@@ -12758,6 +12853,7 @@ use_preset_vocabulary: false
 奥莉维娅	ao li wei ya	1
 沉默乐团	chen mo le tuan	1
 凰姬	huang ji	1
+小鲤鱼琥珀	xiao li yu hu po	1
 本应是讨厌的	ben ying shi tao yan de	1
 环羽衣	huan yu yi	1
 历任总裁	li ren zong cai	1
@@ -12774,6 +12870,7 @@ use_preset_vocabulary: false
 野鸟	ye niao	1
 我旺	wo wang	1
 洁莉丝卡	jie li si ka	1
+巫毒王国	wu du wang guo	1
 海妖宝藏	hai yao bao zang	1
 汉之云	han zhi yun	1
 甘城千歌	gan cheng qian ge	1
@@ -12916,6 +13013,7 @@ use_preset_vocabulary: false
 百万闪光	bai wan shan guang	1
 铃木奥拓	ling mu ao tuo	1
 上过度的发条	shang guo du de fa tiao	1
+九泉之夜也曾明亮	jiu quan zhi ye ye ceng ming liang	1
 虎纹鲨鱼	hu wen sha yu	1
 杜利司	du li si	1
 狱镰·Igalima	yu lian _Igalima	1
@@ -12931,8 +13029,8 @@ use_preset_vocabulary: false
 纸飞机的信笺	zhi fei ji de xin jian	1
 手心	shou xin	1
 永濑绫	yong lai ling	1
-食梦者梅莉	shi meng zhe mei li	1
 然后捡到女高中生	ran hou jian dao nv gao zhong sheng	1
+食梦者梅莉	shi meng zhe mei li	1
 古笼火	gu long huo	1
 托席	tuo xi	1
 本乡里实	ben xiang li shi	1
@@ -13161,6 +13259,7 @@ use_preset_vocabulary: false
 盐崎智弘	yan qi zhi hong	1
 哈利·波特系列	ha li bo te xi lie	1
 轻飘飘圆舞曲	qing piao piao yuan wu qu	1
+林水丽	lin shui li	1
 黑铁一辉	hei tie yi hui	1
 你经历过绝望吗	ni jing li guo jue wang ma	1
 极道主夫	ji dao zhu fu	1
@@ -13259,6 +13358,7 @@ use_preset_vocabulary: false
 基伍纳尔	ji wu na er	1
 哆啦哔梦	duo la bi meng	1
 夜目爵士	ye mu jue shi	1
+火燎耶	huo liao ye	1
 猫嘴	mao zui	1
 这可说不定呐	zhe ke shuo bu ding na	1
 喜欢是自由的	xi huan shi zi you de	1
@@ -13386,6 +13486,7 @@ use_preset_vocabulary: false
 薰风的希望	xun feng de xi wang	1
 九十九七濑	jiu shi jiu qi lai	1
 水云间	shui yun jian	1
+药店	yao dian	1
 梅津泰臣	mei jin tai chen	1
 想让	xiang rang	1
 幻变骚灵·击键录杜尔迦	huan bian sao ling ji jian lu du er jia	1
@@ -13486,6 +13587,7 @@ use_preset_vocabulary: false
 绿色丹麦	lv se dan mai	1
 惩戒鸟	cheng jie niao	1
 艾莉森·威汀顿	ai li sen wei ting dun	1
+爱疯	ai feng	1
 夯实机	hang shi ji	1
 此处可出本	ci chu ke chu ben	1
 恶魔	e mo	1
@@ -13570,6 +13672,7 @@ use_preset_vocabulary: false
 红粉甜心	hong fen tian xin	1
 冰斧	bing fu	1
 贝璐璐	bei lu lu	1
+星空的旋律	xing kong de xuan lv	1
 八九寺真宵	ba jiu si zhen xiao	1
 懂王	dong wang	1
 浅仓透	qian cang tou	1
@@ -13652,6 +13755,7 @@ use_preset_vocabulary: false
 我只是个科学家	wo zhi shi ge ke xue jia	1
 新宇宙侠·海洋海豚	xin yu zhou xia hai yang hai tun	1
 剧场版登场角色	ju chang ban deng chang jue se	1
+如果西游是一群喵	ru guo xi you shi yi qun miao	1
 未闻花名	wei wen hua ming	1
 忏悔的男子	chan hui de nan zi	1
 深层人鱼	shen ceng ren yu	1
@@ -13955,6 +14059,7 @@ use_preset_vocabulary: false
 抚子	fu zi	1
 线香花火	xian xiang hua huo	1
 戴超航	dai chao hang	1
+向左看齐	xiang zuo kan qi	1
 暮色之心	mu se zhi xin	1
 鸟井萌亚	niao jing meng ya	1
 给像水母一般的你	gei xiang shui mu yi ban de ni	1
@@ -14035,6 +14140,7 @@ use_preset_vocabulary: false
 我想要把你的头给按到水里	wo xiang yao ba ni de tou gei an dao shui li	1
 翡翠城市	fei cui cheng shi	1
 冴果	ya guo	1
+红发的白雪公主	hong fa de bai xue gong zhu	1
 莱娅	lai ya	1
 云外镜	yun wai jing	1
 刻板印象	ke ban yin xiang	1
@@ -14268,6 +14374,7 @@ use_preset_vocabulary: false
 刺墙	ci qiang	1
 未来飞行	wei lai fei xing	1
 筿原柚香	xiao yuan you xiang	1
+莫寒	mo han	1
 相信自己	xiang xin zi ji	1
 萌值	meng zhi	1
 先史遗产技术	xian shi yi chan ji shu	1
@@ -14305,6 +14412,7 @@ use_preset_vocabulary: false
 踏云童话不可能是童话	ta yun tong hua bu ke neng shi tong hua	1
 潜移默化	qian yi mo hua	1
 苍真	cang zhen	1
+莉莉丝兽	li li si shou	1
 永濑莹	yong lai ying	1
 选择感染者WIXOSS	xuan ze gan ran zhe _WIXOSS	1
 傻大猫	sha da mao	1
@@ -14478,6 +14586,7 @@ use_preset_vocabulary: false
 深深的森林	shen shen de sen lin	1
 扫描	sao miao	1
 伏见妃凛	fu jian fei lin	1
+北白川雏子	bei bai chuan chu zi	1
 李莓铃	li mei ling	1
 雁渊孝美	yan yuan xiao mei	1
 北野九吟	bei ye jiu yin	1
@@ -14904,6 +15013,7 @@ use_preset_vocabulary: false
 安藤丽奈	an teng li nai	1
 兽之巨人	shou zhi ju ren	1
 红色独眼巨人	hong se du yan ju ren	1
+金风玉雨鱼龙夜	jin feng yu yu yu long ye	1
 存在意义·万花筒	cun zai yi yi wan hua tong	1
 泉七羽	quan qi yu	1
 火箭基地区域	huo jian ji di qu yu	1
@@ -14927,7 +15037,6 @@ use_preset_vocabulary: false
 正义之刺	zheng yi zhi ci	1
 水兵木星	shui bing mu xing	1
 间歇泉	jian xie quan	1
-从今以后的Someday	cong jin yi hou de _Someday	1
 凤晶	feng jing	1
 戴超行	dai chao hang	1
 东城真	dong cheng zhen	1
@@ -14950,6 +15059,7 @@ use_preset_vocabulary: false
 雀姬麻将	que ji ma jiang	1
 百毒王	bai du wang	1
 怜园清美	lian yuan qing mei	1
+藤津麻美	teng jin ma mei	1
 喜羊羊灰太狼之歌	xi yang yang hui tai lang zhi ge	1
 平泽进	ping ze jin	1
 炽天使	chi tian shi	1
@@ -15032,6 +15142,7 @@ use_preset_vocabulary: false
 圣树之国的禁咒使	sheng shu zhi guo de jin zhou shi	1
 玛凝	ma ning	1
 肆则澄佳	si ze cheng jia	1
+王双	wang shuang	1
 夏日奇妙物语	xia ri qi miao wu yu	1
 数码宝贝无限地带	shu ma bao bei wu xian di dai	1
 音色迷人的恋歌	yin se mi ren de lian ge	1
@@ -15050,6 +15161,7 @@ use_preset_vocabulary: false
 奥斯汀	ao si ting	1
 木村遥	mu cun yao	1
 黄前麻美子	huang qian ma mei zi	1
+孙鲁班	sun lu ban	1
 骑士人的另一个结局	qi shi ren de ling yi ge jie ju	1
 蜜柑酱	mi gan jiang	1
 一生之幸	yi sheng zhi xing	1
@@ -15083,6 +15195,7 @@ use_preset_vocabulary: false
 樋口圆香	tong kou yuan xiang	1
 梦幻的交汇-关卡篇	meng huan de jiao hui guan ka pian	1
 万子姐	wan zi jie	1
+冷泉	leng quan	1
 幕后的Revue	mu hou de _Revue	1
 我的小吉他	wo de xiao ji ta	1
 轻轻地	qing qing de	1
@@ -15112,6 +15225,7 @@ use_preset_vocabulary: false
 冰室钟	bing shi zhong	1
 在古都徘徊的女孩	zai gu dou pai huai de nv hai	1
 花前月下	hua qian yue xia	1
+维也纳会议舞厅	wei ye na hui yi wu ting	1
 罗刹女	luo cha nv	1
 眼镜先生	yan jing xian sheng	1
 复仇之魂仙德尔莎	fu chou zhi hun xian de er sha	1
@@ -15158,6 +15272,7 @@ use_preset_vocabulary: false
 思想迪化	si xiang di hua	1
 寺岛诗织	si dao shi zhi	1
 印尼电信	yin ni dian xin	1
+岬镜子	jia jing zi	1
 齐齐整整	qi qi zheng zheng	1
 龙卷风战斗轰炸姬	long juan feng zhan dou hong zha ji	1
 拉尼卡	la ni ka	1
@@ -15216,6 +15331,7 @@ use_preset_vocabulary: false
 元筱	yuan xiao	1
 松濑大地	song lai da di	1
 终物语	zhong wu yu	1
+青春无极限	qing chun wu ji xian	1
 无人岛	wu ren dao	1
 爆菊	bao ju	1
 方程式运动员街道大奖赛	fang cheng shi yun dong yuan jie dao da jiang sai	1
@@ -15339,6 +15455,7 @@ use_preset_vocabulary: false
 热情组织	re qing zu zhi	1
 机器子	ji qi zi	1
 猫之茗	mao zhi ming	1
+花翎	hua ling	1
 蜘蛛鬼·大姐	zhi zhu gui da jie	1
 春&夏推理事件簿	chun xia tui li shi jian bu	1
 国赞美之歌	guo zan mei zhi ge	1
@@ -15393,6 +15510,7 @@ use_preset_vocabulary: false
 捷克弗里德	jie ke fu li de	1
 莫名成为邪龙的五千岁草食龙	mo ming cheng wei xie long de wu qian sui cao shi long	1
 和久井优	he jiu jing you	1
+永不放弃你	yong bu fang qi ni	1
 伯特·罗卡	bo te luo ka	1
 艾瑞思	ai rui si	1
 即视感	ji shi gan	1
@@ -15459,8 +15577,8 @@ use_preset_vocabulary: false
 鼠曲草	shu qu cao	1
 凯丽·德莱迪	kai li de lai di	1
 牧星者	mu xing zhe	1
-尼可波拉斯	ni ke bo la si	1
 天地麦人	tian di mai ren	1
+尼可波拉斯	ni ke bo la si	1
 人诛篇登场角色	ren zhu pian deng chang jue se	1
 金木犀	jin mu xi	1
 冰花幻夜	bing hua huan ye	1
@@ -15519,6 +15637,7 @@ use_preset_vocabulary: false
 贪玩蓝月	tan wan lan yue	1
 内山昂辉	nei shan ang hui	1
 鹰原羽依里	ying yuan yu yi li	1
+倾杯问	qing bei wen	1
 芝茵	zhi yin	1
 地壳变动	di qiao bian dong	1
 小鸟游静	xiao niao you jing	1
@@ -15558,6 +15677,7 @@ use_preset_vocabulary: false
 迪丽茜·司康	di li qian si kang	1
 原寿美铃	yuan shou mei ling	1
 七人之奈奈	qi ren zhi nai nai	1
+露出导演	lou chu dao yan	1
 九公主	jiu gong zhu	1
 赛尔号事件	sai er hao shi jian	1
 蔚蓝的灵柩	wei lan de ling jiu	1
@@ -15614,6 +15734,7 @@ use_preset_vocabulary: false
 皮皮猪	pi pi zhu	1
 天泽灯	tian ze deng	1
 振出	zhen chu	1
+小暮理知的罠与恋	xiao mu li zhi de min yu lian	1
 天使兔跳	tian shi tu tiao	1
 拳头	quan tou	1
 幻煌龙的螺旋绞	huan huang long de luo xuan jiao	1
@@ -15656,6 +15777,7 @@ use_preset_vocabulary: false
 我是个没有感情的杀手	wo shi ge mei you gan qing de sha shou	1
 大富豪	da fu hao	1
 源君物语	yuan jun wu yu	1
+港区的特别宴会	gang qu de te bie yan hui	1
 老山龙	lao shan long	1
 泪的行踪	lei de xing zong	1
 浦上靖之	pu shang jing zhi	1
@@ -15711,6 +15833,7 @@ use_preset_vocabulary: false
 努力	nu li	1
 无法接通	wu fa jie tong	1
 那个女人	na ge nv ren	1
+他人世界末	ta ren shi jie mo	1
 芙蓉	fu rong	1
 手游	shou you	1
 罗萨丽	luo sa li	1
@@ -16024,6 +16147,7 @@ use_preset_vocabulary: false
 小霸王	xiao ba wang	1
 神装少女小缠	shen zhuang shao nv xiao chan	1
 可可丽特	ke ke li te	1
+并不是孤单一人哦	bing bu shi gu dan yi ren o	1
 振听	zhen ting	1
 爱莉丝·玛嘉托洛伊德	ai li si ma jia tuo luo yi de	1
 前往	qian wang	1
@@ -16086,6 +16210,7 @@ use_preset_vocabulary: false
 心伊齐露	xin yi qi lu	1
 芸芸	yun yun	1
 直到毁灭世界的终焉	zhi dao hui mie shi jie de zhong yan	1
+明浦路司	ming pu lu si	1
 爆衣	bao yi	1
 紫炎的计略	zi yan de ji lue	1
 克缇	ke ti	1
@@ -16224,11 +16349,13 @@ use_preset_vocabulary: false
 颅内高潮	lu nei gao chao	1
 爱莲	ai lian	1
 色诱	se you	1
+芽芽	ya ya	1
 轰京子	hong jing zi	1
 维多利加	wei duo li jia	1
 剧场版	ju chang ban	1
 恶魔镜的仪式	e mo jing de yi shi	1
 谎言游戏	huang yan you xi	1
+你真的是我的天使吗	ni zhen de shi wo de tian shi ma	1
 大唐玄怪来谒	da tang xuan guai lai ye	1
 战国时代	zhan guo shi dai	1
 科技工程-狮面终结者	ke ji gong cheng shi mian zhong jie zhe	1
@@ -16320,8 +16447,8 @@ use_preset_vocabulary: false
 电动敲钉器	dian dong qiao ding qi	1
 晴海国度	qing hai guo du	1
 索尔狄丽娜·赛路尔特	suo er di li na sai lu er te	1
-萨坎	sa kan	1
 扑火	pu huo	1
+萨坎	sa kan	1
 七濑千奈	qi lai qian nai	1
 伊织无我	yi zhi wu wo	1
 六芒星之咒缚	liu mang xing zhi zhou fu	1
@@ -16464,6 +16591,7 @@ use_preset_vocabulary: false
 木吉和也	mu ji he ye	1
 奈芙提斯的希望	nai fu ti si de xi wang	1
 招恨	zhao hen	1
+各自的新年	ge zi de xin nian	1
 茶番	cha fan	1
 二人的季节	er ren de ji jie	1
 银梅草	yin mei cao	1
@@ -16726,6 +16854,7 @@ use_preset_vocabulary: false
 温蒂·玛贝尔	wen di ma bei er	1
 命运操控	ming yun cao kong	1
 苏茜	su qian	1
+随风旅鸟卡组	sui feng lv niao ka zu	1
 不知火芙蕾雅	bu zhi huo fu lei ya	1
 超级企业	chao ji qi ye	1
 东北方面	dong bei fang mian	1
@@ -16867,6 +16996,7 @@ use_preset_vocabulary: false
 草生	cao sheng	1
 吉泽心美	ji ze xin mei	1
 唯有呐喊的青春	wei you na han de qing chun	1
+楠原志乃	nan yuan zhi nai	1
 浑作战	hun zuo zhan	1
 玛露莉奈特	ma lu li nai te	1
 葛叶	ge ye	1
@@ -16890,6 +17020,7 @@ use_preset_vocabulary: false
 力婉	li wan	1
 耳天使	er tian shi	1
 冯盛	feng sheng	1
+干旱礁湖	gan han jiao hu	1
 抱枕	bao zhen	1
 高山三佐	gao shan san zuo	1
 复活气息	fu huo qi xi	1
@@ -17199,6 +17330,7 @@ use_preset_vocabulary: false
 猪濑舞	zhu lai wu	1
 腐男子高校生活	fu nan zi gao xiao sheng huo	1
 葡萄牙共和国	pu tao ya gong he guo	1
+爱清风华	ai qing feng hua	1
 梅格·威廉姆斯	mei ge wei lian mu si	1
 金蟾蕈	jin chan xun	1
 手握梦想	shou wo meng xiang	1
@@ -17209,6 +17341,7 @@ use_preset_vocabulary: false
 恐山安娜	kong shan an na	1
 伊藤明日香	yi teng ming ri xiang	1
 怎么了	zen me le	1
+铃夏	ling xia	1
 劲大	jin da	1
 机壳的再星	ji ke de zai xing	1
 戟炮手	ji pao shou	1
@@ -17220,6 +17353,7 @@ use_preset_vocabulary: false
 布莱希特	bu lai xi te	1
 柊真华	zhong zhen hua	1
 郭芙蓉	guo fu rong	1
+鸟不拉机	niao bu la ji	1
 凉宫春日的忧郁	liang gong chun ri de you yu	1
 喜碧拉	xi bi la	1
 钼娘	mu niang	1
@@ -17572,6 +17706,7 @@ use_preset_vocabulary: false
 梦中景色	meng zhong jing se	1
 终末的伊泽塔	zhong mo de yi ze ta	1
 抱歉	bao qian	1
+星川花凛	xing chuan hua lin	1
 肌肉进行曲	ji rou jin xing qu	1
 夏日重现	xia ri chong xian	1
 罗曼茱·布雷马	luo man zhu bu lei ma	1
@@ -17776,6 +17911,7 @@ use_preset_vocabulary: false
 花谱	hua pu	1
 火之剑士	huo zhi jian shi	1
 别所子鹿	bie suo zi lu	1
+爱词	ai ci	1
 凯恩之怒	kai en zhi nu	1
 刘慈欣	liu ci xin	1
 日向夏美	ri xiang xia mei	1
@@ -17879,8 +18015,8 @@ use_preset_vocabulary: false
 五十岚丽	wu shi lan li	1
 化作樱花树	hua zuo ying hua shu	1
 拜松	bai song	1
-莎利雅	sha li ya	1
 磁石之力	ci shi zhi li	1
+莎利雅	sha li ya	1
 御子地	yu zi di	1
 白泽由梨	bai ze you li	1
 秋穰子	qiu rang zi	1
@@ -17980,6 +18116,7 @@ use_preset_vocabulary: false
 天空上的鱼	tian kong shang de yu	1
 伊坂早苗	yi ban zao miao	1
 节庆限定作战	jie qing xian ding zuo zhan	1
+躺在东京的正中间	tang zai dong jing de zheng zhong jian	1
 羽鹭雪名	yu lu xue ming	1
 奇幻剧场	qi huan ju chang	1
 文森尼斯	wen sen ni si	1
@@ -18106,6 +18243,7 @@ use_preset_vocabulary: false
 百眼巨人	bai yan ju ren	1
 莉珑	li long	1
 机械台钳	ji xie tai qian	1
+铁希	tie xi	1
 砂之星	sha zhi xing	1
 天王寺美丽	tian wang si mei li	1
 印度尼西亚	yin du ni xi ya	1
@@ -18367,6 +18505,7 @@ use_preset_vocabulary: false
 卡米儿	ka mi er	1
 阿勒坎	a le kan	1
 时光软糖	shi guang ruan tang	1
+李雷与韩梅梅	li lei yu han mei mei	1
 小朋友	xiao peng you	1
 犬耳	quan er	1
 格拉海德	ge la hai de	1
@@ -18450,6 +18589,7 @@ use_preset_vocabulary: false
 白日妄想	bai ri wang xiang	1
 的场梨沙	de chang li sha	1
 上野贞宗	shang ye zhen zong	1
+花途	hua tu	1
 小白兔电商	xiao bai tu dian shang	1
 钟摆	zhong bai	1
 广濑康穗	guang lai kang sui	1
@@ -18474,6 +18614,7 @@ use_preset_vocabulary: false
 猞猁	she li	1
 笼中人	long zhong ren	1
 萨拉	sa la	1
+伊南娜·伊丝塔	yi nan na yi si ta	1
 辣妹与恐龙	la mei yu kong long	1
 萱野美华	xuan ye mei hua	1
 恶灵的众神	e ling de zhong shen	1
@@ -18549,6 +18690,7 @@ use_preset_vocabulary: false
 跳起来	tiao qi lai	1
 和睦的使者	he mu de shi zhe	1
 热爱的前方	re ai de qian fang	1
+安寿与厨子王丸	an shou yu chu zi wang wan	1
 七零八落的宴会	qi ling ba luo de yan hui	1
 玻璃三棱镜	bo li san leng jing	1
 超巨大空中宫殿	chao ju da kong zhong gong dian	1
@@ -19124,6 +19266,7 @@ use_preset_vocabulary: false
 蒋静菊	jiang jing ju	1
 月之炼金术师	yue zhi lian jin shu shi	1
 叉式抓斗起重机	cha shi zhua dou qi zhong ji	1
+咚兄弟组	dong xiong di zu	1
 卡翠欧娜	ka cui ou na	1
 甘泽谣系列	gan ze yao xi lie	1
 八神结香	ba shen jie xiang	1
@@ -19165,6 +19308,7 @@ use_preset_vocabulary: false
 烬天玉藻前	jin tian yu zao qian	1
 火之牧师	huo zhi mu shi	1
 抛光机	pao guang ji	1
+故障火花	gu zhang huo hua	1
 天水香	tian shui xiang	1
 俺修罗	an xiu luo	1
 七色的黑塔利亚动画	qi se de hei ta li ya dong hua	1
@@ -19173,6 +19317,7 @@ use_preset_vocabulary: false
 是谁说我们愚不可及	shi shui shuo wo men yu bu ke ji	1
 指尖春光	zhi jian chun guang	1
 瑕光	xia guang	1
+芬亚娜	fen ya na	1
 义呆利	yi dai li	1
 木春由乃	mu chun you nai	1
 樱川晓	ying chuan xiao	1
@@ -19283,6 +19428,7 @@ use_preset_vocabulary: false
 风之炼金术师	feng zhi lian jin shu shi	1
 独角兽	du jiao shou	1
 小津歌音	xiao jin ge yin	1
+莫使其凋零	mo shi qi diao ling	1
 琉恩·佛尔克	liu en fo er ke	1
 战斗王之飓风战魂	zhan dou wang zhi ju feng zhan hun	1
 桂言叶	gui yan ye	1
@@ -19455,6 +19601,7 @@ use_preset_vocabulary: false
 请把我埋藏在那个夏日	qing ba wo mai cang zai na ge xia ri	1
 锡娘	xi niang	1
 久瑠美	jiu liu mei	1
+双引号	shuang yin hao	1
 圣战士玛丽贝尔	sheng zhan shi ma li bei er	1
 福井宣博	fu jing xuan bo	1
 超雷龙-雷龙	chao lei long lei long	1
@@ -19659,6 +19806,7 @@ use_preset_vocabulary: false
 摩尔迦娜	mo er jia na	1
 美云·吉内梅	mei yun ji nei mei	1
 北小路Hisui	bei xiao lu _Hisui	1
+琉璃郡主	liu li jun zhu	1
 班恩	ban en	1
 咒血王	zhou xue wang	1
 军衔	jun xian	1
@@ -19669,6 +19817,7 @@ use_preset_vocabulary: false
 绮云泽	qi yun ze	1
 探女	tan nv	1
 奈良瞬平	nai liang shun ping	1
+不朽引擎	bu xiu yin qing	1
 卢克	lu ke	1
 战斗系统	zhan dou xi tong	1
 露露拉露里·露拉拉里拉拉露露里里拉里·里拉拉露露拉拉露露拉拉里拉里	lu lu la lu li lu la la li la la lu lu li li la li li la la lu lu la la lu lu la la li la li	1
@@ -19709,6 +19858,7 @@ use_preset_vocabulary: false
 刘禅	liu chan	1
 明明是世界上最近的距离	ming ming shi shi jie shang zui jin de ju li	1
 宇宙警探	yu zhou jing tan	1
+董承	dong cheng	1
 山北早纪	shan bei zao ji	1
 玛莉·格拉卡	ma li ge la ka	1
 东方魔宝城原声集	dong fang mo bao cheng yuan sheng ji	1
@@ -19751,6 +19901,7 @@ use_preset_vocabulary: false
 分明就是你	fen ming jiu shi ni	1
 坚书直实	jian shu zhi shi	1
 笑容我来守护	xiao rong wo lai shou hu	1
+各自的春节	ge zi de chun jie	1
 福松进纱	fu song jin sha	1
 国士无双十三面	guo shi wu shuang shi san mian	1
 武器交换	wu qi jiao huan	1
@@ -19761,6 +19912,7 @@ use_preset_vocabulary: false
 异常状态免疫	yi chang zhuang tai mian yi	1
 玛丽安娜·Vi·布里塔尼亚	ma li an na _Vi bu li ta ni ya	1
 白鸟穹	bai niao qiong	1
+赛车梗	sai che geng	1
 南北	nan bei	1
 野田顺子	ye tian shun zi	1
 西冰库	xi bing ku	1
@@ -19831,6 +19983,7 @@ use_preset_vocabulary: false
 锰娘	meng niang	1
 轻型巡洋舰娘	qing xing xun yang jian niang	1
 猿山健一	yuan shan jian yi	1
+万岁乐	wan sui le	1
 端木燕	duan mu yan	1
 结乃岩兵卫	jie nai yan bing wei	1
 刘稚	liu zhi	1
@@ -20047,6 +20200,7 @@ use_preset_vocabulary: false
 援军	yuan jun	1
 抱碳	bao tan	1
 深夜书店	shen ye shu dian	1
+花之塔	hua zhi ta	1
 艾吉斯	ai ji si	1
 深海的	shen hai de	1
 卡祖拉之虫惑魔	ka zu la zhi chong huo mo	1
@@ -20099,6 +20253,7 @@ use_preset_vocabulary: false
 心的小偷	xin de xiao tou	1
 魔力星幻影	mo li xing huan ying	1
 别祖	bie zu	1
+亳州夏侯中学	bo zhou xia hou zhong xue	1
 全装甲ZZ姬	quan zhuang jia _ZZ ji	1
 前田	qian tian	1
 全部	quan bu	1
@@ -20132,10 +20287,10 @@ use_preset_vocabulary: false
 天朝理科生战歌	tian chao li ke sheng zhan ge	1
 天神小学校	tian shen xiao xue xiao	1
 锿娘	ai niang	1
-赞迪卡	zan di ka	1
 兄长	xiong zhang	1
 岸田隆宏	an tian long hong	1
 星野达鲁克	xing ye da lu ke	1
+赞迪卡	zan di ka	1
 前略	qian lue	1
 刀纹	dao wen	1
 荚蒾	jia mi	1
@@ -20235,6 +20390,7 @@ use_preset_vocabulary: false
 机械瞄具	ji xie miao ju	1
 才藏	cai cang	1
 铭心之言	ming xin zhi yan	1
+山田杏奈	shan tian xing nai	1
 感伤瞬间	gan shang shun jian	1
 宫原飒希	gong yuan sa xi	1
 骑士与奖赏	qi shi yu jiang shang	1
@@ -20351,6 +20507,7 @@ use_preset_vocabulary: false
 化蝶梦令	hua die meng ling	1
 赤松结衣	chi song jie yi	1
 栗悟饭和龟波气功	li wu fan he gui bo qi gong	1
+萨菲尔·梅洛笛	sa fei er mei luo di	1
 海毒牙	hai du ya	1
 与Aqours的交流运动会	yu _Aqours de jiao liu yun dong hui	1
 奇迹的暑假	qi ji de shu jia	1
@@ -20406,6 +20563,7 @@ use_preset_vocabulary: false
 托蕾	tuo lei	1
 千代田百舌鸟	qian dai tian bai she niao	1
 石田一将	shi tian yi jiang	1
+梅查·达高南池	mei cha da gao nan chi	1
 人大森☆我叫要不	ren da sen wo jiao yao bu	1
 光降	guang jiang	1
 波波菈	bo bo la	1
@@ -20453,6 +20611,7 @@ use_preset_vocabulary: false
 王国保卫战	wang guo bao wei zhan	1
 奶奶曾经说过	nai nai ceng jing shuo guo	1
 技能	ji neng	1
+冥渊龙	ming yuan long	1
 海尔兄弟宇宙大冒险	hai er xiong di yu zhou da mao xian	1
 国之将亡	guo zhi jiang wang	1
 奥杜因	ao du yin	1
@@ -20550,6 +20709,7 @@ use_preset_vocabulary: false
 克鲁兹	ke lu zi	1
 东堂泽河山	dong tang ze he shan	1
 卷卷	juan juan	1
+真相小姐	zhen xiang xiao jie	1
 猫粮	mao liang	1
 宇宙伊什塔尔	yu zhou yi shen ta er	1
 有一说一	you yi shuo yi	1
@@ -20568,6 +20728,7 @@ use_preset_vocabulary: false
 苏杭寻香	su hang xun xiang	1
 伍缇丝	wu ti si	1
 龙正义	long zheng yi	1
+黄金的秘宝	huang jin de mi bao	1
 带我去月球	dai wo qu yue qiu	1
 真壁萌	zhen bi meng	1
 信号枪	xin hao qiang	1
@@ -20716,6 +20877,7 @@ use_preset_vocabulary: false
 对抗魔术	dui kang mo shu	1
 萌物	meng wu	1
 蜂屋爱	feng wu ai	1
+尾滨勘右卫门	wei bin kan you wei men	1
 用花传达	yong hua chuan da	1
 小野田坂道	xiao ye tian ban dao	1
 千代真砂	qian dai zhen sha	1
@@ -20851,6 +21013,7 @@ use_preset_vocabulary: false
 逃不掉	tao bu diao	1
 雪乃玲	xue nai ling	1
 苍蓝革命的女武神	cang lan ge ming de nv wu shen	1
+这两个家伙都是女生的事实只有我知道	zhe liang ge jia huo dou shi nv sheng de shi shi zhi you wo zhi dao	1
 菜小仙	cai xiao xian	1
 一位绅士	yi wei shen shi	1
 原谷矢文	yuan gu shi wen	1
@@ -20872,6 +21035,7 @@ use_preset_vocabulary: false
 想要恋爱	xiang yao lian ai	1
 基金会为何要出本子来唤醒美索不达米亚爱神	ji jin hui wei he yao chu ben zi lai huan xing mei suo bu da mi ya ai shen	1
 弹药专家	dan yao zhuan jia	1
+沈梦媛	shen meng yuan	1
 久米飒太	jiu mi sa tai	1
 伊泽鲁迪·谢琳	yi ze lu di xie lin	1
 赛博浪客	sai bo lang ke	1
@@ -20970,6 +21134,7 @@ use_preset_vocabulary: false
 新秦时明月之百步飞剑	xin qin shi ming yue zhi bai bu fei jian	1
 鹿岛志鹤	lu dao zhi he	1
 国立音乃木坂学院	guo li yin nai mu ban xue yuan	1
+艾卡泽露	ai ka ze lu	1
 电算机兽	dian suan ji shou	1
 汹涌群羊	xiong yong qun yang	1
 历史	li shi	1
@@ -21112,6 +21277,7 @@ use_preset_vocabulary: false
 苍焰之炼狱	cang yan zhi lian yu	1
 芙兰卡	fu lan ka	1
 苏塞克斯	su sai ke si	1
+作者化身	zuo zhe hua shen	1
 钓球	diao qiu	1
 阿姨洗痰盂	a yi xi tan yu	1
 追迹者	zhui ji zhe	1
@@ -21145,6 +21311,7 @@ use_preset_vocabulary: false
 钢牙	gang ya	1
 松井江	song jing jiang	1
 我想守护你	wo xiang shou hu ni	1
+珠泪哀歌族卡组	zhu lei ai ge zu ka zu	1
 王昭君	wang zhao jun	1
 艾丝黛儿	ai si dai er	1
 萝萝莉	luo luo li	1
@@ -21181,6 +21348,7 @@ use_preset_vocabulary: false
 同班同学	tong ban tong xue	1
 操他妈大炮	cao ta ma da pao	1
 援交少女	yuan jiao shao nv	1
+表里如一	biao li ru yi	1
 音乐游戏	yin yue you xi	1
 加点	jia dian	1
 咖啡拉花	ka fei la hua	1
@@ -21263,6 +21431,7 @@ use_preset_vocabulary: false
 参上	can shang	1
 超时空传送器	chao shi kong chuan song qi	1
 克劳迪亚	ke lao di ya	1
+美柳勇希	mei liu yong xi	1
 木之下翠	mu zhi xia cui	1
 怪诞虫	guai dan chong	1
 卡姆	ka mu	1
@@ -21291,6 +21460,7 @@ use_preset_vocabulary: false
 班森	ban sen	1
 午夜的相会	wu ye de xiang hui	1
 伊藤一毅	yi teng yi yi	1
+天流斋艾丽丝	tian liu zhai ai li si	1
 嵯峨政宗	cuo e zheng zong	1
 钩爪	gou zhao	1
 魏欣琛	wei xin chen	1
@@ -21618,6 +21788,8 @@ use_preset_vocabulary: false
 凛齿巨鳄	lin chi ju e	1
 中根彻	zhong gen che	1
 大神一郎	da shen yi lang	1
+狗豪	gou hao	1
+鱼人岛篇登场角色	yu ren dao pian deng chang jue se	1
 蜻蛉羽	qing ling yu	1
 千影	qian ying	1
 灭亡迅雷强制升华器	mie wang xun lei qiang zhi sheng hua qi	1
@@ -21654,6 +21826,7 @@ use_preset_vocabulary: false
 你妈逼你结婚了吗	ni ma bi ni jie hun le ma	1
 目白赖恩	mu bai lai en	1
 原味	yuan wei	1
+微笑炸弹	wei xiao zha dan	1
 上里沙希	shang li sha xi	1
 雪佛兰科迈罗	xue fo lan ke mai luo	1
 工作细胞	gong zuo xi bao	1
@@ -21679,8 +21852,8 @@ use_preset_vocabulary: false
 雪滴花	xue di hua	1
 魔偶甜点礼仪	mo ou tian dian li yi	1
 郭守敬望远镜	guo shou jing wang yuan jing	1
-阿列莎	a lie sha	1
 五郎太忠雄	wu lang tai zhong xiong	1
+阿列莎	a lie sha	1
 传颂之章	chuan song zhi zhang	1
 兄弟别去	xiong di bie qu	1
 紫电改	zi dian gai	1
@@ -22058,6 +22231,7 @@ use_preset_vocabulary: false
 勘解由小路三铃	kan jie you xiao lu san ling	1
 在一切结束的开始	zai yi qie jie shu de kai shi	1
 大丈夫	da zhang fu	1
+蒙格	meng ge	1
 蚊子娘	wen zi niang	1
 岩藏流	yan cang liu	1
 中泽美奈	zhong ze mei nai	1
@@ -22142,6 +22316,7 @@ use_preset_vocabulary: false
 哲学三问	zhe xue san wen	1
 勾檀	gou tan	1
 王祯	wang zhen	1
+刘虞	liu yu	1
 雄蕊子	xiong rui zi	1
 奇迹接触	qi ji jie chu	1
 保时捷924车系	bao shi jie che xi	1
@@ -22278,6 +22453,7 @@ use_preset_vocabulary: false
 赛亚人	sai ya ren	1
 瑞泽溪	rui ze xi	1
 反刍	fan chu	1
+沙无痕	sha wu hen	1
 我的鲸鱼男友	wo de jing yu nan you	1
 魔都地下铁少女	mo dou di xia tie shao nv	1
 三木一马	san mu yi ma	1
@@ -22324,6 +22500,7 @@ use_preset_vocabulary: false
 伊集院丽	yi ji yuan li	1
 就是玩儿	jiu shi wan er	1
 瓜达卡纳尔	gua da ka na er	1
+贺莉斯	he li si	1
 高压压缩机	gao ya ya suo ji	1
 久保美津雄	jiu bao mei jin xiong	1
 卡彭	ka peng	1
@@ -22503,7 +22680,6 @@ use_preset_vocabulary: false
 含苞待放的言语之花	han bao dai fang de yan yu zhi hua	1
 范无咎	fan wu jiu	1
 蔡娜	cai na	1
-我是你的爸	wo shi ni de ba	1
 游戏王怪兽龙斗骰	you xi wang guai shou long dou tou	1
 她长大了	ta zhang da le	1
 洛天依带你铁道唱歌-西郊线篇	luo tian yi dai ni tie dao chang ge xi jiao xian pian	1
@@ -22665,8 +22841,8 @@ use_preset_vocabulary: false
 佐藤里沙	zuo teng li sha	1
 女强人奥斯卡	nv qiang ren ao si ka	1
 戚风	qi feng	1
-阿拉若	a la ruo	1
 英雄联盟手游	ying xiong lian meng shou you	1
+阿拉若	a la ruo	1
 喵喵子	miao miao zi	1
 金夏兰	jin xia lan	1
 一起前来	yi qi qian lai	1
@@ -22787,6 +22963,7 @@ use_preset_vocabulary: false
 提摩	ti mo	1
 前草	qian cao	1
 强盗鼠	qiang dao shu	1
+葛玄	ge xuan	1
 英雄变化-反光体	ying xiong bian hua fan guang ti	1
 丰崎爱生	feng qi ai sheng	1
 瓜台	gua tai	1
@@ -22820,6 +22997,7 @@ use_preset_vocabulary: false
 夏洛特·巴尔希特	xia luo te ba er xi te	1
 机壳的冻结	ji ke de dong jie	1
 平交道时间	ping jiao dao shi jian	1
+武器之床	wu qi zhi chuang	1
 解药风云	jie yao feng yun	1
 胖杰克	pang jie ke	1
 五十岚枫	wu shi lan feng	1
@@ -22953,6 +23131,7 @@ use_preset_vocabulary: false
 孔奇塔·武斯特	kong qi ta wu si te	1
 黑猫夜	hei mao ye	1
 卡拉	ka la	1
+高捷少年	gao jie shao nian	1
 江湖有梦赠山河	jiang hu you meng zeng shan he	1
 笼手切江	long shou qie jiang	1
 螺旋境界线	luo xuan jing jie xian	1
@@ -23039,6 +23218,7 @@ use_preset_vocabulary: false
 说唱之王	shuo chang zhi wang	1
 湮灭残昼	yan mie can zhou	1
 堂岛大吾	tang dao da wu	1
+海尔格	hai er ge	1
 水濑春珂	shui lai chun ke	1
 大波斯菊	da bo si ju	1
 出身	chu shen	1
@@ -23263,6 +23443,7 @@ use_preset_vocabulary: false
 携手之戒	xie shou zhi jie	1
 菲奥娜	fei ao na	1
 张学友	zhang xue you	1
+斋藤梨奈	zhai teng li nai	1
 家里蹲	jia li dun	1
 泛用人型硝酸兵器娘	fan yong ren xing xiao suan bing qi niang	1
 伊丽丝	yi li si	1
@@ -23298,6 +23479,7 @@ use_preset_vocabulary: false
 艾斯兰	ai si lan	1
 获羽红丽亚	huo yu hong li ya	1
 插曲	cha qu	1
+天道众	tian dao zhong	1
 缘结熊本	yuan jie xiong ben	1
 分身	fen shen	1
 半杯	ban bei	1
@@ -23329,6 +23511,7 @@ use_preset_vocabulary: false
 华札	hua zha	1
 琴歌	qin ge	1
 玉耀	yu yao	1
+钟繇	zhong yao	1
 娜塔莎·阿尔夫洛斯卡娅	na ta sha a er fu luo si ka ya	1
 王翀	wang chong	1
 海楼之上	hai lou zhi shang	1
@@ -23395,6 +23578,7 @@ use_preset_vocabulary: false
 镰鼬·治	lian you zhi	1
 集合啦	ji he la	1
 萌兽世界	meng shou shi jie	1
+分院帽	fen yuan mao	1
 世界国旗拟人化	shi jie guo qi ni ren hua	1
 东本愿早苗	dong ben yuan zao miao	1
 可可	ke ke	1
@@ -23414,6 +23598,7 @@ use_preset_vocabulary: false
 无名少女	wu ming shao nv	1
 上川町人	shang chuan ding ren	1
 斯卡托拉	si ka tuo la	1
+奥特10勇士	ao te yong shi	1
 我们的合租房	wo men de he zu fang	1
 加百利·阿格莱斯特	jia bai li a ge lai si te	1
 手雷	shou lei	1
@@ -23449,6 +23634,7 @@ use_preset_vocabulary: false
 切勿大意	qie wu da yi	1
 安藤鹤纱	an teng he sha	1
 避难所女孩	bi nan suo nv hai	1
+王聪	wang cong	1
 爱川企画室	ai chuan qi hua shi	1
 神枪少女	shen qiang shao nv	1
 凉雨	liang yu	1
@@ -23482,6 +23668,7 @@ use_preset_vocabulary: false
 太鼓之达人系列	tai gu zhi da ren xi lie	1
 茂伸奇谈	mao shen qi tan	1
 吉兆	ji zhao	1
+刘赪	liu cheng	1
 未署名的笔记本	wei shu ming de bi ji ben	1
 叶历	ye li	1
 东方封魔录	dong fang feng mo lu	1
@@ -23517,6 +23704,7 @@ use_preset_vocabulary: false
 醋溜便当	cu liu bian dang	1
 李盈凤	li ying feng	1
 蓝田未有	lan tian wei you	1
+玛琳璱	ma lin se	1
 莱诺	lai nuo	1
 弩级战队HXEROS	nu ji zhan dui _HXEROS	1
 和谐年代	he xie nian dai	1
@@ -23608,6 +23796,7 @@ use_preset_vocabulary: false
 双头	shuang tou	1
 子子子子	zi zi zi zi	1
 青鹭光子	qing lu guang zi	1
+牙大王	ya da wang	1
 凉鞋	liang xie	1
 博曼	bo man	1
 反复	fan fu	1
@@ -23631,6 +23820,7 @@ use_preset_vocabulary: false
 铅笔	qian bi	1
 枪管刺刀龙	qiang guan ci dao long	1
 无痛少年计划	wu tong shao nian ji hua	1
+月上少女	yue shang shao nv	1
 高梨弥纱	gao li mi sha	1
 碧之轨迹	bi zhi gui ji	1
 小飞机	xiao fei ji	1
@@ -23827,6 +24017,7 @@ use_preset_vocabulary: false
 阿乃	a nai	1
 约定的地方	yue ding de di fang	1
 陆战队员	lu zhan dui yuan	1
+冬雪沫沫	dong xue mo mo	1
 乌恩·莱奥尼尔	wu en lai ao ni er	1
 人类进化论	ren lei jin hua lun	1
 劈腿	pi tui	1
@@ -23966,6 +24157,7 @@ use_preset_vocabulary: false
 我们的翅膀	wo men de chi bang	1
 影狼丸	ying lang wan	1
 长鬓角	zhang bin jiao	1
+刘辩	liu bian	1
 古见秀子	gu jian xiu zi	1
 水泽美月	shui ze mei yue	1
 艾里亚斯	ai li ya si	1
@@ -23983,7 +24175,6 @@ use_preset_vocabulary: false
 璀璨宝石	cui can bao shi	1
 深圳大学ALFA秋祭同人展站娘	shen zhen da xue _ALFA qiu ji tong ren zhan zhan niang	1
 狭间	xia jian	1
-瀬戸莉花	lai hu li hua	1
 王苏	wang su	1
 变型飞蛾	bian xing fei e	1
 叉子	cha zi	1
@@ -24097,6 +24288,7 @@ use_preset_vocabulary: false
 炮击支援娘	pao ji zhi yuan niang	1
 装备喷射球	zhuang bei pen she qiu	1
 蒙犽	meng ya	1
+筑向梦想的彩虹	zhu xiang meng xiang de cai hong	1
 伊甸三叉戟	yi dian san cha ji	1
 画伯	hua bo	1
 原田来	yuan tian lai	1
@@ -24174,6 +24366,7 @@ use_preset_vocabulary: false
 蕾安娜·布里甘缇亚	lei an na bu li gan ti ya	1
 南樱	nan ying	1
 王敏纳	wang min na	1
+华歆	hua xin	1
 数学女孩	shu xue nv hai	1
 擅长捉弄的高木同学	shan chang zhuo nong de gao mu tong xue	1
 金鱼的接吻	jin yu de jie wen	1
@@ -24280,6 +24473,7 @@ use_preset_vocabulary: false
 无人之居	wu ren zhi ju	1
 达尔文游戏	da er wen you xi	1
 三形金字塔·巨人王	san xing jin zi ta ju ren wang	1
+腋毛之歌	ye mao zhi ge	1
 陆战型战斗艇	lu zhan xing zhan dou ting	1
 好吃棒	hao chi bang	1
 斋藤宽仁	zhai teng kuan ren	1
@@ -24494,9 +24688,9 @@ use_preset_vocabulary: false
 这个世界在等待着我们	zhe ge shi jie zai deng dai zhe wo men	1
 中田让治	zhong tian rang zhi	1
 喷气战士	pen qi zhan shi	1
+旋风管家	xuan feng guan jia	1
 土间大平的母亲	tu jian da ping de mu qin	1
 悔恨之斧	hui hen zhi fu	1
-旋风管家	xuan feng guan jia	1
 君有云	jun you yun	1
 前说	qian shuo	1
 我已经看见了结局	wo yi jing kan jian liao jie ju	1
@@ -24536,6 +24730,7 @@ use_preset_vocabulary: false
 识夜描银	shi ye miao yin	1
 伊之助	yi zhi zhu	1
 瑜弈天下	yu yi tian xia	1
+沙漠之海	sha mo zhi hai	1
 赤黑新章	chi hei xin zhang	1
 苏州恋慕	su zhou lian mu	1
 热身赛SOL	re shen sai _SOL	1
@@ -24627,6 +24822,7 @@ use_preset_vocabulary: false
 灭却师	mie que shi	1
 雪风·帕尼托尼	xue feng pa ni tuo ni	1
 少女地狱	shao nv di yu	1
+柴刀女	chai dao nv	1
 薇奈特	wei nai te	1
 问尘	wen chen	1
 释证严	shi zheng yan	1
@@ -24739,7 +24935,6 @@ use_preset_vocabulary: false
 是个侦探	shi ge zhen tan	1
 萨莎	sa sha	1
 喵田柚希	miao tian you xi	1
-东海篇登场角色	dong hai pian deng chang jue se	1
 魔宝城	mo bao cheng	1
 蛤蟆预言家	ha ma yu yan jia	1
 抓钩	zhua gou	1
@@ -24764,6 +24959,7 @@ use_preset_vocabulary: false
 吱助	zhi zhu	1
 松本清长	song ben qing zhang	1
 摇曳露营	yao ye lu ying	1
+桃太郎传说	tao tai lang chuan shuo	1
 莉莉·安吉尔	li li an ji er	1
 舒克贝塔历险记	shu ke bei ta li xian ji	1
 霍普德拉古恩	huo pu de la gu en	1
@@ -24794,6 +24990,7 @@ use_preset_vocabulary: false
 秋乃小麦	qiu nai xiao mai	1
 只要你说你爱我	zhi yao ni shuo ni ai wo	1
 段余霜	duan yu shuang	1
+小小心脏日记	xiao xiao xin zang ri ji	1
 而是我吗	er shi wo ma	1
 泽村遥人	ze cun yao ren	1
 杉本一	shan ben yi	1
@@ -24808,6 +25005,7 @@ use_preset_vocabulary: false
 腰部翅膀	yao bu chi bang	1
 春场葱	chun chang cong	1
 泪腺战士	lei xian zhan shi	1
+为了到达那个地方	wei le dao da na ge di fang	1
 莉露	li lu	1
 参拜申奈	can bai shen nai	1
 我们的最终之战	wo men de zui zhong zhi zhan	1
@@ -25021,6 +25219,7 @@ use_preset_vocabulary: false
 过期爱人	guo qi ai ren	1
 阳光中的青时雨	yang guang zhong di qing shi yu	1
 可尔	ke er	1
+巴索罗姆·罗伯兹	ba suo luo mu luo bo zi	1
 恒松步	heng song bu	1
 叶子	ye zi	1
 神州非遭遇战单位	shen zhou fei zao yu zhan dan wei	1
@@ -25257,6 +25456,7 @@ use_preset_vocabulary: false
 锤石	chui shi	1
 真岛百由	zhen dao bai you	1
 超毒电波听觉强女女女	chao du dian bo ting jue qiang nv nv nv	1
+周仓	zhou cang	1
 擂台	lei tai	1
 崔佛·菲利普	cui fo fei li pu	1
 艾琅妮娅·艾克咲尔	ai lang ni ya ai ke xiao er	1
@@ -25449,6 +25649,7 @@ use_preset_vocabulary: false
 月羲九	yue xi jiu	1
 来自暗黑的军势	lai zi an hei de jun shi	1
 点妆谣	dian zhuang yao	1
+连结的心	lian jie de xin	1
 初雪	chu xue	1
 美纱希	mei sha xi	1
 樱之泪	ying zhi lei	1
@@ -25540,6 +25741,7 @@ use_preset_vocabulary: false
 妖怪兽道	yao guai shou dao	1
 阿坚	a jian	1
 绯红之王	fei hong zhi wang	1
+甲虫兽	jia chong shou	1
 夹在百合中间的女人有罪吗	jia zai bai he zhong jian de nv ren you zui ma	1
 快门一按	kuai men yi an	1
 髅髅宫加留多	lou lou gong jia liu duo	1
@@ -25967,6 +26169,7 @@ use_preset_vocabulary: false
 芙兰达·塞伊文	fu lan da sai yi wen	1
 劳埃德·加满都	lao ai de jia man dou	1
 虚构语言	xu gou yu yan	1
+吕岱	lv dai	1
 二宫铃	er gong ling	1
 探窗	tan chuang	1
 成海遥香	cheng hai yao xiang	1
@@ -26123,6 +26326,7 @@ use_preset_vocabulary: false
 地平线倡议	di ping xian chang yi	1
 心跳不已的风	xin tiao bu yi de feng	1
 自挂东南枝	zi gua dong nan zhi	1
+光之少年	guang zhi shao nian	1
 佃煮海苔男	dian zhu hai tai nan	1
 闪耀吧亚琉	shan yao ba ya liu	1
 图鉴筛选	tu jian shai xuan	1
@@ -26214,12 +26418,14 @@ use_preset_vocabulary: false
 一之濑未来	yi zhi lai wei lai	1
 雷翼娘	lei yi niang	1
 甚平	shen ping	1
+初恋的约会	chu lian de yue hui	1
 低俗片场	di su pian chang	1
 利香	li xiang	1
 向坂椋	xiang ban liang	1
 破解龙	po jie long	1
 多洛莉丝	duo luo li si	1
 白色情人节	bai se qing ren jie	1
+白血球护士	bai xue qiu hu shi	1
 惑星无修正	huo xing wu xiu zheng	1
 月清疏	yue qing shu	1
 王春燕	wang chun yan	1
@@ -26294,6 +26500,7 @@ use_preset_vocabulary: false
 龟派气功	gui pai qi gong	1
 贺利田	he li tian	1
 吼姆	hou mu	1
+败北女角太多了	bai bei nv jiao tai duo le	1
 稻乃神香奈惠	dao nai shen xiang nai hui	1
 欧尔麦特	ou er mai te	1
 求闻持空子	qiu wen chi kong zi	1
@@ -26319,6 +26526,7 @@ use_preset_vocabulary: false
 厚涂	hou tu	1
 剑之街的异邦人	jian zhi jie de yi bang ren	1
 红楼梦	hong lou meng	1
+东京百鬼夜行	dong jing bai gui ye xing	1
 奇奇怪怪系列	qi qi guai guai xi lie	1
 朱利安·爱因兹华斯	zhu li an ai yin zi hua si	1
 漫画世界	man hua shi jie	1
@@ -26403,6 +26611,7 @@ use_preset_vocabulary: false
 曾佩仪	ceng pei yi	1
 斋贺弥月	zhai he mi yue	1
 特拉普斯特外星文明	te la pu si te wai xing wen ming	1
+洛蕾娜和遗迹之国	luo lei na he yi ji zhi guo	1
 姬丝秀忒	ji si xiu te	1
 转生炎兽的炎阵	zhuan sheng yan shou de yan zhen	1
 铠虫	kai chong	1
@@ -26755,6 +26964,7 @@ use_preset_vocabulary: false
 男巫	nan wu	1
 黄昏酒吧	huang hun jiu ba	1
 剪刀手势	jian dao shou shi	1
+圣骑士莉卡的物语	sheng qi shi li ka de wu yu	1
 花色七芒星	hua se qi mang xing	1
 一杯宇宙	yi bei yu zhou	1
 补给部队	bu gei bu dui	1
@@ -26768,6 +26978,7 @@ use_preset_vocabulary: false
 花火团	hua huo tuan	1
 阿市	a shi	1
 米莲·吉纳斯	mi lian ji na si	1
+霍尔德	huo er de	1
 钟遥	zhong yao	1
 阿布	a bu	1
 怪怪守护神	guai guai shou hu shen	1
@@ -26862,6 +27073,7 @@ use_preset_vocabulary: false
 凉宫春日的性转换	liang gong chun ri de xing zhuan huan	1
 嫣橙色	yan cheng se	1
 水晶翼同调龙	shui jing yi tong tiao long	1
+女主角在此	nv zhu jue zai ci	1
 急难先锋	ji nan xian feng	1
 泽丁·施奈德	ze ding shi nai de	1
 魔法帽的工作室	mo fa mao de gong zuo shi	1
@@ -26938,6 +27150,7 @@ use_preset_vocabulary: false
 金榜望	jin bang wang	1
 紫阳花	zi yang hua	1
 演职员表	yan zhi yuan biao	1
+死神是偏食者	si shen shi pian shi zhe	1
 白胡子星璇	bai hu zi xing xuan	1
 桐本琢也	tong ben zhuo ye	1
 玛莉·梦魔	ma li meng mo	1
@@ -27247,6 +27460,7 @@ use_preset_vocabulary: false
 咀嚼	ju jiao	1
 小型液压破碎机	xiao xing ye ya po sui ji	1
 戴佳伟	dai jia wei	1
+凯奈斯·斯雷格	kai nai si si lei ge	1
 死之沉默天使	si zhi chen mo tian shi	1
 虎人	hu ren	1
 忘记时间	wang ji shi jian	1
@@ -27312,6 +27526,7 @@ use_preset_vocabulary: false
 明川灵闻录	ming chuan ling wen lu	1
 美洲虎	mei zhou hu	1
 封印之黄金柜	feng yin zhi huang jin gui	1
+祇园寺雪音	qi yuan si xue yin	1
 千与千寻	qian yu qian xun	1
 我喜欢你	wo xi huan ni	1
 女武神的餐桌	nv wu shen de can zhuo	1
@@ -27351,6 +27566,7 @@ use_preset_vocabulary: false
 传说之下音乐	chuan shuo zhi xia yin yue	1
 罗贝莉娅	luo bei li ya	1
 魔女术的合作	mo nv shu de he zuo	1
+陈思	chen si	1
 来自意大利的少年	lai zi yi da li de shao nian	1
 宫本心咲	gong ben xin xiao	1
 通学路	tong xue lu	1
@@ -27493,6 +27709,7 @@ use_preset_vocabulary: false
 吉普	ji pu	1
 敖丙	ao bing	1
 传承保菌者	chuan cheng bao jun zhe	1
+为美丽少女所跳的帕凡舞	wei mei li shao nv suo tiao de pa fan wu	1
 一方世界	yi fang shi jie	1
 吾思	wu si	1
 能干猫今天也忧郁	neng gan mao jin tian ye you yu	1
@@ -27521,6 +27738,7 @@ use_preset_vocabulary: false
 比迪巴	bi di ba	1
 杀戮重生犬屋敷	sha lu chong sheng quan wu fu	1
 查理苏	cha li su	1
+天峰似雪	tian feng shi xue	1
 菱饼	ling bing	1
 活化石	huo hua shi	1
 人偶馆长	ren ou guan zhang	1
@@ -27541,6 +27759,7 @@ use_preset_vocabulary: false
 小山友香	xiao shan you xiang	1
 矢田姬	shi tian ji	1
 浦安铁筋家族	pu an tie jin jia zu	1
+迷冥侦探夜羽	mi ming zhen tan ye yu	1
 卡玛库拉	ka ma ku la	1
 蒙蔽	meng bi	1
 查尔斯·格洛弗	cha er si ge luo fu	1
@@ -27674,6 +27893,7 @@ use_preset_vocabulary: false
 力大砖飞	li da zhuan fei	1
 舞伎家的厨娘	wu ji jia de chu niang	1
 少女&坦克	shao nv tan ke	1
+匿隐云阴	ni yin yun yin	1
 山鸟毛	shan niao mao	1
 香醇的提拉米苏	xiang chun de ti la mi su	1
 国防体操	guo fang ti cao	1
@@ -27721,10 +27941,12 @@ use_preset_vocabulary: false
 加兰道夫	jia lan dao fu	1
 神原大地	shen yuan da di	1
 受北美法律保护	shou bei mei fa lv bao hu	1
+金离瞳	jin li tong	1
 从前有座灵剑山	cong qian you zuo ling jian shan	1
 丹波龟山城	dan bo gui shan cheng	1
 宇和川惠美	yu he chuan hui mei	1
 若王子一恋	ruo wang zi yi lian	1
+尼可莱斯·奥莲·斯捷奇金	ni ke lai si ao lian si jie qi jin	1
 雪中向日葵	xue zhong xiang ri kui	1
 四之宫京夜	si zhi gong jing ye	1
 请你回答	qing ni hui da	1
@@ -28025,6 +28247,7 @@ use_preset_vocabulary: false
 堇花兰	jin hua lan	1
 相园美央	xiang yuan mei yang	1
 苍蓝钢铁战舰	cang lan gang tie zhan jian	1
+辰守伶郎	chen shou ling lang	1
 三浦梓	san pu zi	1
 玛雅	ma ya	1
 游戏关服	you xi guan fu	1
@@ -28098,6 +28321,7 @@ use_preset_vocabulary: false
 隐宅	yin zhai	1
 崩坏三	beng huai san	1
 刘十四	liu shi si	1
+梅莉亚	mei li ya	1
 白万多	bai wan duo	1
 咪噜	mi lu	1
 娜迪娅·泽林科娃	na di ya ze lin ke wa	1
@@ -28110,8 +28334,9 @@ use_preset_vocabulary: false
 池田知聪	chi tian zhi cong	1
 田边老师	tian bian lao shi	1
 摩尔庄园海妖宝藏	mo er zhuang yuan hai yao bao zang	1
-希法格兰特	xi fa ge lan te	1
 叶永	ye yong	1
+大炮核心	da pao he xin	1
+希法格兰特	xi fa ge lan te	1
 狩龙人拉格纳	shou long ren la ge na	1
 樱乃空	ying nai kong	1
 人类世界	ren lei shi jie	1
@@ -28184,6 +28409,7 @@ use_preset_vocabulary: false
 松本彩乃	song ben cai nai	1
 鬣狗人	lie gou ren	1
 椰树牌椰汁娘	ye shu pai ye zhi niang	1
+春夜宴	chun ye yan	1
 救护部队	jiu hu bu dui	1
 迫水真吾	po shui zhen wu	1
 亩留爱露	mu liu ai lu	1
@@ -28495,6 +28721,7 @@ use_preset_vocabulary: false
 不要将我的名字写入	bu yao jiang wo de ming zi xie ru	1
 和你一起看过的花	he ni yi qi kan guo de hua	1
 李敏衡	li min heng	1
+铁门	tie men	1
 东云伊都	dong yun yi dou	1
 稚愈系	zhi yu xi	1
 袁成伟	yuan cheng wei	1
@@ -28527,6 +28754,7 @@ use_preset_vocabulary: false
 请把我当成妹妹	qing ba wo dang cheng mei mei	1
 库瓦特罗·巴吉纳	ku wa te luo ba ji na	1
 置鲇龙太郎	zhi nian long tai lang	1
+阿柳	a liu	1
 哨兵	shao bing	1
 天降的宝牌	tian jiang de bao pai	1
 逆境的俄里翁	ni jing de e li weng	1
@@ -28789,6 +29017,7 @@ use_preset_vocabulary: false
 井口裕香	jing kou yu xiang	1
 想看见你的笑颜	xiang kan jian ni de xiao yan	1
 四天王有五个	si tian wang you wu ge	1
+双生	shuang sheng	1
 千里教	qian li jiao	1
 吉大娘	ji da niang	1
 星光立交桥	xing guang li jiao qiao	1
@@ -28942,6 +29171,7 @@ use_preset_vocabulary: false
 没有反省	mei you fan sheng	1
 明天如果能握住你的手	ming tian ru guo neng wo zhu ni de shou	1
 空战魔导士培训生的教官	kong zhan mo dao shi pei xun sheng de jiao guan	1
+无名之星	wu ming zhi xing	1
 机动战舰抚子号	ji dong zhan jian fu zi hao	1
 特别的气氛	te bie de qi fen	1
 画江湖之换世门生	hua jiang hu zhi huan shi men sheng	1
@@ -29189,6 +29419,7 @@ use_preset_vocabulary: false
 战姬强化	zhan ji qiang hua	1
 魂之兽	hun zhi shou	1
 非影Q的超记事簿	fei ying _Q de chao ji shi bu	1
+林克的冒险	lin ke de mao xian	1
 安丽埃塔	an li ai ta	1
 真仲惠吾	zhen zhong hui wu	1
 重生萝莉岛	chong sheng luo li dao	1
@@ -29684,6 +29915,7 @@ use_preset_vocabulary: false
 北意大利	bei yi da li	1
 敷岛莓	fu dao mei	1
 清水茜	qing shui qian	1
+恋爱指南	lian ai zhi nan	1
 土豆雷	tu dou lei	1
 陈波	chen bo	1
 大森悠子	da sen you zi	1
@@ -29824,6 +30056,7 @@ use_preset_vocabulary: false
 雪姬	xue ji	1
 班长与女王	ban zhang yu nv wang	1
 白羽幸	bai yu xing	1
+奥利奥娘	ao li ao niang	1
 籐野兰	teng ye lan	1
 伽蓝堂万里爱	ga lan tang wan li ai	1
 阿慕妮尔	a mu ni er	1
@@ -29947,6 +30180,7 @@ use_preset_vocabulary: false
 雏希	chu xi	1
 受付娘	shou fu niang	1
 波士可多拉娘	bo shi ke duo la niang	1
+大家的夏日祭	da jia de xia ri ji	1
 青丘	qing qiu	1
 穴藏恶魔	xue cang e mo	1
 最终区域	zui zhong qu yu	1
@@ -30008,6 +30242,7 @@ use_preset_vocabulary: false
 降温	jiang wen	1
 奥山敬人	ao shan jing ren	1
 武装少女Machiavellism	wu zhuang shao nv _Machiavellism	1
+迷路的我	mi lu de wo	1
 化野	hua ye	1
 毕·竟·是·动·物·嘛	bi jing shi dong wu ma	1
 拽柴犬	zhuai chai quan	1
@@ -30190,6 +30425,7 @@ use_preset_vocabulary: false
 卡丽娜·米尔萨	ka li na mi er sa	1
 佐佐木木通	zuo zuo mu mu tong	1
 哔哩哔哩2011拜年祭	bi li bi li bai nian ji	1
+位于顶点的明星	wei yu ding dian de ming xing	1
 救世之美神	jiu shi zhi mei shen	1
 佐藤节次	zuo teng jie ci	1
 百无禁忌	bai wu jin ji	1
@@ -30317,6 +30553,7 @@ use_preset_vocabulary: false
 爱病世界	ai bing shi jie	1
 身为女主角	shen wei nv zhu jue	1
 家有大猫	jia you da mao	1
+甘甜	gan tian	1
 志村妙	zhi cun miao	1
 原味鸡的号哭	yuan wei ji de hao ku	1
 梨本P把我杀死了	li ben _P ba wo sha si le	1
@@ -30423,6 +30660,7 @@ use_preset_vocabulary: false
 露咪	lu mi	1
 卡多克·泽姆露普斯	ka duo ke ze mu lu pu si	1
 吸烟	xi yan	1
+月刊漫画Javelin	yue kan man hua _Javelin	1
 加特姆兹的非常召集	jia te mu zi de fei chang zhao ji	1
 尹博士	yin bo shi	1
 虔徒	qian tu	1
@@ -30466,6 +30704,7 @@ use_preset_vocabulary: false
 唱见综合测试	chang jian zong he ce shi	1
 縢秀星	teng xiu xing	1
 阿牛	a niu	1
+零摄氏度的好奇心	ling she shi du de hao qi xin	1
 西尾维新	xi wei wei xin	1
 其实是只有半价而已	qi shi shi zhi you ban jia er yi	1
 绯红之境	fei hong zhi jing	1
@@ -30988,6 +31227,7 @@ use_preset_vocabulary: false
 侍剑士小十郎	shi jian shi xiao shi lang	1
 动物农场	dong wu nong chang	1
 盐原萌	yan yuan meng	1
+唐姬	tang ji	1
 铃木惠子	ling mu hui zi	1
 魔法少女小焰	mo fa shao nv xiao yan	1
 四角游戏	si jiao you xi	1
@@ -31107,6 +31347,7 @@ use_preset_vocabulary: false
 镜酱	jing jiang	1
 藏王	cang wang	1
 纵情舞蹈	zong qing wu dao	1
+朔小踹	shuo xiao chuai	1
 蓝郁	lan yu	1
 讲谈社轻小说文库	jiang tan she qing xiao shuo wen ku	1
 新田大地	xin tian da di	1
@@ -31115,6 +31356,7 @@ use_preset_vocabulary: false
 住在隔壁的美少女留学生就开始经常出入我家这件事	zhu zai ge bi de mei shao nv liu xue sheng jiu kai shi jing chang chu ru wo jia zhe jian shi	1
 萨塔妮亚的父母	sa ta ni ya de fu mu	1
 斯坦	si tan	1
+霍峻	huo jun	1
 加加见绫	jia jia jian ling	1
 伊芙利特	yi fu li te	1
 超越界限	chao yue jie xian	1
@@ -31151,6 +31393,7 @@ use_preset_vocabulary: false
 谢尔盖·卡里米尼克	xie er gai ka li mi ni ke	1
 响指	xiang zhi	1
 极限竞速系列	ji xian jing su xi lie	1
+登上山顶吧	deng shang shan ding ba	1
 九条樱子	jiu tiao ying zi	1
 司暗之影	si an zhi ying	1
 海绵宝宝	hai mian bao bao	1
@@ -31309,6 +31552,7 @@ use_preset_vocabulary: false
 世界计划交响乐	shi jie ji hua jiao xiang le	1
 救援	jiu yuan	1
 软心巧糖饼干	ruan xin qiao tang bing gan	1
+单引号	dan yin hao	1
 潘丽宝·诺可·卡黛娜	pan li bao nuo ke ka dai na	1
 夫人我来送水了	fu ren wo lai song shui le	1
 格尼薇儿	ge ni wei er	1
@@ -31383,6 +31627,7 @@ use_preset_vocabulary: false
 深渊龙	shen yuan long	1
 匕首	bi shou	1
 大型沥青路面切缝机	da xing li qing lu mian qie feng ji	1
+梅查·莫奇马兹	mei cha mo qi ma zi	1
 圣光秘殿	sheng guang mi dian	1
 露娜	lu na	1
 星月美希	xing yue mei xi	1
@@ -31644,6 +31889,7 @@ use_preset_vocabulary: false
 艾玛·伍兹	ai ma wu zi	1
 群星赞歌	qun xing zan ge	1
 假面骑士空我VS刚力怪人Go·Jiino·Da	jia mian qi shi kong wo _VS gang li guai ren _GoJiinoDa	1
+开心超人联盟之奇幻谜瑞岛	kai xin chao ren lian meng zhi qi huan mi rui dao	1
 超能连结	chao neng lian jie	1
 梦的浮桥	meng de fu qiao	1
 沉默之空	chen mo zhi kong	1
@@ -31774,6 +32020,7 @@ use_preset_vocabulary: false
 猜拳巨星	cai quan ju xing	1
 雷夫·莱诺尔·佛劳洛斯	lei fu lai nuo er fo lao luo si	1
 恋与净土的八重樱	lian yu jing tu de ba zhong ying	1
+奥利奥与葡萄酒	ao li ao yu pu tao jiu	1
 阿福	a fu	1
 影片未河	ying pian wei he	1
 朝狗罗由真	chao gou luo you zhen	1
@@ -31838,6 +32085,7 @@ use_preset_vocabulary: false
 牛尾博隆	niu wei bo long	1
 可露希尔的秘密档案	ke lu xi er de mi mi dang an	1
 晓月镇魂歌	xiao yue zhen hun ge	1
+深蓝互动	shen lan hu dong	1
 老爹塔可店	lao die ta ke dian	1
 东条斩美	dong tiao zhan mei	1
 海希安峡谷	hai xi an xia gu	1
@@ -31974,6 +32222,7 @@ use_preset_vocabulary: false
 但是但是因为啊	dan shi dan shi yin wei a	1
 究极魅力	jiu ji mei li	1
 历代怪人巨大化方式	li dai guai ren ju da hua fang shi	1
+播音姬	bo yin ji	1
 洛天依	luo tian yi	1
 原谅	yuan liang	1
 直到能再次歌唱之前都要呼喊着你	zhi dao neng zai ci ge chang zhi qian dou yao hu han zhe ni	1
@@ -32039,6 +32288,7 @@ use_preset_vocabulary: false
 克洛伊·勒梅尔	ke luo yi le mei er	1
 异界型洛天依-佣兵	yi jie xing luo tian yi yong bing	1
 飞行员	fei xing yuan	1
+阿笔	a bi	1
 旺卡	wang ka	1
 桑塔拿	sang ta na	1
 转手指	zhuan shou zhi	1
@@ -32120,6 +32370,7 @@ use_preset_vocabulary: false
 庆典庆祝类魂器	qing dian qing zhu lei hun qi	1
 搭讪	da shan	1
 无国	wu guo	1
+朝暮与他	chao mu yu ta	1
 火鸟真斗	huo niao zhen dou	1
 黑塔罗·帕尔巴顿	hei ta luo pa er ba dun	1
 青娜	qing na	1
@@ -32208,6 +32459,7 @@ use_preset_vocabulary: false
 陈章	chen zhang	1
 雷斯	lei si	1
 前进吧少女	qian jin ba shao nv	1
+胡图图	hu tu tu	1
 沙耶宫馨	sha ye gong xin	1
 格子君	ge zi jun	1
 穆宁雪	mu ning xue	1
@@ -32367,6 +32619,7 @@ use_preset_vocabulary: false
 灵异E接触	ling yi _E jie chu	1
 十香	shi xiang	1
 雅达利·阿卡迪亚	ya da li a ka di ya	1
+骆文俊	luo wen jun	1
 雨桐	yu tong	1
 叶波柚香	ye bo you xiang	1
 初心宇宙	chu xin yu zhou	1
@@ -32544,6 +32797,7 @@ use_preset_vocabulary: false
 签到奖励	qian dao jiang li	1
 封魔录4面中	feng mo lu mian zhong	1
 月世界	yue shi jie	1
+蜕变	tui bian	1
 大激突	da ji tu	1
 食梦黑白貘	shi meng hei bai mo	1
 南韩	nan han	1
@@ -32664,7 +32918,6 @@ use_preset_vocabulary: false
 骨骼操控	gu ge cao kong	1
 登场	deng chang	1
 机夏树	ji xia shu	1
-中国军迷常用语编纂	zhong guo jun mi chang yong yu bian zuan	1
 黑暗灵魂	hei an ling hun	1
 笼中鸟	long zhong niao	1
 水獭少女	shui ta shao nv	1
@@ -32743,6 +32996,7 @@ use_preset_vocabulary: false
 伊达键	yi da jian	1
 幪面超人剑	meng mian chao ren jian	1
 初始之歌	chu shi zhi ge	1
+吉林美术出版社	ji lin mei shu chu ban she	1
 致命学园爱丽丝	zhi ming xue yuan ai li si	1
 假面的约定	jia mian di yue ding	1
 一瞬千击	yi shun qian ji	1
@@ -32900,6 +33154,7 @@ use_preset_vocabulary: false
 东方神娃	dong fang shen wa	1
 大妈海贼团	da ma hai zei tuan	1
 假面骑士系列	jia mian qi shi xi lie	1
+水之矿山	shui zhi kuang shan	1
 失忆煽动WIXOSS	shi yi shan dong _WIXOSS	1
 解除异常状态	jie chu yi chang zhuang tai	1
 阿尔兰蒂斯	a er lan di si	1
@@ -32943,6 +33198,7 @@ use_preset_vocabulary: false
 敏泰	min tai	1
 桑福德	sang fu de	1
 友谊	you yi	1
+卡希丽	ka xi li	1
 汉克娘	han ke niang	1
 姬神澪	ji shen ling	1
 楯山彩花	dun shan cai hua	1
@@ -32999,6 +33255,7 @@ use_preset_vocabulary: false
 我很幸福	wo hen xing fu	1
 小夜凛	xiao ye lin	1
 无限树图	wu xian shu tu	1
+沈梦馨	shen meng xin	1
 艾莉娅尔	ai li ya er	1
 掳我走	lu wo zou	1
 结城明日奈	jie cheng ming ri nai	1
@@ -33194,6 +33451,7 @@ use_preset_vocabulary: false
 浦饭幽助	pu fan you zhu	1
 芙拉米	fu la mi	1
 完全放弃宣言	wan quan fang qi xuan yan	1
+赫连景	he lian jing	1
 制压型艾妮多	zhi ya xing ai ni duo	1
 霍格	huo ge	1
 恶之系列	e zhi xi lie	1
@@ -33412,9 +33670,9 @@ use_preset_vocabulary: false
 樱庭馆	ying ting guan	1
 艾俄洛斯	ai e luo si	1
 时之目	shi zhi mu	1
-鞑契	da qi	1
 唐月	tang yue	1
 南车篇	nan che pian	1
+鞑契	da qi	1
 昭和	zhao he	1
 森田了介	sen tian le jie	1
 食友教室	shi you jiao shi	1
@@ -33468,6 +33726,7 @@ use_preset_vocabulary: false
 虎炮	hu pao	1
 元气少女缘结神◎	yuan qi shao nv yuan jie shen	1
 卡拉普特	ka la pu te	1
+埃里卡的哀愁	ai li ka de ai chou	1
 小奇兵	xiao qi bing	1
 菲丽·艾哈特	fei li ai ha te	1
 里欧涅	li ou nie	1
@@ -33609,6 +33868,7 @@ use_preset_vocabulary: false
 音乐剧组	yin yue ju zu	1
 松金贡	song jin gong	1
 全TM致敬	quan _TM zhi jing	1
+浅川铃夏	qian chuan ling xia	1
 东堂琥珀	dong tang hu po	1
 月之畔	yue zhi pan	1
 日常	ri chang	1
@@ -33633,9 +33893,11 @@ use_preset_vocabulary: false
 凉宫雨	liang gong yu	1
 有一种	you yi zhong	1
 元寇合战记	yuan kou he zhan ji	1
+吴苋	wu xian	1
 海崎新太	hai qi xin tai	1
 光学迷彩铠甲	guang xue mi cai kai jia	1
 盲目苹果	mang mu ping guo	1
+幽灵事务所	you ling shi wu suo	1
 野户真昼	ye hu zhen zhou	1
 利兹与青鸟	li zi yu qing niao	1
 由底幻听	you di huan ting	1
@@ -33688,6 +33950,7 @@ use_preset_vocabulary: false
 黛拓武	dai tuo wu	1
 天使惠	tian shi hui	1
 疫病	yi bing	1
+玛丽·水野	ma li shui ye	1
 阿菊	a ju	1
 猫箱性别	mao xiang xing bie	1
 周免曲目	zhou mian qu mu	1
@@ -34051,6 +34314,7 @@ use_preset_vocabulary: false
 蜂巢	feng chao	1
 至爱·Ecstasy	zhi ai _Ecstasy	1
 毛二力	mao er li	1
+合雅之宴	he ya zhi yan	1
 无头骑士剑	wu tou qi shi jian	1
 榎本结子	jia ben jie zi	1
 遥远的音乐	yao yuan de yin yue	1
@@ -34218,6 +34482,7 @@ use_preset_vocabulary: false
 广重号	guang zhong hao	1
 风之颜色	feng zhi yan se	1
 叠返	die fan	1
+嵌合体	qian he ti	1
 桥本哲	qiao ben zhe	1
 雨燕	yu yan	1
 米娅·里克特	mi ya li ke te	1
@@ -34279,6 +34544,7 @@ use_preset_vocabulary: false
 平田洋介	ping tian yang jie	1
 风花香奈芽	feng hua xiang nai ya	1
 梅拉格	mei la ge	1
+闪耀☆战斗之星	shan yao zhan dou zhi xing	1
 外星也难民	wai xing ye nan min	1
 武装神姬	wu zhuang shen ji	1
 古达	gu da	1
@@ -34347,6 +34613,7 @@ use_preset_vocabulary: false
 机甲兽神之爆裂飞车	ji jia shou shen zhi bao lie fei che	1
 的时间到了	de shi jian dao le	1
 卫宫矩贤	wei gong ju xian	1
+双血的墓碑铭	shuang xue de mu bei ming	1
 所谓等待	suo wei deng dai	1
 做到了Evo	zuo dao le _Evo	1
 古之叶	gu zhi ye	1
@@ -34617,12 +34884,14 @@ use_preset_vocabulary: false
 藤井霞	teng jing xia	1
 喜多川祐介	xi duo chuan you jie	1
 塞西尔	sai xi er	1
+时之翼	shi zhi yi	1
 涂鸦者	tu ya zhe	1
 群青的号角	qun qing de hao jiao	1
 你们乡下人话真多	ni men xiang xia ren hua zhen duo	1
 敌托邦	di tuo bang	1
 高学成	gao xue cheng	1
 暂停	zan ting	1
+幻日夜羽	huan ri ye yu	1
 蛇柱	she zhu	1
 使徒行传	shi tu hang chuan	1
 星屑	xing xie	1
@@ -34731,6 +35000,7 @@ use_preset_vocabulary: false
 封魔录1面中	feng mo lu mian zhong	1
 罗马僵尸	luo ma jiang shi	1
 雾之湖	wu zhi hu	1
+文潇	wen xiao	1
 淘气仙星·霍莉安琪儿	tao qi xian xing huo li an qi er	1
 罗密欧与朱丽叶	luo mi ou yu zhu li ye	1
 噬身之蛇	shi shen zhi she	1
@@ -34833,6 +35103,7 @@ use_preset_vocabulary: false
 电视	dian shi	1
 马力欧卡丁车系列	ma li ou ka ding che xi lie	1
 生物体内世界	sheng wu ti nei shi jie	1
+秘密基地区域	mi mi ji di qu yu	1
 露西尔·厄尔尼拉	lu xi er e er ni la	1
 交错账号	jiao cuo zhang hao	1
 囮物语	e wu yu	1
@@ -34853,6 +35124,7 @@ use_preset_vocabulary: false
 乌瑟尔·光明使者	wu se er guang ming shi zhe	1
 大欺诈师	da qi zha shi	1
 日本笑颜百景	ri ben xiao yan bai jing	1
+蝉女	chan nv	1
 灭绝国王鲑	mie jue guo wang gui	1
 雨男	yu nan	1
 柏坂日和	bai ban ri he	1
@@ -35236,6 +35508,7 @@ use_preset_vocabulary: false
 世界末日舞厅	shi jie mo ri wu ting	1
 杀马特	sha ma te	1
 角谷杏	jiao gu xing	1
+京都粗点心店战争	jing dou cu dian xin dian zhan zheng	1
 家里蹲吸血姬的郁闷	jia li dun xi xue ji de yu men	1
 英雄联盟2017赛季全球总决赛	ying xiong lian meng sai ji quan qiu zong jue sai	1
 喝彩	he cai	1
@@ -35698,6 +35971,7 @@ use_preset_vocabulary: false
 詹姆斯·雷诺	zhan mu si lei nuo	1
 模拟系列	mo ni xi lie	1
 海渡翼	hai du yi	1
+小野坂纱织	xiao ye ban sha zhi	1
 女未空	nv wei kong	1
 和茶	he cha	1
 规则变体与地方规则	gui ze bian ti yu di fang gui ze	1
@@ -35862,6 +36136,7 @@ use_preset_vocabulary: false
 附身	fu shen	1
 蝉式	chan shi	1
 迪尔姆德·奥迪那	di er mu de ao di na	1
+槻木汐	gui mu xi	1
 红孩儿	hong hai er	1
 山本悠有希	shan ben you you xi	1
 阿轲	a ke	1
@@ -35965,6 +36240,7 @@ use_preset_vocabulary: false
 席格玛调谐器	xi ge ma tiao xie qi	1
 杰克·瑞安系列	jie ke rui an xi lie	1
 失去记忆	shi qu ji yi	1
+旋转吧双马尾	xuan zhuan ba shuang ma wei	1
 明日	ming ri	1
 冲破藩篱	chong po fan li	1
 深夜中的微笑	shen ye zhong di wei xiao	1
@@ -36020,6 +36296,7 @@ use_preset_vocabulary: false
 这个好诶	zhe ge hao ei	1
 月岛麻里奈	yue dao ma li nai	1
 辻本夏实	shi ben xia shi	1
+戴里克·伯格	dai li ke bo ge	1
 恶魔的吼叫	e mo de hou jiao	1
 变成VTuber的麦克风后	bian cheng _VTuber de mai ke feng hou	1
 鹿乃仔	lu nai zai	1
@@ -36082,7 +36359,9 @@ use_preset_vocabulary: false
 枫·乔安·努韦尔	feng qiao an nu wei er	1
 文盲	wen mang	1
 盖乌斯·沃泽尔	gai wu si wo ze er	1
+不存在的真相	bu cun zai de zhen xiang	1
 鸡大婶	ji da shen	1
+时楷	shi kai	1
 莉莉亚·休尔兹	li li ya xiu er zi	1
 数满贯	shu man guan	1
 飞鸟川千世	fei niao chuan qian shi	1
@@ -36394,6 +36673,7 @@ use_preset_vocabulary: false
 甜甜小公主	tian tian xiao gong zhu	1
 冈田日花里	gang tian ri hua li	1
 魔道祖师	mo dao zu shi	1
+牛辅董翓	niu fu dong xie	1
 愚弄者x愚弄者	yu nong zhe _x yu nong zhe	1
 闪亮灯海之夜	shan liang deng hai zhi ye	1
 俄罗斯套娃	e luo si tao wa	1
@@ -36498,7 +36778,6 @@ use_preset_vocabulary: false
 真红莲新星龙	zhen hong lian xin xing long	1
 黑川千秋	hei chuan qian qiu	1
 香草·亚修	xiang cao ya xiu	1
-卢斯·卡德	lu si ka de	1
 无绳☆害羞☆PHONE	wu sheng hai xiu _PHONE	1
 中山瑶子	zhong shan yao zi	1
 埃菲尔铁塔娘	ai fei er tie ta niang	1
@@ -36770,6 +37049,7 @@ use_preset_vocabulary: false
 纵使眼泪干涸	zong shi yan lei gan he	1
 全速前进	quan su qian jin	1
 谁都不是	shui dou bu shi	1
+悦灵娘	yue ling niang	1
 蝰影	kui ying	1
 浪客剑心	lang ke jian xin	1
 计数君	ji shu jun	1
@@ -36869,6 +37149,8 @@ use_preset_vocabulary: false
 幻海梦蝶	huan hai meng die	1
 安井邦彦	an jing bang yan	1
 田村宽	tian cun kuan	1
+生物群系	sheng wu qun xi	1
+三引号	san yin hao	1
 电锤	dian chui	1
 互动记录	hu dong ji lu	1
 洁拉丝·梅塔利欧姆	jie la si mei ta li ou mu	1
@@ -36936,6 +37218,7 @@ use_preset_vocabulary: false
 珪孔雀	gui kong que	1
 七彩午后	qi cai wu hou	1
 看穿能力	kan chuan neng li	1
+不破雷藏	bu po lei cang	1
 大关英里	da guan ying li	1
 夏树莉绪	xia shu li xu	1
 彩虹喵	cai hong miao	1
@@ -37167,6 +37450,7 @@ use_preset_vocabulary: false
 特种兵	te zhong bing	1
 古龙	gu long	1
 枕边语	zhen bian yu	1
+最低	zui di	1
 樱与抱月	ying yu bao yue	1
 进化之实踏上胜利的人生	jin hua zhi shi ta shang sheng li de ren sheng	1
 愤怒绫	fen nu ling	1
@@ -37315,6 +37599,7 @@ use_preset_vocabulary: false
 不要喂食猴子	bu yao wei shi hou zi	1
 琉碧雅	liu bi ya	1
 海仔儿	hai zai er	1
+伴我身边	ban wo shen bian	1
 鲁铎象征	lu duo xiang zheng	1
 菅原有栖	jian yuan you qi	1
 喜欢	xi huan	1
@@ -37330,6 +37615,7 @@ use_preset_vocabulary: false
 山中佐井	shan zhong zuo jing	1
 方瞳	fang tong	1
 筒隐月子	tong yin yue zi	1
+森田莉奈	sen tian li nai	1
 天诛八尺	tian zhu ba chi	1
 冒险岛	mao xian dao	1
 辐射小马国	fu she xiao ma guo	1
@@ -37500,6 +37786,7 @@ use_preset_vocabulary: false
 暇忆	xia yi	1
 界冢雪	jie zhong xue	1
 幻化作风	huan hua zuo feng	1
+我的可爱对黑岩目高不管用	wo de ke ai dui hei yan mu gao bu guan yong	1
 星汐	xing xi	1
 朝雾咲良	chao wu xiao liang	1
 追加公演	zhui jia gong yan	1
@@ -37534,6 +37821,7 @@ use_preset_vocabulary: false
 艾米尔编年史	ai mi er bian nian shi	1
 欧忒耳佩	ou te er pei	1
 星空下的幻想	xing kong xia de huan xiang	1
+孤独一人的UFO	gu du yi ren de _UFO	1
 与人气声优甜甜蜜蜜步入礼堂的恋爱喜剧	yu ren qi sheng you tian tian mi mi bu ru li tang de lian ai xi ju	1
 几夜大黑堂	ji ye da hei tang	1
 半机械人	ban ji xie ren	1
@@ -37626,6 +37914,7 @@ use_preset_vocabulary: false
 暧昧沦陷	ai mei lun xian	1
 贷本漫画	dai ben man hua	1
 成人游戏	cheng ren you xi	1
+真帆	zhen fan	1
 超尾崎	chao wei qi	1
 相叶夕美	xiang ye xi mei	1
 大谷幸司	da gu xing si	1
@@ -37719,6 +38008,7 @@ use_preset_vocabulary: false
 隔离病房	ge li bing fang	1
 妙蛙种子娘	miao wa zhong zi niang	1
 月光	yue guang	1
+极限之心	ji xian zhi xin	1
 银城装甲集群	yin cheng zhuang jia ji qun	1
 不知何故	bu zhi he gu	1
 如月优	ru yue you	1
@@ -37909,6 +38199,7 @@ use_preset_vocabulary: false
 待在这里	dai zai zhe li	1
 西北风	xi bei feng	1
 官逼同死	guan bi tong si	1
+星源	xing yuan	1
 当我再次落笔	dang wo zai ci luo bi	1
 念写能力	nian xie neng li	1
 刃枪手	ren qiang shou	1
@@ -38294,6 +38585,7 @@ use_preset_vocabulary: false
 纯白之心	chun bai zhi xin	1
 卫宫邸	wei gong di	1
 喜灰	xi hui	1
+七夕的火之骑士	qi xi de huo zhi qi shi	1
 回忆是永远	hui yi shi yong yuan	1
 敌重雷装巡洋舰	di zhong lei zhuang xun yang jian	1
 师父鼬娘	shi fu you niang	1
@@ -38491,6 +38783,7 @@ use_preset_vocabulary: false
 光月未梦	guang yue wei meng	1
 斯坦莉	si tan li	1
 叫龙公主	jiao long gong zhu	1
+正如所想	zheng ru suo xiang	1
 想作曲的话就趁现在	xiang zuo qu de hua jiu chen xian zai	1
 萝莎莉娅·阿琳	luo sha li ya a lin	1
 朵歌拉	duo ge la	1
@@ -38626,6 +38919,7 @@ use_preset_vocabulary: false
 中岛优亚	zhong dao you ya	1
 苏了个妹	su le ge mei	1
 臼杵城	jiu chu cheng	1
+虚像构筑之塔·序章	xu xiang gou zhu zhi ta xu zhang	1
 鱼住响姬	yu zhu xiang ji	1
 雪见	xue jian	1
 梦魇恶魔群	meng yan e mo qun	1
@@ -38658,6 +38952,7 @@ use_preset_vocabulary: false
 艾莉西亚·冯·奥塞雷丝	ai li xi ya feng ao sai lei si	1
 冰山清辉	bing shan qing hui	1
 蚂蚁	ma yi	1
+风伯	feng bo	1
 恶梦日记	e meng ri ji	1
 光环系列	guang huan xi lie	1
 古辛苑	gu xin yuan	1
@@ -39013,6 +39308,7 @@ use_preset_vocabulary: false
 润物定格动画工作室	run wu ding ge dong hua gong zuo shi	1
 饶舌真是令人厌恶	rao she zhen shi ling ren yan e	1
 骑士的解脱	qi shi de jie tuo	1
+小小的歌声	xiao xiao de ge sheng	1
 虚空终结者	xu kong zhong jie zhe	1
 天王寺渚	tian wang si zhu	1
 拉碧丝拉斯莉	la bi si la si li	1
@@ -39098,6 +39394,7 @@ use_preset_vocabulary: false
 呆鸡	dai ji	1
 衍天宗	yan tian zong	1
 干劲满满	gan jin man man	1
+呆鸟	dai niao	1
 释迦堂里奈	shi jia tang li nai	1
 曹婴	cao ying	1
 神威鬼鸣	shen wei gui ming	1
@@ -39224,6 +39521,7 @@ use_preset_vocabulary: false
 火线风暴	huo xian feng bao	1
 吉咲美优	ji xiao mei you	1
 阿尔伯特·科尔曼	a er bo te ke er man	1
+晴歌	qing ge	1
 中部海域	zhong bu hai yu	1
 白井谕吉	bai jing yu ji	1
 异色眼钢爪狼	yi se yan gang zhao lang	1
@@ -39234,6 +39532,7 @@ use_preset_vocabulary: false
 极品飞车系列	ji pin fei che xi lie	1
 屋代瑠花	wu dai liu hua	1
 最后夏夜	zui hou xia ye	1
+再战赞迪卡	zai zhan zan di ka	1
 唯花	wei hua	1
 小比类卷香莲	xiao bi lei juan xiang lian	1
 大桥勇人	da qiao yong ren	1
@@ -39339,6 +39638,7 @@ use_preset_vocabulary: false
 濑良垣生	lai liang yuan sheng	1
 安妮奖	an ni jiang	1
 小姨子	xiao yi zi	1
+吞田菊三	tun tian ju san	1
 零诺	ling nuo	1
 天邪鬼	tian xie gui	1
 富士田多多良	fu shi tian duo duo liang	1
@@ -39685,6 +39985,7 @@ use_preset_vocabulary: false
 狂热者迪欧尔贝	kuang re zhe di ou er bei	1
 玛瑙水母娘	ma nao shui mu niang	1
 陈薄衣	chen bao yi	1
+救祓少女连祷	jiu fu shao nv lian dao	1
 金鱼草	jin yu cao	1
 今天真是Ra-Ri-Ru-Rain	jin tian zhen shi _RaRiRuRain	1
 通草野饵人	tong cao ye er ren	1
@@ -39760,6 +40061,7 @@ use_preset_vocabulary: false
 从禾念离家出走两小时的练习生	cong he nian li jia chu zou liang xiao shi de lian xi sheng	1
 功夫小子	gong fu xiao zi	1
 无聊	wu liao	1
+蜜汁工坊	mi zhi gong fang	1
 这是我最后的波纹	zhe shi wo zui hou de bo wen	1
 真帝王领域	zhen di wang ling yu	1
 秋津洲	qiu jin zhou	1
@@ -39985,6 +40287,7 @@ use_preset_vocabulary: false
 黑蔷薇	hei qiang wei	1
 路面加热器	lu mian jia re qi	1
 草翦葱	cao jian cong	1
+聚猿创团队脑洞中心	ju yuan chuang tuan dui nao dong zhong xin	1
 被攻略厨踢出了勇者队伍	bei gong lue chu ti chu le yong zhe dui wu	1
 青春序幕	qing chun xu mu	1
 场景绘画	chang jing hui hua	1
@@ -40061,6 +40364,7 @@ use_preset_vocabulary: false
 白绝	bai jue	1
 中村绘里子	zhong cun hui li zi	1
 某声悠	mou sheng you	1
+曾有大雪飘落	ceng you da xue piao luo	1
 桃色牌坊	tao se pai fang	1
 朱天	zhu tian	1
 萨塔妮亚的弟弟	sa ta ni ya de di di	1
@@ -40383,6 +40687,7 @@ use_preset_vocabulary: false
 庞小莹	pang xiao ying	1
 盛开的阿斯诺特莉亚	sheng kai de a si nuo te li ya	1
 结合锤	jie he chui	1
+断角	duan jiao	1
 立花雏田	li hua chu tian	1
 被包裹着	bei bao guo zhe	1
 现实苦短	xian shi ku duan	1
@@ -40403,6 +40708,7 @@ use_preset_vocabulary: false
 重大自然灾害	zhong da zi ran zai hai	1
 扰乱魔术	rao luan mo shu	1
 极光	ji guang	1
+小樱桃	xiao ying tao	1
 微热的华尔兹	wei re de hua er zi	1
 潜盾机	qian dun ji	1
 雏雨	chu yu	1
@@ -40619,6 +40925,7 @@ use_preset_vocabulary: false
 在这里等待	zai zhe li deng dai	1
 食堂	shi tang	1
 八冢万智	ba zhong wan zhi	1
+织部小豆	zhi bu xiao dou	1
 鞍山的绘图日记	an shan de hui tu ri ji	1
 近贞月乃	jin zhen yue nai	1
 利维·艾莉法	li wei ai li fa	1
@@ -40638,6 +40945,7 @@ use_preset_vocabulary: false
 喜羊羊与灰太狼之智趣羊学堂	xi yang yang yu hui tai lang zhi zhi qu yang xue tang	1
 美汐瑛莉	mei xi ying li	1
 大室花子	da shi hua zi	1
+玻璃丝	bo li si	1
 米菲大冒险	mi fei da mao xian	1
 舞茸占地	wu rong zhan di	1
 班妮狄克·冯·王龙	ban ni di ke feng wang long	1
@@ -40804,6 +41112,7 @@ use_preset_vocabulary: false
 家用机	jia yong ji	1
 格林达姆与苍色童话	ge lin da mu yu cang se tong hua	1
 吵吵闹闹哇哦	chao chao nao nao wa o	1
+在昨日的春天等待你	zai zuo ri de chun tian deng dai ni	1
 就算是爸爸也想做	jiu suan shi ba ba ye xiang zuo	1
 迅捷斥候	xun jie chi hou	1
 传奇亚瑟	chuan qi ya se	1
@@ -40861,6 +41170,7 @@ use_preset_vocabulary: false
 飞妈	fei ma	1
 美树原爱	mei shu yuan ai	1
 和平精英	he ping jing ying	1
+追想阳歌	zhui xiang yang ge	1
 埃尔梅罗事件簿	ai er mei luo shi jian bu	1
 时莩	shi fu	1
 铁心博弈	tie xin bo yi	1
@@ -40886,12 +41196,14 @@ use_preset_vocabulary: false
 匕首雨公约联盟	bi shou yu gong yue lian meng	1
 村姑	cun gu	1
 燃烧生命	ran shao sheng ming	1
+蜜汁姬工坊	mi zhi ji gong fang	1
 立川让	li chuan rang	1
 庄周梦蝶	zhuang zhou meng die	1
 三角力量	san jiao li liang	1
 林兰	lin lan	1
 裙带关系	qun dai guan xi	1
 暗火	an huo	1
+月之祈祷	yue zhi qi dao	1
 曦曜	xi yao	1
 国后	guo hou	1
 咸鱼喵喵	xian yu miao miao	1
@@ -40904,6 +41216,7 @@ use_preset_vocabulary: false
 阿莉娜·格雷	a li na ge lei	1
 三代目罪袋	san dai mu zui dai	1
 彼得·克莱门特	bi de ke lai men te	1
+旋转音律	xuan zhuan yin lv	1
 全知的神器密涅瓦	quan zhi de shen qi mi nie wa	1
 直男	zhi nan	1
 蜷守惠理	quan shou hui li	1
@@ -41001,6 +41314,7 @@ use_preset_vocabulary: false
 猎手蜘蛛	lie shou zhi zhu	1
 晴男	qing nan	1
 想起了你	xiang qi le ni	1
+空牙团卡组	kong ya tuan ka zu	1
 雪雪	xue xue	1
 黑暗之女	hei an zhi nv	1
 风宫茜里	feng gong qian li	1
@@ -41073,6 +41387,7 @@ use_preset_vocabulary: false
 爱克娅	ai ke ya	1
 运河栖姬	yun he qi ji	1
 幸运·野兽	xing yun ye shou	1
+推理先生	tui li xian sheng	1
 飞野同学是笨蛋	fei ye tong xue shi ben dan	1
 迷走中remedy	mi zou zhong _remedy	1
 看来我的新娘是女骑士团	kan lai wo de xin niang shi nv qi shi tuan	1
@@ -41111,9 +41426,9 @@ use_preset_vocabulary: false
 真空蜉蝣	zhen kong fu you	1
 德岛城	de dao cheng	1
 游击士协会	you ji shi xie hui	1
+星辰恋曲的白色永恒	xing chen lian qu de bai se yong heng	1
 光棍节的直播秀	guang gun jie de zhi bo xiu	1
 回夏	hui xia	1
-星辰恋曲的白色永恒	xing chen lian qu de bai se yong heng	1
 佩盖萨星人	pei gai sa xing ren	1
 林动	lin dong	1
 狂人日记	kuang ren ri ji	1
@@ -41195,12 +41510,14 @@ use_preset_vocabulary: false
 你坐啊	ni zuo a	1
 铃木结爱	ling mu jie ai	1
 表姊	biao zi	1
+上海故事	shang hai gu shi	1
 人艰不拆	ren jian bu chai	1
 时薰	shi xun	1
 狮子泽彩芽	shi zi ze cai ya	1
 表姐	biao jie	1
 阳光律动管弦乐	yang guang lv dong guan xian le	1
 亡蝶葬仪	wang die zang yi	1
+小涂真纪	xiao tu zhen ji	1
 都市天际线	dou shi tian ji xian	1
 暗爪	an zhao	1
 茂木霞	mao mu xia	1
@@ -41480,6 +41797,7 @@ use_preset_vocabulary: false
 魔界台本	mo jie tai ben	1
 枪剑	qiang jian	1
 梶浦语	wei pu yu	1
+杨婉	yang wan	1
 永原翔	yong yuan xiang	1
 杜宾	du bin	1
 口吐宝石的少女	kou tu bao shi de shao nv	1
@@ -41510,10 +41828,12 @@ use_preset_vocabulary: false
 亚得里亚夏日	ya de li ya xia ri	1
 夏露罗蒂·艾尔米娜丝	xia lu luo di ai er mi na si	1
 蓝猫神教	lan mao shen jiao	1
+韩立	han li	1
 不人姬	bu ren ji	1
 凡赛斯	fan sai si	1
 雾霾	wu mai	1
 基兹梅尔	ji zi mei er	1
+铃川百惠	ling chuan bai hui	1
 既见	ji jian	1
 波尔克·加里亚德	bo er ke jia li ya de	1
 飘香藤	piao xiang teng	1
@@ -41521,6 +41841,7 @@ use_preset_vocabulary: false
 王境泽	wang jing ze	1
 整条街的智商都被你拉低了	zheng tiao jie de zhi shang dou bei ni la di le	1
 可可利亚	ke ke li ya	1
+欲速则Smile	yu su ze _Smile	1
 召唤骰子	zhao huan tou zi	1
 精灵宝钻娘	jing ling bao zuan niang	1
 望君珍重	wang jun zhen zhong	1
@@ -41546,6 +41867,7 @@ use_preset_vocabulary: false
 超☆爱合体	chao ai he ti	1
 我对普通的XX没有兴趣	wo dui pu tong de _XX mei you xing qu	1
 星色	xing se	1
+银河奥特曼S剧场版	yin he ao te man _S ju chang ban	1
 燕子花	yan zi hua	1
 秋刀鱼罐头	qiu dao yu guan tou	1
 死去的那时再死就好	si qu de na shi zai si jiu hao	1
@@ -41835,6 +42157,7 @@ use_preset_vocabulary: false
 下线遁	xia xian dun	1
 戏子无罪	xi zi wu zui	1
 菲尼斯	fei ni si	1
+花冈志织	hua gang zhi zhi	1
 弓与蛇	gong yu she	1
 红框眼镜	hong kuang yan jing	1
 优酷娘	you ku niang	1
@@ -41918,6 +42241,7 @@ use_preset_vocabulary: false
 飞弹	fei dan	1
 珍珠绣线菊	zhen zhu xiu xian ju	1
 国内安全保卫警察	guo nei an quan bao wei jing cha	1
+克莱尔·雷德菲尔德	ke lai er lei de fei er de	1
 唔姆umu桑	wu mu _umu sang	1
 晋太元中	jin tai yuan zhong	1
 动态密码	dong tai mi ma	1
@@ -42093,6 +42417,7 @@ use_preset_vocabulary: false
 查乐	cha le	1
 赤刃瞪羚	chi ren deng ling	1
 地狱的裁判	di yu de cai pan	1
+幻想社	huan xiang she	1
 高崎城	gao qi cheng	1
 心的思念	xin de si nian	1
 柯雷特	ke lei te	1
@@ -42343,6 +42668,7 @@ use_preset_vocabulary: false
 星期六上线	xing qi liu shang xian	1
 页游	ye you	1
 诸星月耀	zhu xing yue yao	1
+韦羌	wei qiang	1
 菈恩托露可	la en tuo lu ke	1
 神笔马良	shen bi ma liang	1
 葛云衣	ge yun yi	1
@@ -42408,6 +42734,7 @@ use_preset_vocabulary: false
 授权操控	shou quan cao kong	1
 纳丽石蒜	na li shi suan	1
 蜥蜴	xi yi	1
+木更	mu geng	1
 心宿二	xin xiu er	1
 器关的彷徨	qi guan de pang huang	1
 紫堂幻	zi tang huan	1
@@ -42443,12 +42770,14 @@ use_preset_vocabulary: false
 泽田美晴	ze tian mei qing	1
 眧眧	chao chao	1
 怪物速查表	guai wu su cha biao	1
+静态美人	jing tai mei ren	1
 伊藤香奈子	yi teng xiang nai zi	1
 无法直视	wu fa zhi shi	1
 杀手古德	sha shou gu de	1
 我还不能死去	wo hai bu neng si qu	1
 副话术士	fu hua shu shi	1
 银河之子	yin he zhi zi	1
+喵萌	miao meng	1
 文香	wen xiang	1
 复活节的土之骑士	fu huo jie de tu zhi qi shi	1
 融合再生机构	rong he zai sheng ji gou	1
@@ -42614,6 +42943,7 @@ use_preset_vocabulary: false
 都立阵代高中	dou li zhen dai gao zhong	1
 反射弧太长	fan she hu tai chang	1
 是Oo的friends呢	shi _Oo de _friends ne	1
+美妙回响	mei miao hui xiang	1
 断魂椒	duan hun jiao	1
 想告诉想告诉你	xiang gao su xiang gao su ni	1
 史克威尔艾尼克斯	shi ke wei er ai ni ke si	1
@@ -42671,9 +43001,11 @@ use_preset_vocabulary: false
 切裂世界之剑	qie lie shi jie zhi jian	1
 我的下场	wo de xia chang	1
 音羽	yin yu	1
+来自星星的女友	lai zi xing xing de nv you	1
 弗兰切斯卡	fu lan qie si ka	1
 木桶	mu tong	1
 香波群岛篇登场角色	xiang bo qun dao pian deng chang jue se	1
+疯狂装置	feng kuang zhuang zhi	1
 六重不忠	liu zhong bu zhong	1
 余杭萧	yu hang xiao	1
 直线	zhi xian	1
@@ -42693,6 +43025,7 @@ use_preset_vocabulary: false
 阿斯酱	a si jiang	1
 麦可罗机器猫	mai ke luo ji qi mao	1
 哎呦喂	ai you wei	1
+时间停止勇者	shi jian ting zhi yong zhe	1
 野野村真奈菜	ye ye cun zhen nai cai	1
 我的歌	wo de ge	1
 傲慢与偏见	ao man yu pian jian	1
@@ -42772,6 +43105,7 @@ use_preset_vocabulary: false
 痛魂之咒术	tong hun zhi zhou shu	1
 井伏鳟二	jing fu zun er	1
 血月	xue yue	1
+白翼与银翼的姐妹	bai yi yu yin yi di jie mei	1
 迎海踏浪般的终幕	ying hai ta lang ban de zhong mu	1
 森之低语	sen zhi di yu	1
 黄斑马	huang ban ma	1
@@ -43025,6 +43359,7 @@ use_preset_vocabulary: false
 马竞娘	ma jing niang	1
 林峰	lin feng	1
 漂流教室	piao liu jiao shi	1
+女仆的另一面	nv pu de ling yi mian	1
 中国移动娘	zhong guo yi dong niang	1
 琵琶鱼	pi pa yu	1
 三谷步梦	san gu bu meng	1
@@ -43104,6 +43439,7 @@ use_preset_vocabulary: false
 斯奎拉	si kui la	1
 嘉神川幸藏	jia shen chuan xing cang	1
 希亚娜	xi ya na	1
+安全大厅	an quan da ting	1
 梅尔文·里克特	mei er wen li ke te	1
 沙夫特	sha fu te	1
 艾尔芬·莱泽·亚诺尔	ai er fen lai ze ya nuo er	1
@@ -43157,6 +43493,7 @@ use_preset_vocabulary: false
 白灯不拖更	bai deng bu tuo geng	1
 好比是最终迷宫前的少年到新手村生活一般的故事	hao bi shi zui zhong mi gong qian de shao nian dao xin shou cun sheng huo yi ban de gu shi	1
 朝汐	chao xi	1
+山本由美子	shan ben you mei zi	1
 朱鹭子	zhu lu zi	1
 朱槿	zhu jin	1
 鸣护艾莉莎	ming hu ai li sha	1
@@ -43273,6 +43610,7 @@ use_preset_vocabulary: false
 温柔的心情	wen rou de xin qing	1
 史比特瓦根财团	shi bi te wa gen cai tuan	1
 消灭人类暴政	xiao mie ren lei bao zheng	1
+舜华曲	shun hua qu	1
 鱼住陆生	yu zhu lu sheng	1
 白亦非	bai yi fei	1
 虚空俏丽魔术师	xu kong qiao li mo shu shi	1
@@ -43313,6 +43651,7 @@ use_preset_vocabulary: false
 族长	zu zhang	1
 剑御前	jian yu qian	1
 心境探访	xin jing tan fang	1
+木内琴子	mu nei qin zi	1
 韭菜	jiu cai	1
 海湾屠夫	hai wan tu fu	1
 斩魄巨刃	zhan po ju ren	1
@@ -43461,6 +43800,7 @@ use_preset_vocabulary: false
 架子	jia zi	1
 钻井平台	zuan jing ping tai	1
 圣诞糖果	sheng dan tang guo	1
+田馨月	tian xin yue	1
 司空鸩九	si kong zhen jiu	1
 线稿化	xian gao hua	1
 别闹了	bie nao le	1
@@ -43583,8 +43923,10 @@ use_preset_vocabulary: false
 蒂雅·维科尼	di ya wei ke ni	1
 海原光贵	hai yuan guang gui	1
 在高三取得了驾照	zai gao san qu de le jia zhao	1
+天流斋绘里守	tian liu zhai hui li shou	1
 嘲笑	chao xiao	1
 米娅·泰勒	mi ya tai le	1
+源为朝	yuan wei chao	1
 强袭之魂	qiang xi zhi hun	1
 云雀恭弥	yun que gong mi	1
 倍大提琴	bei da ti qin	1
@@ -43744,6 +44086,7 @@ use_preset_vocabulary: false
 海边明玖	hai bian ming jiu	1
 须原初美	xu yuan chu mei	1
 七星凛之介	qi xing lin zhi jie	1
+大大的世界	da da de shi jie	1
 凉州词	liang zhou ci	1
 南方医科大学	nan fang yi ke da xue	1
 若无信念	ruo wu xin nian	1
@@ -43782,8 +44125,8 @@ use_preset_vocabulary: false
 创口贴	chuang kou tie	1
 稀有种	xi you zhong	1
 永久少年	yong jiu shao nian	1
-杰斯	jie si	1
 妹抖之贿赂	mei dou zhi hui lu	1
+杰斯	jie si	1
 侏食蚁兽	zhu shi yi shou	1
 枫庄	feng zhuang	1
 剑风传奇	jian feng chuan qi	1
@@ -43922,6 +44265,7 @@ use_preset_vocabulary: false
 优优宝贝	you you bao bei	1
 棠棣血	tang di xue	1
 精灵别归去	jing ling bie gui qu	1
+颜爵	yan jue	1
 流星☆冲击波	liu xing chong ji bo	1
 清澄高校	qing cheng gao xiao	1
 饼图	bing tu	1
@@ -44424,6 +44768,7 @@ use_preset_vocabulary: false
 北枝礼	bei zhi li	1
 松果	song guo	1
 哆啦A梦歌曲	duo la _A meng ge qu	1
+猛烈凶魇	meng lie xiong yan	1
 麦奎迪	mai kui di	1
 变身特工	bian shen te gong	1
 秋庭里香	qiu ting li xiang	1
@@ -44471,6 +44816,7 @@ use_preset_vocabulary: false
 战蜀山	zhan shu shan	1
 炼狱槙寿郎	lian yu dian shou lang	1
 茶歇时间	cha xie shi jian	1
+夏波利利	xia bo li li	1
 夺命凶弹	duo ming xiong dan	1
 西木乐器工坊	xi mu le qi gong fang	1
 垃圾	la ji	1
@@ -44480,6 +44826,7 @@ use_preset_vocabulary: false
 泽仓美咲	ze cang mei xiao	1
 向着苍之彼方	xiang zhe cang zhi bi fang	1
 你这一生都不会忘记我	ni zhe yi sheng dou bu hui wang ji wo	1
+也要前进	ye yao qian jin	1
 神奇的魔术师	shen qi de mo shu shi	1
 虚研学园	xu yan xue yuan	1
 高坂丽奈	gao ban li nai	1
@@ -44612,6 +44959,7 @@ use_preset_vocabulary: false
 查尔	cha er	1
 蛇麻	she ma	1
 爱丽丝·玛格特洛依德	ai li si ma ge te luo yi de	1
+青梅竹马是妹妹	qing mei zhu ma shi mei mei	1
 螃蟹	pang xie	1
 埃米沙	ai mi sha	1
 八木百货	ba mu bai huo	1
@@ -44677,6 +45025,7 @@ use_preset_vocabulary: false
 奥数魔刃	ao shu mo ren	1
 阿雷克斯·瓦卢斯	a lei ke si wa lu si	1
 零式魔导粉碎机	ling shi mo dao fen sui ji	1
+时尚洋品店物语	shi shang yang pin dian wu yu	1
 晓月夜	xiao yue ye	1
 龙与魔女	long yu mo nv	1
 作画崩坏	zuo hua beng huai	1
@@ -44765,6 +45114,7 @@ use_preset_vocabulary: false
 异虫舞姬	yi chong wu ji	1
 盗跖	dao zhi	1
 风间麻衣	feng jian ma yi	1
+混沌的万圣之夜	hun dun de wan sheng zhi ye	1
 与没有才华的自己和解了	yu mei you cai hua de zi ji he jie le	1
 膝盖中了一箭	xi gai zhong le yi jian	1
 多人在线战斗竞技场游戏	duo ren zai xian zhan dou jing ji chang you xi	1
@@ -44826,6 +45176,7 @@ use_preset_vocabulary: false
 柳宿	liu xiu	1
 革命吗	ge ming ma	1
 福门笑	fu men xiao	1
+美丽的神话	mei li de shen hua	1
 雁门太守行	yan men tai shou hang	1
 本子风	ben zi feng	1
 神木美神	shen mu mei shen	1
@@ -44996,6 +45347,7 @@ use_preset_vocabulary: false
 福元二叶	fu yuan er ye	1
 帝国时代系列	di guo shi dai xi lie	1
 陆嘉楠	lu jia nan	1
+前女友不幸转校归来	qian nv you bu xing zhuan xiao gui lai	1
 异世界舅舅	yi shi jie jiu jiu	1
 心月花恋	xin yue hua lian	1
 因为年轻而犯下的错	yin wei nian qing er fan xia de cuo	1
@@ -45058,6 +45410,7 @@ use_preset_vocabulary: false
 索妮娅	suo ni ya	1
 月神	yue shen	1
 森重卓郎	sen zhong zhuo lang	1
+斋田莉子	zhai tian li zi	1
 蜜雨	mi yu	1
 肯特·保罗	ken te bao luo	1
 飞火	fei huo	1
@@ -45197,6 +45550,7 @@ use_preset_vocabulary: false
 电子游戏攻略	dian zi you xi gong lue	1
 异次元的古战场-死域海	yi ci yuan de gu zhan chang si yu hai	1
 康斯坦策	kang si tan ce	1
+三十六天罡七十二地煞	san shi liu tian gang qi shi er di sha	1
 漫画作品	man hua zuo pin	1
 后期调整型	hou qi tiao zheng xing	1
 白兔兽	bai tu shou	1
@@ -45332,6 +45686,7 @@ use_preset_vocabulary: false
 皇马	huang ma	1
 我们会一直在一起的对吧	wo men hui yi zhi zai yi qi de dui ba	1
 拉比莉斯塔	la bi li si ta	1
+阿兹卡班	a zi ka ban	1
 我要成为编辑王	wo yao cheng wei bian ji wang	1
 雾崎冻孤	wu qi dong gu	1
 染手	ran shou	1
@@ -45412,6 +45767,7 @@ use_preset_vocabulary: false
 北白川玉子	bei bai chuan yu zi	1
 皇后乐队	huang hou le dui	1
 从未改变的友情	cong wei gai bian de you qing	1
+袁涣	yuan huan	1
 是个狠人	shi ge hen ren	1
 长音厨肺活量测试	zhang yin chu fei huo liang ce shi	1
 奥特兄弟	ao te xiong di	1
@@ -45461,6 +45817,7 @@ use_preset_vocabulary: false
 岩城良美	yan cheng liang mei	1
 葛木姬乃	ge mu ji nai	1
 年轮蛋糕	nian lun dan gao	1
+东海篇	dong hai pian	1
 窗边奈奈美	chuang bian nai nai mei	1
 电击小子	dian ji xiao zi	1
 浪漫的法国	lang man de fa guo	1
@@ -45574,6 +45931,7 @@ use_preset_vocabulary: false
 顾问官	gu wen guan	1
 高斯奥特曼VS杰斯提斯奥特曼	gao si ao te man _VS jie si ti si ao te man	1
 历史人物	li shi ren wu	1
+碳酸与红茶	tan suan yu hong cha	1
 东方鬼葬剑	dong fang gui zang jian	1
 星宫莓	xing gong mei	1
 晨辉	chen hui	1
@@ -45734,6 +46092,7 @@ use_preset_vocabulary: false
 以为是可爱的女孩子吗	yi wei shi ke ai de nv hai zi ma	1
 土肥圆	tu fei yuan	1
 玛丝克德·汪达	ma si ke de wang da	1
+飞面神教	fei mian shen jiao	1
 无限循环祭	wu xian xun huan ji	1
 西尔维亚·舍伍德	xi er wei ya she wu de	1
 空想患者与假想之敌	kong xiang huan zhe yu jia xiang zhi di	1
@@ -45827,6 +46186,7 @@ use_preset_vocabulary: false
 不直白动物	bu zhi bai dong wu	1
 女武神行动	nv wu shen xing dong	1
 贝尔麦坎	bei er mai kan	1
+世界的假象	shi jie de jia xiang	1
 宇宙之旅	yu zhou zhi lv	1
 蓝花悦	lan hua yue	1
 棉白胖次	mian bai pang ci	1
@@ -45856,6 +46216,7 @@ use_preset_vocabulary: false
 星之王子与我	xing zhi wang zi yu wo	1
 邪导桃白魔	xie dao tao bai mo	1
 重生之道	chong sheng zhi dao	1
+孙资刘放	sun zi liu fang	1
 立花理香	li hua li xiang	1
 霹雳至尊	pi li zhi zun	1
 皇甫上人	huang fu shang ren	1
@@ -45869,6 +46230,7 @@ use_preset_vocabulary: false
 次元海市蜃楼	ci yuan hai shi shen lou	1
 电磁脉冲	dian ci mai chong	1
 伯纳德	bo na de	1
+喵零	miao ling	1
 境界线	jing jie xian	1
 魔物与王子	mo wu yu wang zi	1
 拔作岛	ba zuo dao	1
@@ -45984,6 +46346,7 @@ use_preset_vocabulary: false
 黄溜溜娘	huang liu liu niang	1
 文字冒险游戏	wen zi mao xian you xi	1
 堀口神	ku kou shen	1
+田村赖	tian cun lai	1
 轻巡TO级	qing xun _TO ji	1
 琉璃色前奏曲	liu li se qian zou qu	1
 睡菜	shui cai	1
@@ -46006,11 +46369,13 @@ use_preset_vocabulary: false
 月泳于海	yue yong yu hai	1
 我的甜蜜蜜月	wo de tian mi mi yue	1
 荷米斯	he mi si	1
+尾浜勘右卫门	wei bang kan you wei men	1
 声优广播的幕前幕后	sheng you guang bo de mu qian mu hou	1
 垢尝	gou chang	1
 赤志魂	chi zhi hun	1
 白龙	bai long	1
 多由也	duo you ye	1
+万年公主	wan nian gong zhu	1
 黑桐鲜花	hei tong xian hua	1
 星座密码	xing zuo mi ma	1
 模拟婚嫁	mo ni hun jia	1
@@ -46065,6 +46430,7 @@ use_preset_vocabulary: false
 高辻丽	gao shi li	1
 伊予松山城	yi yu song shan cheng	1
 以身戮恶	yi shen lu e	1
+真海豚	zhen hai tun	1
 帝帝帝大王	di di di da wang	1
 救救我啊	jiu jiu wo a	1
 幪面超人蝎子王	meng mian chao ren xie zi wang	1
@@ -46176,6 +46542,7 @@ use_preset_vocabulary: false
 红头巾查查	hong tou jin cha cha	1
 高原步美	gao yuan bu mei	1
 初恋终结之时	chu lian zhong jie zhi shi	1
+别在这发癫	bie zai zhe fa dian	1
 萨拉·斯科毕奥	sa la si ke bi ao	1
 怨恨啊	yuan hen a	1
 飞溅捕获	fei jian bu huo	1
@@ -46291,6 +46658,7 @@ use_preset_vocabulary: false
 伊藤博之	yi teng bo zhi	1
 杨昕燃	yang xin ran	1
 轻母NU级	qing mu _NU ji	1
+奇想的精神	qi xiang de jing shen	1
 平行恋心	ping xing lian xin	1
 荒井聪太	huang jing cong tai	1
 风所到达的地方	feng suo dao da de di fang	1
@@ -46368,6 +46736,7 @@ use_preset_vocabulary: false
 仰望星空派	yang wang xing kong pai	1
 我的狼情人	wo de lang qing ren	1
 裁缝公会长斯缇琪雅	cai feng gong hui zhang si ti qi ya	1
+我见山河	wo jian shan he	1
 但我的痛苦在你之上	dan wo de tong ku zai ni zhi shang	1
 仙境与羊之歌	xian jing yu yang zhi ge	1
 海盗传说	hai dao chuan shuo	1
@@ -46417,6 +46786,7 @@ use_preset_vocabulary: false
 嘉味田十萌	jia wei tian shi meng	1
 月岛夕莉	yue dao xi li	1
 美作树里	mei zuo shu li	1
+宇宙之墙	yu zhou zhi qiang	1
 神圣罗马帝国	shen sheng luo ma di guo	1
 雪野奈贺	xue ye nai he	1
 风云迭变	feng yun die bian	1
@@ -46467,9 +46837,11 @@ use_preset_vocabulary: false
 大感谢	da gan xie	1
 不眠之夜里	bu mian zhi ye li	1
 艾莲日记	ai lian ri ji	1
+超自然少女	chao zi ran shao nv	1
 深海与星空的睡前故事	shen hai yu xing kong de shui qian gu shi	1
 芭荼荼	ba tu tu	1
 娜塔莉亚·阿尔夫洛斯卡娅	na ta li ya a er fu luo si ka ya	1
+平八郎	ping ba lang	1
 园部好德	yuan bu hao de	1
 基友	ji you	1
 梁瑞雪	liang rui xue	1
@@ -46575,6 +46947,7 @@ use_preset_vocabulary: false
 矢量操作	shi liang cao zuo	1
 阿阿奇和西西帕克	a a qi he xi xi pa ke	1
 万三九六	wan san jiu liu	1
+光之山	guang zhi shan	1
 剑侠情缘网络版三	jian xia qing yuan wang luo ban san	1
 海中雨	hai zhong yu	1
 番茄娘	fan qie niang	1
@@ -47047,6 +47420,7 @@ use_preset_vocabulary: false
 和恋爱相恋的友加里	he lian ai xiang lian de you jia li	1
 功夫料理娘	gong fu liao li niang	1
 山之翁	shan zhi weng	1
+人生木天蓼	ren sheng mu tian liao	1
 新玩家指引	xin wan jia zhi yin	1
 金·布拉德雷	jin bu la de lei	1
 架子鼓	jia zi gu	1
@@ -47057,6 +47431,7 @@ use_preset_vocabulary: false
 八十八星座	ba shi ba xing zuo	1
 矢泽妮可的母亲	shi ze ni ke de mu qin	1
 照顾她后反倒缠上了我	zhao gu ta hou fan dao chan shang le wo	1
+伊拾七	yi shi qi	1
 基地	ji di	1
 木下佳	mu xia jia	1
 笑摸狗头	xiao mo gou tou	1
@@ -47112,6 +47487,7 @@ use_preset_vocabulary: false
 碧丝麦	bi si mai	1
 蟾蜍	chan chu	1
 反恋主义同盟	fan lian zhu yi tong meng	1
+小涂真希	xiao tu zhen xi	1
 护罩泡泡	hu zhao pao pao	1
 相同的梦	xiang tong de meng	1
 桃濑胡桃	tao lai hu tao	1
@@ -47244,6 +47620,7 @@ use_preset_vocabulary: false
 攀岩少女	pan yan shao nv	1
 仰望师恩	yang wang shi en	1
 小小的祝祭	xiao xiao de zhu ji	1
+波奈奈bunny	bo nai nai _bunny	1
 阿格尼	a ge ni	1
 流星群	liu xing qun	1
 解毒剂	jie du ji	1
@@ -47261,12 +47638,14 @@ use_preset_vocabulary: false
 万圣的火之牧师	wan sheng de huo zhi mu shi	1
 青山琴叶	qing shan qin ye	1
 高千穗史黛拉	gao qian sui shi dai la	1
+小怪兽挼挼	xiao guai shou sui sui	1
 梅露可	mei lu ke	1
 游戏分类	you xi fen lei	1
 巨兽鲨	ju shou sha	1
 露娜·希露法莉亚	lu na xi lu fa li ya	1
 实验室	shi yan shi	1
 护宝炮妖	hu bao pao yao	1
+龙木来斗	long mu lai dou	1
 不够萌的女孩	bu gou meng de nv hai	1
 最近妹妹的样子有点怪	zui jin mei mei de yang zi you dian guai	1
 桶妈	tong ma	1
@@ -47302,6 +47681,7 @@ use_preset_vocabulary: false
 花丸行板	hua wan hang ban	1
 夜叉姬	ye cha ji	1
 咒符龙	zhou fu long	1
+标本	biao ben	1
 码兹莫特	ma zi mo te	1
 巴拉娜	ba la na	1
 桃雨洛熙	tao yu luo xi	1
@@ -47367,6 +47747,7 @@ use_preset_vocabulary: false
 无现里	wu xian li	1
 薄荷冰糕	bo he bing gao	1
 长谷德人	zhang gu de ren	1
+诈欺猎人	zha qi lie ren	1
 宣晓鸣	xuan xiao ming	1
 西娅	xi ya	1
 扩张作战	kuo zhang zuo zhan	1
@@ -47468,7 +47849,6 @@ use_preset_vocabulary: false
 融雪	rong xue	1
 鳃鱼海兽娘	sai yu hai shou niang	1
 你任是如此	ni ren shi ru ci	1
-核战	he zhan	1
 高须泰子	gao xu tai zi	1
 阿妮亚·赫本	a ni ya he ben	1
 命运女神	ming yun nv shen	1
@@ -47642,6 +48022,7 @@ use_preset_vocabulary: false
 毒舌老外	du she lao wai	1
 德川茉莉	de chuan mo li	1
 艾可萨甲虫	ai ke sa jia chong	1
+绫目七夕莉	ling mu qi xi li	1
 碎梦	sui meng	1
 天下决斗者	tian xia jue dou zhe	1
 缟乌冬	gao wu dong	1
@@ -47690,6 +48071,7 @@ use_preset_vocabulary: false
 凋灵娘	diao ling niang	1
 珠泪哀歌族·梅洛人鱼	zhu lei ai ge zu mei luo ren yu	1
 杏美	xing mei	1
+触祭之都	chu ji zhi dou	1
 全新的世界	quan xin de shi jie	1
 瞳荧	tong ying	1
 阿根廷	a gen ting	1
@@ -47779,6 +48161,7 @@ use_preset_vocabulary: false
 林业收割机	lin ye shou ge ji	1
 芦屋四郎	lu wu si lang	1
 伊莎贝尔	yi sha bei er	1
+李聃	li dan	1
 水月姬	shui yue ji	1
 七公主	qi gong zhu	1
 祖先	zu xian	1
@@ -47820,6 +48203,7 @@ use_preset_vocabulary: false
 细胞爆破病毒	xi bao bao po bing du	1
 日向咲	ri xiang xiao	1
 绝缘的落穴	jue yuan de luo xue	1
+泰恩斯	tai en si	1
 翩翩而行	pian pian er xing	1
 柏山奈奈美	bai shan nai nai mei	1
 儿时约定	er shi yue ding	1
@@ -48020,7 +48404,9 @@ use_preset_vocabulary: false
 甜贝儿	tian bei er	1
 空条荷莉	kong tiao he li	1
 游乐场游戏工作室	you le chang you xi gong zuo shi	1
+疯狂宇宙	feng kuang yu zhou	1
 伊扎克斯	yi zha ke si	1
+韩浩史涣	han hao shi huan	1
 梅尔	mei er	1
 堇子	jin zi	1
 小宇宙	xiao yu zhou	1
@@ -48151,6 +48537,7 @@ use_preset_vocabulary: false
 砂粒	sha li	1
 非知道不可	fei zhi dao bu ke	1
 斯嘉丽·瓦伦泰	si jia li wa lun tai	1
+松前皋月	song qian gao yue	1
 永恒炼狱	yong heng lian yu	1
 松永孝明	song yong xiao ming	1
 深邃奇妙之旅	shen sui qi miao zhi lv	1
@@ -48193,6 +48580,7 @@ use_preset_vocabulary: false
 魔女黛西	mo nv dai xi	1
 国米	guo mi	1
 拉比林斯达	la bi lin si da	1
+黄色信函之歌	huang se xin han zhi ge	1
 黑白美	hei bai mei	1
 气球男孩	qi qiu nan hai	1
 嘚嘟嘟嘟·嘚哒哒哒	de du du du de da da da	1
@@ -48235,6 +48623,7 @@ use_preset_vocabulary: false
 霹雳狼烟三部曲	pi li lang yan san bu qu	1
 愿原力与你同在	yuan yuan li yu ni tong zai	1
 未完成的·乐章	wei wan cheng de le zhang	1
+啊来吧	a lai ba	1
 左撇子	zuo pie zi	1
 钻出来一个光头	zuan chu lai yi ge guang tou	1
 怎么看都已经完全迷恋上我了啊	zen me kan dou yi jing wan quan mi lian shang wo le a	1
@@ -48496,7 +48885,6 @@ use_preset_vocabulary: false
 暴雷	bao lei	1
 伞下铭	san xia ming	1
 瓦良格	wa liang ge	1
-破碎	po sui	1
 格林	ge lin	1
 五十铃恋	wu shi ling lian	1
 小杉史哉	xiao shan shi zai	1
@@ -48735,6 +49123,7 @@ use_preset_vocabulary: false
 长谷川达	zhang gu chuan da	1
 超鹓鶵	chao yuan chu	1
 我是小冰	wo shi xiao bing	1
+小米10至尊纪念版娘	xiao mi zhi zun ji nian ban niang	1
 祭司	ji si	1
 额贴	e tie	1
 煤谷小夜	mei gu xiao ye	1
@@ -48742,6 +49131,7 @@ use_preset_vocabulary: false
 潜行者	qian xing zhe	1
 朝比奈实玖瑠	chao bi nai shi jiu liu	1
 孟思昭	meng si zhao	1
+治愈之歌	zhi yu zhi ge	1
 功夫选举	gong fu xuan ju	1
 恶作剧之吻	e zuo ju zhi wen	1
 旅行者	lv xing zhe	1
@@ -48934,7 +49324,9 @@ use_preset_vocabulary: false
 身体检查	shen ti jian cha	1
 物述有栖	wu shu you qi	1
 闻人羽	wen ren yu	1
+深度回音下	shen du hui yin xia	1
 最后的鹿角虫	zui hou de lu jiao chong	1
+深度回音上	shen du hui yin shang	1
 风衣	feng yi	1
 标火	biao huo	1
 酒馆老板	jiu guan lao ban	1
@@ -48984,6 +49376,7 @@ use_preset_vocabulary: false
 美狄亚	mei di ya	1
 模拟游戏	mo ni you xi	1
 小泽真奈美	xiao ze zhen nai mei	1
+小语若	xiao yu ruo	1
 仿生人	fang sheng ren	1
 棋士	qi shi	1
 濑谷一	lai gu yi	1
@@ -49052,6 +49445,7 @@ use_preset_vocabulary: false
 另类发型	ling lei fa xing	1
 旗木佐久茂	qi mu zuo jiu mao	1
 频道	pin dao	1
+田馨莲	tian xin lian	1
 电磁波	dian ci bo	1
 岸谷森严	an gu sen yan	1
 赤座灯里	chi zuo deng li	1
@@ -49093,6 +49487,7 @@ use_preset_vocabulary: false
 桑桑	sang sang	1
 巾帼的龙骑士希格德莉法	jin guo de long qi shi xi ge de li fa	1
 目隐代码	mu yin dai ma	1
+角姐	jiao jie	1
 拟声宠物	ni sheng chong wu	1
 法尔可·葛莱斯	fa er ke ge lai si	1
 白猫先生	bai mao xian sheng	1
@@ -49115,6 +49510,7 @@ use_preset_vocabulary: false
 三胞胎	san bao tai	1
 宇宙巡	yu zhou xun	1
 静·乔斯达	jing qiao si da	1
+樱花烂漫开学祭	ying hua lan man kai xue ji	1
 原声带	yuan sheng dai	1
 集积地栖姬	ji ji di qi ji	1
 怪人们的时间	guai ren men de shi jian	1
@@ -49312,6 +49708,7 @@ use_preset_vocabulary: false
 天王寺雫	tian wang si na	1
 筿原彰宏	xiao yuan zhang hong	1
 为了印第的笑容	wei le yin di de xiao rong	1
+财前千穗	cai qian qian sui	1
 长崎行男	zhang qi hang nan	1
 克罗琦	ke luo qi	1
 姐弟恋	jie di lian	1
@@ -49414,6 +49811,7 @@ use_preset_vocabulary: false
 世末衣橱	shi mo yi chu	1
 墓前	mu qian	1
 朱蒂思·艾可	zhu di si ai ke	1
+杰诺瓦的焰火	jie nuo wa de yan huo	1
 眩鸟	xuan niao	1
 土罐	tu guan	1
 辛德瑞拉	xin de rui la	1
@@ -49449,6 +49847,7 @@ use_preset_vocabulary: false
 终末的后宫奇想曲学园	zhong mo de hou gong qi xiang qu xue yuan	1
 我们的歌	wo men de ge	1
 档案	dang an	1
+幻日之夜羽	huan ri zhi ye yu	1
 秀一	xiu yi	1
 简氏美国空军	jian shi mei guo kong jun	1
 霜月美佳	shuang yue mei jia	1
@@ -49507,6 +49906,7 @@ use_preset_vocabulary: false
 三角洲狙击手	san jiao zhou ju ji shou	1
 熊本城	xiong ben cheng	1
 刹那的命运	cha na de ming yun	1
+德希·梅洛笛	de xi mei luo di	1
 掀裙狂魔	xian qun kuang mo	1
 佐佐木千枝	zuo zuo mu qian zhi	1
 西村春	xi cun chun	1
@@ -49561,6 +49961,7 @@ use_preset_vocabulary: false
 张胡子	zhang hu zi	1
 无限殿	wu xian dian	1
 走厕所棋	zou ce suo qi	1
+重设轮回	chong she lun hui	1
 对马战鬼	dui ma zhan gui	1
 都喜欢	dou xi huan	1
 包子头	bao zi tou	1
@@ -49652,6 +50053,7 @@ use_preset_vocabulary: false
 角峰	jiao feng	1
 桃川纱纱	tao chuan sha sha	1
 夏青柳	xia qing liu	1
+七十二柱魔神	qi shi er zhu mo shen	1
 小恶魔天使	xiao e mo tian shi	1
 音速鸵鸟	yin su tuo niao	1
 波兰球	bo lan qiu	1
@@ -49670,6 +50072,7 @@ use_preset_vocabulary: false
 雨色可可	yu se ke ke	1
 洗衣龙女困境	xi yi long nv kun jing	1
 河本启佑	he ben qi you	1
+新碧绿丘陵区域	xin bi lv qiu ling qu yu	1
 千岁由真	qian sui you zhen	1
 春日野丽	chun ri ye li	1
 祖尔	zu er	1
@@ -49752,10 +50155,12 @@ use_preset_vocabulary: false
 我的心永远在你身边	wo de xin yong yuan zai ni shen bian	1
 密涅瓦军工厂	mi nie wa jun gong chang	1
 京都寺町三条商店街的福尔摩斯	jing dou si ding san tiao shang dian jie de fu er mo si	1
+雾崎哲郎	wu qi zhe lang	1
 无法拒绝孤独的她	wu fa ju jue gu du de ta	1
 超奥特8兄弟	chao ao te xiong di	1
 改修工厂	gai xiu gong chang	1
 荒野的呼唤	huang ye de hu huan	1
+我不会跳花周末而被关了起来	wo bu hui tiao hua zhou mo er bei guan le qi lai	1
 铅元素动画	qian yuan su dong hua	1
 阿曼妮西斯	a man ni xi si	1
 二十九分之一的幼稚犯	er shi jiu fen zhi yi de you zhi fan	1
@@ -49861,7 +50266,9 @@ use_preset_vocabulary: false
 艾·格伦希尔·刘	ai ge lun xi er liu	1
 苏我屠自古	su wo tu zi gu	1
 疨痳疫瘩癗	ya lin yi da lei	1
+迪奥·马克斯韦尔	di ao ma ke si wei er	1
 全国书店店员推荐漫画	quan guo shu dian dian yuan tui jian man hua	1
+真愿朦幻馆	zhen yuan meng huan guan	1
 高丽	gao li	1
 基本	ji ben	1
 风起	feng qi	1
@@ -49919,6 +50326,7 @@ use_preset_vocabulary: false
 春季赛	chun ji sai	1
 这本轻小说真厉害	zhe ben qing xiao shuo zhen li hai	1
 马特·内夫	ma te nei fu	1
+鹤田谦二	he tian qian er	1
 终末花海	zhong mo hua hai	1
 清阴高中男子排球社	qing yin gao zhong nan zi pai qiu she	1
 在ED里奔跑的动画都是好动画	zai _ED li ben pao de dong hua dou shi hao dong hua	1
@@ -49938,6 +50346,7 @@ use_preset_vocabulary: false
 基林	ji lin	1
 黎明之歌	li ming zhi ge	1
 吉永绿	ji yong lv	1
+特别庆典·开幕	te bie qing dian kai mu	1
 刻进DNA里的	ke jin _DNA li de	1
 泽近爱理	ze jin ai li	1
 高产	gao chan	1
@@ -50043,6 +50452,7 @@ use_preset_vocabulary: false
 塞德利茨	sai de li ci	1
 小林歌剧	xiao lin ge ju	1
 暴龙	bao long	1
+培根	pei gen	1
 扫兴书呆魔术师	sao xing shu dai mo shu shi	1
 艾莉的工作室	ai li de gong zuo shi	1
 暴走斗君	bao zou dou jun	1
@@ -50296,6 +50706,7 @@ use_preset_vocabulary: false
 茵黛克丝	yin dai ke si	1
 未来·八岛	wei lai ba dao	1
 石之森章太郎	shi zhi sen zhang tai lang	1
+霜戌蕾娜	shuang xu lei na	1
 月霖	yue lin	1
 森尼	sen ni	1
 新田京助	xin tian jing zhu	1
@@ -50467,6 +50878,7 @@ use_preset_vocabulary: false
 万年萝莉	wan nian luo li	1
 巴洛克斯	ba luo ke si	1
 为崽而战	wei zai er zhan	1
+水无月萤	shui wu yue ying	1
 低保真时代	di bao zhen shi dai	1
 狠绘社	hen hui she	1
 流星之指套拳手	liu xing zhi zhi tao quan shou	1
@@ -50617,6 +51029,7 @@ use_preset_vocabulary: false
 鸭志田一	ya zhi tian yi	1
 狗驹邑沙季	gou ju yi sha ji	1
 连装炮	lian zhuang pao	1
+金永钢	jin yong gang	1
 帕格尼尼	pa ge ni ni	1
 迪翁·福春	di weng fu chun	1
 周元成	zhou yuan cheng	1
@@ -50646,6 +51059,7 @@ use_preset_vocabulary: false
 你的声音	ni de sheng yin	1
 我的悲伤是血做的	wo de bei shang shi xue zuo de	1
 库洛·阿姆布拉斯特	ku luo a mu bu la si te	1
+曹髦	cao mao	1
 二阶堂青空	er jie tang qing kong	1
 史考特	shi kao te	1
 混沌无限	hun dun wu xian	1
@@ -50862,6 +51276,7 @@ use_preset_vocabulary: false
 种命	zhong ming	1
 魔女之家	mo nv zhi jia	1
 哆来咪	duo lai mi	1
+哈哈镜花缘	ha ha jing hua yuan	1
 血钱	xue qian	1
 金泽舞	jin ze wu	1
 魔法门之英雄无敌	mo fa men zhi ying xiong wu di	1
@@ -50941,6 +51356,7 @@ use_preset_vocabulary: false
 足立甜花	zu li tian hua	1
 阿斯塔鲁特	a si ta lu te	1
 梦梦	meng meng	1
+潘西·帕金森	pan xi pa jin sen	1
 织梦者	zhi meng zhe	1
 蓝色恐惧	lan se kong ju	1
 梁洵	liang xun	1
@@ -50957,6 +51373,7 @@ use_preset_vocabulary: false
 胆小的收藏家	dan xiao de shou cang jia	1
 福岛	fu dao	1
 升阶魔法-光波升华	sheng jie mo fa guang bo sheng hua	1
+希卡利奥特曼	xi ka li ao te man	1
 诛仙传说2炼剑炉传	zhu xian chuan shuo lian jian lu chuan	1
 觅星	mi xing	1
 人渣反派自救系统	ren zha fan pai zi jiu xi tong	1
@@ -51127,6 +51544,7 @@ use_preset_vocabulary: false
 侦查扫描协议	zhen cha sao miao xie yi	1
 汤之花幽奈	tang zhi hua you nai	1
 疾锋之影	ji feng zhi ying	1
+黑莲花攻略手册	hei lian hua gong lue shou ce	1
 迷你义豪	mi ni yi hao	1
 右风狮爷	you feng shi ye	1
 非瑞克西亚	fei rui ke xi ya	1
@@ -51346,6 +51764,7 @@ use_preset_vocabulary: false
 佐土原城	zuo tu yuan cheng	1
 四斤大豆三根皮带	si jin da dou san gen pi dai	1
 京都动画纵火案	jing dou dong hua zong huo an	1
+恋爱恐惧症	lian ai kong ju zheng	1
 彩色画布	cai se hua bu	1
 吉尔休·凡米里欧	ji er xiu fan mi li ou	1
 动画魂	dong hua hun	1
@@ -51484,8 +51903,8 @@ use_preset_vocabulary: false
 花菖蒲	hua chang pu	1
 宝石之国	bao shi zhi guo	1
 梗动画	geng dong hua	1
-巴勒帮	ba le bang	1
 日日夜夜	ri ri ye ye	1
+巴勒帮	ba le bang	1
 友情大合战	you qing da he zhan	1
 雅宗兼次	ya zong jian ci	1
 弟弟行为	di di xing wei	1
@@ -51663,6 +52082,7 @@ use_preset_vocabulary: false
 战线复活的代价	zhan xian fu huo de dai jia	1
 藏在包里的事	cang zai bao li de shi	1
 漆黑强袭姬	qi hei qiang xi ji	1
+鹭泽一蹴	lu ze yi cu	1
 阿尔托的奥德赛	a er tuo de ao de sai	1
 闪偶大叔与幼女前辈	shan ou da shu yu you nv qian bei	1
 银河眼光子龙娘	yin he yan guang zi long niang	1
@@ -51839,6 +52259,7 @@ use_preset_vocabulary: false
 里诺艾·杰金斯	li nuo ai jie jin si	1
 独自一人的庭院	du zi yi ren de ting yuan	1
 社死	she si	1
+超肌肉男	chao ji rou nan	1
 舞茸口蘑	wu rong kou mo	1
 她所期望的一切	ta suo qi wang de yi qie	1
 吃这个	chi zhe ge	1
@@ -51979,6 +52400,7 @@ use_preset_vocabulary: false
 感觉身体被掏空	gan jue shen ti bei tao kong	1
 鸢一折纸	yuan yi zhe zhi	1
 水柿司	shui shi si	1
+永夜天光	yong ye tian guang	1
 超合魔兽	chao he mo shou	1
 风生水起	feng sheng shui qi	1
 希望人有事	xi wang ren you shi	1
@@ -52173,6 +52595,7 @@ use_preset_vocabulary: false
 神椿	shen chun	1
 漩涡九品	xuan wo jiu pin	1
 百夜优一郎	bai ye you yi lang	1
+等不到的说	deng bu dao de shuo	1
 新田义史	xin tian yi shi	1
 宿南魏	xiu nan wei	1
 怀抱太阳的少女	huai bao tai yang de shao nv	1
@@ -52310,6 +52733,7 @@ use_preset_vocabulary: false
 森林	sen lin	1
 萨克斯管	sa ke si guan	1
 阿娜克·吉黑德	a na ke ji hei de	1
+小河映月儿	xiao he ying yue er	1
 羽立桧菜	yu li gui cai	1
 远坂葵	yuan ban kui	1
 大傩	da nuo	1
@@ -52375,6 +52799,7 @@ use_preset_vocabulary: false
 香草	xiang cao	1
 细细的红线	xi xi de hong xian	1
 至高的果实	zhi gao de guo shi	1
+景山北斗的哀与爱	jing shan bei dou de ai yu ai	1
 高岩成二	gao yan cheng er	1
 萨提利亚吉斯·贝诺马尼亚	sa ti li ya ji si bei nuo ma ni ya	1
 柳露霏	liu lu fei	1
@@ -52650,6 +53075,7 @@ use_preset_vocabulary: false
 自动式镭射炮	zi dong shi lei she pao	1
 香蓓	xiang bei	1
 霞之谷的雷神鬼	xia zhi gu de lei shen gui	1
+灿然可爱埃克塞尔希风	can ran ke ai ai ke sai er xi feng	1
 雀魂麻将	que hun ma jiang	1
 卡勒伯·弗兰普顿	ka le bo fu lan pu dun	1
 柳圣子	liu sheng zi	1
@@ -52743,6 +53169,7 @@ use_preset_vocabulary: false
 我的弟子最强最可爱	wo de di zi zui qiang zui ke ai	1
 蛤蟆五郎	ha ma wu lang	1
 桐谷遥	tong gu yao	1
+稻光予梦	dao guang yu meng	1
 火炎剑烈火	huo yan jian lie huo	1
 耳机与蝉鸣声	er ji yu chan ming sheng	1
 奈伊	nai yi	1
@@ -52830,6 +53257,7 @@ use_preset_vocabulary: false
 像素鸟	xiang su niao	1
 徒然喜欢你	tu ran xi huan ni	1
 迷幻花之森	mi huan hua zhi sen	1
+奇侠	qi xia	1
 夹克	jia ke	1
 尾音猫	wei yin mao	1
 诚哥死得早	cheng ge si de zao	1
@@ -53316,6 +53744,7 @@ use_preset_vocabulary: false
 酒桶僵尸	jiu tong jiang shi	1
 岚龙之圣骑士	lan long zhi sheng qi shi	1
 振动夯土机	zhen dong hang tu ji	1
+单色心伤	dan se xin shang	1
 芙琳·菲尔斯	fu lin fei er si	1
 普兰尼加	pu lan ni jia	1
 夏夏	xia xia	1
@@ -53383,11 +53812,13 @@ use_preset_vocabulary: false
 林零	lin ling	1
 小田柿悠太	xiao tian shi you tai	1
 姬乃酱离恋爱还早	ji nai jiang li lian ai hai zao	1
+相泽诗纹	xiang ze shi wen	1
 飒爽登场	sa shuang deng chang	1
 萨福克	sa fu ke	1
 林雪	lin xue	1
 艾蜜莉·司徒亚特	ai mi li si tu ya te	1
 陈梅君	chen mei jun	1
+卡芙卡	ka fu ka	1
 翻转少女	fan zhuan shao nv	1
 命之纲	ming zhi gang	1
 立刻想到私生子	li ke xiang dao si sheng zi	1
@@ -53478,6 +53909,7 @@ use_preset_vocabulary: false
 纸月之王	zhi yue zhi wang	1
 魉哭	liang ku	1
 神灵	shen ling	1
+特殊怪物	te shu guai wu	1
 梁静茹	liang jing ru	1
 荒野乱斗	huang ye luan dou	1
 大骷髅·思卡鲁	da ku lou si ka lu	1
@@ -53597,6 +54029,7 @@ use_preset_vocabulary: false
 灾星简	zai xing jian	1
 神之浩劫	shen zhi hao jie	1
 溶解之爱	rong jie zhi ai	1
+小喷菇娘	xiao pen gu niang	1
 西索	xi suo	1
 金帐汗国	jin zhang han guo	1
 我会全力以赴	wo hui quan li yi fu	1
@@ -53654,6 +54087,7 @@ use_preset_vocabulary: false
 地缚猫	di fu mao	1
 永恒的艾米莉塔	yong heng de ai mi li ta	1
 预定调和任务	yu ding tiao he ren wu	1
+変容	bian rong	1
 变态王子与不笑猫	bian tai wang zi yu bu xiao mao	1
 马点	ma dian	1
 五分钟内自杀系列	wu fen zhong nei zi sha xi lie	1
@@ -53700,6 +54134,7 @@ use_preset_vocabulary: false
 欧列格·凡丁	ou lie ge fan ding	1
 奴伊	nu yi	1
 毛利兰	mao li lan	1
+暗恋心	an lian xin	1
 山崎莉乃	shan qi li nai	1
 九石玉	jiu shi yu	1
 森中人文化	sen zhong ren wen hua	1
@@ -53911,10 +54346,12 @@ use_preset_vocabulary: false
 鹿野葵	lu ye kui	1
 双城之战	shuang cheng zhi zhan	1
 长材拖车	zhang cai tuo che	1
+骤死	zhou si	1
 幻想乡4面中	huan xiang xiang mian zhong	1
 是梦想还是现实	shi meng xiang hai shi xian shi	1
 东京幻都	dong jing huan dou	1
 金坷垃是检验神曲的唯一标准	jin ke la shi jian yan shen qu de wei yi biao zhun	1
+北工放送部	bei gong fang song bu	1
 北守彩香	bei shou cai xiang	1
 藤川美亚	teng chuan mei ya	1
 退魔四家	tui mo si jia	1
@@ -54030,7 +54467,6 @@ use_preset_vocabulary: false
 格式塔	ge shi ta	1
 金谷英孝	jin gu ying xiao	1
 卡库塔斯	ka ku ta si	1
-诺尔诺	nuo er nuo	1
 香草苏打	xiang cao su da	1
 红一叶	hong yi ye	1
 京乃圆	jing nai yuan	1
@@ -54274,6 +54710,7 @@ use_preset_vocabulary: false
 梅丽·克洛帕斯	mei li ke luo pa si	1
 鹰久佐仁美	ying jiu zuo ren mei	1
 导弹兵	dao dan bing	1
+杀死圣诞老人	sha si sheng dan lao ren	1
 金格尔·亚伯·穆尼埃尔	jin ge er ya bo mu ni ai er	1
 校长先生	xiao zhang xian sheng	1
 科曼	ke man	1
@@ -54710,6 +55147,7 @@ use_preset_vocabulary: false
 桐条美鹤	tong tiao mei he	1
 花寄女子寮自我介绍歌	hua ji nv zi liao zi wo jie shao ge	1
 请享用特殊甜点	qing xiang yong te shu tian dian	1
+冈高夫	gang gao fu	1
 知更鸟	zhi geng niao	1
 小石川琴音	xiao shi chuan qin yin	1
 张灵玉	zhang ling yu	1
@@ -54954,6 +55392,7 @@ use_preset_vocabulary: false
 明明不是笨蛋	ming ming bu shi ben dan	1
 沙尘娘	sha chen niang	1
 胜利奖券	sheng li jiang quan	1
+永生之无尽仙途	yong sheng zhi wu jin xian tu	1
 樱初音	ying chu yin	1
 电子松鼠琪琪	dian zi song shu qi qi	1
 森田凉花	sen tian liang hua	1
@@ -55014,6 +55453,7 @@ use_preset_vocabulary: false
 风沙下的遗物	feng sha xia de yi wu	1
 酵母与鸡蛋公主	jiao mu yu ji dan gong zhu	1
 久末紫乃	jiu mo zi nai	1
+即便没有雨伞	ji bian mei you yu san	1
 美式出埃及记	mei shi chu ai ji ji	1
 禇珺	zhe jun	1
 会有天使替我爱你	hui you tian shi ti wo ai ni	1
@@ -55060,6 +55500,7 @@ use_preset_vocabulary: false
 梅莉	mei li	1
 那徜徉在夜晚的歌声	na chang yang zai ye wan de ge sheng	1
 鬼彻	gui che	1
+桂圆翊宝	gui yuan yi bao	1
 光年神话	guang nian shen hua	1
 森奈奈子	sen nai nai zi	1
 神社	shen she	1
@@ -55067,6 +55508,7 @@ use_preset_vocabulary: false
 海德堡城堡	hai de bao cheng bao	1
 迟延列车	chi yan lie che	1
 隔壁的江户式推理秀	ge bi de jiang hu shi tui li xiu	1
+衣袋武志	yi dai wu zhi	1
 大司命	da si ming	1
 变则齿轮	bian ze chi lun	1
 樱半片	ying ban pian	1
@@ -55265,7 +55707,6 @@ use_preset_vocabulary: false
 木花开耶姬	mu hua kai ye ji	1
 七海建人	qi hai jian ren	1
 比利王	bi li wang	1
-虚构组织	xu gou zu zhi	1
 格拉摩根伯爵	ge la mo gen bo jue	1
 昨日子和今日子	zuo ri zi he jin ri zi	1
 积棒	ji bang	1
@@ -55285,6 +55726,7 @@ use_preset_vocabulary: false
 罗梅罗	luo mei luo	1
 多拉	duo la	1
 白特蕊	bai te rui	1
+萝·库里斯塔斯	luo ku li si ta si	1
 认真教师与幼女	ren zhen jiao shi yu you nv	1
 悠久的灵魂净化	you jiu de ling hun jing hua	1
 瓦尔瓦拉·毕克特柏娜·蕾妮娜	wa er wa la bi ke te bai na lei ni na	1
@@ -55367,6 +55809,7 @@ use_preset_vocabulary: false
 渊井镝	yuan jing di	1
 天海镜子	tian hai jing zi	1
 藤原爱	teng yuan ai	1
+卡鲁提西娅	ka lu ti xi ya	1
 月居朝日	yue ju chao ri	1
 魔帝	mo di	1
 希特拉的最后12夜	xi te la de zui hou ye	1
@@ -55433,6 +55876,7 @@ use_preset_vocabulary: false
 高井望	gao jing wang	1
 叶之荫	ye zhi yin	1
 愿做一只猫	yuan zuo yi zhi mao	1
+转生为黄油的基友角色	zhuan sheng wei huang you de ji you jue se	1
 空壳	kong ke	1
 伊扎克·玖尔	yi zha ke jiu er	1
 社会的	she hui de	1
@@ -55445,6 +55889,7 @@ use_preset_vocabulary: false
 桐生可可	tong sheng ke ke	1
 兵部京介	bing bu jing jie	1
 光子飞奔保镖	guang zi fei ben bao biao	1
+崩坏意志	beng huai yi zhi	1
 桐崎华	tong qi hua	1
 逆后宫	ni hou gong	1
 我与初音未来相吻了	wo yu chu yin wei lai xiang wen le	1
@@ -55454,6 +55899,7 @@ use_preset_vocabulary: false
 斯洛卡伊	si luo ka yi	1
 赛牛传奇僵尸	sai niu chuan qi jiang shi	1
 嘴平伊之助	zui ping yi zhi zhu	1
+程普	cheng pu	1
 瓦利斯	wa li si	1
 大原惠	da yuan hui	1
 抚镜轶闻	fu jing yi wen	1
@@ -55521,6 +55967,7 @@ use_preset_vocabulary: false
 和平主义者	he ping zhu yi zhe	1
 暴龙剑	bao long jian	1
 菅野洋子	jian ye yang zi	1
+孤独的UFO	gu du de _UFO	1
 鲁宾逊	lu bin xun	1
 直播动画	zhi bo dong hua	1
 小贤菌	xiao xian jun	1
@@ -55643,6 +56090,7 @@ use_preset_vocabulary: false
 纳凉型妮妙	na liang xing ni miao	1
 鸭子坐	ya zi zuo	1
 逆光的翅膀	ni guang de chi bang	1
+八木香织	ba mu xiang zhi	1
 成海瑠奈	cheng hai liu nai	1
 奥它	ao ta	1
 浪漫积木	lang man ji mu	1
@@ -55708,6 +56156,7 @@ use_preset_vocabulary: false
 加倍奉还	jia bei feng hai	1
 冈格罗	gang ge luo	1
 松叶菊	song ye ju	1
+日雨柒	ri yu qi	1
 大护法之黑花生	da hu fa zhi hei hua sheng	1
 姬忧型西太后	ji you xing xi tai hou	1
 茶柱转子	cha zhu zhuan zi	1
@@ -55966,6 +56415,7 @@ use_preset_vocabulary: false
 姜广涛	jiang guang tao	1
 世界让梦想熊熊燃烧	shi jie rang meng xiang xiong xiong ran shao	1
 超级叙拉古人	chao ji xu la gu ren	1
+冰狼龙	bing lang long	1
 工藤优作	gong teng you zuo	1
 赫利俄斯	he li e si	1
 大叔心	da shu xin	1
@@ -55984,6 +56434,7 @@ use_preset_vocabulary: false
 萨丽爱尔	sa li ai er	1
 中型车载式划线机	zhong xing che zai shi hua xian ji	1
 传说之心	chuan shuo zhi xin	1
+毒岛黑兵卫	du dao hei bing wei	1
 中原中也	zhong yuan zhong ye	1
 变形斗士·紧急迎击	bian xing dou shi jin ji ying ji	1
 魔女之罪	mo nv zhi zui	1
@@ -56142,6 +56593,7 @@ use_preset_vocabulary: false
 马格德堡	ma ge de bao	1
 神绮	shen qi	1
 原泽晃绮	yuan ze huang qi	1
+铃川筱雅	ling chuan xiao ya	1
 上白石萌音	shang bai shi meng yin	1
 春日部春	chun ri bu chun	1
 迷你胆识	mi ni dan shi	1
@@ -56336,6 +56788,7 @@ use_preset_vocabulary: false
 零-云之声	ling yun zhi sheng	1
 前岛亚美	qian dao ya mei	1
 郭神琳	guo shen lin	1
+别在这里发癫	bie zai zhe li fa dian	1
 八字脚	ba zi jiao	1
 古桥静流	gu qiao jing liu	1
 平庸鬼的研究成果	ping yong gui de yan jiu cheng guo	1
@@ -56416,6 +56869,7 @@ use_preset_vocabulary: false
 角色	jue se	1
 松本英子	song ben ying zi	1
 竹富亚矢	zhu fu ya shi	1
+铃川山子	ling chuan shan zi	1
 天月	tian yue	1
 真当自己大小姐	zhen dang zi ji da xiao jie	1
 失明	shi ming	1
@@ -56472,6 +56926,7 @@ use_preset_vocabulary: false
 妙妙	miao miao	1
 银烛秋光	yin zhu qiu guang	1
 专属看守	zhuan shu kan shou	1
+大极	da ji	1
 天权	tian quan	1
 铁甲城的卡巴内利	tie jia cheng de ka ba nei li	1
 异界型	yi jie xing	1
@@ -56520,6 +56975,7 @@ use_preset_vocabulary: false
 蔡贞姬	cai zhen ji	1
 克莱门汀	ke lai men ting	1
 宇智波带土	yu zhi bo dai tu	1
+旗扬兽道	qi yang shou dao	1
 网球运动员	wang qiu yun dong yuan	1
 吹响吧上低音号	chui xiang ba shang di yin hao	1
 产绢彦弥	chan juan yan mi	1
@@ -56593,6 +57049,7 @@ use_preset_vocabulary: false
 如梦似幻的	ru meng shi huan de	1
 五十铃华	wu shi ling hua	1
 数据库	shu ju ku	1
+始祖土豆雷	shi zu tu dou lei	1
 我的妻子太完美了可以稍微捉弄一下吗	wo de qi zi tai wan mei le ke yi shao wei zhuo nong yi xia ma	1
 仓崎枫子	cang qi feng zi	1
 夯机	hang ji	1
@@ -56644,6 +57101,7 @@ use_preset_vocabulary: false
 父马可亲	fu ma ke qin	1
 铁人三项运动员	tie ren san xiang yun dong yuan	1
 崔三娘	cui san niang	1
+童话森林奇遇记	tong hua sen lin qi yu ji	1
 吴夜叉	wu ye cha	1
 共和国之辉	gong he guo zhi hui	1
 花铗镜	hua jia jing	1
@@ -56686,9 +57144,11 @@ use_preset_vocabulary: false
 顶硬上	ding ying shang	1
 大小姐才不会玩格斗游戏	da xiao jie cai bu hui wan ge dou you xi	1
 忘却侦探系列	wang que zhen tan xi lie	1
+祖茂	zu mao	1
 中川奈美	zhong chuan nai mei	1
 游生梦死	you sheng meng si	1
 世界悠哉Treasure	shi jie you zai _Treasure	1
+美木杉爱九郎	mei mu shan ai jiu lang	1
 羽鸟芳雪	yu niao fang xue	1
 解臾	jie yu	1
 妮塔	ni ta	1
@@ -57117,6 +57577,7 @@ use_preset_vocabulary: false
 螳螂杀手	tang lang sha shou	1
 伊能神乐	yi neng shen le	1
 纳维罗·尤尔根	na wei luo you er gen	1
+未确认未来少女	wei que ren wei lai shao nv	1
 九十九未来	jiu shi jiu wei lai	1
 仰木美奈	yang mu mei nai	1
 大脑在颤抖	da nao zai chan dou	1
@@ -57466,6 +57927,7 @@ use_preset_vocabulary: false
 数显游标卡尺	shu xian you biao ka chi	1
 奖杯	jiang bei	1
 禁忌的边界线	jin ji de bian jie xian	1
+追狼逐北	zhui lang zhu bei	1
 花月精灵	hua yue jing ling	1
 弥勒寺优夜	mi le si you ye	1
 彩虹社性癖组	cai hong she xing pi zu	1
@@ -57788,6 +58250,7 @@ use_preset_vocabulary: false
 伊索尔德	yi suo er de	1
 假海龟	jia hai gui	1
 大河元气	da he yuan qi	1
+露娜莱莎	lu na lai sha	1
 事务所	shi wu suo	1
 乌罗布罗斯	wu luo bu luo si	1
 乌鸦之神	wu ya zhi shen	1
@@ -57847,6 +58310,7 @@ use_preset_vocabulary: false
 爱德华·王·侯·皮皮鲁·提布鲁斯基IV世	ai de hua wang hou pi pi lu ti bu lu si ji _IV shi	1
 美猴王	mei hou wang	1
 邪神之大灾害	xie shen zhi da zai hai	1
+立山	li shan	1
 夏爱	xia ai	1
 壶男	hu nan	1
 大正浪漫咖啡谭	da zheng lang man ka fei tan	1
@@ -57862,6 +58326,7 @@ use_preset_vocabulary: false
 欢乐时光奇卡	huan le shi guang qi ka	1
 爱哭鬼小夜曲	ai ku gui xiao ye qu	1
 贪玩传世	tan wan chuan shi	1
+卡内尔	ka nei er	1
 地底世界	di di shi jie	1
 叮当铃连接星	ding dang ling lian jie xing	1
 我我我电击	wo wo wo dian ji	1
@@ -57931,6 +58396,7 @@ use_preset_vocabulary: false
 至尊魔戒	zhi zun mo jie	1
 潘尼怀斯娘	pan ni huai si niang	1
 光荣自爆协议	guang rong zi bao xie yi	1
+山上有着美妙的东西	shan shang you zhe mei miao de dong xi	1
 玛格丽莎·泽莱	ma ge li sha ze lai	1
 四代水影	si dai shui ying	1
 立花日菜	li hua ri cai	1
@@ -58092,6 +58558,7 @@ use_preset_vocabulary: false
 东方键盘游戏	dong fang jian pan you xi	1
 本乡猛	ben xiang meng	1
 荷尔·贺斯	he er he si	1
+桐山真	tong shan zhen	1
 杀龙剑	sha long jian	1
 我好想做Oo的狗啊	wo hao xiang zuo _Oo de gou a	1
 狄瑞吉	di rui ji	1
@@ -58100,6 +58567,7 @@ use_preset_vocabulary: false
 钢弹系列	gang dan xi lie	1
 樱花定时器	ying hua ding shi qi	1
 夏珂	xia ke	1
+暮主瑞希	mu zhu rui xi	1
 超能力者	chao neng li zhe	1
 电脑科技革命	dian nao ke ji ge ming	1
 鬼灭	gui mie	1
@@ -58138,6 +58606,7 @@ use_preset_vocabulary: false
 花与记忆	hua yu ji yi	1
 千早城	qian zao cheng	1
 日日日	ri ri ri	1
+回忆相册	hui yi xiang ce	1
 无用书生	wu yong shu sheng	1
 零离飘落	ling li piao luo	1
 虫惑魔卡组	chong huo mo ka zu	1
@@ -58224,6 +58693,7 @@ use_preset_vocabulary: false
 莫比乌斯	mo bi wu si	1
 青梅谣	qing mei yao	1
 小渕南	xiao yuan nan	1
+愿天下有情人终成兄妹	yuan tian xia you qing ren zhong cheng xiong mei	1
 本多世枝瑠	ben duo shi zhi liu	1
 上海腾讯企鹅影视文化传播有限公司	shang hai teng xun qi e ying shi wen hua chuan bo you xian gong si	1
 最后的十二小时	zui hou de shi er xiao shi	1
@@ -58338,6 +58808,7 @@ use_preset_vocabulary: false
 四·国殇	si guo shang	1
 不含月铃姐妹	bu han yue ling jie mei	1
 哥德萝莉	ge de luo li	1
+恋爱病毒	lian ai bing du	1
 黑衣组织	hei yi zu zhi	1
 人面魔蛛	ren mian mo zhu	1
 夏生	xia sheng	1
@@ -58375,6 +58846,7 @@ use_preset_vocabulary: false
 符咒	fu zhou	1
 谁敢反对	shui gan fan dui	1
 玛瑙爆破枪	ma nao bao po qiang	1
+希洛·旎尔薇拉	xi luo ni er wei la	1
 希望的学园和绝望高中生	xi wang de xue yuan he jue wang gao zhong sheng	1
 莫尔塔德拉兄弟	mo er ta de la xiong di	1
 铁曲尺	tie qu chi	1
@@ -58420,6 +58892,7 @@ use_preset_vocabulary: false
 阿部大树	a bu da shu	1
 东方星莲船	dong fang xing lian chuan	1
 鬼父	gui fu	1
+貔貅肛	pi xiu gang	1
 琳丝蕾特·劳伦弗罗斯特	lin si lei te lao lun fu luo si te	1
 工藤进	gong teng jin	1
 恐怖美术馆	kong bu mei shu guan	1
@@ -58449,6 +58922,7 @@ use_preset_vocabulary: false
 艾德加·L·雷恩哈特	ai de jia _L lei en ha te	1
 吉良伊鹤	ji liang yi he	1
 埃克西奥	ai ke xi ao	1
+黄太狼	huang tai lang	1
 郑安虹	zheng an hong	1
 安德鲁·克雷斯	an de lu ke lei si	1
 毒岛冴子	du dao ya zi	1
@@ -58468,6 +58942,7 @@ use_preset_vocabulary: false
 老阿訇	lao a hong	1
 马步谣	ma bu yao	1
 极度无意义的人	ji du wu yi yi de ren	1
+平安夜的姜饼物语	ping an ye de jiang bing wu yu	1
 莉赛尔	li sai er	1
 残响乐团	can xiang le tuan	1
 海博能源集团	hai bo neng yuan ji tuan	1
@@ -58517,6 +58992,7 @@ use_preset_vocabulary: false
 马尔三叶形虫	ma er san ye xing chong	1
 电脑狂爱女孩	dian nao kuang ai nv hai	1
 黑头白鹮	hei tou bai huan	1
+盖文·李德	gai wen li de	1
 我回来了这么喊道却没有抵达何处	wo hui lai le zhe me han dao que mei you di da he chu	1
 我的猫狂奔了一整夜	wo de mao kuang ben le yi zheng ye	1
 医疗运输机	yi liao yun shu ji	1
@@ -58581,6 +59057,7 @@ use_preset_vocabulary: false
 威夫	wei fu	1
 聊天鬼才	liao tian gui cai	1
 二十三	er shi san	1
+格黑娜学园	ge hei na xue yuan	1
 里谢尔队长姬	li xie er dui zhang ji	1
 娅墨	ya mo	1
 荒芜行动	huang wu xing dong	1
@@ -58605,6 +59082,7 @@ use_preset_vocabulary: false
 你是什么垃圾	ni shi shen me la ji	1
 崩坏3-女武神的餐桌	beng huai nv wu shen de can zhuo	1
 恋爱喜剧	lian ai xi ju	1
+心中充满喜欢	xin zhong chong man xi huan	1
 留青梳	liu qing shu	1
 混沌源数之门-空	hun dun yuan shu zhi men kong	1
 嗒啦啦的奇妙冒险	da la la de qi miao mao xian	1
@@ -58707,8 +59185,10 @@ use_preset_vocabulary: false
 城华莳绘	cheng hua shi hui	1
 妹抖	mei dou	1
 岬太郎	jia tai lang	1
+契约之吻	qi yue zhi wen	1
 兆野缀	zhao ye zhui	1
 青春爱丽丝	qing chun ai li si	1
+炎上爱丽丝	yan shang ai li si	1
 人鱼与银月夜	ren yu yu yin yue ye	1
 树隙暖阳JUNCTION	shu xi nuan yang _JUNCTION	1
 地狱小子	di yu xiao zi	1
@@ -58820,7 +59300,9 @@ use_preset_vocabulary: false
 魔保育	mo bao yu	1
 安缇莉西亚·雷·梅札斯	an ti li xi ya lei mei zha si	1
 半田桃	ban tian tao	1
+失落的殖民地	shi luo de zhi min di	1
 山口飞翔	shan kou fei xiang	1
+叶佳瑶	ye jia yao	1
 空母	kong mu	1
 史蒂芬·波特	shi di fen bo te	1
 多种武器	duo zhong wu qi	1
@@ -58928,6 +59410,7 @@ use_preset_vocabulary: false
 将全世界的幸福	jiang quan shi jie de xing fu	1
 望月艾蕾娜	wang yue ai lei na	1
 最高通缉	zui gao tong ji	1
+无意识的天才	wu yi shi de tian cai	1
 黑猫的星期三	hei mao de xing qi san	1
 金箱弥宙	jin xiang mi zhou	1
 小川久	xiao chuan jiu	1
@@ -59187,6 +59670,7 @@ use_preset_vocabulary: false
 英灵兽使-神数心皮莉佳	ying ling shou shi shen shu xin pi li jia	1
 星尘的残光	xing chen de can guang	1
 我叫初恋	wo jiao chu lian	1
+白银湖	bai yin hu	1
 青野菜月	qing ye cai yue	1
 太白	tai bai	1
 头发胸罩	tou fa xiong zhao	1
@@ -59237,6 +59721,7 @@ use_preset_vocabulary: false
 暗魔界的霸王	an mo jie de ba wang	1
 核爆末世录	he bao mo shi lu	1
 二刺猿	er ci yuan	1
+染上苍蓝	ran shang cang lan	1
 偶像是不会上厕所的	ou xiang shi bu hui shang ce suo de	1
 处处吻	chu chu wen	1
 藤堂佳织	teng tang jia zhi	1
@@ -59257,6 +59742,7 @@ use_preset_vocabulary: false
 绯色的爱丽丝特莉娅	fei se de ai li si te li ya	1
 星辰花	xing chen hua	1
 处刑装·紫苑	chu xing zhuang zi yuan	1
+西鲁	xi lu	1
 如水	ru shui	1
 蝙蝠侠忍者	bian fu xia ren zhe	1
 御门凉子	yu men liang zi	1
@@ -59516,6 +60002,7 @@ use_preset_vocabulary: false
 泰王国	tai wang guo	1
 魏凉子	wei liang zi	1
 你妈的	ni ma de	1
+静寂之门	jing ji zhi men	1
 魔界	mo jie	1
 本·乔纳森	ben qiao na sen	1
 瑞贝卡·钱柏斯	rui bei ka qian bai si	1
@@ -59574,6 +60061,7 @@ use_preset_vocabulary: false
 小贵音	xiao gui yin	1
 关我碧事	guan wo bi shi	1
 天磊	tian lei	1
+说剑	shuo jian	1
 马正阳	ma zheng yang	1
 赤甲兽	chi jia shou	1
 商务人士	shang wu ren shi	1
@@ -59613,6 +60101,7 @@ use_preset_vocabulary: false
 动物图鉴	dong wu tu jian	1
 海老名公一郎	hai lao ming gong yi lang	1
 前原仁菜	qian yuan ren cai	1
+心照不宣	xin zhao bu xuan	1
 天雄·萱野·芽出	tian xiong xuan ye ya chu	1
 星之谷雫	xing zhi gu na	1
 道尔夫	dao er fu	1
@@ -59677,6 +60166,7 @@ use_preset_vocabulary: false
 宝可梦世界	bao ke meng shi jie	1
 女武神·凯旋	nv wu shen kai xuan	1
 龙僵尸	long jiang shi	1
+天神	tian shen	1
 安妮卡·阿尔斯科特	an ni ka a er si ke te	1
 我读书少	wo du shu shao	1
 汐谷文康	xi gu wen kang	1
@@ -59750,6 +60240,7 @@ use_preset_vocabulary: false
 摩尔根将军	mo er gen jiang jun	1
 水晶奇侠	shui jing qi xia	1
 白井翔平	bai jing xiang ping	1
+熊猫英雄	xiong mao ying xiong	1
 佐岛勤	zuo dao qin	1
 木村P测试系列	mu cun _P ce shi xi lie	1
 立本	li ben	1
@@ -59885,6 +60376,7 @@ use_preset_vocabulary: false
 潮汐级崩坏兽	chao xi ji beng huai shou	1
 阿妮斯	a ni si	1
 越今朝	yue jin zhao	1
+超常现象	chao chang xian xiang	1
 千叶·织姬	qian ye zhi ji	1
 双轮甲骑兵	shuang lun jia qi bing	1
 就在身边	jiu zai shen bian	1
@@ -59921,6 +60413,7 @@ use_preset_vocabulary: false
 婕刚队长姬	jie gang dui zhang ji	1
 吾妻梨花	wu qi li hua	1
 每晚每晚自言自语	mei wan mei wan zi yan zi yu	1
+弭尔焃巴	mi er he ba	1
 吉野顺平	ji ye shun ping	1
 不会止息的雨之旋律	bu hui zhi xi de yu zhi xuan lv	1
 砵仔糕	bo zai gao	1
@@ -59949,6 +60442,7 @@ use_preset_vocabulary: false
 万花谷	wan hua gu	1
 余家俊	yu jia jun	1
 究极机械丸	jiu ji ji xie wan	1
+周刊少年自杀者	zhou kan shao nian zi sha zhe	1
 司康饼	si kang bing	1
 突然	tu ran	1
 酒井香奈	jiu jing xiang nai	1
@@ -59995,6 +60489,7 @@ use_preset_vocabulary: false
 争议事件	zheng yi shi jian	1
 拉克丝·克莱茵	la ke si ke lai yin	1
 玛丽珍鞋	ma li zhen xie	1
+欠乏	qian fa	1
 安东·卡斯蒂约	an dong ka si di yue	1
 祈祷之歌	qi dao zhi ge	1
 特米米	te mi mi	1
@@ -60229,6 +60724,7 @@ use_preset_vocabulary: false
 游戏复刻	you xi fu ke	1
 雾丘女子学院	wu qiu nv zi xue yuan	1
 地狱三头犬	di yu san tou quan	1
+吴天昊	wu tian hao	1
 大型斜嘴钳	da xing xie zui qian	1
 气象武器	qi xiang wu qi	1
 恋爱算个DIO	lian ai suan ge _DIO	1
@@ -60500,6 +60996,7 @@ use_preset_vocabulary: false
 这不是被宗教侵犯了嘛	zhe bu shi bei zong jiao qin fan le ma	1
 正解的卡多	zheng jie de ka duo	1
 鲇川圆	nian chuan yuan	1
+阿诗娅	a shi ya	1
 仙剑奇侠传三外传	xian jian qi xia zhuan san wai zhuan	1
 还是我更好吧	hai shi wo geng hao ba	1
 名濑博臣	ming lai bo chen	1
@@ -60508,6 +61005,7 @@ use_preset_vocabulary: false
 水手月亮	shui shou yue liang	1
 理想之乡	li xiang zhi xiang	1
 仲田隼人	zhong tian sun ren	1
+珠泪哀歌族·鲁莎卡人鱼	zhu lei ai ge zu lu sha ka ren yu	1
 竹子熊猫	zhu zi xiong mao	1
 夜见蕾娜	ye jian lei na	1
 海老原菜帆	hai lao yuan cai fan	1
@@ -60515,10 +61013,12 @@ use_preset_vocabulary: false
 卡特拉·拉齐卡	ka te la la qi ka	1
 爆破模式	bao po mo shi	1
 海边开始的物语	hai bian kai shi de wu yu	1
+布莱泽	bu lai ze	1
 狭间绮罗罗	xia jian qi luo luo	1
 人皮狭美	ren pi xia mei	1
 上海堡垒	shang hai bao lei	1
 你与我的对半分	ni yu wo de dui ban fen	1
+高览	gao lan	1
 从那以后	cong na yi hou	1
 乙女城	yi nv cheng	1
 骷髅巨人	ku lou ju ren	1
@@ -61054,6 +61554,7 @@ use_preset_vocabulary: false
 一梦繁唐	yi meng fan tang	1
 五十岚玲央	wu shi lan ling yang	1
 吉库拉	ji ku la	1
+下一部人气漫画大赏	xia yi bu ren qi man hua da shang	1
 小泉诗	xiao quan shi	1
 诺姆	nuo mu	1
 亚当与贵妇人	ya dang yu gui fu ren	1
@@ -61329,6 +61830,7 @@ use_preset_vocabulary: false
 堕落王飞姆托	duo luo wang fei mu tuo	1
 大草麻菜实	da cao ma cai shi	1
 法露璐	fa lu lu	1
+所罗门七十二柱魔神	suo luo men qi shi er zhu mo shen	1
 本田超级幼兽	ben tian chao ji you shou	1
 空种	kong zhong	1
 福岛乃爱	fu dao nai ai	1
@@ -61466,6 +61968,7 @@ use_preset_vocabulary: false
 艾丝蒂尔·瓦尔赫米亚	ai si di er wa er he mi ya	1
 只言所不能语	zhi yan suo bu neng yu	1
 放学后堤防日记	fang xue hou di fang ri ji	1
+类人类	lei ren lei	1
 饭卡小追	fan ka xiao zhui	1
 灰姑娘	hui gu niang	1
 鸡屎藤	ji shi teng	1
@@ -61489,6 +61992,7 @@ use_preset_vocabulary: false
 无双之翼吉姆	wu shuang zhi yi ji mu	1
 小岛菜	xiao dao cai	1
 筱峥	xiao zheng	1
+克芮儿	ke rui er	1
 白日梦的构想图	bai ri meng de gou xiang tu	1
 天鹅绒之吻	tian e rong zhi wen	1
 满天繁星	man tian fan xing	1
@@ -61496,6 +62000,7 @@ use_preset_vocabulary: false
 苍白的正义	cang bai de zheng yi	1
 香椎爱莉	xiang zhui ai li	1
 诊所	zhen suo	1
+大路道子	da lu dao zi	1
 萨尔瓦多·里昂	sa er wa duo li ang	1
 天草时贞	tian cao shi zhen	1
 甲虫兽进化系	jia chong shou jin hua xi	1
@@ -61560,10 +62065,12 @@ use_preset_vocabulary: false
 渡弗雷泽	du fu lei ze	1
 怪兽狂	guai shou kuang	1
 骑士们	qi shi men	1
+打开未来之门	da kai wei lai zhi men	1
 漫画线性代数	man hua xian xing dai shu	1
 高迅	gao xun	1
 空等	kong deng	1
 最后的愿望	zui hou de yuan wang	1
+东北往事	dong bei wang shi	1
 幸福的信念	xing fu de xin nian	1
 糸色望	si se wang	1
 空洞骑士	kong dong qi shi	1
@@ -61914,8 +62421,10 @@ use_preset_vocabulary: false
 巡林客	xun lin ke	1
 比博燃	bi bo ran	1
 驯鹿	xun lu	1
+佩里科岛	pei li ke dao	1
 神州科技升级	shen zhou ke ji sheng ji	1
 音石明	yin shi ming	1
+高里	gao li	1
 绿坝娘满开	lv ba niang man kai	1
 难波重三郎	nan bo zhong san lang	1
 伊安·迪特里希	yi an di te li xi	1
@@ -62039,7 +62548,6 @@ use_preset_vocabulary: false
 凤桥楼十郎	feng qiao lou shi lang	1
 超音速波	chao yin su bo	1
 魔角侦探	mo jiao zhen tan	1
-珠鸣奈瑠	zhu ming nai liu	1
 碧蓝上河图	bi lan shang he tu	1
 规则系统集合	gui ze xi tong ji he	1
 四条璃生奈	si tiao li sheng nai	1
@@ -62383,6 +62891,7 @@ use_preset_vocabulary: false
 写作Oo读作Oo	xie zuo _Oo du zuo _Oo	1
 强者的苦痛	qiang zhe de ku tong	1
 古河汐Pia	gu he xi _Pia	1
+银河眼光子龙	yin he yan guang zi long	1
 斯黛拉	si dai la	1
 铠冢霙	kai zhong ying	1
 噪音计	zao yin ji	1
@@ -62485,6 +62994,7 @@ use_preset_vocabulary: false
 姨父	yi fu	1
 橙璃	cheng li	1
 高桥广树	gao qiao guang shu	1
+纸嫁衣3鸳鸯债	zhi jia yi yuan yang zhai	1
 喷火战斗姬	pen huo zhan dou ji	1
 龙战士	long zhan shi	1
 富野由悠季	fu ye you you ji	1
@@ -62525,6 +63035,7 @@ use_preset_vocabulary: false
 斯特雷特	si te lei te	1
 花蕾绽放之时	hua lei zhan fang zhi shi	1
 你必须要幸福	ni bi xu yao xing fu	1
+来栖同学	lai qi tong xue	1
 巴雷尔	ba lei er	1
 魔导师之力	mo dao shi zhi li	1
 立直	li zhi	1
@@ -62537,6 +63048,7 @@ use_preset_vocabulary: false
 大触	da chu	1
 正式开始	zheng shi kai shi	1
 穗乃香	sui nai xiang	1
+愿望之事	yuan wang zhi shi	1
 不如旅行去远方	bu ru lv xing qu yuan fang	1
 动漫低手鱼太	dong man di shou yu tai	1
 完美天生	wan mei tian sheng	1
@@ -62674,6 +63186,7 @@ use_preset_vocabulary: false
 阿鲁巴	a lu ba	1
 邻座的柏木同学	lin zuo de bai mu tong xue	1
 三田友子	san tian you zi	1
+星星与萤火虫	xing xing yu ying huo chong	1
 岛袋力也	dao dai li ye	1
 朴载赫	pu zai he	1
 超营养太阳	chao ying yang tai yang	1
@@ -62681,6 +63194,7 @@ use_preset_vocabulary: false
 恶用禁止人生游戏	e yong jin zhi ren sheng you xi	1
 白滨坂高校	bai bin ban gao xiao	1
 霍元甲	huo yuan jia	1
+康帕斯	kang pa si	1
 铃木拓也	ling mu tuo ye	1
 宫崎日和	gong qi ri he	1
 小冢亮辅	xiao zhong liang fu	1
@@ -62720,6 +63234,7 @@ use_preset_vocabulary: false
 朝比奈真冬	chao bi nai zhen dong	1
 南冬马	nan dong ma	1
 瓦拉几亚之夜	wa la ji ya zhi ye	1
+雨水会再度停歇	yu shui hui zai du ting xie	1
 融合体	rong he ti	1
 战火下的小花	zhan huo xia de xiao hua	1
 朝向明天的边界线	chao xiang ming tian de bian jie xian	1
@@ -62732,6 +63247,7 @@ use_preset_vocabulary: false
 残像	can xiang	1
 艾蕾因·奥克雷尔	ai lei yin ao ke lei er	1
 今宵也一起干杯吧	jin xiao ye yi qi gan bei ba	1
+伊丽娜·列夫捷特妮契娜·莫洛斯	yi li na lie fu jie te ni qi na mo luo si	1
 十条园绘	shi tiao yuan hui	1
 招来的对价	zhao lai de dui jia	1
 栗田树	li tian shu	1
@@ -62875,6 +63391,7 @@ use_preset_vocabulary: false
 花盆娘	hua pen niang	1
 安洁莉卡·爱因兹华斯	an jie li ka ai yin zi hua si	1
 答案	da an	1
+阿拜多斯高中	a bai duo si gao zhong	1
 樱满黑周	ying man hei zhou	1
 玄野武宏	xuan ye wu hong	1
 土岐沙绪	tu qi sha xu	1
@@ -63143,6 +63660,7 @@ use_preset_vocabulary: false
 女萎	nv wei	1
 聪明的一休	cong ming de yi xiu	1
 天文学	tian wen xue	1
+不莱梅	bu lai mei	1
 圆周率	yuan zhou lv	1
 嫁实	jia shi	1
 克洛维斯	ke luo wei si	1
@@ -63195,6 +63713,7 @@ use_preset_vocabulary: false
 浦和小调永不停歇	pu he xiao diao yong bu ting xie	1
 黑田隼之介	hei tian sun zhi jie	1
 漫游枪手	man you qiang shou	1
+一击绝顶除灵	yi ji jue ding chu ling	1
 假扮情侣	jia ban qing lv	1
 萌译孔子酱的论语	meng yi kong zi jiang de lun yu	1
 公输仇	gong shu chou	1
@@ -63482,8 +64001,8 @@ use_preset_vocabulary: false
 动力消失了	dong li xiao shi le	1
 石英的象限	shi ying de xiang xian	1
 积雪	ji xue	1
-艾紫培	ai zi pei	1
 你的名字叫勉强的人	ni de ming zi jiao mian qiang de ren	1
+艾紫培	ai zi pei	1
 美少女游戏	mei shao nv you xi	1
 鲜花给你	xian hua gei ni	1
 平野有纱	ping ye you sha	1
@@ -63867,6 +64386,7 @@ use_preset_vocabulary: false
 声音	sheng yin	1
 文学少女	wen xue shao nv	1
 扑克牌	pu ke pai	1
+微笑的炸弹	wei xiao de zha dan	1
 干了这碗恒河水	gan le zhe wan heng he shui	1
 萨塔那	sa ta na	1
 许燕	xu yan	1
@@ -64016,6 +64536,7 @@ use_preset_vocabulary: false
 原子崩坏	yuan zi beng huai	1
 星遗物的低语	xing yi wu de di yu	1
 浣熊市行动	huan xiong shi xing dong	1
+秋鹤	qiu he	1
 体测娘	ti ce niang	1
 面壁女	mian bi nv	1
 喜羊羊与灰太狼之开心日记	xi yang yang yu hui tai lang zhi kai xin ri ji	1
@@ -64113,6 +64634,7 @@ use_preset_vocabulary: false
 户田纯	hu tian chun	1
 约翰尼·怀尔斯	yue han ni huai er si	1
 武崧	wu song	1
+梦留别	meng liu bie	1
 康巴特	kang ba te	1
 娜町	na ding	1
 苏菲娅	su fei ya	1
@@ -64198,6 +64720,7 @@ use_preset_vocabulary: false
 诺库玛	nuo ku ma	1
 皮这一下很开心吗	pi zhe yi xia hen kai xin ma	1
 神秘大失踪	shen mi da shi zong	1
+卡鲁拉·G·E·冯·罗森	ka lu la _GE feng luo sen	1
 波动再生	bo dong zai sheng	1
 速冻猫	su dong mao	1
 胆小菇娘	dan xiao gu niang	1
@@ -64207,6 +64730,7 @@ use_preset_vocabulary: false
 难波京	nan bo jing	1
 踢猫效应	ti mao xiao ying	1
 夏阴	xia yin	1
+最后的冲刺	zui hou de chong ci	1
 自封绽放	zi feng zhan fang	1
 闭锁世界的冥神	bi suo shi jie de ming shen	1
 警察先生	jing cha xian sheng	1
@@ -64329,8 +64853,8 @@ use_preset_vocabulary: false
 伊右群	yi you qun	1
 天球的圣刻印	tian qiu de sheng ke yin	1
 守望先锋联赛	shou wang xian feng lian sai	1
-妮莎	ni sha	1
 太阳石	tai yang shi	1
+妮莎	ni sha	1
 人之子	ren zhi zi	1
 游泳池	you yong chi	1
 梦幻老年之家瓦尔哈拉庄	meng huan lao nian zhi jia wa er ha la zhuang	1
@@ -64568,6 +65092,7 @@ use_preset_vocabulary: false
 初夏娘	chu xia niang	1
 马海燕	ma hai yan	1
 汤承远	tang cheng yuan	1
+索尼克进化	suo ni ke jin hua	1
 黑羽快斗	hei yu kuai dou	1
 未来乡愁	wei lai xiang chou	1
 螺旋阶梯	luo xuan jie ti	1
@@ -64640,6 +65165,7 @@ use_preset_vocabulary: false
 仓库大院	cang ku da yuan	1
 名物观世正宗刀	ming wu guan shi zheng zong dao	1
 连环杀手	lian huan sha shou	1
+信仰与存在	xin yang yu cun zai	1
 流体泥巴	liu ti ni ba	1
 魔扫把	mo sao ba	1
 不过是蜘蛛什么的	bu guo shi zhi zhu shen me de	1
@@ -64793,6 +65319,7 @@ use_preset_vocabulary: false
 辻廉太	shi lian tai	1
 杜比哇	du bi wa	1
 怪物能量饮料娘	guai wu neng liang yin liao niang	1
+七夕的月之牧师	qi xi de yue zhi mu shi	1
 俄罗斯方块早期发行权纠纷	e luo si fang kuai zao qi fa xing quan jiu fen	1
 田茂农林高等学校	tian mao nong lin gao deng xue xiao	1
 马纳多	ma na duo	1
@@ -64863,6 +65390,7 @@ use_preset_vocabulary: false
 小火把在闲逛	xiao huo ba zai xian guang	1
 神降池水无子	shen jiang chi shui wu zi	1
 学兰	xue lan	1
+孤冬	gu dong	1
 鬼隐	gui yin	1
 幻之红宝石兔事件	huan zhi hong bao shi tu shi jian	1
 少年城	shao nian cheng	1
@@ -65199,6 +65727,7 @@ use_preset_vocabulary: false
 只有Oo受伤的世界完成了	zhi you _Oo shou shang de shi jie wan cheng le	1
 同人展	tong ren zhan	1
 戴拿赛诺	dai na sai nuo	1
+便利商店	bian li shang dian	1
 异色眼猛毒龙	yi se yan meng du long	1
 一定是我打开的姿势不对	yi ding shi wo da kai de zi shi bu dui	1
 没人可恋	mei ren ke lian	1
@@ -65742,6 +66271,8 @@ use_preset_vocabulary: false
 穆卓云	mu zhuo yun	1
 摩托车	mo tuo che	1
 山田君与七位魔女	shan tian jun yu qi wei mo nv	1
+新·日本英雄宇宙之间的彩蛋以及联动	xin ri ben ying xiong yu zhou zhi jian de cai dan yi ji lian dong	1
+迷幻的微笑	mi huan de wei xiao	1
 同调破解	tong tiao po jie	1
 幼虫宝宝	you chong bao bao	1
 山像香	shan xiang xiang	1
@@ -65762,6 +66293,7 @@ use_preset_vocabulary: false
 奥钢	ao gang	1
 千石冠	qian shi guan	1
 老板娘	lao ban niang	1
+安迪尔	an di er	1
 变发色	bian fa se	1
 核成兽的钢核	he cheng shou de gang he	1
 燐舞曲	lin wu qu	1
@@ -65801,6 +66333,7 @@ use_preset_vocabulary: false
 幻之地底遗迹	huan zhi di di yi ji	1
 无中生友	wu zhong sheng you	1
 宣告黎明的露之歌	xuan gao li ming de lu zhi ge	1
+娜纱	na sha	1
 户山明日香	hu shan ming ri xiang	1
 绿坝娘伪春菜	lv ba niang wei chun cai	1
 西班牙王国	xi ban ya wang guo	1
@@ -65832,6 +66365,7 @@ use_preset_vocabulary: false
 车祸曲	che huo qu	1
 克雷斯尼克	ke lei si ni ke	1
 挂念的那个她	gua nian de na ge ta	1
+暴雨梨花	bao yu li hua	1
 花木兰	hua mu lan	1
 异想天开	yi xiang tian kai	1
 丽洁萝特·艾辛巴赫	li jie luo te ai xin ba he	1
@@ -65869,6 +66403,7 @@ use_preset_vocabulary: false
 希望破坏炮	xi wang po huai pao	1
 白天马天空·帕加索斯	bai tian ma tian kong pa jia suo si	1
 收尾人	shou wei ren	1
+流星一过	liu xing yi guo	1
 约修亚	yue xiu ya	1
 爱琳·维奥丽塔	ai lin wei ao li ta	1
 大鲸	da jing	1
@@ -66325,6 +66860,7 @@ use_preset_vocabulary: false
 奥佩拉·梵米利昂	ao pei la fan mi li ang	1
 桃河里香	tao he li xiang	1
 双头雷龙	shuang tou lei long	1
+内衣女孩得偿所愿	nei yi nv hai de chang suo yuan	1
 愣着啊	leng zhe a	1
 牵绊之爱	qian ban zhi ai	1
 学妹	xue mei	1
@@ -66428,6 +66964,7 @@ use_preset_vocabulary: false
 炸弹类魔物	zha dan lei mo wu	1
 沐之晴	mu zhi qing	1
 谷边由美	gu bian you mei	1
+超昂系列	chao ang xi lie	1
 狡啮慎也	jiao nie shen ye	1
 电磁学与巧克力	dian ci xue yu qiao ke li	1
 古代树森林	gu dai shu sen lin	1
@@ -66450,6 +66987,7 @@ use_preset_vocabulary: false
 信者无法被拯救	xin zhe wu fa bei zheng jiu	1
 特洛伊剑斗兽	te luo yi jian dou shou	1
 鬼百合	gui bai he	1
+贾充	jia chong	1
 继承之印	ji cheng zhi yin	1
 骑士级崩坏兽	qi shi ji beng huai shou	1
 唯有Oo不可辜负	wei you _Oo bu ke gu fu	1
@@ -66533,6 +67071,7 @@ use_preset_vocabulary: false
 上原奏	shang yuan zou	1
 弗丽达·兰斯	fu li da lan si	1
 水浒英雄谱	shui hu ying xiong pu	1
+谷崎直美	gu qi zhi mei	1
 钻头人	zuan tou ren	1
 护宝炮妖·姬特	hu bao pao yao ji te	1
 魔力星星狐	mo li xing xing hu	1
@@ -66596,6 +67135,7 @@ use_preset_vocabulary: false
 维赛迪家族	wei sai di jia zu	1
 罪恶都市	zui e dou shi	1
 神之塔	shen zhi ta	1
+雾境序列	wu jing xu lie	1
 血小板之歌	xue xiao ban zhi ge	1
 米利亚	mi li ya	1
 佛跳墙	fo tiao qiang	1
@@ -67086,6 +67626,7 @@ use_preset_vocabulary: false
 最喜欢的宝箱	zui xi huan de bao xiang	1
 互换蜻蜓	hu huan qing ting	1
 艾欧莱恩·赫伦兹	ai ou lai en he lun zi	1
+克莱儿	ke lai er	1
 奈莉奈	nai li nai	1
 章鱼噼的原罪	zhang yu pi de yuan zui	1
 巷尾冠军	xiang wei guan jun	1
@@ -67278,6 +67819,7 @@ use_preset_vocabulary: false
 贵国	gui guo	1
 寒刃	han ren	1
 日本狼	ri ben lang	1
+朴佑泰	pu you tai	1
 法露露	fa lu lu	1
 嬴政	ying zheng	1
 糯依	nuo yi	1
@@ -67340,6 +67882,7 @@ use_preset_vocabulary: false
 赤冬	chi dong	1
 弥得加特	mi de jia te	1
 自演乙	zi yan yi	1
+赠别	zeng bie	1
 饰牌原型	shi pai yuan xing	1
 王宫的弹压	wang gong de tan ya	1
 郑建初	zheng jian chu	1
@@ -67586,6 +68129,7 @@ use_preset_vocabulary: false
 三秒规则	san miao gui ze	1
 开放式结局	kai fang shi jie ju	1
 中二社	zhong er she	1
+恋爱绮谭系列	lian ai qi tan xi lie	1
 超高压洗净机	chao gao ya xi jing ji	1
 减半or停止	jian ban _or ting zhi	1
 次元小屋	ci yuan xiao wu	1
@@ -68134,6 +68678,7 @@ use_preset_vocabulary: false
 阿妹你看	a mei ni kan	1
 铃矢芽	ling shi ya	1
 玛利欧系列	ma li ou xi lie	1
+塞维尔	sai wei er	1
 安倍晴歌	an bei qing ge	1
 寒蝉鸣泣之时	han chan ming qi zhi shi	1
 先审后播	xian shen hou bo	1
@@ -68287,6 +68832,7 @@ use_preset_vocabulary: false
 森罗日下部	sen luo ri xia bu	1
 伊丽莎白·冯·卢森堡	yi li sha bai feng lu sen bao	1
 丹尼·芬顿	dan ni fen dun	1
+麦块战队villa者	mai kuai zhan dui _villa zhe	1
 沃利	wo li	1
 水间友美	shui jian you mei	1
 芝加哥豪宅	zhi jia ge hao zhai	1
@@ -68369,6 +68915,7 @@ use_preset_vocabulary: false
 永不枯萎的花	yong bu ku wei de hua	1
 广原月子	guang yuan yue zi	1
 幽闭星空	you bi xing kong	1
+天空轨道	tian kong gui dao	1
 夜间散步	ye jian san bu	1
 金徽章	jin hui zhang	1
 相岛太一	xiang dao tai yi	1
@@ -68384,6 +68931,8 @@ use_preset_vocabulary: false
 逝去吧	shi qu ba	1
 佐藤祐吾	zuo teng you wu	1
 阿特拉姆·加里阿斯塔	a te la mu jia li a si ta	1
+暮主静枝	mu zhu jing zhi	1
+死亡房间	si wang fang jian	1
 五十岚元太	wu shi lan yuan tai	1
 云南山歌	yun nan shan ge	1
 恋爱★食谱☆五星级	lian ai shi pu wu xing ji	1
@@ -68466,10 +69015,12 @@ use_preset_vocabulary: false
 钱婆婆	qian po po	1
 最后的圣诞节	zui hou de sheng dan jie	1
 裁决的天秤	cai jue de tian cheng	1
+莉莉斯兽	li li si shou	1
 小光	xiao guang	1
 诺莺	nuo ying	1
 拉斯维加斯	la si wei jia si	1
 赛露莎	sai lu sha	1
+星之少女	xing zhi shao nv	1
 反派初始化	fan pai chu shi hua	1
 阿尔缇米希亚	a er ti mi xi ya	1
 桃之音	tao zhi yin	1
@@ -68620,6 +69171,7 @@ use_preset_vocabulary: false
 我开始方了	wo kai shi fang le	1
 池塘	chi tang	1
 时无忧	shi wu you	1
+魔法x物理	mo fa _x wu li	1
 青柳紫苑	qing liu zi yuan	1
 中田一郎	zhong tian yi lang	1
 玻璃花与毁坏的世界	bo li hua yu hui huai de shi jie	1
@@ -68911,6 +69463,7 @@ use_preset_vocabulary: false
 马尾辫的四十	ma wei bian de si shi	1
 努力思考着为什么要活下去呢	nu li si kao zhe wei shen me yao huo xia qu ne	1
 我是输给了地球的重力	wo shi shu gei le di qiu de zhong li	1
+新年的祝福	xin nian de zhu fu	1
 归宅部	gui zhai bu	1
 墨痕斋	mo hen zhai	1
 黑塔鬼	hei ta gui	1
@@ -69723,6 +70276,7 @@ use_preset_vocabulary: false
 端点市	duan dian shi	1
 话剧社	hua ju she	1
 木下优子	mu xia you zi	1
+至尊纪念版娘	zhi zun ji nian ban niang	1
 蒙彼利埃	meng bi li ai	1
 奎刚·金	kui gang jin	1
 町本成史	ding ben cheng shi	1
@@ -69753,6 +70307,7 @@ use_preset_vocabulary: false
 魔王布莱克本	mo wang bu lai ke ben	1
 大日多胞体	da ri duo bao ti	1
 如今被放置在这里的花	ru jin bei fang zhi zai zhe li de hua	1
+小墨	xiao mo	1
 坊主头	fang zhu tou	1
 沈威	shen wei	1
 日本动漫	ri ben dong man	1
@@ -69878,6 +70433,7 @@ use_preset_vocabulary: false
 从那边来	cong na bian lai	1
 至少不应该	zhi shao bu ying gai	1
 始龙	shi long	1
+捣蛋万圣夜	dao dan wan sheng ye	1
 云魔物的阵雨	yun mo wu de zhen yu	1
 宇佐美沙枝	yu zuo mei sha zhi	1
 小笠原奈那	xiao li yuan nai na	1
@@ -69887,6 +70443,7 @@ use_preset_vocabulary: false
 奥西里斯之天空龙	ao xi li si zhi tian kong long	1
 没有鱼丸	mei you yu wan	1
 贵方	gui fang	1
+老凉头就是涯芝	lao liang tou jiu shi ya zhi	1
 小森拒不了	xiao sen ju bu liao	1
 河城荷取	he cheng he qu	1
 豆花	dou hua	1
@@ -70081,6 +70638,7 @@ use_preset_vocabulary: false
 于是问题来了	yu shi wen ti lai le	1
 克里斯提娜·摩根	ke li si ti na mo gen	1
 猎狼犬直升机	lie lang quan zhi sheng ji	1
+鸣姬	ming ji	1
 七福神only	qi fu shen _only	1
 简氏舰队指挥官	jian shi jian dui zhi hui guan	1
 恋姬物语	lian ji wu yu	1
@@ -70264,6 +70822,7 @@ use_preset_vocabulary: false
 园神凛绪	yuan shen lin xu	1
 桑德克	sang de ke	1
 小林多喜二	xiao lin duo xi er	1
+英雄联盟2013赛季全球总决赛	ying xiong lian meng sai ji quan qiu zong jue sai	1
 小船彰人	xiao chuan zhang ren	1
 现在拨打热线速订神明	xian zai bo da re xian su ding shen ming	1
 全金属狂潮	quan jin shu kuang chao	1
@@ -70314,6 +70873,7 @@ use_preset_vocabulary: false
 清川元梦	qing chuan yuan meng	1
 部活剧	bu huo ju	1
 水月	shui yue	1
+秩序能力	zhi xu neng li	1
 单方面的爱	dan fang mian di ai	1
 克劳利	ke lao li	1
 擅长捉弄人的原高木同学	shan chang zhuo nong ren de yuan gao mu tong xue	1
@@ -70522,11 +71082,13 @@ use_preset_vocabulary: false
 头发的特技	tou fa de te ji	1
 头脑王者	tou nao wang zhe	1
 虎兔英雄传	hu tu ying xiong chuan	1
+莉可丽丝	li ke li si	1
 关山酒	guan shan jiu	1
 转生成女性向游戏只有毁灭END的坏人大小姐	zhuan sheng cheng nv xing xiang you xi zhi you hui mie _END de huai ren da xiao jie	1
 呼唤繁星的少女	hu huan fan xing de shao nv	1
 汉斯	han si	1
 风尘乱舞	feng chen luan wu	1
+许靖	xu jing	1
 回天鱼雷娘	hui tian yu lei niang	1
 丸户史明	wan hu shi ming	1
 安洁	an jie	1
@@ -70927,6 +71489,7 @@ use_preset_vocabulary: false
 神圣标枪	shen sheng biao qiang	1
 吹奏乐曲介绍	chui zou le qu jie shao	1
 叶花萌	ye hua meng	1
+铳动彼岸花	chong dong bi an hua	1
 沌徽	dun hui	1
 水妖精	shui yao jing	1
 尸姬	shi ji	1
@@ -71036,6 +71599,7 @@ use_preset_vocabulary: false
 电子秤	dian zi cheng	1
 玛尔斯	ma er si	1
 春川友纪	chun chuan you ji	1
+即使那样也可以活下去吗	ji shi na yang ye ke yi huo xia qu ma	1
 机壳守护神	ji ke shou hu shen	1
 林登万	lin deng wan	1
 小艾瑞斯·韦斯特	xiao ai rui si wei si te	1
@@ -71079,6 +71643,7 @@ use_preset_vocabulary: false
 吉田丈一郎	ji tian zhang yi lang	1
 花开物语	hua kai wu yu	1
 糖果	tang guo	1
+赫之圣女	he zhi sheng nv	1
 暗黑灭绝切割	an hei mie jue qie ge	1
 露西菲尼安	lu xi fei ni an	1
 不到100万再生不会停止当P主哦	bu dao wan zai sheng bu hui ting zhi dang _P zhu o	1
@@ -71127,6 +71692,7 @@ use_preset_vocabulary: false
 狱寺隼人	yu si sun ren	1
 骑兵回旋	qi bing hui xuan	1
 团团圆圆	tuan tuan yuan yuan	1
+不曾停止	bu ceng ting zhi	1
 平柳悟	ping liu wu	1
 是x文明	shi _x wen ming	1
 牧场大叔	mu chang da shu	1
@@ -71183,6 +71749,7 @@ use_preset_vocabulary: false
 普罗维登	pu luo wei deng	1
 重装武器	chong zhuang wu qi	1
 螃蟹娘	pang xie niang	1
+最后的追逐	zui hou de zhui zhu	1
 三角迷幻火花	san jiao mi huan huo hua	1
 少女怀春	shao nv huai chun	1
 罗汉斋	luo han zhai	1
@@ -71291,6 +71858,7 @@ use_preset_vocabulary: false
 但钱实在是太多了	dan qian shi zai shi tai duo le	1
 摇篮里的艾丽丝	yao lan li de ai li si	1
 万代南梦宫	wan dai nan meng gong	1
+水水	shui shui	1
 僵尸男	jiang shi nan	1
 脑内会议	nao nei hui yi	1
 九十九斩	jiu shi jiu zhan	1
@@ -71314,6 +71882,7 @@ use_preset_vocabulary: false
 殿堂曲	dian tang qu	1
 双神的艾露薇娜	shuang shen de ai lu wei na	1
 平顶菇	ping ding gu	1
+欧布奥特曼剧场版	ou bu ao te man ju chang ban	1
 眼花缭乱	yan hua liao luan	1
 荒垣城太郎	huang yuan cheng tai lang	1
 谷歌翻译	gu ge fan yi	1
@@ -71519,6 +72088,7 @@ use_preset_vocabulary: false
 转生炎兽	zhuan sheng yan shou	1
 星之追忆	xing zhi zhui yi	1
 神奈川县立湘北高等学校	shen nai chuan xian li xiang bei gao deng xue xiao	1
+闪耀路标	shan yao lu biao	1
 回家吧	hui jia ba	1
 黑暗梅菲斯特	hei an mei fei si te	1
 长濑有花	zhang lai you hua	1
@@ -71647,6 +72217,7 @@ use_preset_vocabulary: false
 白云广雅娘	bai yun guang ya niang	1
 我不会察言观色	wo bu hui cha yan guan se	1
 史蒂芬·A·斯塔菲斯	shi di fen _A si ta fei si	1
+圆溜溜捉迷藏	yuan liu liu zhuo mi cang	1
 妖怪碰碰之歌	yao guai peng peng zhi ge	1
 温柔的种子	wen rou de zhong zi	1
 波奇	bo qi	1
@@ -71905,6 +72476,7 @@ use_preset_vocabulary: false
 薇儿丹蒂	wei er dan di	1
 雪村葵	xue cun kui	1
 拿德利	na de li	1
+开饭啦	kai fan la	1
 索罗亚克	suo luo ya ke	1
 快乐女孩露比	kuai le nv hai lu bi	1
 谢采	xie cai	1
@@ -71965,10 +72537,12 @@ use_preset_vocabulary: false
 卡拉阁	ka la ge	1
 石榴石	shi liu shi	1
 佐贺事变	zuo he shi bian	1
+碧海光粼	bi hai guang lin	1
 七夕的月之骑士	qi xi de yue zhi qi shi	1
 黑暗法尔斯	hei an fa er si	1
 宝牌	bao pai	1
 露谢尔·哈默尔	lu xie er ha mo er	1
+圣诞礼物大作战	sheng dan li wu da zuo zhan	1
 贤狼	xian lang	1
 托卡列夫	tuo ka lie fu	1
 红药丸和蓝药丸	hong yao wan he lan yao wan	1
@@ -72128,6 +72702,7 @@ use_preset_vocabulary: false
 山女	shan nv	1
 丝·普洛万斯	si pu luo wan si	1
 霸道星	ba dao xing	1
+尤拉	you la	1
 纳米病毒娘	na mi bing du niang	1
 斯沃鲁兹	si wo lu zi	1
 辉映姬	hui ying ji	1
@@ -72177,6 +72752,7 @@ use_preset_vocabulary: false
 陈嬑巽	chen yi xun	1
 日本语	ri ben yu	1
 鹿威	lu wei	1
+沁柠	qin ning	1
 一之濑小百合	yi zhi lai xiao bai he	1
 卵之黄身	luan zhi huang shen	1
 夜叉神天衣	ye cha shen tian yi	1
@@ -72470,6 +73046,7 @@ use_preset_vocabulary: false
 于青岚之后	yu qing lan zhi hou	1
 水狐	shui hu	1
 管钟	guan zhong	1
+纯白和弦	chun bai he xian	1
 白外叶蝠	bai wai ye fu	1
 希尔瓦娜斯	xi er wa na si	1
 揍好揍满幼稚园	zou hao zou man you zhi yuan	1
@@ -72594,6 +73171,7 @@ use_preset_vocabulary: false
 蛋饼好朋友之歌	dan bing hao peng you zhi ge	1
 为我神魂颠倒的心	wei wo shen hun dian dao de xin	1
 炼狱茨木童子	lian yu ci mu tong zi	1
+角落的向日葵	jiao luo de xiang ri kui	1
 风魔女-冬铃	feng mo nv dong ling	1
 尘曦	chen xi	1
 月刊少女野崎同学	yue kan shao nv ye qi tong xue	1
@@ -72627,6 +73205,7 @@ use_preset_vocabulary: false
 尤文	you wen	1
 八木迪之	ba mu di zhi	1
 无夜之国	wu ye zhi guo	1
+蛋头街区	dan tou jie qu	1
 重力甲虫	zhong li jia chong	1
 爱沙尼亚	ai sha ni ya	1
 鹿岛	lu dao	1
@@ -72706,6 +73285,7 @@ use_preset_vocabulary: false
 请教我如何面对未到的爱情	qing jiao wo ru he mian dui wei dao de ai qing	1
 金陵舟歌	jin ling zhou ge	1
 小梅	xiao mei	1
+歌曲再生数排行榜	ge qu zai sheng shu pai hang bang	1
 谎颜	huang yan	1
 洛杉矶角斗士队	luo shan ji jue dou shi dui	1
 番茄先生	fan qie xian sheng	1
@@ -72953,13 +73533,16 @@ use_preset_vocabulary: false
 伪善悖论	wei shan bei lun	1
 路德	lu de	1
 大流士王朝的陨落和亚历山大的崛起	da liu shi wang chao de yun luo he ya li shan da de jue qi	1
+渗透压交响乐	shen tou ya jiao xiang le	1
 牛爷爷	niu ye ye	1
 神兵小将片尾曲	shen bing xiao jiang pian wei qu	1
 夏野菜绪	xia ye cai xu	1
 青柳冬弥	qing liu dong mi	1
 芳村艾特	fang cun ai te	1
 蜜球兔	mi qiu tu	1
+赤点	chi dian	1
 新·奥特曼	xin ao te man	1
+希露瓦·朗道	xi lu wa lang dao	1
 鸭桥	ya qiao	1
 十三块少年	shi san kuai shao nian	1
 重返极夜	chong fan ji ye	1
@@ -72976,6 +73559,7 @@ use_preset_vocabulary: false
 死语	si yu	1
 伪拉比	wei la bi	1
 天道花怜	tian dao hua lian	1
+空帕斯	kong pa si	1
 赤烛	chi zhu	1
 起源	qi yuan	1
 剑之反射	jian zhi fan she	1
@@ -73056,6 +73640,7 @@ use_preset_vocabulary: false
 系列的	xi lie de	1
 女武神编年史	nv wu shen bian nian shi	1
 虚幻勇士	xu huan yong shi	1
+分院帽判定结果--阿兹卡班	fen yuan mao pan ding jie guo a zi ka ban	1
 都筑巧	dou zhu qiao	1
 不可思议梦的炼金术士	bu ke si yi meng de lian jin shu shi	1
 足柄	zu bing	1
@@ -73123,6 +73708,7 @@ use_preset_vocabulary: false
 死魂曲系列	si hun qu xi lie	1
 感伤电影	gan shang dian ying	1
 堕落神殿	duo luo shen dian	1
+小丑巴基	xiao chou ba ji	1
 玛蓉·斋藤	ma rong zhai teng	1
 珮珮因	pei pei yin	1
 爆笑虫子	bao xiao chong zi	1
@@ -73251,6 +73837,7 @@ use_preset_vocabulary: false
 水着	shui zhe	1
 关一帆	guan yi fan	1
 萤石眼之歌	ying shi yan zhi ge	1
+赛玖	sai jiu	1
 镜音绿	jing yin lv	1
 危Oo危	wei _Oo wei	1
 伊妮亚·谢斯切娜	yi ni ya xie si qie na	1
@@ -73318,6 +73905,7 @@ use_preset_vocabulary: false
 诺艾儿	nuo ai er	1
 雷霆食人魔	lei ting shi ren mo	1
 光头强的父亲	guang tou qiang de fu qin	1
+苍鸆桑染	cang yu sang ran	1
 机皇帝的赐与	ji huang di de ci yu	1
 话剧部	hua ju bu	1
 铁球巨人	tie qiu ju ren	1
@@ -73416,6 +74004,7 @@ use_preset_vocabulary: false
 怎么会知道这个	zen me hui zhi dao zhe ge	1
 比什巴赫	bi shen ba he	1
 倚天屠龙记	yi tian tu long ji	1
+巨神峰	ju shen feng	1
 装备全靠捡	zhuang bei quan kao jian	1
 立直麻将	li zhi ma jiang	1
 单雨童	dan yu tong	1
@@ -73441,6 +74030,7 @@ use_preset_vocabulary: false
 夏洛特·科黛	xia luo te ke dai	1
 天性在眼镜的里侧	tian xing zai yan jing de li ce	1
 鲁多尔·冯·修特罗海姆	lu duo er feng xiu te luo hai mu	1
+我的支持者	wo de zhi chi zhe	1
 闪刀术式-妨害波纹	shan dao shu shi fang hai bo wen	1
 伪物语	wei wu yu	1
 英伦匪帮-金百莉	ying lun fei bang jin bai li	1
@@ -73544,6 +74134,7 @@ use_preset_vocabulary: false
 卡哇伊	ka wa yi	1
 恣意生长	zi yi sheng zhang	1
 神眼的勇者	shen yan de yong zhe	1
+渡濑悠宇	du lai you yu	1
 狼人露卡·贝恩霍勒	lang ren lu ka bei en huo le	1
 孙茹	sun ru	1
 三观跟着五官跑	san guan gen zhe wu guan pao	1
@@ -73628,6 +74219,7 @@ use_preset_vocabulary: false
 指月伏见城	zhi yue fu jian cheng	1
 游乐园	you le yuan	1
 奥莉薇亚·维尔提亚	ao li wei ya wei er ti ya	1
+豆雨	dou yu	1
 季节	ji jie	1
 伊娃·罗莎莉恩	yi wa luo sha li en	1
 铃鹿诗子	ling lu shi zi	1
@@ -73635,6 +74227,7 @@ use_preset_vocabulary: false
 耶利哥	ye li ge	1
 赵爽	zhao shuang	1
 茜崎梨央	qian qi li yang	1
+学园偶像同好会	xue yuan ou xiang tong hao hui	1
 迷你哆啦A梦	mi ni duo la _A meng	1
 菠萝蜜	bo luo mi	1
 谋杀一颗少女心	mou sha yi ke shao nv xin	1
@@ -73669,12 +74262,14 @@ use_preset_vocabulary: false
 坦克世界	tan ke shi jie	1
 可爱小狼	ke ai xiao lang	1
 蚂蚁娘	ma yi niang	1
+黑塔	hei ta	1
 微尘定格动画工作室	wei chen ding ge dong hua gong zuo shi	1
 星崎理沙	xing qi li sha	1
 有罪者的罗曼蒂克	you zui zhe de luo man di ke	1
 我推是恶役大小姐	wo tui shi e yi da xiao jie	1
 山吹亚衣	shan chui ya yi	1
 昆虫人	kun chong ren	1
+情人节关我鸟事	qing ren jie guan wo niao shi	1
 口无喵	kou wu miao	1
 宝箱	bao xiang	1
 八代拓	ba dai tuo	1
@@ -73723,6 +74318,7 @@ use_preset_vocabulary: false
 土田大	tu tian da	1
 赵匡胤	zhao kuang yin	1
 群星闪耀	qun xing shan yao	1
+町尾守	ding wei shou	1
 盒子精	he zi jing	1
 外屋舞美	wai wu wu mei	1
 夏夕空	xia xi kong	1
@@ -73742,10 +74338,12 @@ use_preset_vocabulary: false
 红灯夜游	hong deng ye you	1
 传说前缀	chuan shuo qian zhui	1
 人之里	ren zhi li	1
+卡米娜尔·路·普鲁提亚·索尔特雷吉·希斯雅	ka mi na er lu pu lu ti ya suo er te lei ji xi si ya	1
 半衰期	ban shuai qi	1
 孟获	meng huo	1
 成家义哉	cheng jia yi zai	1
 里奇艾尔	li qi ai er	1
+东京孤独少女	dong jing gu du shao nv	1
 玉子爱情故事	yu zi ai qing gu shi	1
 洛丽塔装	luo li ta zhuang	1
 无限信标	wu xian xin biao	1
@@ -74104,6 +74702,7 @@ use_preset_vocabulary: false
 克利夫兰	ke li fu lan	1
 游乐园的最棒玩法	you le yuan de zui bang wan fa	1
 嘘嘘鬼王姬	xu xu gui wang ji	1
+致命纳得	zhi ming na de	1
 政治家	zheng zhi jia	1
 有在听着音乐剧吗	you zai ting zhe yin yue ju ma	1
 薇欧蕾特·普拉达列	wei ou lei te pu la da lie	1
@@ -74174,6 +74773,7 @@ use_preset_vocabulary: false
 希尔维娅·路·库洛斯克劳恩·索尔特雷吉·希斯雅	xi er wei ya lu ku luo si ke lao en suo er te lei ji xi si ya	1
 血斧埃里克	xue fu ai li ke	1
 西园寺理花	xi yuan si li hua	1
+安琪·诺玛	an qi nuo ma	1
 安妮·露西芬·督特里希	an ni lu xi fen du te li xi	1
 孔融	kong rong	1
 凉风青叶	liang feng qing ye	1
@@ -74585,6 +75185,8 @@ use_preset_vocabulary: false
 阳小龙	yang xiao long	1
 青苹果娘	qing ping guo niang	1
 无敌的午夜船员	wu di de wu ye chuan yuan	1
+半睡的呼喊	ban shui de hu han	1
+染上薄暮	ran shang bo mu	1
 见x滚	jian _x gun	1
 更多啊	geng duo a	1
 爱的兵器	ai de bing qi	1
@@ -74658,9 +75260,11 @@ use_preset_vocabulary: false
 冠世一战	guan shi yi zhan	1
 安堂夏美	an tang xia mei	1
 泽口亮	ze kou liang	1
+流星猎手	liu xing lie shou	1
 半龙女仆·蒸馏室龙女	ban long nv pu zheng liu shi long nv	1
 攻略相关	gong lue xiang guan	1
 小玉	xiao yu	1
+猫耳情结	mao er qing jie	1
 风之花	feng zhi hua	1
 东海桐花	dong hai tong hua	1
 剑酩琴酊	jian ming qin ding	1
@@ -74679,6 +75283,7 @@ use_preset_vocabulary: false
 踏断	ta duan	1
 天音纺	tian yin fang	1
 凭依解放	ping yi jie fang	1
+一壶春秋	yi hu chun qiu	1
 群英集	qun ying ji	1
 梦晶女	meng jing nv	1
 齐奏乐悠扬	qi zou le you yang	1
@@ -74942,6 +75547,7 @@ use_preset_vocabulary: false
 椿尾上城	chun wei shang cheng	1
 月光下的序曲	yue guang xia de xu qu	1
 伊邪未名	yi xie wei ming	1
+海妮	hai ni	1
 三角嫉妒	san jiao ji du	1
 罗伯特·海因莱因	luo bo te hai yin lai yin	1
 小点心	xiao dian xin	1
@@ -74957,6 +75563,7 @@ use_preset_vocabulary: false
 查理曼大帝	cha li man da di	1
 卡特莉与大富豪的阴谋	ka te li yu da fu hao de yin mou	1
 小蓝与小绿	xiao lan yu xiao lv	1
+铛铛铛铛	dang dang dang dang	1
 一个实际用	yi ge shi ji yong	1
 鳝鱼	shan yu	1
 画圈用语	hua quan yong yu	1
@@ -75075,6 +75682,7 @@ use_preset_vocabulary: false
 金丝雀的天空	jin si que de tian kong	1
 中国绊爱	zhong guo ban ai	1
 贝亚子	bei ya zi	1
+梦游全世界	meng you quan shi jie	1
 见o滚	jian _o gun	1
 乔瓦尼·奥迪托雷	qiao wa ni ao di tuo lei	1
 日神杀	ri shen sha	1
@@ -75094,8 +75702,10 @@ use_preset_vocabulary: false
 双头武器	shuang tou wu qi	1
 德瑞博士	de rui bo shi	1
 糟糕	zao gao	1
+艾达·王	ai da wang	1
 吉野裕行	ji ye yu hang	1
 万象霜天	wan xiang shuang tian	1
+步骘	bu zhi	1
 葵菜月	kui cai yue	1
 白檀笼女	bai tan long nv	1
 目瞪口呆	mu deng kou dai	1
@@ -75175,6 +75785,7 @@ use_preset_vocabulary: false
 塞露贝利亚	sai lu bei li ya	1
 波波	bo bo	1
 汜水流年	si shui liu nian	1
+相泽亚美	xiang ze ya mei	1
 玉鬘琉璃	yu man liu li	1
 战略恐吓局	zhan lue kong xia ju	1
 河西慎二	he xi shen er	1
@@ -75278,6 +75889,7 @@ use_preset_vocabulary: false
 百变绫绫	bai bian ling ling	1
 青岛崇	qing dao chong	1
 在秘密的前方等待着	zai mi mi de qian fang deng dai zhe	1
+物理性孤立中的我的高中生活	wu li xing gu li zhong di wo de gao zhong sheng huo	1
 闪耀的世界	shan yao de shi jie	1
 狗卷棘	gou juan ji	1
 世纪末的夏天	shi ji mo de xia tian	1
@@ -75342,6 +75954,7 @@ use_preset_vocabulary: false
 真珠楼	zhen zhu lou	1
 作为人我正在偏离常轨	zuo wei ren wo zheng zai pian li chang gui	1
 圣诞玫瑰	sheng dan mei gui	1
+化物宇宙	hua wu yu zhou	1
 卡露乃	ka lu nai	1
 就算是胆小鬼	jiu suan shi dan xiao gui	1
 张甄妮	zhang zhen ni	1
@@ -75385,7 +75998,6 @@ use_preset_vocabulary: false
 奥丁之眼	ao ding zhi yan	1
 夏天的结束	xia tian de jie shu	1
 小野忍	xiao ye ren	1
-紫电	zi dian	1
 死馆	si guan	1
 邋遢大王	la ta da wang	1
 玫瑰公主	mei gui gong zhu	1
@@ -75489,7 +76101,6 @@ use_preset_vocabulary: false
 其中一个是妹妹	qi zhong yi ge shi mei mei	1
 埃辛诺斯战刃	ai xin nuo si zhan ren	1
 新世纪涉谷战	xin shi ji she gu zhan	1
-知名的武器装备梗杂梗汇总	zhi ming de wu qi zhuang bei geng za geng hui zong	1
 武部沙织	wu bu sha zhi	1
 怪兽角子机	guai shou jiao zi ji	1
 水莲	shui lian	1
@@ -75520,6 +76131,7 @@ use_preset_vocabulary: false
 彼岸的硝烟	bi an de xiao yan	1
 莎菲妮亚	sha fei ni ya	1
 打工人之歌	da gong ren zhi ge	1
+董白传	dong bai chuan	1
 调皮宝贝喔喔鸡	tiao pi bao bei wo wo ji	1
 咖喱后米饭	ga li hou mi fan	1
 崔公子	cui gong zi	1
@@ -75919,6 +76531,7 @@ use_preset_vocabulary: false
 抖艾斯斯基	dou ai si si ji	1
 坎特伯雷公主与骑士唤醒冠军之剑的奇幻冒险	kan te bo lei gong zhu yu qi shi huan xing guan jun zhi jian de qi huan mao xian	1
 路灯	lu deng	1
+孙邵	sun shao	1
 粒烧莉姆露	li shao li mu lu	1
 是女权主义者	shi nv quan zhu yi zhe	1
 脱出游戏	tuo chu you xi	1
@@ -76100,6 +76713,7 @@ use_preset_vocabulary: false
 西园寺琴歌	xi yuan si qin ge	1
 生命短暂	sheng ming duan zan	1
 魅须丸	mei xu wan	1
+紫社	zi she	1
 中国儿童动画出版工程	zhong guo er tong dong hua chu ban gong cheng	1
 公女殿下的家庭教师	gong nv dian xia de jia ting jiao shi	1
 内战篇登场角色	nei zhan pian deng chang jue se	1
@@ -76134,6 +76748,7 @@ use_preset_vocabulary: false
 隆隆岩	long long yan	1
 特别席次	te bie xi ci	1
 花严爱丽丝	hua yan ai li si	1
+微光之镜	wei guang zhi jing	1
 因为我们是	yin wei wo men shi	1
 汽雾动力咆哮	qi wu dong li pao xiao	1
 迷宫黑心企业	mi gong hei xin qi ye	1
@@ -76429,6 +77044,7 @@ use_preset_vocabulary: false
 濑川祐太	lai chuan you tai	1
 远月茶寮料理学园	yuan yue cha liao liao li xue yuan	1
 脚盆鸡	jiao pen ji	1
+菲莉斯	fei li si	1
 劳拉·克劳馥	lao la ke lao fu	1
 龟田役所土垒	gui tian yi suo tu lei	1
 锈蚀之雾	xiu shi zhi wu	1
@@ -76635,14 +77251,14 @@ use_preset_vocabulary: false
 闽北语	min bei yu	1
 羁绊之歌	ji ban zhi ge	1
 节奏地牢	jie zou di lao	1
-艾维欣	ai wei xin	1
 秦惟刚	qin wei gang	1
+艾维欣	ai wei xin	1
 安德烈	an de lie	1
 透明色	tou ming se	1
 女子高中生	nv zi gao zhong sheng	1
 手机依存症	shou ji yi cun zheng	1
-洛温	luo wen	1
 水手木星	shui shou mu xing	1
+洛温	luo wen	1
 修尔特	xiu er te	1
 地主家也没有余粮啊	di zhu jia ye mei you yu liang a	1
 八云缘	ba yun yuan	1
@@ -77193,6 +77809,7 @@ use_preset_vocabulary: false
 吉冈茉佑	ji gang mo you	1
 圣诞老人是真的	sheng dan lao ren shi zhen de	1
 无欲之壶	wu yu zhi hu	1
+救祓少女卡组	jiu fu shao nv ka zu	1
 等级调整	deng ji tiao zheng	1
 请倾听死者的声音	qing qing ting si zhe de sheng yin	1
 初夏季节	chu xia ji jie	1
@@ -77332,6 +77949,7 @@ use_preset_vocabulary: false
 星星的加冕	xing xing de jia mian	1
 铜短剑	tong duan jian	1
 大正少女御伽话	da zheng shao nv yu ga hua	1
+因为抓住了爸爸活女高中生的弱点	yin wei zhua zhu le ba ba huo nv gao zhong sheng de ruo dian	1
 晚风的旋律	wan feng de xuan lv	1
 麦基洗德	mai ji xi de	1
 小舞	xiao wu	1
@@ -77387,7 +78005,9 @@ use_preset_vocabulary: false
 直布罗陀	zhi bu luo tuo	1
 桑尼·弗雷利	sang ni fu lei li	1
 次元边界突破	ci yuan bian jie tu po	1
+星之海洋	xing zhi hai yang	1
 姜振台	jiang zhen tai	1
+来自鸢尾的天使	lai zi yuan wei de tian shi	1
 有缘再会	you yuan zai hui	1
 进藤晃一	jin teng huang yi	1
 黑波	hei bo	1
@@ -77782,6 +78402,7 @@ use_preset_vocabulary: false
 摇曳的我的幻想曲	yao ye de wo de huan xiang qu	1
 杰拉尔·费尔南迪斯	jie la er fei er nan di si	1
 百炼霸王与圣约女武神	bai lian ba wang yu sheng yue nv wu shen	1
+嵇康	ji kang	1
 永辉	yong hui	1
 剧情祭品	ju qing ji pin	1
 新干少女	xin gan shao nv	1
@@ -78256,9 +78877,11 @@ use_preset_vocabulary: false
 安娜·查尔斯·达尔文	an na cha er si da er wen	1
 尤蒂	you di	1
 升天的角笛	sheng tian de jiao di	1
+阿斯塔罗特	a si ta luo te	1
 雪妮丝	xue ni si	1
 炸裂装甲	zha lie zhuang jia	1
 超音蝠娘	chao yin fu niang	1
+尘尘呪诅	chen chen zhou zu	1
 沐浴在树叶空隙间的阳光下为彼此声援	mu yu zai shu ye kong xi jian de yang guang xia wei bi ci sheng yuan	1
 其实就是xx	qi shi jiu shi _xx	1
 工业	gong ye	1
@@ -78322,6 +78945,7 @@ use_preset_vocabulary: false
 埃莉诺·沙尼亚特	ai li nuo sha ni ya te	1
 女扮男装	nv ban nan zhuang	1
 野井原绯鞠	ye jing yuan fei ju	1
+左乐	zuo le	1
 一如既往的你	yi ru ji wang de ni	1
 梦色游行	meng se you xing	1
 月光的巫女	yue guang de wu nv	1
@@ -78512,6 +79136,7 @@ use_preset_vocabulary: false
 宋义进	song yi jin	1
 格局小了	ge ju xiao le	1
 真理之口	zhen li zhi kou	1
+孙鹏	sun peng	1
 成长的军师	cheng chang de jun shi	1
 李书文	li shu wen	1
 淡红色的约定	dan hong se de yue ding	1
@@ -78836,6 +79461,7 @@ use_preset_vocabulary: false
 苏联新闻播报员	su lian xin wen bo bao yuan	1
 哔哩哔哩大战爱奇艺	bi li bi li da zhan ai qi yi	1
 柯尔德	ke er de	1
+宗预	zong yu	1
 魔塔大陆系列	mo ta da lu xi lie	1
 不夜城之舞	bu ye cheng zhi wu	1
 真田凛	zhen tian lin	1
@@ -78953,9 +79579,11 @@ use_preset_vocabulary: false
 赫界龙	he jie long	1
 随机迷宫	sui ji mi gong	1
 多人模式	duo ren mo shi	1
+黄皓	huang hao	1
 凭依花	ping yi hua	1
 室笠朱音	shi li zhu yin	1
 松芝工厂	song zhi gong chang	1
+永夜之城的魅影	yong ye zhi cheng de mei ying	1
 世界正在导入	shi jie zheng zai dao ru	1
 海滩	hai tan	1
 灼热的开关	zhuo re de kai guan	1
@@ -79094,6 +79722,7 @@ use_preset_vocabulary: false
 闲炎星-红冠胜	xian yan xing hong guan sheng	1
 拜占庭帝国	bai zhan ting di guo	1
 洞穴	dong xue	1
+从今以后的	cong jin yi hou de	1
 哈维街头帮	ha wei jie tou bang	1
 粉鱼	fen yu	1
 三格声米	san ge sheng mi	1
@@ -79159,6 +79788,7 @@ use_preset_vocabulary: false
 狭山千惠	xia shan qian hui	1
 瑞云静红	rui yun jing hong	1
 唯一神	wei yi shen	1
+轻冰	qing bing	1
 九尾娘	jiu wei niang	1
 盐屋聪	yan wu cong	1
 布伦	bu lun	1
@@ -79348,6 +79978,7 @@ use_preset_vocabulary: false
 秦熙妍	qin xi yan	1
 暴君的威压	bao jun de wei ya	1
 三和大志	san he da zhi	1
+明智左马介	ming zhi zuo ma jie	1
 红魔之里	hong mo zhi li	1
 空气压缩机	kong qi ya suo ji	1
 森山奈菜巳	sen shan nai cai si	1
@@ -79374,6 +80005,7 @@ use_preset_vocabulary: false
 弗兰克·汤普尼	fu lan ke tang pu ni	1
 马里奥	ma li ao	1
 辈先	bei xian	1
+思无邪	si wu xie	1
 禁断的果体乐园	jin duan de guo ti le yuan	1
 蒙特祖马	meng te zu ma	1
 提康德罗加	ti kang de luo jia	1
@@ -79717,6 +80349,7 @@ use_preset_vocabulary: false
 月饼娘	yue bing niang	1
 青山穰	qing shan rang	1
 平井贵大	ping jing gui da	1
+在时间暂停的洋馆里追寻明天的羔羊们	zai shi jian zan ting de yang guan li zhui xun ming tian de gao yang men	1
 希克	xi ke	1
 源光	yuan guang	1
 那个夏日已然饱和	na ge xia ri yi ran bao he	1
@@ -79917,6 +80550,7 @@ use_preset_vocabulary: false
 吉备野珠	ji bei ye zhu	1
 冈咲美保	gang xiao mei bao	1
 纪录	ji lu	1
+小逝	xiao shi	1
 二枚屋王悦	er mei wu wang yue	1
 佐尔夫·J·金布利	zuo er fu _J jin bu li	1
 真叫人脸扁	zhen jiao ren lian bian	1
@@ -80310,8 +80944,8 @@ use_preset_vocabulary: false
 祝福之钟	zhu fu zhi zhong	1
 战争类魂器	zhan zheng lei hun qi	1
 先锋武装炮艇姬	xian feng wu zhuang pao ting ji	1
-初鸟创	chu niao chuang	1
 小花仙	xiao hua xian	1
+初鸟创	chu niao chuang	1
 白崎洋平	bai qi yang ping	1
 卡文汀	ka wen ting	1
 混合烦恼百分之一百	hun he fan nao bai fen zhi yi bai	1
@@ -80486,6 +81120,7 @@ use_preset_vocabulary: false
 快乐的天才	kuai le de tian cai	1
 鲍里斯	bao li si	1
 舰上轰炸机	jian shang hong zha ji	1
+赛事贺图	sai shi he tu	1
 田边梢	tian bian shao	1
 临时行车时间表	lin shi xing che shi jian biao	1
 洛芳	luo fang	1
@@ -80525,6 +81160,7 @@ use_preset_vocabulary: false
 京冢志温	jing zhong zhi wen	1
 橘蕾娜	ju lei na	1
 二条城	er tiao cheng	1
+刘筱馨	liu xiao xin	1
 杰克·史密斯	jie ke shi mi si	1
 崔珏	cui jue	1
 薛定谔的警局	xue ding e de jing ju	1
@@ -80621,6 +81257,7 @@ use_preset_vocabulary: false
 坂口芳贞	ban kou fang zhen	1
 失控能量	shi kong neng liang	1
 瞬间爆炸	shun jian bao zha	1
+明日的世界星光闪耀	ming ri de shi jie xing guang shan yao	1
 住野夜	zhu ye ye	1
 化生院明日香	hua sheng yuan ming ri xiang	1
 希望的学园与绝望的高中生	xi wang de xue yuan yu jue wang de gao zhong sheng	1
@@ -80655,6 +81292,7 @@ use_preset_vocabulary: false
 佃井皆美	dian jing jie mei	1
 炽天覆七重圆环	chi tian fu qi zhong yuan huan	1
 绫子	ling zi	1
+火灵天星	huo ling tian xing	1
 贼龙	zei long	1
 岳天子亭	yue tian zi ting	1
 夏目友人帐	xia mu you ren zhang	1
@@ -80763,6 +81401,7 @@ use_preset_vocabulary: false
 不可思议美眉	bu ke si yi mei mei	1
 魔族之链	mo zu zhi lian	1
 大友克洋	da you ke yang	1
+日向千夏	ri xiang qian xia	1
 兀露露·卡鹫塔	wu lu lu ka jiu ta	1
 莎拉·谢恩	sha la xie en	1
 胜利的引导者	sheng li de yin dao zhe	1
@@ -80890,6 +81529,7 @@ use_preset_vocabulary: false
 圣殿级崩坏兽	sheng dian ji beng huai shou	1
 秋川弥生	qiu chuan mi sheng	1
 今晚深渊结算	jin wan shen yuan jie suan	1
+恋冢希	lian zhong xi	1
 宗圆千明	zong yuan qian ming	1
 纽扣	niu kou	1
 永野善一	yong ye shan yi	1
@@ -80928,6 +81568,7 @@ use_preset_vocabulary: false
 魔界都市	mo jie dou shi	1
 星屑的残光	xing xie de can guang	1
 魔救之息吹	mo jiu zhi xi chui	1
+鸡儿窜稀	ji er cuan xi	1
 缇妲	ti da	1
 白色的季节	bai se de ji jie	1
 恋色能量	lian se neng liang	1
@@ -81076,6 +81717,7 @@ use_preset_vocabulary: false
 天王寺瑚太朗	tian wang si hu tai lang	1
 荣耀殿堂	rong yao dian tang	1
 污染区	wu ran qu	1
+让乌鸦啼叫的方式	rang wu ya ti jiao de fang shi	1
 背着葱赶来的MIKU	bei zhe cong gan lai de _MIKU	1
 樱井明音	ying jing ming yin	1
 仓院流灵媒道	cang yuan liu ling mei dao	1
@@ -81197,6 +81839,7 @@ use_preset_vocabulary: false
 尼采	ni cai	1
 征姊妹	zheng zi mei	1
 骷髅商人	ku lou shang ren	1
+羁绊之力	ji ban zhi li	1
 百万坪迷宫	bai wan ping mi gong	1
 被开除出勇者队伍的驯兽使	bei kai chu chu yong zhe dui wu de xun shou shi	1
 棺材中的生活	guan cai zhong di sheng huo	1
@@ -81227,8 +81870,8 @@ use_preset_vocabulary: false
 魔道祖师泡面番	mo dao zu shi pao mian fan	1
 那年夏天-不会忘记的世界	na nian xia tian bu hui wang ji de shi jie	1
 超河马狂欢节	chao he ma kuang huan jie	1
+轮廓	lun kuo	1
 创始之女	chuang shi zhi nv	1
-珈乐中之人离职事件	jia le zhong zhi ren li zhi shi jian	1
 志波岩鹫	zhi bo yan jiu	1
 防人操	fang ren cao	1
 四级娘	si ji niang	1
@@ -81402,7 +82045,6 @@ use_preset_vocabulary: false
 臭臭花娘	chou chou hua niang	1
 迟到	chi dao	1
 露脐装	lu qi zhuang	1
-明日乡	ming ri xiang	1
 跳跃	tiao yue	1
 青山翠	qing shan cui	1
 明日的我与昨日的你约会	ming ri de wo yu zuo ri de ni yue hui	1
@@ -81418,6 +82060,7 @@ use_preset_vocabulary: false
 索霖	suo lin	1
 风暴战舰	feng bao zhan jian	1
 高达创战者	gao da chuang zhan zhe	1
+莓实兔丸	mei shi tu wan	1
 不运的爆弹	bu yun de bao dan	1
 但我大受震撼	dan wo da shou zhen han	1
 东北俊子	dong bei jun zi	1
@@ -81618,6 +82261,7 @@ use_preset_vocabulary: false
 帝姬	di ji	1
 明石国行	ming shi guo hang	1
 恐惧症	kong ju zheng	1
+咩也爷	mie ye ye	1
 幽丽	you li	1
 给未来男友的歌	gei wei lai nan you de ge	1
 应急修理要员	ying ji xiu li yao yuan	1
@@ -81631,6 +82275,7 @@ use_preset_vocabulary: false
 素颜	su yan	1
 卢本伟牛逼	lu ben wei niu bi	1
 高斯·奥特曼	gao si ao te man	1
+布里之誓	bu li zhi shi	1
 东方音道流	dong fang yin dao liu	1
 简情歌	jian qing ge	1
 冥界流傀儡术	ming jie liu kui lei shu	1
@@ -81667,6 +82312,7 @@ use_preset_vocabulary: false
 逐渐罅裂之斧	zhu jian xia lie zhi fu	1
 战场疾风	zhan chang ji feng	1
 飘浮泡泡娘	piao fu pao pao niang	1
+兰伯特	lan bo te	1
 然后是最后一页	ran hou shi zui hou yi ye	1
 鼬神	you shen	1
 金珂垃	jin ke la	1
@@ -81851,6 +82497,7 @@ use_preset_vocabulary: false
 迪化	di hua	1
 米蕾莉亚·Q·梅洛马格	mi lei li ya _Q mei luo ma ge	1
 柯尔特	ke er te	1
+羊仔	yang zai	1
 真是HIGH到不行	zhen shi _HIGH dao bu xing	1
 风间叶月	feng jian ye yue	1
 万事屋斋藤先生转生异世界	wan shi wu zhai teng xian sheng zhuan sheng yi shi jie	1
@@ -82163,6 +82810,7 @@ use_preset_vocabulary: false
 家族计划	jia zu ji hua	1
 梅格与赛隆	mei ge yu sai long	1
 不二	bu er	1
+构图模仿	gou tu mo fang	1
 师弟	shi di	1
 年刊	nian kan	1
 异色丹麦	yi se dan mai	1
@@ -82176,6 +82824,7 @@ use_preset_vocabulary: false
 阿蒂拉·幼体	a di la you ti	1
 灰岩皮	hui yan pi	1
 爱情是烤肉的滋味	ai qing shi kao rou de zi wei	1
+跨作品换装	kua zuo pin huan zhuang	1
 活动及配信历史	huo dong ji pei xin li shi	1
 京乐春水	jing le chun shui	1
 我们大家都是意义不明的存在	wo men da jia dou shi yi yi bu ming de cun zai	1
@@ -82241,6 +82890,7 @@ use_preset_vocabulary: false
 向着你不会哭泣的世界	xiang zhe ni bu hui ku qi de shi jie	1
 鸓鸟	lei niao	1
 御巫桃也	yu wu tao ye	1
+剑起山林	jian qi shan lin	1
 艾莉西亚·费南雪	ai li xi ya fei nan xue	1
 绝对不能对哥哥说的事	jue dui bu neng dui ge ge shuo de shi	1
 黄色节制	huang se jie zhi	1
@@ -82329,6 +82979,7 @@ use_preset_vocabulary: false
 库伽	ku ga	1
 沙鲁	sha lu	1
 一击魔杖	yi ji mo zhang	1
+乐观谎者	le guan huang zhe	1
 威廉·凡强斯	wei lian fan qiang si	1
 丘丘	qiu qiu	1
 乔尼·乔斯达	qiao ni qiao si da	1
@@ -82402,6 +83053,7 @@ use_preset_vocabulary: false
 龅牙	bao ya	1
 德尔塔大日	de er ta da ri	1
 熊法师	xiong fa shi	1
+阿卡懿岚	a ka yi lan	1
 松竹映画	song zhu ying hua	1
 淘气仙星·斯威特戴薇儿	tao qi xian xing si wei te dai wei er	1
 镜子中的回忆	jing zi zhong di hui yi	1
@@ -82721,6 +83373,7 @@ use_preset_vocabulary: false
 白三叶草的愿望	bai san ye cao de yuan wang	1
 电子界信标	dian zi jie xin biao	1
 两人	liang ren	1
+快来烧死那对情人	kuai lai shao si na dui qing ren	1
 温蒂·那布勒斯	wen di na bu le si	1
 你xx知道吗	ni _xx zhi dao ma	1
 洛克娘	luo ke niang	1
@@ -83078,6 +83731,7 @@ use_preset_vocabulary: false
 紫黑	zi hei	1
 常常	chang chang	1
 三重射手	san zhong she shou	1
+迪姆	di mu	1
 彩虹部队	cai hong bu dui	1
 向上运送吧	xiang shang yun song ba	1
 蛇壶乙女	she hu yi nv	1
@@ -83257,10 +83911,13 @@ use_preset_vocabulary: false
 应急食品	ying ji shi pin	1
 双色酢浆草	shuang se zuo jiang cao	1
 黒白病栋	hei bai bing dong	1
+七夕的火之炼金术师	qi xi de huo zhi lian jin shu shi	1
 翎上	ling shang	1
 花苑佑香	hua yuan you xiang	1
 血界战线&BEYOND原声带	xue jie zhan xian _BEYOND yuan sheng dai	1
 魁炎星王-宋虎	kui yan xing wang song hu	1
+凭借游戏知识自由地生活	ping jie you xi zhi shi zi you de sheng huo	1
+隐秘基地	yin mi ji di	1
 卢吉雄	lu ji xiong	1
 从者界	cong zhe jie	1
 东方刚欲异闻	dong fang gang yu yi wen	1
@@ -83850,6 +84507,7 @@ use_preset_vocabulary: false
 田中樱	tian zhong ying	1
 鹈殿麻由	ti dian ma you	1
 蜘蛛卵	zhi zhu luan	1
+奈克赛斯奥特曼	nai ke sai si ao te man	1
 神乐花菜	shen le hua cai	1
 特殊凶恶犯对策室	te shu xiong e fan dui ce shi	1
 山东大学	shan dong da xue	1
@@ -84062,6 +84720,7 @@ use_preset_vocabulary: false
 提线木偶	ti xian mu ou	1
 毒峰莉露卡	du feng li lu ka	1
 命运之轮	ming yun zhi lun	1
+堆尸打法	dui shi da fa	1
 帆楼	fan lou	1
 丁娘	ding niang	1
 宝生稀咲	bao sheng xi xiao	1
@@ -84191,6 +84850,7 @@ use_preset_vocabulary: false
 乌冬	wu dong	1
 拜厄斯·里佩尔	bai e si li pei er	1
 勇者斗恶龙	yong zhe dou e long	1
+库多	ku duo	1
 滨廉	bin lian	1
 苏格拉宁	su ge la ning	1
 丸吞	wan tun	1
@@ -84343,8 +85003,8 @@ use_preset_vocabulary: false
 那份血的记忆	na fen xue de ji yi	1
 田中步	tian zhong bu	1
 侵略的侵食崩坏	qin lue de qin shi beng huai	1
-海豚	hai tun	1
 少女与龙机	shao nv yu long ji	1
+海豚	hai tun	1
 那些我无法原谅的事	na xie wo wu fa yuan liang de shi	1
 风与异乡人	feng yu yi xiang ren	1
 深堀纯代	shen ku chun dai	1
@@ -84443,6 +85103,7 @@ use_preset_vocabulary: false
 阎萌萌	yan meng meng	1
 野生的咆哮	ye sheng de pao xiao	1
 按f进入坦克	an _f jin ru tan ke	1
+跨作品同框	kua zuo pin tong kuang	1
 塔娜朵丝	ta na duo si	1
 松风真由	song feng zhen you	1
 水陆两用战斗艇	shui lu liang yong zhan dou ting	1
@@ -84473,6 +85134,7 @@ use_preset_vocabulary: false
 五分之一	wu fen zhi yi	1
 电动填缝枪	dian dong tian feng qiang	1
 未来描画	wei lai miao hua	1
+希露瓦	xi lu wa	1
 撒旦耶尔	sa dan ye er	1
 露库希安	lu ku xi an	1
 中国	zhong guo	1
@@ -84538,9 +85200,11 @@ use_preset_vocabulary: false
 连拳	lian quan	1
 天童木更	tian tong mu geng	1
 血腥魔兽人	xue xing mo shou ren	1
+笠原弘子	li yuan hong zi	1
 木叶村	mu ye cun	1
 见到小机器人的梦	jian dao xiao ji qi ren de meng	1
 茂木夏树	mao mu xia shu	1
+承曦格雷伊	cheng xi ge lei yi	1
 路边的猫尾草与你的心情	lu bian de mao wei cao yu ni de xin qing	1
 老人	lao ren	1
 赤神伊莉亚	chi shen yi li ya	1
@@ -84607,6 +85271,7 @@ use_preset_vocabulary: false
 逐风者	zhu feng zhe	1
 妃常惨	fei chang can	1
 未确认进行时	wei que ren jin xing shi	1
+恋冢爱	lian zhong ai	1
 江口结瞳	jiang kou jie tong	1
 哈雷彗星娘	ha lei hui xing niang	1
 美峰	mei feng	1
@@ -84673,6 +85338,7 @@ use_preset_vocabulary: false
 自律思考固定炮台	zi lv si kao gu ding pao tai	1
 变革的序曲	bian ge de xu qu	1
 筱原睦雄	xiao yuan mu xiong	1
+辛毗	xin pi	1
 保持冷静	bao chi leng jing	1
 生于黑夜	sheng yu hei ye	1
 遗式巫女	yi shi wu nv	1
@@ -84686,6 +85352,7 @@ use_preset_vocabulary: false
 鹿鸣	lu ming	1
 岛风	dao feng	1
 动力装甲	dong li zhuang jia	1
+所以拜托她带狗狗散步	suo yi bai tuo ta dai gou gou san bu	1
 魔雪奇缘	mo xue qi yuan	1
 井上穗乃花	jing shang sui nai hua	1
 人体描边	ren ti miao bian	1
@@ -84740,6 +85407,7 @@ use_preset_vocabulary: false
 迷惘	mi wang	1
 七夕的土之剑士	qi xi de tu zhi jian shi	1
 欧良果彭	ou liang guo peng	1
+不屈	bu qu	1
 符卡信息	fu ka xin xi	1
 御杖夏南子	yu zhang xia nan zi	1
 隐藏曲	yin cang qu	1
@@ -84805,6 +85473,7 @@ use_preset_vocabulary: false
 丧女	sang nv	1
 大神环	da shen huan	1
 小杯和小龙	xiao bei he xiao long	1
+英雄联盟2016赛季全球总决赛	ying xiong lian meng sai ji quan qiu zong jue sai	1
 追悔	zhui hui	1
 卯酉东海道	mao you dong hai dao	1
 勇士姬改	yong shi ji gai	1
@@ -84873,7 +85542,6 @@ use_preset_vocabulary: false
 话题作	hua ti zuo	1
 丑小鸭与文字祸	chou xiao ya yu wen zi huo	1
 贵岛沙希	gui dao sha xi	1
-希洛	xi luo	1
 庄库	zhuang ku	1
 榎宫祐	jia gong you	1
 黛尔塔	dai er ta	1
@@ -84998,6 +85666,7 @@ use_preset_vocabulary: false
 上巴	shang ba	1
 大乡桐子	da xiang tong zi	1
 阿希莉亚	a xi li ya	1
+庞尊	pang zun	1
 特拉戈迪亚娘	te la ge di ya niang	1
 苏格兰威士忌	su ge lan wei shi ji	1
 我属于火山口	wo shu yu huo shan kou	1
@@ -85008,6 +85677,7 @@ use_preset_vocabulary: false
 四不像	si bu xiang	1
 偷跑事件	tou pao shi jian	1
 幽怜	you lian	1
+听不见的呼救	ting bu jian de hu jiu	1
 下个职场是魔王城	xia ge zhi chang shi mo wang cheng	1
 塔内巴	ta nei ba	1
 罗斯	luo si	1
@@ -85192,6 +85862,7 @@ use_preset_vocabulary: false
 受够了	shou gou le	1
 布鲁克林	bu lu ke lin	1
 井上	jing shang	1
+红米	hong mi	1
 依神紫苑	yi shen zi yuan	1
 还有	hai you	1
 康威	kang wei	1
@@ -85619,6 +86290,7 @@ use_preset_vocabulary: false
 护卫舰出云姬	hu wei jian chu yun ji	1
 下达裁决的女帝	xia da cai jue de nv di	1
 我才不会被女孩子欺负呢	wo cai bu hui bei nv hai zi qi fu ne	1
+莫问春情	mo wen chun qing	1
 黑飙	hei biao	1
 三重身份	san zhong shen fen	1
 弋凡	yi fan	1
@@ -85685,6 +86357,7 @@ use_preset_vocabulary: false
 逆推	ni tui	1
 轰天雷	hong tian lei	1
 春猿火	chun yuan huo	1
+佩希多	pei xi duo	1
 龙脉	long mai	1
 在永恒的终点	zai yong heng de zhong dian	1
 长崛桥贞夫君	zhang jue qiao zhen fu jun	1
@@ -86057,7 +86730,9 @@ use_preset_vocabulary: false
 他是不被羔羊感谢的救世主	ta shi bu bei gao yang gan xie de jiu shi zhu	1
 还原成诗	hai yuan cheng shi	1
 攘夷四天王	rang yi si tian wang	1
+遮天	zhe tian	1
 神器出典相关	shen qi chu dian xiang guan	1
+梅媛菲	mei yuan fei	1
 萧清源	xiao qing yuan	1
 麦克·伊文斯	mai ke yi wen si	1
 提亚蜜思林·葛雷·佛德赛	ti ya mi si lin ge lei fo de sai	1
@@ -86099,6 +86774,7 @@ use_preset_vocabulary: false
 背叛的子弹	bei pan de zi dan	1
 召集之圣刻印	zhao ji zhi sheng ke yin	1
 日向未南	ri xiang wei nan	1
+只是堕落	zhi shi duo luo	1
 月神宵深子	yue shen xiao shen zi	1
 测验	ce yan	1
 心园小龙	xin yuan xiao long	1
@@ -86536,6 +87212,7 @@ use_preset_vocabulary: false
 莲水彩	lian shui cai	1
 朝比奈实玖瑠的冒险	chao bi nai shi jiu liu de mao xian	1
 远浪	yuan lang	1
+大小姐与七忠犬	da xiao jie yu qi zhong quan	1
 混血	hun xue	1
 艾伦格	ai lun ge	1
 红莉	hong li	1
@@ -86582,6 +87259,7 @@ use_preset_vocabulary: false
 假面骑士响鬼与七人的战鬼	jia mian qi shi xiang gui yu qi ren de zhan gui	1
 只属于你的旋律	zhi shu yu ni de xuan lv	1
 红莲	hong lian	1
+黑鸡	hei ji	1
 恐牙狼	kong ya lang	1
 诺娃·泰拉	nuo wa tai la	1
 亚哈	ya ha	1
@@ -86712,6 +87390,7 @@ use_preset_vocabulary: false
 七神使	qi shen shi	1
 星际一游	xing ji yi you	1
 邵君	shao jun	1
+一树	yi shu	1
 千代田桃	qian dai tian tao	1
 妲丽·刀伽	da li dao ga	1
 三泽羽居	san ze yu ju	1
@@ -86823,6 +87502,7 @@ use_preset_vocabulary: false
 世界蛇	shi jie she	1
 东大纷争	dong da fen zheng	1
 威震天姬	wei zhen tian ji	1
+拉马尔法·米歇尔·立山	la ma er fa mi xie er li shan	1
 死神吉良	si shen ji liang	1
 漆森	qi sen	1
 大馄饨	da hun tun	1
@@ -86942,6 +87622,7 @@ use_preset_vocabulary: false
 乌洛波洛斯	wu luo bo luo si	1
 黑渊白花	hei yuan bai hua	1
 侯伯·马洛	hou bo ma luo	1
+杰洛士	jie luo shi	1
 五星花	wu xing hua	1
 虚拟窗口的闭锁	xu ni chuang kou de bi suo	1
 大橙丸	da cheng wan	1
@@ -87009,6 +87690,7 @@ use_preset_vocabulary: false
 放送局	fang song ju	1
 福尔戈	fu er ge	1
 天眼哨机	tian yan shao ji	1
+羡望	xian wang	1
 仓石监督	cang shi jian du	1
 潜影	qian ying	1
 假面骑士剑闪	jia mian qi shi jian shan	1
@@ -87046,7 +87728,6 @@ use_preset_vocabulary: false
 为美好的世界献上爆焰	wei mei hao de shi jie xian shang bao yan	1
 突强的残响	tu qiang de can xiang	1
 背包人	bei bao ren	1
-柚子不幼	you zi bu you	1
 织节真冬	zhi jie zhen dong	1
 逝去的你	shi qu de ni	1
 魂影依融合	hun ying yi rong he	1
@@ -87122,6 +87803,7 @@ use_preset_vocabulary: false
 玛修·基列莱特	ma xiu ji lie lai te	1
 约瑟夫	yue se fu	1
 月光入侵计划	yue guang ru qin ji hua	1
+我家的街猫	wo jia de jie mao	1
 冰如意	bing ru yi	1
 船津一辉	chuan jin yi hui	1
 明娜·迪特林德·威尔克	ming na di te lin de wei er ke	1
@@ -87137,10 +87819,12 @@ use_preset_vocabulary: false
 强吻	qiang wen	1
 那须玲	na xu ling	1
 萨拉辛纳	sa la xin na	1
+张坤	zhang kun	1
 星圣风暴	xing sheng feng bao	1
 恶魔之子系列	e mo zhi zi xi lie	1
 侵蚀鳞粉	qin shi lin fen	1
 赫奇帕奇学院	he qi pa qi xue yuan	1
+在与你相伴的地方	zai yu ni xiang ban de di fang	1
 最终幻想零式	zui zhong huan xiang ling shi	1
 河村友美	he cun you mei	1
 连接着的每一个我	lian jie zhe de mei yi ge wo	1
@@ -87211,6 +87895,7 @@ use_preset_vocabulary: false
 手折正弦	shou zhe zheng xian	1
 借东西的小人阿莉埃蒂	jie dong xi de xiao ren a li ai di	1
 禁忌咒纹	jin ji zhou wen	1
+亚堤	ya di	1
 例大祭	li da ji	1
 疾风剑豪	ji feng jian hao	1
 伍柏谕	wu bai yu	1
@@ -87395,6 +88080,7 @@ use_preset_vocabulary: false
 融合准备	rong he zhun bei	1
 冈崎朋也	gang qi peng ye	1
 塙英子	qiao ying zi	1
+张虎乐綝	zhang hu le chen	1
 羽日	yu ri	1
 苍龙的仆人	cang long de pu ren	1
 执拗者	zhi niu zhe	1
@@ -87432,6 +88118,7 @@ use_preset_vocabulary: false
 武僧僵尸	wu seng jiang shi	1
 澄原知佳	cheng yuan zhi jia	1
 御泽萌惠	yu ze meng hui	1
+达莉娅	da li ya	1
 雨中行者	yu zhong xing zhe	1
 飞信娘	fei xin niang	1
 结良	jie liang	1
@@ -87530,6 +88217,7 @@ use_preset_vocabulary: false
 蕾贝卡·隆美尔	lei bei ka long mei er	1
 江户前的废柴精灵	jiang hu qian de fei chai jing ling	1
 恶役大小姐	e yi da xiao jie	1
+即便那样也可以活下去吗	ji bian na yang ye ke yi huo xia qu ma	1
 正在做了	zheng zai zuo le	1
 转职	zhuan zhi	1
 弟妹	di mei	1
@@ -87593,11 +88281,13 @@ use_preset_vocabulary: false
 奥日与萤火意志	ao ri yu ying huo yi zhi	1
 肉丸	rou wan	1
 烟烟罗	yan yan luo	1
+别在这理发店	bie zai zhe li fa dian	1
 三泽乙叶	san ze yi ye	1
 小动物之星	xiao dong wu zhi xing	1
 避役	bi yi	1
 涩面	se mian	1
 云子	yun zi	1
+周期表	zhou qi biao	1
 浮世青行灯	fu shi qing hang deng	1
 玛露琪娜·咖喱	ma lu qi na ga li	1
 荣誉的祭牲	rong yu de ji sheng	1
@@ -87684,6 +88374,7 @@ use_preset_vocabulary: false
 一马平川的妥妥	yi ma ping chuan de tuo tuo	1
 七十亿的天涯孤独	qi shi yi de tian ya gu du	1
 日向千寻的工作总是做不久	ri xiang qian xun de gong zuo zong shi zuo bu jiu	1
+被针对的Live	bei zhen dui de _Live	1
 星空终点站	xing kong zhong dian zhan	1
 马耶·布雷泽	ma ye bu lei ze	1
 一之濑茉莉香	yi zhi lai mo li xiang	1
@@ -87911,6 +88602,7 @@ use_preset_vocabulary: false
 火红的希望之花	huo hong de xi wang zhi hua	1
 艾莉丝·卡达列特	ai li si ka da lie te	1
 金装的维尔梅	jin zhuang de wei er mei	1
+圣骑士莉卡物语	sheng qi shi li ka wu yu	1
 罪犯	zui fan	1
 要就拿去	yao jiu na qu	1
 茜卓纳拉	qian zhuo na la	1
@@ -87948,6 +88640,7 @@ use_preset_vocabulary: false
 无法为你做到任何事	wu fa wei ni zuo dao ren he shi	1
 小川健太郎	xiao chuan jian tai lang	1
 文靖渊	wen jing yuan	1
+春节游园摄影会	chun jie you yuan she ying hui	1
 丘比	qiu bi	1
 人形电脑天使心	ren xing dian nao tian shi xin	1
 圆大梧	yuan da wu	1
@@ -87959,6 +88652,7 @@ use_preset_vocabulary: false
 澳娘	ao niang	1
 德纳·泰布斯	de na tai bu si	1
 米歇尔·法梅加	mi xie er fa mei jia	1
+中原瑞希	zhong yuan rui xi	1
 冢田良平	zhong tian liang ping	1
 神圣森林	shen sheng sen lin	1
 游骑兵援护型	you qi bing yuan hu xing	1
@@ -87978,6 +88672,7 @@ use_preset_vocabulary: false
 王心语	wang xin yu	1
 涂鸦	tu ya	1
 燃烧的蔬菜之神奇大陆	ran shao de shu cai zhi shen qi da lu	1
+如果没有写这样的小说就好了	ru guo mei you xie zhe yang de xiao shuo jiu hao le	1
 横光利一	heng guang li yi	1
 香格里拉	xiang ge li la	1
 亚食人	ya shi ren	1
@@ -88123,7 +88818,6 @@ use_preset_vocabulary: false
 四时·草之绿	si shi cao zhi lv	1
 人外	ren wai	1
 漫步	man bu	1
-知名杂梗汇总	zhi ming za geng hui zong	1
 徐伦	xu lun	1
 那巴	na ba	1
 中华美食谣	zhong hua mei shi yao	1
@@ -88168,6 +88862,7 @@ use_preset_vocabulary: false
 我去年买了个表	wo qu nian mai le ge biao	1
 小若紫亚	xiao ruo zi ya	1
 堆糖向	dui tang xiang	1
+奥利奥	ao li ao	1
 七人传奇	qi ren chuan qi	1
 冰结界的三方阵	bing jie jie de san fang zhen	1
 主播太丑粉转黑	zhu bo tai chou fen zhuan hei	1
@@ -88633,6 +89328,7 @@ use_preset_vocabulary: false
 异界型言和-欢聚	yi jie xing yan he huan ju	1
 品川台场	pin chuan tai chang	1
 时计坂花音	shi ji ban hua yin	1
+晚安颂	wan an song	1
 韦伯·维尔维特	wei bo wei er wei te	1
 泽田有希	ze tian you xi	1
 人族医疗兵娘	ren zu yi liao bing niang	1
@@ -88907,6 +89603,7 @@ use_preset_vocabulary: false
 东谷小雪	dong gu xiao xue	1
 吸血鬼觉醒	xi xue gui jue xing	1
 多功能打磨机Y	duo gong neng da mo ji _Y	1
+朋友胶片	peng you jiao pian	1
 巨蜂	ju feng	1
 备中松山城	bei zhong song shan cheng	1
 深闪	shen shan	1
@@ -88965,6 +89662,7 @@ use_preset_vocabulary: false
 特殊行动	te shu xing dong	1
 锅盖城乙女城	guo gai cheng yi nv cheng	1
 当女孩遇到熊	dang nv hai yu dao xiong	1
+拉塔恩	la ta en	1
 伊吹	yi chui	1
 灼热之火灵使	zhuo re zhi huo ling shi	1
 茧居族	jian ju zu	1
@@ -89027,6 +89725,7 @@ use_preset_vocabulary: false
 细数你的罪恶吧	xi shu ni de zui e ba	1
 同调体反射	tong tiao ti fan she	1
 大户英美	da hu ying mei	1
+金字塔洞穴	jin zi ta dong xue	1
 死灵佐玛	si ling zuo ma	1
 时械神	shi xie shen	1
 渡边摩利	du bian mo li	1
@@ -89056,6 +89755,7 @@ use_preset_vocabulary: false
 告白実行委员会	gao bai shi hang wei yuan hui	1
 干旱与洪水	gan han yu hong shui	1
 幻痛	huan tong	1
+缶缶	fou fou	1
 西山冴希	xi shan ya xi	1
 阮从青	ruan cong qing	1
 奥尔奇斯	ao er qi si	1
@@ -89101,8 +89801,8 @@ use_preset_vocabulary: false
 擎天王国	qing tian wang guo	1
 罚符	fa fu	1
 蒲公英狮	pu gong ying shi	1
-阿耶尼	a ye ni	1
 芙蕾雅·伊尊	fu lei ya yi zun	1
+阿耶尼	a ye ni	1
 假面骑士最光	jia mian qi shi zui guang	1
 截图干嘛	jie tu gan ma	1
 山月桂	shan yue gui	1
@@ -89212,6 +89912,7 @@ use_preset_vocabulary: false
 安娜的橱窗	an na de chu chuang	1
 秋原雪花	qiu yuan xue hua	1
 判子绘	pan zi hui	1
+绿野幻梦	lv ye huan meng	1
 科蕾特	ke lei te	1
 想要吃掉你的胰脏	xiang yao chi diao ni de yi zang	1
 叶文洁	ye wen jie	1
@@ -89368,6 +90069,7 @@ use_preset_vocabulary: false
 莱因哈德	lai yin ha de	1
 憧憬的pleats	chong jing de _pleats	1
 仲夏	zhong xia	1
+木间萌	mu jian meng	1
 潜水	qian shui	1
 肩口	jian kou	1
 光暗娘	guang an niang	1
@@ -89381,6 +90083,7 @@ use_preset_vocabulary: false
 弟控	di kong	1
 麻仓花	ma cang hua	1
 若有机会的话真想成为你的仆从啊	ruo you ji hui de hua zhen xiang cheng wei ni de pu cong a	1
+钵屋三郎	bo wu san lang	1
 聂恩	nie en	1
 决战兵器之影灵衣	jue zhan bing qi zhi ying ling yi	1
 野曝之首	ye pu zhi shou	1
@@ -89398,6 +90101,7 @@ use_preset_vocabulary: false
 晓之光	xiao zhi guang	1
 低腰裤	di yao ku	1
 安吉莉卡	an ji li ka	1
+躺卧于东京的正中心	tang wo yu dong jing de zheng zhong xin	1
 阿帕茶	a pa cha	1
 横山光辉	heng shan guang hui	1
 卡通世界	ka tong shi jie	1
@@ -89440,6 +90144,7 @@ use_preset_vocabulary: false
 塔克拉玛干·斯托列恩基·拉乌	ta ke la ma gan si tuo lie en ji la wu	1
 元皇花	yuan huang hua	1
 路维·婕露	lu wei jie lu	1
+刚缠兽	gang chan shou	1
 成濑珠子	cheng lai zhu zi	1
 新月宴歌	xin yue yan ge	1
 白色情人节的火之炼金术师	bai se qing ren jie de huo zhi lian jin shu shi	1
@@ -89492,6 +90197,7 @@ use_preset_vocabulary: false
 虚黑城	xu hei cheng	1
 一直	yi zhi	1
 这次一定	zhe ci yi ding	1
+罗伊克	luo yi ke	1
 小松先生	xiao song xian sheng	1
 战神坦克	zhan shen tan ke	1
 红蓝球	hong lan qiu	1
@@ -89697,7 +90403,6 @@ use_preset_vocabulary: false
 终焉之地	zhong yan zhi di	1
 川豚	chuan tun	1
 封印能力	feng yin neng li	1
-碧海光鳞	bi hai guang lin	1
 神凤杏	shen feng xing	1
 胆创	dan chuang	1
 薇欧拉·西门子	wei ou la xi men zi	1
@@ -89787,6 +90492,7 @@ use_preset_vocabulary: false
 中村叶月	zhong cun ye yue	1
 光辉深渊	guang hui shen yuan	1
 海鸟东月的荒唐事	hai niao dong yue de huang tang shi	1
+伊塔	yi ta	1
 清音	qing yin	1
 菲利普斯	fei li pu si	1
 魔法乐曲目录	mo fa le qu mu lu	1
@@ -89795,6 +90501,7 @@ use_preset_vocabulary: false
 大铃功起	da ling gong qi	1
 夏木日向	xia mu ri xiang	1
 你们这个是什么群啊	ni men zhe ge shi shen me qun a	1
+我的妻子似乎是个变态	wo de qi zi shi hu shi ge bian tai	1
 王室教师海涅	wang shi jiao shi hai nie	1
 阿尔德巴兰	a er de ba lan	1
 夜勤病院黑魔法幻想曲	ye qin bing yuan hei mo fa huan xiang qu	1
@@ -89882,6 +90589,7 @@ use_preset_vocabulary: false
 开心超人联盟之能源核守护者	kai xin chao ren lian meng zhi neng yuan he shou hu zhe	1
 七凭之祭	qi ping zhi ji	1
 罗盘的彼方	luo pan de bi fang	1
+三石	san shi	1
 平子丈	ping zi zhang	1
 脸都不要了	lian dou bu yao le	1
 罪恶王权	zui e wang quan	1
@@ -90001,6 +90709,7 @@ use_preset_vocabulary: false
 苏菲·海特	su fei hai te	1
 向我看	xiang wo kan	1
 渡部惠子	du bu hui zi	1
+两位白皇	liang wei bai huang	1
 恋爱选举巧克力	lian ai xuan ju qiao ke li	1
 机动战士高达桑	ji dong zhan shi gao da sang	1
 贝阿朵莉丝·芙劳查尔德	bei a duo li si fu lao cha er de	1
@@ -90177,6 +90886,7 @@ use_preset_vocabulary: false
 笨鸟先飞	ben niao xian fei	1
 真理之镜	zhen li zhi jing	1
 高见泽逸郎	gao jian ze yi lang	1
+滕胤	teng yin	1
 手机版	shou ji ban	1
 的笑容由我来守护	de xiao rong you wo lai shou hu	1
 杨红樱	yang hong ying	1
@@ -90269,6 +90979,7 @@ use_preset_vocabulary: false
 这片晚霞	zhe pian wan xia	1
 搬运社	ban yun she	1
 正确的KADO	zheng que de _KADO	1
+叹息的去向	tan xi de qu xiang	1
 河合曾良	he he ceng liang	1
 群星梗	qun xing geng	1
 柳泽芹	liu ze qin	1
@@ -90351,6 +91062,7 @@ use_preset_vocabulary: false
 能代	neng dai	1
 艾库莉亚·菲弥琳丝	ai ku li ya fei mi lin si	1
 喜欢喜欢软绵绵	xi huan xi huan ruan mian mian	1
+乘烟	cheng yan	1
 伊子	yi zi	1
 转转	zhuan zhuan	1
 叼面包	diao mian bao	1
@@ -90582,6 +91294,7 @@ use_preset_vocabulary: false
 萤与灯	ying yu deng	1
 山口太郎	shan kou tai lang	1
 冈田坚二朗	gang tian jian er lang	1
+升力文化	sheng li wen hua	1
 航空站	hang kong zhan	1
 君主蛇娘	jun zhu she niang	1
 骰子游戏	tou zi you xi	1
@@ -90826,6 +91539,7 @@ use_preset_vocabulary: false
 千堂瑛里华	qian tang ying li hua	1
 佐佐木琲世	zuo zuo mu bei shi	1
 通宵热舞	tong xiao re wu	1
+模仿构图	mo fang gou tu	1
 御守	yu shou	1
 水物语-浦岛	shui wu yu pu dao	1
 明日同学的水手服	ming ri tong xue de shui shou fu	1
@@ -90889,6 +91603,7 @@ use_preset_vocabulary: false
 四式战	si shi zhan	1
 敌导弹驱逐舰	di dao dan qu zhu jian	1
 新战场	xin zhan chang	1
+乔琪	qiao qi	1
 直江凉子	zhi jiang liang zi	1
 弓原健史	gong yuan jian shi	1
 混天妖	hun tian yao	1
@@ -90929,6 +91644,7 @@ use_preset_vocabulary: false
 天方魔谭MAGI	tian fang mo tan _MAGI	1
 聂梓	nie zi	1
 约格莫夫	yue ge mo fu	1
+没有名字的星	mei you ming zi de xing	1
 黑龙炮	hei long pao	1
 又酷又有点冒失的男孩子们	you ku you you dian mao shi de nan hai zi men	1
 米须太一	mi xu tai yi	1
@@ -90995,6 +91711,7 @@ use_preset_vocabulary: false
 细雪	xi xue	1
 作品	zuo pin	1
 巨量	ju liang	1
+菠萝赛东	bo luo sai dong	1
 平胸	ping xiong	1
 黑死病娘	hei si bing niang	1
 交响之虹	jiao xiang zhi hong	1
@@ -91025,6 +91742,7 @@ use_preset_vocabulary: false
 剑鱼鱼雷机	jian yu yu lei ji	1
 海上护卫	hai shang hu wei	1
 论Oo的	lun _Oo de	1
+夏淳于	xia chun yu	1
 伦宁	lun ning	1
 美绪	mei xu	1
 星期一的飞天橘	xing qi yi de fei tian ju	1
@@ -91080,6 +91798,7 @@ use_preset_vocabulary: false
 导命树	dao ming shu	1
 安玖深音	an jiu shen yin	1
 公路之星	gong lu zhi xing	1
+我们在这里呼唤着	wo men zai zhe li hu huan zhe	1
 玻璃青春	bo li qing chun	1
 纪元史记	ji yuan shi ji	1
 诱饵手雷	you er shou lei	1
@@ -91129,8 +91848,8 @@ use_preset_vocabulary: false
 二条遥	er tiao yao	1
 对极限的冲动	dui ji xian de chong dong	1
 翠之海	cui zhi hai	1
-心声	xin sheng	1
 亚斯塔禄	ya si ta lu	1
+心声	xin sheng	1
 特装型吉姆娘	te zhuang xing ji mu niang	1
 蒂德莉特的奇境冒险	di de li te de qi jing mao xian	1
 由崎叶香	you qi ye xiang	1
@@ -91282,6 +92001,7 @@ use_preset_vocabulary: false
 非人学园	fei ren xue yuan	1
 伤崎	shang qi	1
 鸥端最可	ou duan zui ke	1
+邹氏	zou shi	1
 安冬妮娜	an dong ni na	1
 弗林特	fu lin te	1
 志贺直哉	zhi he zhi zai	1
@@ -91365,6 +92085,7 @@ use_preset_vocabulary: false
 红莲之弓矢	hong lian zhi gong shi	1
 蛊惑陷阱	gu huo xian jing	1
 吴希里华	wu xi li hua	1
+伯尼	bo ni	1
 命运信号	ming yun xin hao	1
 戌亥床	xu hai chuang	1
 福克兰战争	fu ke lan zhan zheng	1
@@ -91459,6 +92180,7 @@ use_preset_vocabulary: false
 有你的江湖	you ni de jiang hu	1
 带刃多功能水泵钳	dai ren duo gong neng shui beng qian	1
 那些孩子所不在的天空	na xie hai zi suo bu zai de tian kong	1
+未来前夜	wei lai qian ye	1
 村里琉	cun li liu	1
 水果啦啦队	shui guo la la dui	1
 火能力	huo neng li	1
@@ -91475,6 +92197,7 @@ use_preset_vocabulary: false
 假面骑士瓦尔基里	jia mian qi shi wa er ji li	1
 书生	shu sheng	1
 徽宗	hui zong	1
+弭洋	mi yang	1
 恋爱里的小瞌睡	lian ai li de xiao ke shui	1
 咏唱开始	yong chang kai shi	1
 仙术	xian shu	1
@@ -91718,6 +92441,7 @@ use_preset_vocabulary: false
 中村千绘	zhong cun qian hui	1
 海洋之歌	hai yang zhi ge	1
 海鸟东月的	hai niao dong yue de	1
+圣园响	sheng yuan xiang	1
 琉琪亚	liu qi ya	1
 若松来海	ruo song lai hai	1
 布袋莲	bu dai lian	1
@@ -91887,6 +92611,7 @@ use_preset_vocabulary: false
 轰雷	hong lei	1
 御姐与正太	yu jie yu zheng tai	1
 记忆同步	ji yi tong bu	1
+借我一用	jie wo yi yong	1
 犬山犬子	quan shan quan zi	1
 椎名真绪	zhui ming zhen xu	1
 血缘与结缘	xue yuan yu jie yuan	1
@@ -91905,6 +92630,7 @@ use_preset_vocabulary: false
 杰洛特	jie luo te	1
 耽美游戏	dan mei you xi	1
 艾斯蒂·艾哈特	ai si di ai ha te	1
+奇幻探险者	qi huan tan xian zhe	1
 轻闲	qing xian	1
 灯塔	deng ta	1
 田崎加里安	tian qi jia li an	1
@@ -91921,6 +92647,7 @@ use_preset_vocabulary: false
 波基郎	bo ji lang	1
 蓑笠穣	suo li rang	1
 冰川伊绪奈	bing chuan yi xu nai	1
+英雄之诗	ying xiong zhi shi	1
 红叶歌	hong ye ge	1
 他觉得o的不好于是又来了一遍	ta jue de _o de bu hao yu shi you lai le yi bian	1
 学院警司	xue yuan jing si	1
@@ -92003,6 +92730,7 @@ use_preset_vocabulary: false
 救世星龙娘	jiu shi xing long niang	1
 苇原奈弓	wei yuan nai gong	1
 灰墨	hui mo	1
+张昌蒲	zhang chang pu	1
 巡音	xun yin	1
 佐伊·谢尔曼	zuo yi xie er man	1
 稻穗信	dao sui xin	1
@@ -92032,6 +92760,7 @@ use_preset_vocabulary: false
 帕里	pa li	1
 月夜桥	yue ye qiao	1
 内牛满面	nei niu man mian	1
+七夕的火之牧师	qi xi de huo zhi mu shi	1
 超界者	chao jie zhe	1
 四驱斗士	si qu dou shi	1
 乌合无象	wu he wu xiang	1
@@ -92176,6 +92905,7 @@ use_preset_vocabulary: false
 易燃易爆炸	yi ran yi bao zha	1
 巴隆	ba long	1
 列车炮	lie che pao	1
+从魔王千金开始的三国志	cong mo wang qian jin kai shi de san guo zhi	1
 选美大赛	xuan mei da sai	1
 互相交换	hu xiang jiao huan	1
 厄加特	e jia te	1
@@ -92190,6 +92920,7 @@ use_preset_vocabulary: false
 法拉利Enzo	fa la li _Enzo	1
 对物钉打机娘	dui wu ding da ji niang	1
 今井小宇宙	jin jing xiao yu zhou	1
+伏摩	fu mo	1
 吉田友纪	ji tian you ji	1
 数据膨胀	shu ju peng zhang	1
 柿沼紫乃	shi zhao zi nai	1
@@ -92283,6 +93014,7 @@ use_preset_vocabulary: false
 灰邑咏子	hui yi yong zi	1
 羽翼	yu yi	1
 锅包肉	guo bao rou	1
+祈愿与祝福之宴	qi yuan yu zhu fu zhi yan	1
 达达	da da	1
 作家	zuo jia	1
 二式爆雷	er shi bao lei	1
@@ -92312,6 +93044,7 @@ use_preset_vocabulary: false
 艾利由西亚·D·露德·伊玛	ai li you xi ya _D lu de yi ma	1
 阿部朔	a bu shuo	1
 泽村凉	ze cun liang	1
+水清璃	shui qing li	1
 直觉如此敏锐真令人懊恼啊	zhi jue ru ci min rui zhen ling ren ao nao a	1
 魔界之莉莉姆	mo jie zhi li li mu	1
 你有BASSLINE吗	ni you _BASSLINE ma	1
@@ -92328,7 +93061,6 @@ use_preset_vocabulary: false
 剧本选择了雨和花束作为最后一幕	ju ben xuan ze le yu he hua shu zuo wei zui hou yi mu	1
 柚木桃香	you mu tao xiang	1
 乌糖	wu tang	1
-运营争议	yun ying zheng yi	1
 依吉	yi ji	1
 载音	zai yin	1
 禁忌的X重存在	jin ji de _X zhong cun zai	1
@@ -92649,6 +93381,7 @@ use_preset_vocabulary: false
 行动吧	xing dong ba	1
 右代宫绘羽	you dai gong hui yu	1
 烤串	kao chuan	1
+夕桐绫乃	xi tong ling nai	1
 劲敌出场	jin di chu chang	1
 卡连崔佛斯	ka lian cui fo si	1
 神武机甲	shen wu ji jia	1
@@ -92661,6 +93394,7 @@ use_preset_vocabulary: false
 牛岛史哉	niu dao shi zai	1
 云图动漫	yun tu dong man	1
 心愿	xin yuan	1
+所以所以	suo yi suo yi	1
 雀野泪	que ye lei	1
 苑生百花	yuan sheng bai hua	1
 帕奇利兹	pa qi li zi	1
@@ -92690,6 +93424,7 @@ use_preset_vocabulary: false
 达尔文奖	da er wen jiang	1
 就是那个	jiu shi na ge	1
 广袖	guang xiu	1
+梦想远征	meng xiang yuan zheng	1
 绀紫之心	gan zi zhi xin	1
 乙女百合	yi nv bai he	1
 亚略	ya lue	1
@@ -92708,6 +93443,7 @@ use_preset_vocabulary: false
 试制景云	shi zhi jing yun	1
 橘爱丽丝	ju ai li si	1
 乘云归	cheng yun gui	1
+英雄联盟2014赛季全球总决赛	ying xiong lian meng sai ji quan qiu zong jue sai	1
 大冢雅彦	da zhong ya yan	1
 你是我遥不可及的梦	ni shi wo yao bu ke ji de meng	1
 对马岛之魂	dui ma dao zhi hun	1
@@ -92746,6 +93482,7 @@ use_preset_vocabulary: false
 荆天明	jing tian ming	1
 东八千穗	dong ba qian sui	1
 主脑	zhu nao	1
+同班同学成了我的使魔	tong ban tong xue cheng le wo de shi mo	1
 林果·罗德艾根	lin guo luo de ai gen	1
 还能再战	hai neng zai zhan	1
 合法萝莉	he fa luo li	1
@@ -92959,6 +93696,7 @@ use_preset_vocabulary: false
 真机伶	zhen ji ling	1
 互瞪	hu deng	1
 面纸姬	mian zhi ji	1
+亚斯她录	ya si ta lu	1
 喜多村英梨	xi duo cun ying li	1
 墨云老师	mo yun lao shi	1
 与犬娘的生活	yu quan niang de sheng huo	1
@@ -93049,6 +93787,7 @@ use_preset_vocabulary: false
 凯撒系统	kai sa xi tong	1
 平话	ping hua	1
 源田律师事务所	yuan tian lv shi shi wu suo	1
+灵犀妙探	ling xi miao tan	1
 西游筋	xi you jin	1
 根本就打不赢	gen ben jiu da bu ying	1
 邪眼	xie yan	1
@@ -93113,6 +93852,7 @@ use_preset_vocabulary: false
 小手伸也	xiao shou shen ye	1
 神炎皇乌利亚	shen yan huang wu li ya	1
 重启	chong qi	1
+抓狂一族	zhua kuang yi zu	1
 空箱中的爱	kong xiang zhong di ai	1
 多尔尼	duo er ni	1
 与神桔世	yu shen ju shi	1
@@ -93127,6 +93867,7 @@ use_preset_vocabulary: false
 异端	yi duan	1
 苗木困	miao mu kun	1
 鏖锯·ShulShagana	ao ju _ShulShagana	1
+玛恩纳·临光	ma en na lin guang	1
 渡岛舞香	du dao wu xiang	1
 找到了	zhao dao le	1
 金发	jin fa	1
@@ -93260,6 +94001,7 @@ use_preset_vocabulary: false
 干货	gan huo	1
 魔界大道具	mo jie da dao ju	1
 质点的星战	zhi dian de xing zhan	1
+隐匿云阴	yin ni yun yin	1
 女生爱女生	nv sheng ai nv sheng	1
 绝对鸟	jue dui niao	1
 光合积木	guang he ji mu	1
@@ -93269,6 +94011,7 @@ use_preset_vocabulary: false
 主菜	zhu cai	1
 新川恭二	xin chuan gong er	1
 蠹虫娘	du chong niang	1
+幻谜	huan mi	1
 裘缇·邦德	qiu ti bang de	1
 七叶琉伊	qi ye liu yi	1
 黑嚏根草	hei ti gen cao	1
@@ -93349,6 +94092,7 @@ use_preset_vocabulary: false
 未来有你·初音未来2020特别感谢LIVE	wei lai you ni chu yin wei lai te bie gan xie _LIVE	1
 月夜海	yue ye hai	1
 冈崎由真	gang qi you zhen	1
+星期三的星期天	xing qi san de xing qi tian	1
 春色的奇迹	chun se de qi ji	1
 格莱普尼尔	ge lai pu ni er	1
 刘世宇	liu shi yu	1
@@ -93529,6 +94273,7 @@ use_preset_vocabulary: false
 星合的天空	xing he de tian kong	1
 荒神药子	huang shen yao zi	1
 魔枪士	mo qiang shi	1
+武器店	wu qi dian	1
 导向蓟	dao xiang ji	1
 笨蛋的内服药	ben dan de nei fu yao	1
 园咲冴子	yuan xiao ya zi	1
@@ -93563,6 +94308,7 @@ use_preset_vocabulary: false
 军用运输机	jun yong yun shu ji	1
 废铁抛光	fei tie pao guang	1
 万岁冲锋	wan sui chong feng	1
+人为操纵	ren wei cao zong	1
 名侦探柯南	ming zhen tan ke nan	1
 奥斯穆德	ao si mu de	1
 吉原哀歌	ji yuan ai ge	1
@@ -93613,6 +94359,7 @@ use_preset_vocabulary: false
 北条加莲	bei tiao jia lian	1
 炮姐	pao jie	1
 弓箭	gong jian	1
+乔苏	qiao su	1
 小铁柱	xiao tie zhu	1
 抑郁症	yi yu zheng	1
 乌菈	wu la	1
@@ -93634,6 +94381,7 @@ use_preset_vocabulary: false
 杰哥不要	jie ge bu yao	1
 房东的泳装照	fang dong de yong zhuang zhao	1
 再三棘	zai san ji	1
+千岩旷望	qian yan kuang wang	1
 瘟疫公司	wen yi gong si	1
 黑崎真咲	hei qi zhen xiao	1
 仓木麻衣	cang mu ma yi	1
@@ -93729,6 +94477,8 @@ use_preset_vocabulary: false
 船桥舞	chuan qiao wu	1
 唐雨柔	tang yu rou	1
 俄国	e guo	1
+史上最强兽人的快乐播种后宫生活	shi shang zui qiang shou ren de kuai le bo zhong hou gong sheng huo	1
+回转的双马尾	hui zhuan de shuang ma wei	1
 御子柴实琴	yu zi chai shi qin	1
 树莓毒药	shu mei du yao	1
 橘朔也	ju shuo ye	1
