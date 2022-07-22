@@ -63,8 +63,8 @@
 - ~~`zhwiki.dict.yaml` ：维基词库。来源为项目 [fcitx5-pinyin-zhwiki](https://github.com/felixonmars/fcitx5-pinyin-zhwiki)。~~ 已经删除，改为自己解析wiki dump文件并生成词库。  
   
 
-以下词库仅保持结构，实际上并没有在维护，由最终用户根据实际需求来编辑：  
-- `pinyin_simp_custom.dict.yaml` ：自定义词语，由额外词库文件引用使用。如需添加自定义短语，建议编辑此文件。
+以下词库仅保持结构，实际上并没有在积极维护，由最终用户根据实际需求来编辑：  
+- `pinyin_simp_custom.dict.yaml` ：自定义词语，由额外词库文件引用使用。如需添加自定义短语，建议编辑此文件。目前预设了一些最新最in的💈文学。
 - `pinyin_simp_pin.txt` ：候选固定，使用另一个翻译器并给极高权重来达到固定候选列表的目的，编辑时请记得给极高权重。
 
 【Easy English Nano】
