@@ -21,7 +21,9 @@ patch:
   # 引入方案把笔画替换为英语
   "schema/dependencies/@0": melt_eng
   "engine/translators/@before 0": table_translator@melt_eng
-  
+  schema/keyboard:
+    layout: 26
+    label: default
   melt_eng:
     dictionary: melt_eng
     spelling_hints: 9
