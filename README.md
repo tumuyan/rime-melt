@@ -23,16 +23,21 @@
 1. [下载文件](https://github.com/tumuyan/rime-pinyin-simp/archive/master.zip)、解压文件
 2. 删除解压后others目录中不必要的文件。
     * `rime.lua`是lua滤镜，如果你的其他输入方案已经预设了lua滤镜，需要手动合并此文件的内容到用户文件夹内的rime.lua文件中，完成文件引用。否则直接复制到`Rime用户文件夹`内即可
-    * `custom`目录下`melt_eng_custom.dict.yaml`和`pinyin_simp_custom.dict.yaml`分别是英文、中文用户自定义词库，由用户自己维护。`default.yaml`和`symbols.yaml`为默认配置和符号配置文件（可能目录中缺少文件）。如果`Rime用户文件夹`内没有这几个文件，请拷贝；如果存在，请不要替换，避免自己积累的词条被覆盖。
-    * `others`目录的其他文件仅供参考，可以直接删除。
+    * `custom`目录下`melt_eng_custom.dict.yaml`和`pinyin_simp_custom.dict.yaml`分别是英文、中文用户自定义词库，由用户自己维护。如果`Rime用户文件夹`内没有这几个文件，请拷贝；如果存在，请不要替换，避免自己积累的词条被覆盖。
+    * `others`目录的文件仅供参考，可以直接删除。其中`symbols.yaml`为符号配置文件，`default.yaml`为默认配置文件。如果`程序文件夾`缺少这些文件，大部分方案都会部署失败。如果`程序文件夾`内没有这几个文件，请拷贝；如果存在，请不要替换，避免自己的设置被覆盖。
 3. 剪切opencc目録到`程序文件夾`内。路径位置：
-    * 【小狼毫】 C:\Program Files (x86)\Rime\weasel-0.14.3\data
+    * 【小狼毫】 C:\Program Files (x86)\Rime\weasel-0.14.3\data 
 4. 复制剩余文件(包含lua子目录)到`Rime用户文件夹`内。用户文件夹位置：  
     * 【中州韻】 ~/.config/ibus/rime/ （0.9.1 以下版本爲 ~/.ibus/rime/）
     * 【小狼毫】 %APPDATA%\Rime
     * 【鼠鬚管】 ~/Library/Rime/
 5. 启用 [袖珍简化字拼音] [liangfen]和 [Easy English Nano] 方案。
 6. 打开 Rime 方案选单（输入状态下按`Ctrl + ~`），切换至 [融合拼音] 即可开始使用。
+
+
+## 更新
+通常直接下载并覆盖文件、重新部署即可。
+特别地，由于文件结构变更，从1.6.1往更高版本升级，需要重新勾选方案进行部署，复制同步目录中的`pinyin_simple.userdb.txt`为`melt_pinyin.userdb.txt`，并打开此文件，修改文件头部的`pinyin_simple`为`melt_pinyin`，重新同步。
 
 
 ## 使用
