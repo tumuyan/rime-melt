@@ -1,17 +1,38 @@
 # Rime dictionary
 # encoding: utf-8
 #
-# tumuyan自建增补词库。
-# 内容比较杂。
+# tumuyan自建增补词库，同时用于引用其他词库。
+# 增补词库本身包含的内容比较杂。
 # 1.由于对wiki词库使用了程序自动处理，会过度过滤，为免除影响，需补充部分词条。
 # 2.增加了部分诗文，成句
 # 3.部分不符合普通话标准读音的词，比如`牛丼 niu dong`
 
+
 ---
-name: melt_chs
+name: melt_pinyin
 version: "2021.11.09"
 sort: by_weight
 use_preset_vocabulary: false
+import_tables:
+# 袖珍简化字拼音主词库
+  - pinyin_simp.main
+# 袖珍简化字拼音自定义词语
+  - pinyin_simp_custom
+# 现代汉语常用词表，来源 https://github.com/alswl/Rime
+#  - xiandaihanyuchangyongcibiao
+# 重命名为：
+  - pinyin_simp_base
+# 维基词库，自制
+  - pinyin_simp_wiki
+# 萌娘词库，自制
+  - pinyin_simp_moe
+# 搜狗成语俗语细胞词库 https://pinyin.sogou.com/dict/detail/index/15097
+  - pinyin_simp_chengyu
+# 搜狗历史细胞词库 https://pinyin.sogou.com/dict/detail/index/15130
+#  - pinyin_simp_lishi
+# 搜狗古诗细胞词库 https://pinyin.sogou.com/dict/detail/index/2
+  - pinyin_simp_gushi
+
 ...
 秋·张	qiu zhang
 简·爱	jian ai

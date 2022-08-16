@@ -18,30 +18,6 @@ name: pinyin_simp.main
 version: "2020.08.19"
 sort: by_weight
 use_preset_vocabulary: false
-import_tables:
-# 袖珍简化字拼音
-#  - pinyin_simp
-# 英文及中英混输词库
-# 如果中文字典包含了英语，会产生英文+中文类型的造词，故此字典需关闭（比如输入qq候选词只有QQ，而没有出现其他词汇比如全球）
-#  - cn_en
-# 袖珍简化字拼音自定义词语
-  - pinyin_simp_custom
-# 现代汉语常用词表，来源 https://github.com/alswl/Rime
-#  - xiandaihanyuchangyongcibiao
-# 重命名为：
-  - pinyin_simp_base
-# 维基词库，自制
-  - pinyin_simp_wiki
-# 萌娘词库，自制
-  - pinyin_simp_moe
-# 搜狗成语俗语细胞词库 https://pinyin.sogou.com/dict/detail/index/15097
-  - pinyin_simp_chengyu
-# 搜狗历史细胞词库 https://pinyin.sogou.com/dict/detail/index/15130
-#  - pinyin_simp_lishi
-# 搜狗古诗细胞词库 https://pinyin.sogou.com/dict/detail/index/2
-  - pinyin_simp_gushi
-# 自建增补词库。内容比较杂。包括对wiki词库的补充，部分诗文，部分成句
-  - melt_chs
 ...
 囍	xi	2
 叒	ruo	1

@@ -5,7 +5,7 @@
 众所周知，拼音输入是使用人数最多的中文输入方式；而rime默认拼音方案为明月拼音，该方案使用了繁体词库，通过OpenCC转换繁体中文为简体，而转换的结果事实上并不理想。故使用简体字典输入中文是很有必要的。
 
 ## 特点
-* 这是一个打包解决方案，尽量保持原有项目的文件结构，通过引用、patch实现修改效果。因此当用户对rime稍微熟悉后，可以方便地更换、增删其中的某部分，而不至于产生严重的错误。
+* 这是一个打包解决方案。在<=1.6.1的版本中，尽量保持了原有项目的文件结构，通过引用、patch实现修改效果。因此当用户对rime稍微熟悉后，可以方便地更换、增删其中的某部分，而不至于产生严重的错误。在1.6.1之后的版本中做了若干调整，不再使用patch机制。
 * 本方案与Easy English词汇和方案差异极大，故更名为Easy English Nano。相关特性详见[关于Easy English Nano](#关于Easy_English_Nano)章节。
 * 本方案创造性地在中文词库中加入了大量中英文混拼词条、含标点词条，如：`汉斯·阿尔伯特·爱因斯坦`、`梅赛德斯-奔驰`、`哆啦A梦`、`高Ping战士`等。这些词条既可以全拼（包含完整英语单词或者字母），也可以简拼（只拼写拼音和英语的首字母）。
 * 本方案引入叶典网[【两分输入方案】](http://cheonhyeong.com/Simplified/download.html)作为反查滤镜。当用户需要输入生僻字时，可以对复杂文字进行拆分，先输入"`"，再输入第一部分的拼音，最后输入第二部分的拼音。如果本地存在候选词的拼音，会通过opencc滤镜显示该文字的读音。
@@ -13,11 +13,9 @@
 * 本方案设计了变量算法。输入`值=oo`和`值=ii`，可以设置oo和ii两个变量。当候选词为成句时，算法自动替换候选词中的"Oo"和“Xx”为变量值（注意大小写。另外换行请使用`<br>`而不是`\n`）。`pinyin_simp_custom.dict.yaml`中已经预设了若干示例作为参考。当需要输入词库中没有的英语作为变量，且中文候选词造成干扰时，可以先输入一部分字符，按shift切换至英文状态，再继续输入剩余内容。
 
 ## 冲突
-* 如果你已经安装Easy English方案，与本方案互不影响。
-* 如果你已经安装袖珍简化拼音，本方案的custom文件会对袖珍简化拼音方案造成覆盖性的影响。   
-* 如果已经安装两分输入方案，与本方案存在冲突。但是替换不替换均可。（本方案的词库删除了大部分日语假名并增加了拼音滤镜）
+* 如果你已经安装两分输入方案、Easy English、袖珍简化字拼音方案，并且与本方案存在文件冲突，替换不替换均可正常使用，但是实际使用的词库会有差别。
 * 如果你已经使用lua滤镜，lua滤镜存在冲突。rime.lua文件的内容需要手动合并。
-* 如果你已经安装opencc拼音滤镜，与本方案存在冲突，但是替换不替换均可。
+* 如果你已经安装opencc拼音滤镜，可能与本方案存在冲突，但是替换不替换均可。
 
 
 ## 安装
@@ -25,8 +23,8 @@
 1. [下载文件](https://github.com/tumuyan/rime-pinyin-simp/archive/master.zip)、解压文件
 2. 删除解压后others目录中不必要的文件。
     * `rime.lua`是lua滤镜，如果你的其他输入方案已经预设了lua滤镜，需要手动合并此文件的内容到用户文件夹内的rime.lua文件中，完成文件引用。否则直接复制到`Rime用户文件夹`内即可
-    * `custom`目录下`melt_eng_custom.dict.yaml`和`pinyin_simp_custom.dict.yaml` `pinyin_simp_pin.txt`分别是英文、中文用户自定义词库，由用户自己维护。如果`Rime用户文件夹`内没有这几个文件，请拷贝；如果存在，请不要替换，避免自己积累的词条被覆盖。
-    * `others`目录的其他文件仅供参考，可以直接删除。其中`symbols.yaml`为符号配置文件（可能目录中缺少文件）。`melt.schema.yaml`为袖珍简化字拼音、客制化文件合并后的文件。
+    * `custom`目录下`melt_eng_custom.dict.yaml`和`pinyin_simp_custom.dict.yaml`分别是英文、中文用户自定义词库，由用户自己维护。`default.yaml`和`symbols.yaml`为默认配置和符号配置文件（可能目录中缺少文件）。如果`Rime用户文件夹`内没有这几个文件，请拷贝；如果存在，请不要替换，避免自己积累的词条被覆盖。
+    * `others`目录的其他文件仅供参考，可以直接删除。
 3. 剪切opencc目録到`程序文件夾`内。路径位置：
     * 【小狼毫】 C:\Program Files (x86)\Rime\weasel-0.14.3\data
 4. 复制剩余文件(包含lua子目录)到`Rime用户文件夹`内。用户文件夹位置：  
@@ -49,23 +47,20 @@
 以下文件清单存在仓库增加了文件，但是本说明没有及时更新的情况。  
 下载、复制、修改、使用及分享此项目部分或全部文件时，默认已经知悉此章节内容。
 
-[【袖珍简化字拼音】](https://github.com/rime/rime-pinyin-simp/)项目使用**Apache 2.0**协议，涉及的文件包含：  
-* ~~`pinyin_simp.dict.yaml` ：袖珍简化字拼音词库文件。此文件仅用于和原方案词库对比差异、保持同步。~~ 已删除  
-* `pinyin_simp.schema.yaml` ：袖珍简化字拼音方案文件。所有改动均在custom文件中。  
-上游更新：2020-11-9 23:00    
+-  `melt_pinyin.schema.yaml` ：融合拼音主方案文件。参考了[【袖珍简化字拼音】](https://github.com/rime/rime-pinyin-simp/) 和 [【Rime 简体中文用户定制文件】](https://github.com/huaxianyan/Rime)。  
+-  `melt_pinyin.dict.yaml`: 融合拼音词主库文件。引用了其他词库，文件本身只包含少量词条。
 
 [【Rime 简体中文用户定制文件】](https://github.com/huaxianyan/Rime)项目使用**MIT**协议，涉及的文件包含：
 
-- `pinyin_simp.custom.yaml` ：袖珍简化字拼音方案的客制化配置文件，有改动。
+- ~~`pinyin_simp.custom.yaml` ：袖珍简化字拼音方案的客制化配置文件，有改动。~~已经删除
 - `pinyin_simp.main.dict.yaml` ：词库中心文件。词库内容由 [袖珍简化字拼音](https://github.com/rime/rime-pinyin-simp) 默认词库pinyin_simp.dict.yaml修改而来，故合并两者并保持同步。
 - `pinyin_simp_base.dict.yaml` ：基础词库，由额外词库文件引用使用，来源为项目 [https://github.com/alswl/Rime](https://github.com/alswl/Rime) 中的[「现代汉语常用词表」](https://raw.githubusercontent.com/alswl/Rime/master/luna_pinyin.xiandaihanyuchangyongcibiao.dict.yaml)。
 - ~~`cn_en.dict.yaml` ： 英文词库。~~ 已删除。
 - ~~`zhwiki.dict.yaml` ：维基词库。来源为项目 [fcitx5-pinyin-zhwiki](https://github.com/felixonmars/fcitx5-pinyin-zhwiki)。~~ 已经删除，改为自己解析wiki dump文件并生成词库。  
   
-
 以下词库仅保持结构，实际上并没有在积极维护，由最终用户根据实际需求来编辑：  
 - `pinyin_simp_custom.dict.yaml` ：自定义词语，由额外词库文件引用使用。如需添加自定义短语，建议编辑此文件。目前预设了一些最新最in的💈文学。
-- `pinyin_simp_pin.txt` ：候选固定，使用另一个翻译器并给极高权重来达到固定候选列表的目的，编辑时请记得给极高权重。
+
 
 【Easy English Nano】
 * `melt_eng.schema.yaml` 归属于【Easy English】，原作者是Patrick <ipatrickmac@gmail.com>，但是在Patrick的主页没有这个项目的仓库。
@@ -92,7 +87,6 @@
 
 手动维护的含外语、数字和符号混合的词条：  
 - `melt_mult_language.dict.yaml`：少量中外语、数字和符号混合的词库，供`Easy English Nano`方案引用。
-- `melt_chs.dict.yaml`：少量中外语、数字和符号混合的词库，供`袖珍简化字拼音`方案引用。
 
 【融合拼音参考文件】  
 - `/others/*.csv`: 整理中的增补字典，除常见国家和语言外均未实装。可直接删除  
@@ -100,10 +94,6 @@
 - `/others/修复*.txt`：为避免预处理词条时被正则过杀，设置的废词白名单。
 - `/opencc`: opencc拼音滤镜。原作者不祥。`PYCharacters.txt`为单字拼音，文字基于两分输入法词库列出的单字，拼音查自国学大师网，并处理多音字为`[读音1&nbsp读音2]`的形式。`PYPhrases.txt`为词条拼音，也略有调整。
 - `/lua/melt.lua`：融合拼音的预设lua滤镜。
-
-【其他停止引用的文件】
-- ~~`moegirl.dict.yaml`：萌娘百科词库。来源为项目[mw2fcitx](https://github.com/outloudvi/mw2fcitx/)~~   
-
 
 
 ## 关于Easy_English_Nano
