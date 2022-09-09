@@ -1,45 +1,47 @@
 # Rime dictionary
 # encoding: utf-8
 #
-# A minimal Pinyin dictionary for simplified Chinese script
+# 袖珍简化字拼音主词库
 #
-# Derived from android open source project:
-# http://android.git.kernel.org/?p=platform/packages/inputmethods/PinyinIME.git
+# Neko7ina <hua199057+Rime@gmail.com>
 #
+# 部署位置：
+# ~/.config/ibus/rime  (Linux)
+# ~/Library/Rime  (Mac OS)
+# %APPDATA%\Rime  (Windows)
+#
+# 编辑完后重新部署才会生效
+# 「...」以下不能添加备注内容
 
 ---
-name: pinyin_simp
-version: "0.1"
+name: pinyin_simp.main
+version: "2020.08.19"
 sort: by_weight
-...
->name: pinyin_simp.main
->version: "2021.05.30"
->sort: by_weight
->use_preset_vocabulary: false
->import_tables:
-># 袖珍简化字拼音
->#  - pinyin_simp
-># 英文及中英混输词库
-># 如果中文字典包含了英语，会产生英文+中文类型的造词，故此字典需关闭（比如输入qq候选词只有QQ，而没有出现其他词汇比如全球）
->#  - cn_en
-># 袖珍简化字拼音自定义词语
->  - pinyin_simp_custom
-># 现代汉语常用词表，来源 https://github.com/alswl/Rime
->#  - xiandaihanyuchangyongcibiao
-># 重命名为：
->  - pinyin_simp_base
-># 维基词库，自制
->  - pinyin_simp_wiki
-># 萌娘词库，自制
->  - pinyin_simp_moe
-># 搜狗成语俗语细胞词库 https://pinyin.sogou.com/dict/detail/index/15097
->  - pinyin_simp_chengyu
-># 搜狗历史细胞词库 https://pinyin.sogou.com/dict/detail/index/15130
->#  - pinyin_simp_lishi
-># 搜狗古诗细胞词库 https://pinyin.sogou.com/dict/detail/index/2
->  - pinyin_simp_gushi
-># 自建增补词库。内容比较杂。包括对wiki词库的补充，部分诗文，部分成句
->  - melt_chs
+use_preset_vocabulary: false
+import_tables:
+# 袖珍简化字拼音
+#  - pinyin_simp
+# 英文及中英混输词库
+# 如果中文字典包含了英语，会产生英文+中文类型的造词，故此字典需关闭（比如输入qq候选词只有QQ，而没有出现其他词汇比如全球）
+#  - cn_en
+# 袖珍简化字拼音自定义词语
+  - pinyin_simp_custom
+# 现代汉语常用词表，来源 https://github.com/alswl/Rime
+#  - xiandaihanyuchangyongcibiao
+# 重命名为：
+  - pinyin_simp_base
+# 维基词库，自制
+  - pinyin_simp_wiki
+# 萌娘词库，自制
+  - pinyin_simp_moe
+# 搜狗成语俗语细胞词库 https://pinyin.sogou.com/dict/detail/index/15097
+  - pinyin_simp_chengyu
+# 搜狗历史细胞词库 https://pinyin.sogou.com/dict/detail/index/15130
+#  - pinyin_simp_lishi
+# 搜狗古诗细胞词库 https://pinyin.sogou.com/dict/detail/index/2
+  - pinyin_simp_gushi
+# 自建增补词库。内容比较杂。包括对wiki词库的补充，部分诗文，部分成句
+  - melt_chs
 ...
 囍	xi	2
 叒	ruo	1
@@ -2709,7 +2711,6 @@ sort: by_weight
 梑	di	0
 逓	di	0
 鸐	di	0
-頔	di	1
 藡	di	1
 馰	di	1
 鏑	di	1
@@ -3895,8 +3896,6 @@ sort: by_weight
 腿	tui	4066
 推	tui	5296
 退	tui	7395
-唔	n	1126
-嗯	n	31982
 餪	nuan	0
 渜	nuan	0
 奻	nuan	3
@@ -13423,6 +13422,7 @@ sort: by_weight
 雑	za	10
 拶	za	15
 雜	za	18
+臜	za	18
 咂	za	119
 扎	za	135
 匝	za	149
@@ -14841,6 +14841,7 @@ sort: by_weight
 亞	ya	52
 蚜	ya	60
 轧	ya	65
+冴	ya	3
 衙	ya	79
 伢	ya	85
 劜	ya	120
@@ -17088,9 +17089,6 @@ sort: by_weight
 藕	ou	499
 欧	ou	3041
 偶	ou	24864
-噷	hm	6
-唔	ng	1126
-嗯	ng	31982
 腌臜	a za	1
 粑粑	ba ba	149
 巴巴	ba ba	322
@@ -65171,3 +65169,11 @@ sort: by_weight
 欧洲国家	ou zhou guo jia	193
 欧洲市场	ou zhou shi chang	170
 宫保拼音	gong bao pin yin	100
+一波未平，一波又起	yi bo wei ping yi bo you qi
+一不做，二不休	yi bu zuo er bu xiu
+一而再，再而三	yi er zai zai er san
+一人得道，鸡犬升天	yi ren de dao ji quan sheng tian
+一是一，二是二	yi shi yi er shi er
+一言既出，驷马难追	yi yan ji chu si ma nan zhui
+以眼还眼，以牙还牙	yi yan huan yan yi ya huan ya
+以子之矛，攻子之盾	yi zi zhi mao gong zi zhi dun

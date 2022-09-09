@@ -21,7 +21,9 @@ patch:
   # 引入方案把笔画替换为英语
   "schema/dependencies/@0": melt_eng
   "engine/translators/@before 0": table_translator@melt_eng
-  
+  schema/keyboard:
+    layout: 26
+    label: default
   melt_eng:
     dictionary: melt_eng
     spelling_hints: 9
@@ -45,7 +47,7 @@ patch:
     - {accept: equal, send: "=", when: has_menu}
     - {accept: "Control+Shift+space", toggle: simplification, when: always}
     - {accept: "Control+Shift+P", toggle: show_pinyin, when: composing}
-  # 显示候选词和方案名称
+# 显示候选词和方案名称
   "menu/page_size": 10
   "schema/name": 融合拼音
 # 语言模型数据包
@@ -62,7 +64,7 @@ patch:
     - uniquifier
 # 默认输入状态为中文
   "switches/@0/reset": 0
-# 拼音纠错
+# 开启拼音纠错
   translator/enable_correction: false
 # 自定义标点
 # 固定候选单字，在用户目录下创建 pinyin_simp_pin.txt 文件并编辑

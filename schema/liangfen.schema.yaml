@@ -4,8 +4,8 @@
 
 schema:
   schema_id: liangfen
-  name: 两分拼音・精简
-  version: "4.0"
+  name: 两分
+  version: "5.0"
   author:
     - TianHeng <2417647441@qq.com>
   description: |
@@ -16,7 +16,7 @@ schema:
 switches:
   - name: ascii_mode
     reset: 0
-    states: [ 中文, 英语 ]
+    states: [ 中, 英 ]
   - name: full_shape
     states: [ 半角, 全角 ]
   - name: simplification
@@ -42,8 +42,8 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
-    - script_translator
-    - enable_correction: false
+    - r10n_translator
+    - reverse_lookup_translator
   filters:
     - simplifier
     - simplifier@pinyin
@@ -73,14 +73,23 @@ translator:
     - "xlit|v|ü|"
     - xform/iü/iv/
 
+reverse_lookup:
+  dictionary: pinyin_simp.main
+  prefix: "`"
+  tips: 〔PinYin〕
+  preedit_format:
+    - xform/([nljqxy])v/$1ü/
+
 punctuator:
   import_preset: default
 
 menu:
-  page_size: 9
+  page_size: 6
 
 key_binder:
   import_preset: default
 
 recognizer:
   import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*$"

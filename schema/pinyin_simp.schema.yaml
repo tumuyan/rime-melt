@@ -4,7 +4,7 @@
 schema:
   schema_id: pinyin_simp
   name: 袖珍简化字拼音
-  version: '0.9'
+  version: "0.8"
   author:
     - 佚名
   description: |
@@ -46,23 +46,19 @@ speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
   algebra:
-    - erase/^hm$/
-    - erase/^m$/
-    - erase/^n$/
-    - erase/^ng$/
     - abbrev/^([a-z]).+$/$1/
     - abbrev/^([zcs]h).+$/$1/
     - derive/^([nl])ue$/$1ve/
     - derive/^([jqxy])u/$1v/
-    - derive/un$/uen/
-    - derive/ui$/uei/
-    - derive/iu$/iou/
-    - derive/([aeiou])ng$/$1gn/
+#    - derive/un$/uen/
+#    - derive/ui$/uei/
+#    - derive/iu$/iou/
+#    - derive/([aeiou])ng$/$1gn/
     - derive/([dtngkhrzcs])o(u|ng)$/$1o/
     - derive/^([a-z]+)o(u|ng)$/$1o/
     - derive/ong$/on/
-    - derive/ao$/oa/
-    - derive/([iu])a(o|ng?)$/a$1$2/
+ #   - derive/ao$/oa/
+#    - derive/([iu])a(o|ng?)$/a$1$2/
 
 translator:
   dictionary: pinyin_simp.main #pinyin_simp

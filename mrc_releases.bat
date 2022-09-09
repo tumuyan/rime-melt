@@ -19,6 +19,7 @@ xcopy .\basic .\release\ /E
 xcopy .\schema .\release\ /E
 xcopy .\ex_dict .\release\ /E
 xcopy .\custom .\release\ /E
+7z a release.zip .\release
 goto end
 
 :TWO

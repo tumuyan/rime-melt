@@ -1,19 +1,21 @@
 # Trime default style settings
 # encoding: utf-8
 
-config_version: "1.2" #配置版本号
-name: wendao #方案名称
-author: dao_mingze #作者信息
+config_version: "1.37" #配置版本号
+name: wendao
+author: dao_mingze
 description: 修改自默认、同文风主题，适配trime3.2.7。
 
 author: &au dao_mingze@163.com
 
 android_keys:
   __include: trime:/android_keys
+  
+#变量区
 
-#键盘高度
+##键盘高度
 height:
-  1: &keyboard 48 #键盘高度
+  1: &keyboard 44 #键盘高度
   2: &hgap 1 #键盘横缝大小
   3: &sgap 5 #键盘竖缝大小
 round_corner:
@@ -21,17 +23,17 @@ round_corner:
   2: &round2 0 #候选窗口圆角
   3: &round3 12 #回车键圆角
   
-#界面风格、功能开关
+#样式区
 style:
   auto_caps: false #自动句首大写:true|false|ascii
   background_dim_amount: 0.5
-  root_background: keyboard_back_color # 整个键盘区+候选栏的背景图/色
+  #root_background: keyboard_back_color # 整个键盘区+候选栏的背景图/色
   candidate_font: han.ttf  #候选字体
   candidate_padding: 5  #候选项内边距
   candidate_spacing: 0.5  #候选间距
   candidate_text_size: 16  #候选字号
   candidate_use_cursor: true #高亮候选项
-  candidate_view_height: 24 #候选区高度
+  candidate_view_height: 22 #候选区高度
   color_scheme: default #配色方案
   comment_font: comment.ttf #编码提示字体
   comment_height: 14 #编码提示区高度
@@ -39,21 +41,30 @@ style:
   comment_text_size: 12 #编码提示字号
   hanb_font: hanb.ttf #扩充字体
   horizontal: true #水平模式
-  horizontal_gap: *hgap #键水平间距
-  layout:
-    position: fixed #候选窗口位置：left|right|left_up|right_up|fixed|bottom_left|bottom_right|top_left|top_right(left、right需要Android5.0以上)
-    min_length: 4 #候选窗口最小词长
-    max_length: 14 #超过字数则换行
+  horizontal_gap: *hgap #按键水平间距
+  keyboard_padding: 0 #竖屏模式下，屏幕左右两侧与键盘的距离（曲面屏减少误触）
+  #keyboard_padding_left: 0 #竖屏屏模式下，左手键盘布局，屏幕左侧与键盘的距离
+  #keyboard_padding_right: 40 #竖屏屏模式下，左手键盘布局，屏幕右侧与键盘的距离
+  #keyboard_padding_bottom: 0 #竖屏模式下，屏幕下边缘与键盘的距离（避免误触发全面屏手势）
+  keyboard_padding_land: 40 #横屏模式下，屏幕左右两侧与键盘的距离（避免横屏按键过度拉伸变形）
+  #keyboard_padding_land_bottom: 0 #横屏模式下，屏幕下侧与键盘的距离
+  layout: #悬浮窗口设置
+    position: fixed #位置：left|right|left_up|right_up|fixed|bottom_left|bottom_right|top_left|top_right(left、right需要>=Android5.0)
+    min_length: 4 #最小词长
+    max_length: 10 #超过字数则换行
     sticky_lines: 1 #固顶行数
     sticky_lines_land: 0 #横屏模式下的固顶行数
-    max_entries: 5 #候选窗口最大词条数
-    border: 0 #候选窗口边框宽度
+    max_entries: 10 #候选窗口最大词条数
+    min_check: 3 #只要前n个候选词有长度大于等于min_length的词，就会把长度符合以及之前的词全部加到悬浮窗内。
+    all_phrases: false #所有满足条件的词语都显示在窗口
+    border: 2 #边框宽度
     max_width: 360 #最大宽度，超过则自动换行
-    max_height: 300 #最大高度
+    max_height: 460 #最大高度
     min_width: 0 #最小宽度
     min_height: 50 #最小高度
     margin_x: 5 #水平边距 NOTE: margin_{x, y, bottom} 实际为 padding
     margin_y: 5 #竖直边距
+    margin_bottom: 0 #底部边距 （用于适配特定背景图）
     line_spacing: 0 #候选词的行间距(px)
     line_spacing_multiplier: 1.2 #候选词的行间距(倍数)
     real_margin: 3 #屏幕左右边缘和悬浮窗之间的距离 TODO: 在 4.0 时给 real_margin 与 spacing 换一个更适合的名字
@@ -61,7 +72,7 @@ style:
     round_corner: *round2 #候选窗口圆角
     alpha: 0xff #透明度(0-255)
     elevation: 0 #阴影(>=Android5.0)
-    background: background.png #颜色或者backgrounds目录下的图片文档名
+    #background: background.png #颜色或者backgrounds目录下的图片文档名
     movable: false #是否可移动窗口，或仅移动一次 true|false|once
     all_phrases: false #显示所有长词
   window: #悬浮窗口组件
@@ -70,13 +81,13 @@ style:
     - {start: "\n", label: "%s.", candidate: "%s", comment: "%s", end: "", sep: "☁️️"}
   key_font: symbol.ttf #键盘字体
   key_height: *keyboard #键高
-  key_long_text_size: 12 #长标签字号
-  key_text_size: 20 #键字号
+  key_long_text_size: 14 #长标签字号
+  key_text_size: 22 #键字号
   key_width: 10.0 #键宽，占屏幕宽的百分比
   keyboards: [.default, letter, default, number, symbols] #键盘配置
   label_text_size: 20 #标签字号
   label_font: label.ttf #编标签字体
-  latin_font: latin.ttf #西文字体
+  latin_font: latin.ttf #西文本体
   latin_locale: en_US #西文语言
   locale: zh_CN #缺省语言 zh_TW,zh_CN,zh_HK,""
   #keyboard_height: 250 #锁定键盘高度，避免切换时键盘高度变化而造成闪烁
@@ -93,10 +104,13 @@ style:
   symbol_font: symbol.ttf #符号字体
   symbol_text_size: 10 #符号字号
   text_font: latin.ttf #编码字体
-  #text_height: 32 #编码区高度
-  text_size: 14 #编码区字号
+  #text_height: 22 #编码区高度
+  text_size: 16 #编码区字号
   vertical_correction: -5
-  vertical_gap: *sgap #键盘行距
+  vertical_gap: *hgap #键盘行距
+  long_text_font: comment.ttf #剪贴板等可能包含大段文本使用的字体
+  #background_folder: #背景图保存在background目录下的哪个子目录
+  key_long_text_border: 1
   enter_label_mode: 0  #是否使用App提供的ActionLabel内容作为Enter键的文本（由于多数App没有适配ActionLable，实际影响不大）。0不使用，1只使用actionlabel，2优先使用，3当其他方式没有获得label时才读取actionlabel
   enter_labels:  # 定义Enter键的文本
     go: 前往
@@ -113,41 +127,41 @@ fallback_colors:
 #配色方案
 preset_color_schemes:
   default:
-    name: 缺省／default #方案名稱
-    author: osfans #作者資訊
+    name: 缺省／default #方案名称
+    author: osfans #作者信息
     dark_scheme: steam
-    back_color: 0xe4e7e9 #候選區背景
-    border_color: 0xc1c7ca #邊框
-    candidate_separator_color: 0xc1c7ca #候選分割背景
-    candidate_text_color: 0x5a676e #候選文字
+    back_color: 0xe4e7e9 #候选区背景
+    border_color: 0xc1c7ca #边框
+    candidate_separator_color: 0xc1c7ca #候选分割背景
+    candidate_text_color: 0x5a676e #候选文本
     comment_text_color: 0x7b868c #提示
-    hilited_back_color: 0xccd3d7da #標明編碼背景
-    hilited_candidate_back_color: 0xd3d7da #標明候選背景
-    hilited_candidate_text_color: 0x000000 #標明候選文字
-    hilited_comment_text_color: 0x000000 #標明提示
-    hilited_key_back_color: 0xd3d7da #標明按鍵背景
-    hilited_key_symbol_color: 0x000000 #標明按鍵符號
-    hilited_key_text_color: 0x000000 #標明按鍵文字
-    hilited_off_key_back_color: 0xd3d7da #標明按鍵關閉狀態背景
-    hilited_off_key_text_color: 0x000000 #標明按鍵關閉狀態文字
-    hilited_on_key_back_color: 0xd3d7da #標明按鍵打開狀態背景
-    hilited_on_key_text_color: 0x000000 #標明按鍵打開狀態文字
-    hilited_text_color: 0x23948e #標明編碼
-    key_back_color: 0xeceff1 #按鍵背景
-    #key_border_color: 0xeceff1 #按鍵邊框
-    key_symbol_color: 0x5f6b73 #按鍵符號
-    key_text_color: 0x37474f #按鍵文字
-    keyboard_back_color: 0xffffff #鍵盤背景
-    label_color: 0x000000 #標籤
-    off_key_back_color: 0xd3d7da #按鍵關閉狀態背景
-    off_key_text_color: 0x000000 #按鍵關閉狀態文字
-    on_key_back_color: 0x23948e #按鍵打開狀態背景
-    on_key_text_color: 0x37474f #按鍵打開狀態文字
-    preview_back_color: 0x55bfbfbf #按鍵提示背景
-    preview_text_color: 0x23948e #按鍵提示文字
-    shadow_color: 0x000000 #按鍵文字陰影
-    text_color: 0x5a676e #編碼
-    text_back_color: 0xcce4e7e9 #編碼區背景
+    hilited_back_color: 0xccd3d7da #标明编码背景
+    hilited_candidate_back_color: 0xd3d7da #标明候选背景
+    hilited_candidate_text_color: 0x000000 #标明候选文本
+    hilited_comment_text_color: 0x000000 #标明提示
+    hilited_key_back_color: 0xd3d7da #标明按键背景
+    hilited_key_symbol_color: 0x000000 #标明按键符号
+    hilited_key_text_color: 0x000000 #标明按键文本
+    hilited_off_key_back_color: 0xd3d7da #标明按键关闭状态背景
+    hilited_off_key_text_color: 0x000000 #标明按键关闭状态文本
+    hilited_on_key_back_color: 0xd3d7da #标明按键打开状态背景
+    hilited_on_key_text_color: 0x000000 #标明按键打开状态文本
+    hilited_text_color: 0x23948e #标明编码
+    key_back_color: 0xeceff1 #按键背景
+    #key_border_color: 0xeceff1 #按键边框
+    key_symbol_color: 0x5f6b73 #按键符号
+    key_text_color: 0x37474f #按键文本
+    keyboard_back_color: 0xffffff #键盘背景
+    label_color: 0x000000 #标签
+    off_key_back_color: 0xd3d7da #按键关闭状态背景
+    off_key_text_color: 0x000000 #按键关闭状态文本
+    on_key_back_color: 0x23948e #按键打开状态背景
+    on_key_text_color: 0x37474f #按键打开状态文本
+    preview_back_color: 0x55bfbfbf #按键提示背景
+    preview_text_color: 0x23948e #按键提示文本
+    shadow_color: 0x000000 #按键文本阴影
+    text_color: 0x5a676e #编码
+    text_back_color: 0xcce4e7e9 #编码区背景
   steam:
     name: "Steam"
     author: "Patricivs <ipatrickmac@me.com>"
@@ -170,7 +184,7 @@ liquid_keyboard:
   author: "tumuyan"
   #row: 6              #每屏最多显示多少行按键
   #row_land: 5         #横屏每屏最多显示多少行按键
-  key_height: 40      #按键高度
+  key_height: *keyboard     #按键高度
   key_height_land: 40 #横屏模式按键高度
   single_width: 60    #single类型的按键宽度
   vertical_gap: *sgap     #纵向按键间隙
@@ -183,12 +197,15 @@ liquid_keyboard:
   tabs:
     name: 更多
     type: TABS
+  new:
+    name: 新行 #此类型不显示在候选栏中，但是打开“更多”TAB时，下一个按键会换行
+    type: NEW_ROW
   history:
     name: 常用
     type: HISTORY
   emoji:
     type: SINGLE
-    keys: "🙂😂🤣😆🙃😅🥺🙈🙉🙊☹😑😄🤐😨😱🌚🌝🤔❤💔🌹💣👌👍😣😥😮🙄😏😕😯😪😫😴😌🤑😉😋😎😍😘😚😛😜😝😒😓😔😲😷🤒😇🤓🤗🤕🙁😖😞😟😤😢😭😦😧😨😩😬😰😳😵😡😠☝✌🖕👎🙏🤘👏💪💋☘🍀🌸☕🍵🍺🍻🍦🍬🍚🍜🍲🍖🎂💤"
+    keys: "🙂😂🤣😆🙃😅🙈🙉🙊☹😑😄🤐😨😱🌚🌝🤔❤💔♡🌹💣👌👍😣😥😮🙄😏😕😯😪😫😴😌🤑😉😋😎😍😘😚😛😜😝😒😓😔😲😷🤒😇🤓🤗🤕🙁😖😞😟😤😢😭😦😧😨😩😬😰😳😵😡😠☝✌🖕👎🙏🤘👏💪💋☘🍀🌸☕🍵🍺🍻🍦🍬🍚🍜🍲🍖🎂💤"
   clipboard:
     type: CLIPBOARD
     name: 剪贴
@@ -214,8 +231,9 @@ liquid_keyboard:
       - ‘
       - ···
       - ……
-      - { click: "——" }
+      - { click: "-" }
       - { click: "——", label: "破折" }
+      - { click: "" } # 内容为空可以强制令键盘从此处新起一行
       - （
       - ）
       - 【
@@ -282,12 +300,14 @@ liquid_keyboard:
 
 preset_keys:
   # 安卓
+  BRIGHTNESS_DOWN: {label: 亮度-, send: BRIGHTNESS_DOWN}
+  BRIGHTNESS_UP: {label: 亮度+, send: BRIGHTNESS_UP}
   CALCULATOR: {label: 计算机, send: CALCULATOR}
-  CALENDAR: {label: 日历, send: CALENDAR}
+  CALENDAR: {label: '🗓️', send: CALENDAR}
   CONTACTS: {label: 电话簿, send: CONTACTS}
   ENVELOPE: {label: 信箱, send: ENVELOPE}
   EXPLORER: {label: 浏览器, send: EXPLORER}
-  MUSIC: {label: 音乐, send: MUSIC}
+  MUSIC: {label: '🎵', send: MUSIC}
   POWER: {label: 电源, send: POWER}
   SEARCH: {label: 搜索, send: Find}
   SLEEP: {label: 休眠, send: SLEEP}
@@ -357,6 +377,9 @@ preset_keys:
   Color_settings: {label: 配色, send: SETTINGS, option: "color"}
   Theme_settings: {label: 主题, send: SETTINGS, option: "theme"}
   Schema_settings: {label: 方案, send: SETTINGS, option: "schema"}
+  Candidate_switch: {toggle: _hide_candidate, send: Mode_switch, states: [ 有候选, 无候选]}
+  Comment_switch: {toggle: _hide_comment, send: Mode_switch, states: [ 有注释, 无注释]}
+  Hint_switch: {toggle: _hide_key_hint, send: Mode_switch, states: [ 有助记, 无助记]}
   # trime命令
   Date: {label: 日期, command: date, option: "yyyy-MM-dd"}
   ChineseDate: {label: 农历, command: date, option: "zh_CN@calendar=chinese"} #农历等日期(>=Android 7.0)：date 语言@calendar=历法 格式。具体参见https://developer.android.com/reference/android/icu/util/Calendar.html
@@ -400,8 +423,8 @@ preset_keyboards:
     - {click: 'y', long_click: '\'}
     - {click: 'u', long_click: '['}
     - {click: 'i', long_click: ']'}
-    - {click: 'o', long_click: '{'}
-    - {click: 'p', long_click: '}'}
+    - {click: 'o', long_click: '{}{Left}'}
+    - {click: 'p', long_click: '「」{Left}'}
     # line 3
     - {width: 5}
     - {click: 'a', long_click: select_all}
@@ -491,7 +514,7 @@ preset_keyboards:
     author: *au
     width: 20
     height: *keyboard
-    keys:#模仿搜狗输入法小键盘
+    keys:
     #line 1
     - {click: '+', long_click: Insert}
     - {click: '1', long_click: Home}
@@ -655,61 +678,3 @@ preset_keyboards:
     - {click: Hide, width: 20}
     - {click: VOICE_ASSIST, swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, width: 60}
     - {click: Menu, width: 20}
-  zhuyin_wd:
-    name: 注音键盘
-    author: *au
-    width: 10
-    height: *keyboard
-    keys:
-    #line 0
-    - {click: '1'}
-    - {click: '2'}
-    - {click: '3'}
-    - {click: '4'}
-    - {click: '5'}
-    - {click: '6'}
-    - {click: '7'}
-    - {click: '8'}
-    - {click: '9'}
-    - {click: '0'}
-    # line 1
-    - {click: "ㄅ", long_click: "ㄆ"}
-    - {click: "ㄉ", long_click: "ㄊ"}
-    - {click: "ㄏ", long_click: ""}
-    - {click: "ㄓ", long_click: "ㄗ"}
-    - {click: "ㄧ", long_click: ""}
-    - {click: "ㄚ", long_click: ""}
-    - {click: "ㄞ", long_click: ""}
-    - {click: "ㄡ", long_click: ""}
-    - {click: "ㄣ", long_click: ""}
-    - {click: "ㄥ", long_click: ""}
-    #line2
-    - {width: 5}
-    - {click: "ㄇ", long_click: ""}
-    - {click: "ㄋ", long_click: "ㄌ"}
-    - {click: "ㄍ", long_click: "ㄎ"}
-    - {click: "ㄔ", long_click: "ㄘ"}
-    - {click: "ㄨ", long_click: ""}
-    - {click: "ㄛ", long_click: ""}
-    - {click: "ㄟ", long_click: ""}
-    - {click: "ㄢ", long_click: ""}
-    - {click: "ㄤ", long_click: ""}
-    - {width: 5}
-    #line3
-    - {click: Shift_L, width: 15}
-    - {click: "ㄈ", long_click: ""}
-    - {click: "ㄐ", long_click: "ㄑ"}
-    - {click: "ㄒ", long_click: ""}
-    - {click: "ㄕ", long_click: "ㄙ"}
-    - {click: "ㄩ", long_click: ""}
-    - {click: "ㄜ", long_click: "ㄝ"}
-    - {click: "ㄠ", long_click: ""}
-    - {click: BackSpace, width: 15}
-    #line4
-    - {click: Keyboard_number, long_click: Menu, width: 15}
-    - {click: ',', long_click: '<'}
-    - {click: "ㄖ", long_click: ""}
-    - {click: space, long_click: Mode_switch, width: 30}
-    - {click: "ㄦ", long_click: liquid_keyboard_switch}
-    - {click: '.', long_click: '>'}
-    - {click: Return, width: 15}
