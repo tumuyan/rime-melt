@@ -1,0 +1,463 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# tumuyan自建增补词库，同时用于引用其他词库。
+# 增补词库本身包含的内容比较杂。
+# 1.由于对wiki词库使用了程序自动处理，会过度过滤，为免除影响，需补充部分词条。
+# 2.增加了部分诗文，成句
+# 3.部分不符合普通话标准读音的词，比如`牛丼 niu dong`
+
+
+---
+name: melt_pinyin
+version: "2021.11.09"
+sort: by_weight
+use_preset_vocabulary: false
+import_tables:
+# 袖珍简化字拼音主词库
+  - pinyin_simp.main
+# 袖珍简化字拼音自定义词语
+  - pinyin_simp_custom
+# 现代汉语常用词表，来源 https://github.com/alswl/Rime
+#  - xiandaihanyuchangyongcibiao
+# 重命名为：
+  - pinyin_simp_base
+# 维基词库，自制
+  - pinyin_simp_wiki
+# 萌娘词库，自制
+  - pinyin_simp_moe
+# 搜狗成语俗语细胞词库 https://pinyin.sogou.com/dict/detail/index/15097
+  - pinyin_simp_chengyu
+# 搜狗历史细胞词库 https://pinyin.sogou.com/dict/detail/index/15130
+#  - pinyin_simp_lishi
+# 搜狗古诗细胞词库 https://pinyin.sogou.com/dict/detail/index/2
+  - pinyin_simp_gushi
+
+...
+秋·张	qiu zhang
+简·爱	jian ai
+羽·泉	yu quan
+卡拉OK	ka la _OK
+C语言	_C yu yan
+G代码	_G dai ma
+⑨	ben dan
+(<ゝω·)☆ 绮罗星~	qi luo xing
+牛丼	niu dong
+亲子丼	qin zi dong
+天丼	tian dong
+胜丼	sheng dong
+鳗丼	man dong
+玉子丼	yu zi dong
+天津丼	tian jin dong
+磁路	ci lu
+阿姆斯特丹	a mu si te dan
+古罗马道路	gu luo ma dao lu
+Δ形电路	san jiao xing dian lu
+Y形电路	_Y xing dian lu
+三角形电路	san jiao xing dian lu
+专用集成电路	zhuan yong ji cheng dian lu
+丝绸之路	si chou zhi lu
+中关村	zhong guan cun
+中国金融集成电路	zhong guo jin rong ji cheng dian lu
+串联电路	chuan lian dian lu
+主干道	zhu gan dao
+互补金属-氧化物-半导体集成电路	hu bu jin shu yang hua wu ban dao ti ji cheng dian lu
+以太网	yi tai wang
+光子集成电路	guang zi ji cheng dian lu
+光学积体电路	guang xue ji ti dian lu
+公路	gong lu
+共振电路	gong zhen dian lu
+分布元件电路	fen bu yuan jian dian lu
+分立元器件门电路	fen li yuan qi jian men dian lu
+功率因数修正电路	gong lv yin shu xiu zheng dian lu
+去电池电路	qu dian chi dian lu
+台湾积体电路	tai wan ji ti dian lu
+同步电路	tong bu dian lu
+填谷式电路	tian gu shi dian lu
+大规模集成电路	da gui mo ji cheng dian lu
+安全特低压电路	an quan te di ya dian lu
+差分放大电路	cha fen fang da dian lu
+差动放大电路	cha dong fang da dian lu
+并联电路	bing lian dian lu
+幻想乡	huan xiang xiang
+应用特殊积体电路	ying yong te shu ji ti dian lu
+开集级电路	kai ji ji dian lu
+异步电路	yi bu dian lu
+循序逻辑电路	xun xu luo ji dian lu
+戴维南等效电路	dai wei nan deng xiao dian lu
+振荡电路	zhen dang dian lu
+推挽式电路	tui wan shi dian lu
+放大器电路	fang da qi dian lu
+放大电路	fang da dian lu
+数位电路	shu wei dian lu
+数字电路	shu zi dian lu
+数字集成电路	shu zi ji cheng dian lu
+数码电路	shu ma dian lu
+斩波电路	zhan bo dian lu
+施密特触发电路	shi mi te chu fa dian lu
+无线电路	wu xian dian lu
+时序电路	shi xu dian lu
+时序逻辑电路	shi xu luo ji dian lu
+星形电路	xing xing dian lu
+晋华集成电路	jin hua ji cheng dian lu
+景德镇	jing de zhen
+桥式电路	qiao shi dian lu
+模拟电路	mo ni dian lu
+模拟集成电路	mo ni ji cheng dian lu
+水电路	shui dian lu
+海上丝绸之路	hai shang si chou zhi lu
+深圳市兴森快捷电路	shen zhen shi xing sen kuai jie dian lu
+混合信号集成电路	hun he xin hao ji cheng dian lu
+混合讯号积体电路	hun he xun hao ji ti dian lu
+特殊应用积体电路	te shu ying yong ji ti dian lu
+环形电路	huan xing dian lu
+电子电路	dian zi dian lu
+电容反馈式振荡电路	dian rong fan kui shi zhen dang dian lu
+电晶体-电晶体逻辑电路	dian jing ti dian jing ti luo ji dian lu
+电桥电路	dian qiao dian lu
+电流模电路	dian liu mo dian lu
+电浆子电路	dian jiang zi dian lu
+电源电路	dian yuan dian lu
+电路	dian lu
+积体光电子电路	ji ti guang dian zi dian lu
+积体电路	ji ti dian lu
+等效电路	deng xiao dian lu
+类比电路	lei bi dian lu
+红石电路	hong shi dian lu
+组合逻辑电路	zu he luo ji dian lu
+舒密特触发电路	shu mi te chu fa dian lu
+蔡氏电路	cai shi dian lu
+虚拟电路	xu ni dian lu
+虚电路	xu dian lu
+触发电路	chu fa dian lu
+诺顿等效电路	nuo dun deng xiao dian lu
+调谐电路	tiao xie dian lu
+谐振电路	xie zhen dian lu
+超大规模集成电路	chao da gui mo ji cheng dian lu
+超高速集成电路	chao gao su ji cheng dian lu
+轨道电路	gui dao dian lu
+运算放大电路	yun suan fang da dian lu
+逻辑电路	luo ji dian lu
+逻辑门电路	luo ji men dian lu
+量子电路	liang zi dian lu
+金属-氧化物-半导体集成电路	jin shu yang hua wu ban dao ti ji cheng dian lu
+铁路	tie lu
+门电路	men dian lu
+闸极驱动电路	zha ji qu dong dian lu
+降压-升压斩波电路	jiang ya sheng ya zhan bo dian lu
+集总参数电路	ji zong can shu dian lu
+集成电路	ji cheng dian lu
+集成设备电路	ji cheng she bei dian lu
+驱动电路	qu dong dian lu
+高速公路	gao su gong lu
+查理曼林荫道	cha li man lin yin dao
+迷路	mi lu
+尿路	niao lu
+跑路	pao lu
+前路	qian lu
+后路	hou lu
+上路	shang lu
+下路	xia lu
+中路	zhong lu
+马路	ma lu
+罗马大道	luo ma da dao
+朝圣路	chao sheng lu
+碎石路	sui shi lu
+海上丝绸之路	hai shang si chou zhi lu
+死路	si lu
+思路	si lu
+快速路	kuai su lu
+高速路	gao su lu
+套路	tao lu
+武术套路	wu shu tao lu
+铁路	tie lu
+城际铁路	cheng ji tie lu
+短路	duan lu
+断路	duan lu
+辅路	fu lu
+主干路	zhu gan lu
+次干路	ci gan lu
+管路	guan lu
+航路	hang lu
+反馈回路	fan kui hui lu
+锁相回路	suo xiang hui lu
+惹鬼回路	re gui hui lu
+虚梦回路	xu meng hui lu
+电子回路	dian zi hui lu
+回路	hui lu
+控制回路	kong zhi hui lu
+闭合回路	bi he hui lu
+神经回路	shen jing hui lu
+欧拉回路	ou la hui lu
+电荷泵锁相回路	dian he beng suo xiang hui lu
+活路	huo lu
+高架路	gao jia lu
+水路	shui lu
+闭回路	bi hui lu
+载流回路	zai liu hui lu
+安可路	an ke lu
+新干线	xin gan xian
+磷酸戊糖通路	lin suan wu tang tong lu
+神经通路	shen jing tong lu
+听觉通路	ting jue tong lu
+代谢通路	dai xie tong lu
+信号通路	xin hao tong lu
+公交线路	gong jiao xian lu
+电话线路	dian hua xian lu
+输电线路	shu dian xian lu
+文化线路	wen hua xian lu
+寻路	xun lu
+言路	yan lu
+英雄之路	ying xiong zhi lu
+步上复仇之路	bu shang fu chou zhi lu
+巅峰之路	dian feng zhi lu
+浪漫之路	lang man zhi lu
+丝绸之路	si chou zhi lu
+重生之路	chong sheng zhi lu
+必由之路	bi you zhi lu
+海上丝绸之路	hai shang si chou zhi lu
+毁灭之路	hui mie zhi lu
+回归之路	hui gui zhi lu
+平凡之路	ping fan zhi lu
+圣人之路	sheng ren zhi lu
+民主之路	min zhu zhi lu
+圣地牙哥朝圣之路	sheng di ya ge chao sheng zhi lu
+海路丝绸之路	hai lu si chou zhi lu
+自由之路	zi you zhi lu
+流放之路	liu fang zhi lu
+王者之路	wang zhe zhi lu
+转型正义之路	zhuan xing zheng yi zhi lu
+迈向最强之路	mai xiang zui qiang zhi lu
+血泪之路	xue lei zhi lu
+未来之路	wei lai zhi lu
+无尽之路	wu jin zhi lu
+迈向荣耀之路	mai xiang rong yao zhi lu
+众生之路	zhong sheng zhi lu
+新王之路	xin wang zhi lu
+哲学家之路	zhe xue jia zhi lu
+王国之路	wang guo zhi lu
+通往奴役之路	tong wang nu yi zhi lu
+复兴之路	fu xing zhi lu
+耶路撒冷朝圣之路	ye lu sa leng chao sheng zhi lu
+忍者之路	ren zhe zhi lu
+通向奴役之路	tong xiang nu yi zhi lu
+求生之路	qiu sheng zhi lu
+通往地狱之路	tong wang di yu zhi lu
+通往黑暗之路	tong wang hei an zhi lu
+革命之路	ge ming zhi lu
+恶搞之路	e gao zhi lu
+地狱之路	di yu zhi lu
+圣雅各伯朝圣之路	sheng ya ge bo chao sheng zhi lu
+天堂之路	tian tang zhi lu
+光明之路	guang ming zhi lu
+黑暗之路	hei an zhi lu
+屠龙之路	tu long zhi lu
+热血之路	re xue zhi lu
+磷酸戊糖支路	lin suan wu tang zhi lu
+己糖磷酸支路	ji tang lin suan zhi lu
+支路	zhi lu
+仙人指路	xian ren zhi lu
+十字路	shi zi lu
+丁字路	ding zi lu
+下一代网络	xia yi dai wang luo
+专用网络	zhuan yong wang luo
+世界新闻网络	shi jie xin wen wang luo
+业余封包无线电网络	ye yu feng bao wu xian dian wang luo
+个人区域网络	ge ren qu yu wang luo
+个人数字蜂窝网络	ge ren shu zi feng wo wang luo
+中国医疗网络	zhong guo yi liao wang luo
+中国广播电视网络	zhong guo guang bo dian shi wang luo
+中国新闻电脑网络	zhong guo xin wen dian nao wang luo
+丰巢网络	feng chao wang luo
+临时网络	lin shi wang luo
+二端口网络	er duan kou wang luo
+人工神经网络	ren gong shen jing wang luo
+代谢网络	dai xie wang luo
+以太网	yi tai wang
+任天堂网络	ren tian tang wang luo
+企业专用网络	qi ye zhuan yong wang luo
+传感器网络	chuan gan qi wang luo
+信任网络	xin ren wang luo
+僵尸网络	jiang shi wang luo
+全欧交通网络	quan ou jiao tong wang luo
+全欧网络	quan ou wang luo
+公共交换电话网络	gong gong jiao huan dian hua wang luo
+公共数据网络	gong gong shu ju wang luo
+内容交付网络	nei rong jiao fu wang luo
+内容传送网络	nei rong chuan song wang luo
+内容分发网络	nei rong fen fa wang luo
+内容提供网络	nei rong ti gong wang luo
+凯迪网络	kai di wang luo
+分布式社交网络	fen bu shi she jiao wang luo
+分布式网络	fen bu shi wang luo
+分散式社交网络	fen san shi she jiao wang luo
+分散网络	fen san wang luo
+分类网络	fen lei wang luo
+列车通信网络	lie che tong xin wang luo
+列车通讯网络	lie che tong xun wang luo
+前向人工神经网络	qian xiang ren gong shen jing wang luo
+前馈神经网络	qian kui shen jing wang luo
+北京歌华有线电视网络	bei jing ge hua you xian dian shi wang luo
+北方广电网络	bei fang guang dian wang luo
+北电网络	bei dian wang luo
+华纳兄弟数字网络	hua na xiong di shu zi wang luo
+卷积神经网络	juan ji shen jing wang luo
+双口网络	shuang kou wang luo
+双端口网络	shuang duan kou wang luo
+反馈网络	fan kui wang luo
+可牛网络	ke niu wang luo
+四端子网络	si duan zi wang luo
+四端网络	si duan wang luo
+国际新闻网络	guo ji xin wen wang luo
+国际网络	guo ji wang luo
+基因共表达网络	ji yin gong biao da wang luo
+复杂网络	fu za wang luo
+多元射电联合干涉网络	duo yuan she dian lian he gan she wang luo
+多层神经网络	duo ceng shen jing wang luo
+多通道网络	duo tong dao wang luo
+多频道网络	duo pin dao wang luo
+央视国际网络	yang shi guo ji wang luo
+宽带综合调度增强网络	kuan dai zong he diao du zeng qiang wang luo
+宽带网络	kuan dai wang luo
+宽频网络	kuan pin wang luo
+对等网络	dui deng wang luo
+局域网	ju yu wang
+巨人网络	ju ren wang luo
+市政无线网络	shi zheng wu xian wang luo
+幻萌网络	huan meng wang luo
+幽灵网络	you ling wang luo
+广告网络	guang gao wang luo
+广域网	guang yu wang
+应用交付网络	ying yong jiao fu wang luo
+应用程序交付网络	ying yong cheng xu jiao fu wang luo
+征途网络	zheng tu wang luo
+径向基函数网络	jing xiang ji han shu wang luo
+循环神经网络	xun huan shen jing wang luo
+恺英网络	kai ying wang luo
+控制器局域网络	kong zhi qi ju yu wang luo
+数码网络	shu ma wang luo
+无尺度网络	wu chi du wang luo
+无标度网络	wu biao du wang luo
+无源光纤网络	wu yuan guang xian wang luo
+无源光网络	wu yuan guang wang luo
+无界网络	wu jie wang luo
+无线临时网络	wu xian lin shi wang luo
+无线传感器网络	wu xian chuan gan qi wang luo
+无线网状网络	wu xian wang zhuang wang luo
+无线网络	wu xian wang luo
+日本航空网络	ri ben hang kong wang luo
+日本通讯网络	ri ben tong xun wang luo
+时间递归神经网络	shi jian di gui shen jing wang luo
+有线-卫星公共事务网络	you xian wei xing gong gong shi wu wang luo
+有线-衞星公共事务网络	you xian wei xing gong gong shi wu wang luo
+有线电视新闻网国际新闻网络	you xian dian shi xin wen wang guo ji xin wen wang luo
+有线电视新闻网络	you xian dian shi xin wen wang luo
+杰克逊排队网络	jie ke xun pai dui wang luo
+柜员机网络	gui yuan ji wang luo
+欧洲甚长基线干涉测量网络	ou zhou shen zhang ji xian gan she ce liang wang luo
+欧洲甚长基线干涉网络	ou zhou shen zhang ji xian gan she wang luo
+毒品网络	du pin wang luo
+泛欧交通网络	fan ou jiao tong wang luo
+泛欧网络	fan ou wang luo
+泛非化学网络	fan fei hua xue wang luo
+深层网络	shen ceng wang luo
+深度神经网络	shen du shen jing wang luo
+深度空间网络	shen du kong jian wang luo
+深空网络	shen kong wang luo
+点对点网络	dian dui dian wang luo
+生成对抗网络	sheng cheng dui kang wang luo
+生成式对抗网络	sheng cheng shi dui kang wang luo
+生物神经网络	sheng wu shen jing wang luo
+生物网络	sheng wu wang luo
+用友网络	yong you wang luo
+电信网络	dian xin wang luo
+电脑网络	dian nao wang luo
+电视网络	dian shi wang luo
+电驴网络	dian lv wang luo
+监控网络	jian kong wang luo
+盛大网络	sheng da wang luo
+知识网络	zhi shi wang luo
+社交网络	she jiao wang luo
+社会网络	she hui wang luo
+神经网络	shen jing wang luo
+福克斯网络	fu ke si wang luo
+私有网络	si you wang luo
+移动电话网络	yi dong dian hua wang luo
+移动网络	yi dong wang luo
+移动蜂窝网络	yi dong feng wo wang luo
+类神经网络	lei shen jing wang luo
+结构递归神经网络	jie gou di gui shen jing wang luo
+综合业务数字网络	zong he ye wu shu zi wang luo
+网状网络	wang zhuang wang luo
+网络	wang luo
+美国有线新闻网络	mei guo you xian xin wen wang luo
+美国电视网络	mei guo dian shi wang luo
+美国食品网络	mei guo shi pin wang luo
+聚友网络	ju you wang luo
+自旋网络	zi xuan wang luo
+菜鸟网络	cai niao wang luo
+虚拟专用网络	xu ni zhuan yong wang luo
+虚拟私人网络	xu ni si ren wang luo
+蜂窝网络	feng wo wang luo
+街口网络	jie kou wang luo
+覆盖网络	fu gai wang luo
+计算机网络	ji suan ji wang luo
+语义网络	yu yi wang luo
+谋智网络	mou zhi wang luo
+贝叶斯网络	bei ye si wang luo
+软件定义网络	ruan jian ding yi wang luo
+迅雷网络	xun lei wang luo
+连尚网络	lian shang wang luo
+迪士尼传媒网络	di shi ni chuan mei wang luo
+递归神经网络	di gui shen jing wang luo
+金山网络	jin shan wang luo
+闪电网络	shan dian wang luo
+阻抗匹配网络	zu kang pi pei wang luo
+随机神经网络	sui ji shen jing wang luo
+集成数字增强网络	ji cheng shu zi zeng qiang wang luo
+霍普菲尔德神经网络	huo pu fei er de shen jing wang luo
+非广播多路访问网络	fei guang bo duo lu fang wen wang luo
+韩国甚长基线干涉测量网络	han guo shen zhang ji xian gan she ce liang wang luo
+韩国甚长基线干涉网络	han guo shen zhang ji xian gan she wang luo
+香港宽频网络	xiang gang kuan pin wang luo
+香港电视网络	xiang gang dian shi wang luo
+香港电视购物网络	xiang gang dian shi gou wu wang luo
+马尔可夫网络	ma er ke fu wang luo
+度假村	du jia cun
+理想乡	li xiang xiang
+奥兰多环球度假村	ao lan duo huan qiu du jia cun
+迷宫的十字路	mi gong de shi zi lu
+千绪的上学路	qian xu de shang xue lu
+宫村	gong cun
+堀与宫村	ku yu gong cun
+查令十字街84号	cha ling shi zi jie hao
+镇魂街	zhen hun jie
+上街	shang jie
+前大街	qian da jie
+北大街	bei da jie
+北街	bei jie
+华人街	hua ren jie
+华尔街	hua er jie
+南街	nan jie
+厚街	hou jie
+后街	hou jie
+商业街	shang ye jie
+大街	da jie
+新街	xin jie
+步行街	bu xing jie
+百老汇街	bai lao hui jie
+老街	lao jie
+贝克街	bei ke jie
+购物街	gou wu jie
+镇魂街	zhen hun jie
+丰镇	feng zhen
+东方Project	dong fang _Project
+乃木坂46	nai mu ban
+七海Nana7mi	qi hai na na mi
+宛平南路600号	wan ping nan lu
+草莓100%	cao mei bai fen bai
+勇气100%	yong qi bai fen bai
+黄金300秒	huang jin san bai miao
+蓝猫淘气3000问	lan mao tao qi san qian wen
+斯巴达300勇士	si ba da san bai yong shi
+世界500强	shi jie wu bai qiang
