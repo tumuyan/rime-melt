@@ -1,4 +1,9 @@
 
 *.zip
+<<<<<<< HEAD
 **userdb.txt
 release/
+=======
+melt_eng_custom.dict.yaml
+custom/default.custom.yaml
+>>>>>>> 64fc9130b1e57951fed8ba926f4d97c48d92699a
