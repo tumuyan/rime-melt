@@ -15,19 +15,19 @@ IF errorlevel 1 goto ONE
 
 
 :ONE
-xcopy .\basic .\release\ /E
-xcopy .\schema .\release\ /E
-xcopy .\ex_dict .\release\ /E
-xcopy .\custom .\release\ /E
+xcopy .\basic .\release\rime\ /E
+xcopy .\schema .\release\rime\ /E
+xcopy .\ex_dict .\release\rime\ /E
+xcopy .\custom .\release\rime\ /E
 7z a release.zip .\release
 goto end
 
 :TWO
-xcopy .\theme\trime .\release\ /E
+xcopy .\theme\trime .\release\rime\ /E
 goto ONE
 
 :THREE
-xcopy .\theme\weasel.custom.yaml .\release\ /E
+xcopy .\theme\weasel.custom.yaml .\release\rime\ /E
 goto  ONE
 
 :end

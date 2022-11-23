@@ -8,13 +8,16 @@
 
 简体字或言规范字，可以《通用规范汉字表》8105字为标准。在此之外则用《GB 18030-2005 信息技术 中文编码字符集》（单字节、双字节编码和四字节编码部分的CJK统一汉字扩充A部分为强制性）。
 
-常用：[融合拼音1.6.1](https://github.com/tumuyan/rime-melt)：以[袖珍簡化字拼音](https://github.com/rime/rime-pinyin-simp)为基础，[字海两分](http://cheonhyeong.com/Simplified/download.html)为反查，配合[Easy English](https://github.com/BlindingDark/rime-easy-en)。
+常用：
+
+1. [融合拼音1.6.1](https://github.com/tumuyan/rime-melt)：以[袖珍簡化字拼音](https://github.com/rime/rime-pinyin-simp)为基础，[字海两分](http://cheonhyeong.com/Simplified/download.html)为反查，配合修改版[Easy English](https://github.com/BlindingDark/rime-easy-en)。
+2. Unicode输入，基于lua脚本的Unicode输入方案
 
 参考[rimerc](https://github.com/Bambooin/rimerc)设置release。
 
-目前仅适配[同文（Trime）输入法](https://github.com/osfans/trime/releases)
+目前支持[同文（Trime）输入法](https://github.com/osfans/trime/releases)，尝试支持[小狼毫 fxliang维护版](https://github.com/fxliang/weasel/releases)
 
-根据[融合拼音 1.6.1](https://github.com/tumuyan/rime-melt/releases)和[Trime 3.2.9-g7e40542-20220904](https://github.com/osfans/trime/actions/runs/2988540364)重理全局。
+根据[融合拼音 2022-10-24](https://github.com/tumuyan/rime-melt/releases)和[Trime 3.2.8](https://github.com/osfans/trime/releases/tag/v3.2.8)重理全局。
 
 ## 说明
 
@@ -28,6 +31,7 @@
 ├─custom
 ├─ex_dict
 ├─others
+│   └─old
 ├─schema
 └─theme
     └─trime
@@ -47,34 +51,48 @@
 - `rime.lua`，来自[融合拼音](https://github.com/tumuyan/rime-melt)，**有修改**
 - `symbols.yaml`，ver.1.6，2022-4-10，来自 [rime-prelude](https://github.com/rime/rime-prelude)，**有修改**
 
+在`symbols.yaml`全角→多个相似符号中，插入部分常用半角符号（圆括号、方括号）
+
 ##### 文件夹
 
 - `fonts/`，**空文件夹**，用来存放字库文件
 - `lua/`，来自[融合拼音](https://github.com/tumuyan/rime-melt)，**有修改**
 - `opencc/`，合并[opencc预编译包](https://github.com/BYVoid/OpenCC/wiki/Download#prebuild-%E9%A0%90%E7%B7%A8%E8%AD%AF)中`\build\share\opencc`，以及[融合拼音](https://github.com/tumuyan/rime-melt)中的`opencc`
 
-##### 修改
+###### 字体
 
-1. 在`symbols.yaml`全角→多个相似符号中，插入部分常用半角符号（圆括号、方括号）
-2. 【可选性】字库推荐
-   1. 宋体：[天珩全字库 4.0](http://cheonhyeong.com/Simplified/download.html)
-   2. 旧字形宋体：全字库、一点明体（8.0，2022-09-06）
-   3. 楷体：[霞鹜文楷](https://github.com/lxgw/LxgwWenKai)
-3. lua加入了来自[Trime同文输入法QQ群]的Unicode翻译器
-4. 没有考虑按键音效
+字库推荐
+
+多平面字体
+
+- 非商用：中华书局宋体、[天珩全字库 4.0](http://cheonhyeong.com/Simplified/download.html)、[全宋体](https://fgwang.blogspot.com/)
+- 开源：花园明朝体
+
+特定书体
+
+- 旧字形宋体：[一点明体 8.0，2022-09-06](https://github.com/ichitenfont/I.Ming)
+- 楷体：[霞鹜文楷](https://github.com/lxgw/LxgwWenKai)
+
+更多开源字体可见[猫啃网](https://www.maoken.com/)的收集整理
+
+###### lua脚本
+
+- `lua_unicode_translator.lua`，Unicode翻译脚本，来自[Trime同文输入法QQ群](458845988)@[Shitlime](1753102572)
+- `melt.lua`，来自[融合拼音](https://github.com/tumuyan/rime-melt)
 
 #### Schema：输入方案文件
 
 - `liangfen.schema.yaml`，字海两分5.0输入方案，来自[天珩的小站-下载页](http://cheonhyeong.com/Simplified/download.html)
-- `melt.schema.yaml`，来自[融合拼音](https://github.com/tumuyan/rime-melt)
 - `melt_eng.schema.yaml`，来自[融合拼音](https://github.com/tumuyan/rime-melt)
-- `pinyin_simp.schema.yaml`，来自[融合拼音](https://github.com/tumuyan/rime-melt)
-- `pinyin_simp.custom.yaml`，来自[融合拼音](https://github.com/tumuyan/rime-melt)
-- `unicode.schema.yaml`，来自[Trime同文输入法QQ群]
+- `melt_pinyin.schema.yaml`，来自[融合拼音](https://github.com/tumuyan/rime-melt)，**有修改**
+- `unicode.schema.yaml`，来自[Trime同文输入法QQ群](458845988)@[Shitlime](1753102572)
 
-修改：加入基于Lua脚本的Unicode字符输入方案。开启融合拼音中的半全角切换。
+修改
 
-#### 方案词库文件，ex_dict
+- 加入基于Lua脚本的Unicode字符输入方案。
+- 在融合拼音中增加半全角切换。
+
+#### Ex_dict：方案词库文件
 
 melt方案要求如下，修改后的pinyin_simp方案与melt方案的词库要求一致。
 
@@ -103,16 +121,27 @@ melt_eng方案（即Easy Englishi Nano）要求：
 - `melt_eng_custom.dict.yaml`，自定义英文词库
 - `pinyin_simp_pin.txt`，固顶
 
-#### 主题文件，theme
+#### Theme：主题文件
 
 - `wendao.trime.yaml`，自定义。用于Trime。
 - `trime.yaml`，缺省主题，提取自[Trime 2022-06-05测试版](https://github.com/osfans/trime/actions/runs/2443077838)。用于Trime。
 - `weasel.custom.yaml`，用于小狼毫。
 
-## 运行环境
+#### Other
 
-1. 操作系统: Android 11(LineageOS 18.1)
-2. 软件: [TRIME](https://github.com/osfans/trime)，同文输入法3.0
+##### Old：停用文件备份
+
+[融合拼音](https://github.com/tumuyan/rime-melt)1.6以前通过与袖珍拼音嵌合实现
+
+- `melt.schema.yaml`，来自[融合拼音](https://github.com/tumuyan/rime-melt)
+- `pinyin_simp.schema.yaml`，来自[融合拼音](https://github.com/tumuyan/rime-melt)
+- `pinyin_simp.custom.yaml`，来自[融合拼音](https://github.com/tumuyan/rime-melt)
+
+## 我的运行环境
+
+
+1. 操作系统: Android 12L(LineageOS 19)、Windows 11
+2. 软件: [TRIME](https://github.com/osfans/trime)，同文输入法3.0、[小狼毫](https://github.com/fxliang/weasel/releases)
 
 注： 理论上，可运行于其他 [RIME](https://rime.im)（librime）的输入法引擎中，如 [小狼毫](https://github.com/rime/weasel) 和 [鼠须管](https://github.com/rime/squirrel) 等。不过，肯定的是，主题文件（例如 `custom.yaml`，也作皮肤或外观）需重新设置。
 
@@ -125,13 +154,11 @@ melt_eng方案（即Easy Englishi Nano）要求：
 下载项目
 
 1. 输入目标fcitx、fcitx5、ibus、squirrel、trime or weasel，目前只支持trime or weasel
-2. 自动复制basic、schema、ex_dict、custom中的所有文件到releases文件夹
-3. 根据输入，复制theme文件到releases文件夹
-4. 【手动】将releases文件夹重命名为rime。
+2. 根据输入，复制theme文件到releases文件夹中的rime文件夹
+3. 自动复制basic、schema、ex_dict、custom中的所有文件到releases文件夹中的rime文件夹
+4. 调用7-zip，将releases文件夹压缩
 
-②使用提供的更新包
-
-下载提供的releases
+②使用提供的发行包
 
 ### 设置
 

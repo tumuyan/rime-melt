@@ -1,10 +1,10 @@
 # Trime default style settings
 # encoding: utf-8
 
-config_version: "1.37" #配置版本号
+config_version: "1.38" #配置版本号
 name: wendao
 author: dao_mingze
-description: 修改自默认、同文风主题，适配trime3.2.7。
+description: 修改自默认、同文风主题，适配trime3.2.8。
 
 author: &au dao_mingze@163.com
 
@@ -15,7 +15,7 @@ android_keys:
 
 ##键盘高度
 height:
-  1: &keyboard 44 #键盘高度
+  1: &keyboard 40 #键盘高度
   2: &hgap 1 #键盘横缝大小
   3: &sgap 5 #键盘竖缝大小
 round_corner:
@@ -33,7 +33,7 @@ style:
   candidate_spacing: 0.5  #候选间距
   candidate_text_size: 16  #候选字号
   candidate_use_cursor: true #高亮候选项
-  candidate_view_height: 22 #候选区高度
+  candidate_view_height: 20 #候选区高度
   color_scheme: default #配色方案
   comment_font: comment.ttf #编码提示字体
   comment_height: 14 #编码提示区高度
@@ -51,7 +51,7 @@ style:
   layout: #悬浮窗口设置
     position: fixed #位置：left|right|left_up|right_up|fixed|bottom_left|bottom_right|top_left|top_right(left、right需要>=Android5.0)
     min_length: 4 #最小词长
-    max_length: 10 #超过字数则换行
+    max_length: 14 #超过字数则换行
     sticky_lines: 1 #固顶行数
     sticky_lines_land: 0 #横屏模式下的固顶行数
     max_entries: 10 #候选窗口最大词条数
