@@ -1,6 +1,6 @@
 # My Trime Config
 
-[:cn:](README.md) | [:gb:](README_en.md) | [Rime-melt](Original_README.md)
+[CN](README_cn.md) | [EN](README_en.md) | [Rime-melt](README_origin.md)
 
 ## Introduction
 
@@ -26,13 +26,13 @@ Now, just match with [Trime](https://github.com/osfans/trime/releases)
 
 #### Basic
 
-- `default.yaml`,  [rime-prelude](https://github.com/rime/rime-prelude)
+- `default.yaml`, [rime-prelude](https://github.com/rime/rime-prelude)
 - `default.custom.yaml`.
 - `key_bindings.yaml`, from [rime-prelude](https://github.com/rime/rime-prelude)
 - `punctuation.yaml`, from [rime-prelude](https://github.com/rime/rime-prelude)
 - `symbols.yaml`, ver.1.5, 2021-10-24, from [rime-prelude](https://github.com/rime/rime-prelude)
 - `opencc/`, ver.1.1.3, extract from [Trime 3.2.4](https://github.com/osfans/trime/releases/tag/v3.2.4), merger with [Rime-melt](https://github.com/tumuyan/rime-melt).
-- `essay.txt`, 2021-08-05, from [rime-easay](https://github.com/rime/rime-essay) 
+- `essay.txt`, 2021-08-05, from [rime-easay](https://github.com/rime/rime-essay)
 - `rime.lua`, from [Rime-melt](https://github.com/tumuyan/rime-melt)
 - `lua/`, from [Rime-melt](https://github.com/tumuyan/rime-melt)
 
