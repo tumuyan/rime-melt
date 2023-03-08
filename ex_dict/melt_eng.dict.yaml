@@ -18,6 +18,7 @@ import_tables:
 # 用户自定义词库
   - melt_eng_custom
 ...	
+SoC	SoC	100
 AA	AA	100
 aptX	aptX	100
 LDAC	LDAC	100
