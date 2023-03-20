@@ -8,7 +8,7 @@
 #
 ---
 name: pinyin_simp_moe
-version: "20230320"
+version: "20230321"
 dump: moegirl_20230320
 sort: by_weight
 use_preset_vocabulary: false
@@ -44544,7 +44544,6 @@ use_preset_vocabulary: false
 威风妖怪突风	wei feng yao guai tu feng	1
 现已加入肯德基豪华午餐	xian yi jia ru ken de ji hao hua wu can	1
 空栗双叶	kong li shuang ye	1
-派蒙的千层套路	pai meng de qian ceng tao lu	1
 再见的事	zai jian de shi	1
 雷德拉·比特	lei de la bi te	1
 乔斯达宅邸	qiao si da zhai di	1
@@ -57342,7 +57341,6 @@ use_preset_vocabulary: false
 萝莉枫糖浆	luo li feng tang jiang	1
 猪命	zhu ming	1
 园田真理	yuan tian zhen li	1
-基4%	ji	1
 葵丘高校	kui qiu gao xiao	1
 君艺心文化	jun yi xin wen hua	1
 围城人生	wei cheng ren sheng	1
@@ -66050,7 +66048,6 @@ use_preset_vocabulary: false
 长笛	zhang di	1
 成功确率0%	cheng gong que lv	1
 浅草绿	qian cao lv	1
-老人街	lao ren jie	1
 合金装备崛起	he jin zhuang bei jue qi	1
 有一个愿望	you yi ge yuan wang	1
 原画	yuan hua	1
