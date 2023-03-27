@@ -1,8 +1,8 @@
 # 我的 TRIME 配置
 
-[CN](README_cn.md) | [EN](README_en.md) | [Rime-melt](README_origin.md)
+[CN](README.md) | [EN](README_en.md) | [Rime-melt](README_origin.md)
 
-# 融合拼音(rime_melt)
+## 融合拼音(rime_melt)
 
 融合了[【袖珍简化字拼音】](https://github.com/rime/rime-pinyin-simp/)[【Rime 简体中文用户定制文件】](https://github.com/huaxianyan/Rime)和【Easy English】从而实现了简体中文和常用英语的混合输入，故名[融合拼音(rime_melt)](https://github.com/tumuyan/rime-pinyin-simp)。
 

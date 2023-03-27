@@ -9,7 +9,7 @@
 ## 特点
 
 - 这是一个打包解决方案。在 version<=1.6.1 的版本中，尽量保持了原有项目的文件结构，通过引用、patch 实现修改效果。因此当用户对 rime 稍微熟悉后，可以方便地更换、增删其中的某部分，而不至于产生严重的错误。在 1.6.1 之后的版本中做了若干调整，不再使用 patch 机制。
-- 本方案与 Easy English 词汇和方案差异极大，故更名为 Easy English Nano。相关特性详见[关于 Easy English Nano](#关于Easy_English_Nano)章节。
+- 本方案与 Easy English 词汇和方案差异极大，故更名为 Easy English Nano。相关特性详见[关于 Easy English Nano](#关于 Easy_English_Nano)章节。
 - 本方案创造性地在中文词库中加入了大量中英文混拼词条、含标点词条，如：`汉斯·阿尔伯特·爱因斯坦`、`梅赛德斯-奔驰`、`哆啦A梦`、`高Ping战士`等。这些词条既可以全拼（包含完整英语单词或者字母），也可以简拼（只拼写拼音和英语的首字母）。
 - 本方案引入叶典网[【两分输入方案】](http://cheonhyeong.com/Simplified/download.html)作为反查滤镜。当用户需要输入生僻字时，可以对复杂文字进行拆分，先输入"`"，再输入第一部分的拼音，最后输入第二部分的拼音。如果本地存在候选词的拼音，会通过 opencc 滤镜显示该文字的读音。
   - 本方案设计了长词优先算法。比如 Rime 拼音方案输入`xian`，第一页候选词通常没有`xi'an`读音的词条（因为简拼的优先级要低于全拼，编码完全匹配的优先级要高于编码含分割符）；使用本方案会强行提升至多 3 个中文、2 个英文长词候选的排序到第一页。
@@ -89,9 +89,9 @@
 【融合拼音增补词库】  
 求人不如求己，用[【深蓝词库转换】](https://github.com/studyzy/imewlconverter)转换搜狗细胞词库及其他方式获取的语料，并手动更新。（然而显而易见，搜狗目前的策略并不是通过更新离线词库来改善用户的输入体验，聊胜于无罢了；wiki 作为词库，也并非上佳选择）
 
-- `pinyin_simp_chengyu.dict.yaml`：搜狗成语俗语细胞词库 https://pinyin.sogou.com/dict/detail/index/15097  
+- `pinyin_simp_chengyu.dict.yaml`：搜狗成语俗语细胞词库 <https://pinyin.sogou.com/dict/detail/index/15097>
   更新：2017-03-30 20:46:10
-- `pinyin_simp_gushi.dict.yaml`：搜狗古诗细胞词库 https://pinyin.sogou.com/dict/detail/index/2  
+- `pinyin_simp_gushi.dict.yaml`：搜狗古诗细胞词库 <https://pinyin.sogou.com/dict/detail/index/2>
   更新：2020-12-28 15:05:44
 - `pinyin_simp_wiki.dict.yaml`：使用维基百科提供的 dump 数据解析而得。和别人作品不同，包含了大量中英文混拼词条、含标点的词条。**由于实用性较低，在 1.6 之后不再保留纯中文词条，以降低简拼运算量**。不定期更新，每月至少 1 次。  
   [下载直链](https://github.com/tumuyan/rime-pinyin-simp/raw/master/pinyin_simp_wiki.dict.yaml)
@@ -148,9 +148,10 @@
 
 - 不会生成自造词（避免输入错误造成的字典污染）。作为补充，制作了自动编辑用户字典的 lua 滤镜输入。输入单词并使用`--`结尾时，输入的键盘码会自动保存到`melt_eng_custom.dict.yaml`中。当用户重新部署时，新的词条会生效。
 
-# 其他
+## 其他
 
 <details>
+
 <summary>以下内容修改自袖珍简化字拼音的Readme和Rime项目Wiki</summary>
 
 ## 袖珍简化字拼音

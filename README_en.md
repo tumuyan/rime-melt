@@ -1,6 +1,6 @@
 # My Trime Config
 
-[CN](README_cn.md) | [EN](README_en.md) | [Rime-melt](README_origin.md)
+[CN](README.md) | [EN](README_en.md) | [Rime-melt](README_origin.md)
 
 ## Introduction
 
