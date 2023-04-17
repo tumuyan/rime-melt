@@ -286,6 +286,9 @@ local function oo_processor(key, env)
   local done=false
   
   if  context:has_menu() then
+--    local file = io.open("C:\\Users\\Yazii\\AppData\\Roaming\\Rime\\history.txt","a")
+--    file:write("\n keycode=" .. key.keycode .. ", ch=" .. ch .. "[48,58]")
+
     if key.keycode == 32  then
       done = true
     elseif ch <58 and ch>48 then
@@ -294,23 +297,24 @@ local function oo_processor(key, env)
       local index = segment.selected_index + ch -49
       local candidate_count = segment.menu:candidate_count()
       if candidate_count <= index or index < 0 then
+--        file:write("\n return 2")
         return 2
       end
       --  -48为键盘数字 -49 第一个候选序号0
       commit_text = segment:get_candidate_at(index).text
       done = true
     end
-    
-    if string.len(commit_text)>80 and done then
+--    file:write("\n commit_text " .. commit_text)
+    if done then
       context:clear()
-      if oo_buffer[commit_text] ~= nil then
+      if string.len(commit_text)>80 and oo_buffer[commit_text] ~= nil then
         engine:commit_text(oo_buffer[commit_text])
-      else
-        engine:commit_text(commit_text)
+        return 1
       end
+      engine:commit_text(commit_text)
       return 1
     end
-  
+--    file:close()
   end
 
   
