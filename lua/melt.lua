@@ -143,7 +143,7 @@ local function long_word_filter(input)
   local l = {}
   -- 记录第一个候选词的长度，提前的候选词至少要比第一个候选词长
   local length = 0
-  -- 记录筛选了多少个英语词条(只提升3个词的权重，并且对comment长度过长的候选进行过滤)
+  -- 记录筛选了多少个英语词条(只提升2个词的权重，并且对comment长度过长的候选进行过滤)
   local s1 = 0
   -- 记录筛选了多少个汉语词条(只提升3个词的权重)
   local s2 = 0
@@ -152,12 +152,14 @@ local function long_word_filter(input)
     if(length < 1 ) then
       length = leng
       yield(cand)
-    elseif #table > 30 then
+    elseif #l > 30 then
       table.insert(l, cand)
     elseif ((leng > length) and (s1 <2)) and(string.find(cand.text, "^[%w%p%s]+$")) then
       s1=s1+1
       if( string.len(cand.text)/ string.len(cand.comment) > 1.5) then 
         yield(cand)
+      else
+        table.insert(l, cand)
       end
     elseif ((leng > length) and (s2 <3)) and(string.find(cand.text, "^[%w%p%s]+$")==nil) then
       yield(cand)
