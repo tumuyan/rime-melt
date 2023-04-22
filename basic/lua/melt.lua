@@ -143,7 +143,7 @@ local function long_word_filter(input)
   local l = {}
   -- 记录第一个候选词的长度，提前的候选词至少要比第一个候选词长
   local length = 0
-  -- 记录筛选了多少个英语词条(只提升3个词的权重，并且对comment长度过长的候选进行过滤)
+  -- 记录筛选了多少个英语词条(只提升2个词的权重，并且对comment长度过长的候选进行过滤)
   local s1 = 0
   -- 记录筛选了多少个汉语词条(只提升3个词的权重)
   local s2 = 0
@@ -152,12 +152,14 @@ local function long_word_filter(input)
     if(length < 1 ) then
       length = leng
       yield(cand)
-    elseif #table > 30 then
+    elseif #l > 30 then
       table.insert(l, cand)
     elseif ((leng > length) and (s1 <2)) and(string.find(cand.text, "^[%w%p%s]+$")) then
       s1=s1+1
       if( string.len(cand.text)/ string.len(cand.comment) > 1.5) then 
         yield(cand)
+      else
+        table.insert(l, cand)
       end
     elseif ((leng > length) and (s2 <3)) and(string.find(cand.text, "^[%w%p%s]+$")==nil) then
       yield(cand)
@@ -284,6 +286,9 @@ local function oo_processor(key, env)
   local done=false
   
   if  context:has_menu() then
+--    local file = io.open("C:\\Users\\Yazii\\AppData\\Roaming\\Rime\\history.txt","a")
+--    file:write("\n keycode=" .. key.keycode .. ", ch=" .. ch .. "[48,58]")
+
     if key.keycode == 32  then
       done = true
     elseif ch <58 and ch>48 then
@@ -292,23 +297,24 @@ local function oo_processor(key, env)
       local index = segment.selected_index + ch -49
       local candidate_count = segment.menu:candidate_count()
       if candidate_count <= index or index < 0 then
+--        file:write("\n return 2")
         return 2
       end
       --  -48为键盘数字 -49 第一个候选序号0
       commit_text = segment:get_candidate_at(index).text
       done = true
     end
-    
-    if string.len(commit_text)>80 and done then
+--    file:write("\n commit_text " .. commit_text)
+    if done then
       context:clear()
-      if oo_buffer[commit_text] ~= nil then
+      if string.len(commit_text)>80 and oo_buffer[commit_text] ~= nil then
         engine:commit_text(oo_buffer[commit_text])
-      else
-        engine:commit_text(commit_text)
+        return 1
       end
+      engine:commit_text(commit_text)
       return 1
     end
-  
+--    file:close()
   end
 
   
