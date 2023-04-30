@@ -1,25 +1,42 @@
 # 我的 TRIME 配置
 
-[CN](README.md) | [EN](README_en.md) | [Rime-melt](README_origin.md)
+[CN](README.md) | [EN](README_en.md)
 
-## 融合拼音(rime_melt)
-
-融合了[【袖珍简化字拼音】](https://github.com/rime/rime-pinyin-simp/)[【Rime 简体中文用户定制文件】](https://github.com/huaxianyan/Rime)和【Easy English】从而实现了简体中文和常用英语的混合输入，故名[融合拼音(rime_melt)](https://github.com/tumuyan/rime-pinyin-simp)。
+forked [Rime-melt](README_origin.md)
 
 ## 简介
 
-母语与文字输入需求：普通话、汉字
+文字输入需求：汉语（现代汉语和古代汉语）、英文（常用词汇）、特殊符号。
 
-简体字或言规范字，可以《通用规范汉字表》8105 字为标准。在此之外则用《GB 18030-2005 信息技术 中文编码字符集》（单字节、双字节编码和四字节编码部分的 CJK 统一汉字扩充 A 部分为强制性）。
-
-常用：
-
-1. [融合拼音](https://github.com/tumuyan/rime-melt)：以[袖珍簡化字拼音](https://github.com/rime/rime-pinyin-simp)为基础，[字海两分](http://cheonhyeong.com/Simplified/download.html)为反查，配合修改版[Easy English](https://github.com/BlindingDark/rime-easy-en)实现的适用于绝大多数的全拼为主、形码为辅的原生简体中文输入场景。
-2. Unicode 输入：基于 lua 脚本的 Unicode 输入方案，解决部分未支持的字符输入问题，建议配合[babelpad](https://www.babelstone.co.uk/Software/BabelPad.html)（Windows OS）、unicodepad（Android OS）、[unicode 字符百科](https://unicode-table.com/)（web）等工具、或[unicode 标准文件](https://home.unicode.org/)。
+简体字或言规范字，以[《通用规范汉字表》[^1]](http://www.gov.cn/zhengce/content/2013-08/19/content_1289.htm)8105 字为标准。在此之外则用《GB 18030-2005 信息技术 中文编码字符集》（单字节、双字节编码和四字节编码部分的 CJK 统一汉字扩充 A 部分为强制性）。
 
 参考[rimerc](https://github.com/Bambooin/rimerc)设置 release。
 
 目前支持[同文（Trime）输入法](https://github.com/osfans/trime/releases)，尝试支持[小狼毫 fxliang 维护版](https://github.com/fxliang/weasel/releases)
+
+[^1]: 国务院关于公布《通用规范汉字表》的通知：国发〔2013〕23号
+
+### 输入方案
+
+1. [融合拼音](https://github.com/tumuyan/rime-melt)：以[袖珍簡化字拼音](https://github.com/rime/rime-pinyin-simp)、[【Rime 简体中文用户定制文件】](https://github.com/huaxianyan/Rime)为基础，[字海两分](http://cheonhyeong.com/Simplified/download.html)为反查，配合修改版[Easy English](https://github.com/BlindingDark/rime-easy-en)实现了简体中文和常用英语的混合输入。
+2. [雾凇拼音](https://github.com/iDvel/rime-ice)，一个长期维护的简体词库，包含全拼和常用的自然码双拼、小鹤双拼、微软双拼
+3. Unicode 输入：基于 lua 脚本的 Unicode 输入方案，解决部分未支持的字符输入问题，建议配合[babelpad](https://www.babelstone.co.uk/Software/BabelPad.html)（Windows OS）、unicodepad（Android OS）、[unicode 字符百科](https://unicode-table.com/)（web）等工具、或[unicode 标准文件](https://home.unicode.org/)。
+
+### 辞典（dictionaries）
+
+字符\t编码\t频率（非负整数）
+
+#### 字典
+
+以目前笔者所知最大的汉字字库“全宋体”来看，至少汉字约有18万余。而字典释义中大概在10万字左右，其中有大量的异体、同形、避讳缺笔等字形。据WFG先生统计，[台湾“教育部”异体字字典](https://dict.variants.moe.edu.tw/)合并同形字后实际收字96800字，略少于<汉字海>。
+
+通用规范上，当前的Unicode中CJK Unified（20992字）、CJK Ext-A（6592字）、CJK Ext-B（42720字）、CJK Ext-C（4153字）、CJK Ext-D（222字）、CJK Ext-E（5762字）、CJK Ext-F（7473字）、CJK Ext-G（4939字）、CJK Ext-H（4192字），合计97045字。
+
+总得来说，在九万七千余汉字中，覆盖99%使用场景的，大概是8000多字。以[邢红兵等在2019年公开的25亿字语料汉字字频表](https://faculty.blcu.edu.cn/xinghb/zh_CN/article/167473/content/1437.htm)来看，14975字覆盖了约19亿的字频。
+
+#### 词语
+
+#### 语句
 
 ## 说明
 
