@@ -57,7 +57,7 @@
 
 [【Rime 简体中文用户定制文件】](https://github.com/huaxianyan/Rime)项目使用**MIT**协议，涉及的文件包含：
 
-- ~~`pinyin_simp.custom.yaml` ：袖珍简化字拼音方案的客制化配置文件，有改动。~~已经删除
+- ~~`pinyin_simp.custom.yaml` ：袖珍简化字拼音方案的客制化配置文件，有改动。~~ 已删除。
 - `pinyin_simp.main.dict.yaml` ：词库中心文件。词库内容由 [袖珍简化字拼音](https://github.com/rime/rime-pinyin-simp) 默认词库pinyin_simp.dict.yaml修改而来，故合并两者并保持同步。
 - `pinyin_simp_base.dict.yaml` ：基础词库，由额外词库文件引用使用，来源为项目 [https://github.com/alswl/Rime](https://github.com/alswl/Rime) 中的[「现代汉语常用词表」](https://raw.githubusercontent.com/alswl/Rime/master/luna_pinyin.xiandaihanyuchangyongcibiao.dict.yaml)。
 - ~~`cn_en.dict.yaml` ： 英文词库。~~ 已删除。
@@ -85,6 +85,8 @@
 更新：2017-03-30 20:46:10
 - `pinyin_simp_gushi.dict.yaml`：搜狗古诗细胞词库 https://pinyin.sogou.com/dict/detail/index/2  
 更新：2020-12-28 15:05:44  
+- `pinyin_simp_liuxing.dict.yaml`：网络流行新词细胞词库 https://pinyin.sogou.com/dict/detail/index/4  
+更新：2023-05-06 11:42:57
 - `pinyin_simp_wiki.dict.yaml`：使用维基百科提供的dump数据解析而得。和别人作品不同，包含了大量中英文混拼词条、含标点的词条。**由于实用性较低，在1.6之后不再保留纯中文词条，以降低简拼运算量**。不定期更新，每月至少1次。  
 [下载直链](https://github.com/tumuyan/rime-pinyin-simp/raw/master/pinyin_simp_wiki.dict.yaml)
 - `pinyin_simp_moe.dict.yaml`：使用萌娘百科提供的API数据解析而得，含大量二次元词条。和别人作品不同，包含了大量中英文混拼词条、含标点的词条。不定期更新，每月至少1次。    

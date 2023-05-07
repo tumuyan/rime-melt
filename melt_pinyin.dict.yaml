@@ -10,7 +10,7 @@
 
 ---
 name: melt_pinyin
-version: "2021.11.09"
+version: "2023.05.07"
 sort: by_weight
 use_preset_vocabulary: false
 import_tables:
@@ -32,7 +32,8 @@ import_tables:
 #  - pinyin_simp_lishi
 # 搜狗古诗细胞词库 https://pinyin.sogou.com/dict/detail/index/2
   - pinyin_simp_gushi
-
+# 网络流行新词细胞词库 https://pinyin.sogou.com/dict/detail/index/4
+  - pinyin_simp_liuxing
 ...
 秋·张	qiu zhang
 简·爱	jian ai
@@ -462,3 +463,4 @@ Y形电路	_Y xing dian lu
 斯巴达300勇士	si ba da san bai yong shi
 世界500强	shi jie wu bai qiang
 𰻞𰻞面	biang biang mian
+癔症	yi zheng

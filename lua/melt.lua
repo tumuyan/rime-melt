@@ -273,10 +273,14 @@ end
 
 
 
+
 -- 包含2个功能，输入 值=oo 设置 history_oo，输入数字完成长候选词取值上屏
 local function oo_processor(key, env)
   local context = env.engine.context
+
+  -- 获取当前候选（用于空格选词）
   local commit_text = context:get_commit_text()
+--  local t = context:get_script_text()
   if commit_text == nil then 
     return 2
   end
@@ -286,9 +290,10 @@ local function oo_processor(key, env)
   local done=false
   
   if  context:has_menu() then
---    local file = io.open("C:\\Users\\Yazii\\AppData\\Roaming\\Rime\\history.txt","a")
---    file:write("\n keycode=" .. key.keycode .. ", ch=" .. ch .. "[48,58]")
+    --local file = io.open("C:\\Users\\Yazii\\AppData\\Roaming\\Rime\\history.txt","a")
+    --file:write("\n keycode=" .. key.keycode .. ", ch=" .. ch .. "[48,58], text="..commit_text..", t="..t)
 
+    -- 检查当前按键是否为数字键或者空格键
     if key.keycode == 32  then
       done = true
     elseif ch <58 and ch>48 then
@@ -304,18 +309,27 @@ local function oo_processor(key, env)
       commit_text = segment:get_candidate_at(index).text
       done = true
     end
---    file:write("\n commit_text " .. commit_text)
+    --file:write("\n commit_text " .. commit_text)
+    --file:close()
     if done then
-      context:clear()
+
+      -- commit长词
       if string.len(commit_text)>80 and oo_buffer[commit_text] ~= nil then
+        context:clear()
         engine:commit_text(oo_buffer[commit_text])
         return 1
       end
-      engine:commit_text(commit_text)
-      return 1
+      -- commit 英文词条
+      if string.match(commit_text, "^[%w%p]+$") ~= nil then
+        -- 检查字符串是否只包含数字、字母和标点符号
+        context:clear()
+        engine:commit_text(commit_text)
+        return 1
+      end
     end
---    file:close()
   end
+
+
 
   
   local v = commit_text:match("(.+)=")
