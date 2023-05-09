@@ -8,8 +8,6 @@ forked [Rime-melt](README_origin.md)
 
 文字输入需求：汉语（现代汉语和古代汉语）、英文（常用词汇）、特殊符号。
 
-简体字或言规范字，以[《通用规范汉字表》[^1]](http://www.gov.cn/zhengce/content/2013-08/19/content_1289.htm)8105 字为标准。在此之外则用《GB 18030-2005 信息技术 中文编码字符集》（单字节、双字节编码和四字节编码部分的 CJK 统一汉字扩充 A 部分为强制性）。
-
 参考[rimerc](https://github.com/Bambooin/rimerc)设置 release。
 
 目前支持[同文（Trime）输入法](https://github.com/osfans/trime/releases)，尝试支持[小狼毫 fxliang 维护版](https://github.com/fxliang/weasel/releases)
@@ -28,17 +26,26 @@ forked [Rime-melt](README_origin.md)
 
 #### 字典
 
-以目前笔者所知最大的汉字字库“全宋体”来看，至少汉字约有18万余。而字典释义中大概在10万字左右，其中有大量的异体、同形、避讳缺笔等字形。据WFG先生统计，[台湾“教育部”异体字字典](https://dict.variants.moe.edu.tw/)合并同形字后实际收字96800字，略少于<汉字海>。
+##### 字符与编码
+
+简体字或言规范字，以[《通用规范汉字表》](http://www.gov.cn/zhengce/content/2013-08/19/content_1289.htm)8105 字[^1]为标准。在此之上则有《GB 18030-2022 信息技术 中文编码字符集》的字样，约8万7千字（至F区）。
 
 通用规范上，当前的Unicode中CJK Unified（20992字）、CJK Ext-A（6592字）、CJK Ext-B（42720字）、CJK Ext-C（4153字）、CJK Ext-D（222字）、CJK Ext-E（5762字）、CJK Ext-F（7473字）、CJK Ext-G（4939字）、CJK Ext-H（4192字），合计97045字。
 
-[ZengYL](https://www.zengyulin.cn)提供了一个[将Unicode可读性标注转换为词库的方法](https://github.com/iDvel/rime-ice/issues/116)，[iDvel](https://github.com/iDvel)处理后得到了41448字的拼音字库。
+广义上的汉字，或者unihan（Unicode中的hanzi子集）包括传承字（正）、异体字（包含但不限于俗体）、简化规范字（简化及类推简化的一个子集）、海外汉字（以日本和制汉字为典型）等来源。以目前笔者所知最大的汉字字库“全宋体”来看，广义汉字约有18万余。而字典释义中大概在10万字左右，其中有大量的异体、同形、避讳缺笔等字形。据WFG先生统计，[台湾“教育部”异体字字典](https://dict.variants.moe.edu.tw/)合并同形字后实际收字96800字，略少于《汉字海》。
 
-总得来说，在九万七千余汉字中，覆盖99%使用场景的，大概是8000多字。以[邢红兵等在2019年公开的25亿字语料汉字字频表](https://faculty.blcu.edu.cn/xinghb/zh_CN/article/167473/content/1437.htm)来看，14975字覆盖了约19亿的字频。
+因此有，全宋体（18万）>Unihan（9万7千）>GB18030（8万7千）。
+
+但是，正如汉语存在方言上的有音无字一样，Unicode也存在为数不少的有字无音。[ZengYL](https://www.zengyulin.cn)提供了一个[将Unicode可读性标注转换为词库的方法](https://github.com/iDvel/rime-ice/issues/116)，[iDvel](https://github.com/iDvel)处理后得到了41448字的普通话标注。
+
+[Han in Glyphs](https://github.com/3type/glyphs-han)
+
+##### 字频
+
+总得来说，在9万7千余汉字中，覆盖99%使用场景的，大概是8000多字。以[邢红兵等在2019年公开的25亿字语料汉字字频表](https://faculty.blcu.edu.cn/xinghb/zh_CN/article/167473/content/1437.htm)来看，14975字覆盖了约19亿的字频。
 
 [古典中文語料庫](https://github.com/rime-aca/corpus)
 
-[Han in Glyphs](https://github.com/3type/glyphs-han)
 
 考虑到比例关系
 
