@@ -32,7 +32,15 @@ forked [Rime-melt](README_origin.md)
 
 通用规范上，当前的Unicode中CJK Unified（20992字）、CJK Ext-A（6592字）、CJK Ext-B（42720字）、CJK Ext-C（4153字）、CJK Ext-D（222字）、CJK Ext-E（5762字）、CJK Ext-F（7473字）、CJK Ext-G（4939字）、CJK Ext-H（4192字），合计97045字。
 
+[ZengYL](https://www.zengyulin.cn)提供了一个[将Unicode可读性标注转换为词库的方法](https://github.com/iDvel/rime-ice/issues/116)，[iDvel](https://github.com/iDvel)处理后得到了41448字的拼音字库。
+
 总得来说，在九万七千余汉字中，覆盖99%使用场景的，大概是8000多字。以[邢红兵等在2019年公开的25亿字语料汉字字频表](https://faculty.blcu.edu.cn/xinghb/zh_CN/article/167473/content/1437.htm)来看，14975字覆盖了约19亿的字频。
+
+[古典中文語料庫](https://github.com/rime-aca/corpus)
+
+[Han in Glyphs](https://github.com/3type/glyphs-han)
+
+考虑到比例关系
 
 #### 词语
 
