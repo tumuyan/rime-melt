@@ -5,6 +5,9 @@
 		}
 	],
 	"settings": {
-		"svg.preview.background": "editor"
+		"svg.preview.background": "editor",
+		"githubPullRequests.ignoredPullRequestBranches": [
+			"master"
+		]
 	}
 }
