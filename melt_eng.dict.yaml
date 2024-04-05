@@ -9,7 +9,7 @@
 
 ---	
 name: melt_eng		
-version: "2021.11.29"		
+version: "2024.04.04"		
 #sort: by_weight		
 use_preset_vocabulary: true		
 import_tables:
@@ -1415,6 +1415,7 @@ cooperative	cooperative	100
 coordinate	coordinate	100
 cop	cop	100
 cope	cope	100
+copilot	copilot	100
 copper	copper	100
 copy	copy	100
 copyright	copyright	100
@@ -4883,6 +4884,7 @@ revolt	revolt	100
 revolution	revolution	100
 revolutionary	revolutionary	100
 revolve	revolve	100
+revue	revue	100
 reward	reward	100
 rhythm	rhythm	100
 rib	rib	100

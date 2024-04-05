@@ -86,7 +86,7 @@
 - `pinyin_simp_gushi.dict.yaml`：搜狗古诗细胞词库 https://pinyin.sogou.com/dict/detail/index/2  
 更新：2020-12-28 15:05:44  
 - `pinyin_simp_liuxing.dict.yaml`：网络流行新词细胞词库 https://pinyin.sogou.com/dict/detail/index/4  
-更新：2024-02-27 11:45:09
+更新：2024-04-04 20:22:47
 - `pinyin_simp_wiki.dict.yaml`：使用维基百科提供的dump数据解析而得。和别人作品不同，包含了大量中英文混拼词条、含标点的词条。**由于实用性较低，在1.6之后不再保留纯中文词条，以降低简拼运算量**。不定期更新，每月至少1次。  
 [下载直链](https://github.com/tumuyan/rime-pinyin-simp/raw/master/pinyin_simp_wiki.dict.yaml)
 - `pinyin_simp_moe.dict.yaml`：使用萌娘百科提供的API数据解析而得，含大量二次元词条。和别人作品不同，包含了大量中英文混拼词条、含标点的词条。不定期更新，每月至少1次。    
