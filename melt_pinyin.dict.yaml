@@ -10,7 +10,7 @@
 
 ---
 name: melt_pinyin
-version: "2023.05.07"
+version: "2024.04.16"
 sort: by_weight
 use_preset_vocabulary: false
 import_tables:
@@ -472,3 +472,4 @@ Y形电路	_Y xing dian lu
 癔症	yi zheng
 周鸿祎	zhou hong yi
 战国BASARA	zhan guo BASARA
+祛魅	qu mei
