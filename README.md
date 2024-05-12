@@ -96,7 +96,8 @@
 - `melt_mult_language.dict.yaml`：少量中外语、数字和符号混合的词库，供`Easy English Nano`方案引用。
 
 【融合拼音参考文件】  
-- `/others/*.csv`: 整理中的增补字典，除常见国家和语言外均未实装。可直接删除  
+- `/others/t2s.json` `/others/Translation.txt`：词库繁体转简体时所使用的opencc配置文件。  
+- `/others/*.csv`: 整理中的增补字典，除常见国家和语言外均未实装。可直接删除。  
 - `/others/废词*.txt`：废词列表。
 - `/others/修复*.txt`：为避免预处理词条时被正则过杀，设置的废词白名单。
 - `/opencc`: opencc拼音滤镜。原作者不祥。`PYCharacters.txt`为单字拼音，文字基于两分输入法词库列出的单字，拼音查自国学大师网，并处理多音字为`[读音1&nbsp读音2]`的形式。`PYPhrases.txt`为词条拼音，也略有调整。
