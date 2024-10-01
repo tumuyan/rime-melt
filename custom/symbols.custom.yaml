@@ -1,0 +1,12 @@
+patch:
+#  "punctuator/half_shape/#": [ '#', '##', '###' ]
+#  "punctuator/half_shape/#": '#'
+#  "punctuator/half_shape/'/'": [ 、, '//', '/', ／, ÷ ]
+#  "punctuator/half_shape/_": {commit: '——'}
+#  "punctuator/half_shape/`" : [ '`', '``', '```', ′, ″, ‴, ⁗ , ‵, ‶, ‷ ]
+
+  punctuator/half_shape/+:
+    "#": '#'
+    "/": [ 、, '//', '/', ／, ÷ ]
+    "_": {commit: '——'}
+    "=": ["=", "≠", "≈"]
