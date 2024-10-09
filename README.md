@@ -54,7 +54,9 @@
 下载、复制、修改、使用及分享此项目部分或全部文件时，默认已经知悉此章节内容。
 
 -  `melt_pinyin.schema.yaml` ：融合拼音主方案文件。参考了[【袖珍简化字拼音】](https://github.com/rime/rime-pinyin-simp/) 和 [【Rime 简体中文用户定制文件】](https://github.com/huaxianyan/Rime)。  
--  `melt_pinyin.dict.yaml`: 融合拼音词主库文件。引用了其他词库，文件本身只包含少量词条。
+-  `melt_pinyin.dict.yaml`: 融合拼音词主库文件。引用了其他词库，本身只有少量补充词条（含使用拼音编码的外语、数字和符号混合的词条）。  
+-  `melt_mult_language.dict.yaml`：少量中外语、数字和符号混合的词库，不参与造词，使用英文编码，供`Easy English Nano`方案引用。  
+
 
 [【Rime 简体中文用户定制文件】](https://github.com/huaxianyan/Rime)项目使用**MIT**协议，涉及的文件包含：
 
@@ -63,16 +65,14 @@
 - `pinyin_simp_base.dict.yaml` ：基础词库，由额外词库文件引用使用，来源为项目 [https://github.com/alswl/Rime](https://github.com/alswl/Rime) 中的[「现代汉语常用词表」](https://raw.githubusercontent.com/alswl/Rime/master/luna_pinyin.xiandaihanyuchangyongcibiao.dict.yaml)。
 - ~~`cn_en.dict.yaml` ： 英文词库。~~ 已删除。
 - ~~`zhwiki.dict.yaml` ：维基词库。来源为项目 [fcitx5-pinyin-zhwiki](https://github.com/felixonmars/fcitx5-pinyin-zhwiki)。~~ 已经删除，改为自己解析wiki dump文件并生成词库。  
-  
-以下词库仅保持结构，实际上并没有在积极维护，由最终用户根据实际需求来编辑：  
-- `pinyin_simp_custom.dict.yaml` ：自定义词语，由额外词库文件引用使用。如需添加自定义短语，建议编辑此文件。目前预设了一些最新最in的💈文学。
+- `pinyin_simp_custom.dict.yaml` ：自定义词语，由最终用户根据实际需求来编辑（如添加自定义短语）。目前预设了一些最新最in的💈文学。
 
 
 【Easy English Nano】
 * `melt_eng.schema.yaml` 归属于【Easy English】，原作者是Patrick <ipatrickmac@gmail.com>，但是在Patrick的主页没有这个项目的仓库。
 而github上[BlindingDark](https://github.com/BlindingDark/rime-easy-en)有在维护，使用了**LGPLv3**协议，但是与本方案分属不同分支。
 * `melt_eng.dict.yaml` 英文主词库，作者tanzi，没有更多信息。在2016考研词汇大纲和六级单词的基础上进行修订。
-* `melt_eng_custom.dict.yaml` 用户自定义英文词库。
+* `melt_eng_custom.dict.yaml` 用户自定义英文词库，由最终用户根据实际需求来编辑。
 
 [【两分输入方案】](http://cheonhyeong.com/Simplified/download.html)来自叶典网。
 引入两分方案作为反查滤镜。当用户需要输入生僻字时，可以对复杂文字进行拆分，先输入"`"，再输入第一部分的拼音，最后输入第二部分的拼音。候选词如果存在读音，会通过opencc滤镜显示该文字的拼音。
@@ -93,14 +93,13 @@
 - `pinyin_simp_moe.dict.yaml`：使用萌娘百科提供的API数据解析而得，含大量二次元词条。和别人作品不同，包含了大量中英文混拼词条、含标点的词条。不定期更新，每月至少1次。    
 [下载直链](https://github.com/tumuyan/rime-pinyin-simp/raw/master/pinyin_simp_moe.dict.yaml)  
 
-手动维护的含外语、数字和符号混合的词条：  
-- `melt_mult_language.dict.yaml`：少量中外语、数字和符号混合的词库，供`Easy English Nano`方案引用。
 
 【融合拼音参考文件】  
 - `/others/t2s.json` `/others/Translation.txt`：词库繁体转简体时所使用的opencc配置文件。  
 - `/others/*.csv`: 整理中的增补字典，除常见国家和语言外均未实装。可直接删除。  
 - `/others/废词*.txt`：废词列表。
 - `/others/修复*.txt`：为避免预处理词条时被正则过杀，设置的废词白名单。
+- `/others/whitelist.txt`：废词过滤白名单。废词过滤算法会根据符号切分词条，在这个文件中出现过的词条不做分割和过滤处理。
 - `/opencc`: opencc拼音滤镜。原作者不祥。`PYCharacters.txt`为单字拼音，文字基于两分输入法词库列出的单字，拼音查自国学大师网，并处理多音字为`[读音1&nbsp读音2]`的形式。`PYPhrases.txt`为词条拼音，也略有调整。
 - `/lua/melt.lua`：融合拼音的预设lua滤镜。
 

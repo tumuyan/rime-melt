@@ -5,18 +5,18 @@
 # melt_mult_language
 # 在不切换键盘/不寻找符号键盘的前提下，通过拼写简单的中英文混合词条及其他外语或者符号
 # 遵循公认英文或拼音拼写的原则，不为方便个人习惯而生造编码。
-# 如：α的英文拼写为alpha，“の”在中文中已经在和“的（de）”互换。
+# 如：α的英文拼写为alpha，
+# 不包含希望参与造词的、使用拼音编码的外文字符
+# 如：已经在中文中已经在和“的（de）”互换的“の”，再如 μ - miu。
 ---
 name: melt_mult_language
 version: "2021.07.11"
 sort: by_weight
 use_preset_vocabulary: false
 ...
-の	de
 °	degrees
 ℉	degreesFahrenheit
 ℃	degreeCelsius
-℃	centidegree
 ü	v
 Σ	sigma
 Φ	phi
@@ -47,12 +47,10 @@ use_preset_vocabulary: false
 χ	chi
 ψ	psi
 I'	i
-K歌	Kge
-i了	ile
-U盘	upan
 AKB48	AKB48
 SNH48	SNH48
 Code::Blocks	CodeBlocks
 I2C	IIC
-嗑CP	keCP
 K-ON！	kon
+Chiikawa	Chiikawa
+BanG Dream!	BanGDream

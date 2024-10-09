@@ -6,6 +6,7 @@
 # 1.由于对wiki词库使用了程序自动处理，会过度过滤，为免除影响，需补充部分词条。
 # 2.增加了部分诗文，成句
 # 3.部分不符合普通话标准读音的词，比如`牛丼 niu dong`
+# 4.部分使用拼音编码的外语
 
 
 ---
@@ -40,10 +41,16 @@ import_tables:
 羽·泉	yu quan
 雫るる	na lu lu
 卡拉OK	ka la _OK
+K歌	_K ge
+i了	i le
+U盘	u pan
+嗑CP	ke _CP
 纯K	chun _K
+の	de
 ü	yu
 π	pai
 μ	miu
+℃	she shi du
 C语言	_C yu yan
 G代码	_G dai ma
 ⑨	ben dan
@@ -473,7 +480,7 @@ Y形电路	_Y xing dian lu
 𰻞𰻞面	biang biang mian
 癔症	yi zheng
 周鸿祎	zhou hong yi
-战国BASARA	zhan guo BASARA
+战国BASARA	zhan guo _BASARA
 祛魅	qu mei
 珠颈斑鸠	zhu jing ban jiu
 白头鹎	bai tou	bei
