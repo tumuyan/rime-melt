@@ -47,12 +47,12 @@ engine:
   filters:
     - "simplifier@candidate_s2t"
     - "simplifier@comment_pinyin"
-    - "lua_filter@autocap_filter"
-    - "lua_filter@long_word_filter"
-    - "lua_filter@oo_filter"
+    - "lua_filter@*melt_autocap"
+    - "lua_filter@*melt_longword"
+    - "lua_filter@*melt_oo_filter"
     - uniquifier
   processors:
-    - "lua_processor@oo_processor"
+    - "lua_processor@*melt_oo_processor"
     - ascii_composer
     - recognizer
     - key_binder
@@ -72,7 +72,9 @@ engine:
     - punct_translator
     - script_translator
     - reverse_lookup_translator
-    - "lua_translator@get_date"
+    - "lua_translator@*melt_quick"           # 快捷输入：日期/时间/UUID
+    - "lua_translator@*melt_oo_translator" # 查询 oo/ii 变量
+    - "lua_translator@*melt_save_word"     # 保存词条到英文词库
 
 speller:
   algebra:
@@ -97,7 +99,7 @@ translator:
     - "xform/([nl])v/$1ü/"
     - "xform/([nl])ue/$1üe/"
     - "xform/([jqxy])v/$1u/"
-
+#  spelling_hints: 3
 melt_eng:
   dictionary: melt_eng
   enable_completion: true
