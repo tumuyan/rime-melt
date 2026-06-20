@@ -283,21 +283,27 @@ local function oo_processor(key, env)
     --local file = io.open("C:\\Users\\Yazii\\AppData\\Roaming\\Rime\\history.txt","a")
     --file:write("\n keycode=" .. key.keycode .. ", ch=" .. ch .. "[48,58], text="..commit_text..", t="..t)
 
-    -- 检查当前按键是否为数字键或者空格键
+    -- 检查当前按键是否为空格键
     if key.keycode == 32  then
       done = true
     elseif ch <58 and ch>48 then
+      -- 数字键处理：仅在存在长候选词(oo_buffer非空)时拦截
+      if next(oo_buffer) == nil then
+        return 2
+      end
       local composition = context.composition
       local segment = composition:back()
       local index = segment.selected_index + ch -49
       local candidate_count = segment.menu:candidate_count()
       if candidate_count <= index or index < 0 then
---        file:write("\n return 2")
         return 2
       end
       --  -48为键盘数字 -49 第一个候选序号0
       commit_text = segment:get_candidate_at(index).text
-      done = true
+      -- 只有选中的候选在 oo_buffer 中时才拦截数字键
+      if oo_buffer[commit_text] ~= nil then
+        done = true
+      end
     end
     --file:write("\n commit_text " .. commit_text)
     --file:close()
