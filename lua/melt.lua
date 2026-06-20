@@ -1,7 +1,5 @@
-local history_str = ""
 local history_oo = ""
 local history_ii = ""
-local history_uu = 1
 
 -- 获取用户目录
 local function getCurrentDir()
@@ -75,12 +73,10 @@ end
 
 -- 假名滤镜。
 local function jpcharset_filter(input, env)
-  sw =  env.engine.context:get_option("jpcharset_filter")
   if( env.engine.context:get_option("jpcharset_c")) then
     for cand in input:iter() do
       local text = cand.text
-      for i in utf8.codes(text) do
-         local c = utf8.codepoint(text, i)
+      for i, c in utf8.codes(text) do
          if (c< 0x3041 or c> 0x30FF) then
             yield(cand)
 --            yield(Candidate("pin", seg.start, seg._end, text , string.format("%x %c",c,c)))
@@ -91,8 +87,7 @@ local function jpcharset_filter(input, env)
   elseif( env.engine.context:get_option("jpcharset_j")) then
     for cand in input:iter() do
       local text = cand.text
-      for i in utf8.codes(text) do
-         local c = utf8.codepoint(text, i)
+      for i, c in utf8.codes(text) do
          if (c>= 0x3041 and c<= 0x30FF) then
             yield(cand)
             break
@@ -108,9 +103,8 @@ end
 
 -- 输入的内容大写前2个字符，自动转小写词条为全词大写；大写第一个字符，自动转写小写词条为首字母大写
 local function autocap_filter(input, env)
-  if true then
 --  if( env.engine.context:get_option("autocap_filter")) then
-    for cand in input:iter() do
+  for cand in input:iter() do
       local text = cand.text
       local commit = env.engine.context:get_commit_text()
       if (string.find(text, "^%l%l.*") and string.find(commit, "^%u%u.*")) then
@@ -131,11 +125,6 @@ local function autocap_filter(input, env)
         yield(cand)
       end
     end
-  else
-    for cand in input:iter() do
-      yield(cand)
-    end
-  end
 end
 
 -- 长词优先（从后方移动2个英文候选和3个中文长词，提前为第2-6候选；当后方候选长度全部不超过第一候选词时，不产生作用）
@@ -148,7 +137,7 @@ local function long_word_filter(input)
   -- 记录筛选了多少个汉语词条(只提升3个词的权重)
   local s2 = 0
   for cand in input:iter() do
-    leng = utf8.len(cand.text)
+    local leng = utf8.len(cand.text)
     if(length < 1 ) then
       length = leng
       yield(cand)
@@ -156,7 +145,7 @@ local function long_word_filter(input)
       table.insert(l, cand)
     elseif ((leng > length) and (s1 <2)) and(string.find(cand.text, "^[%w%p%s]+$")) then
       s1=s1+1
-      if( string.len(cand.text)/ string.len(cand.comment) > 1.5) then 
+      if( string.len(cand.comment) > 0 and string.len(cand.text)/ string.len(cand.comment) > 1.5) then 
         yield(cand)
       else
         table.insert(l, cand)
@@ -190,6 +179,7 @@ function guid()
     )
 end
 
+--[[ GUID 测试循环（调试用，正常使用注释掉）
 local s=0
 local start_time=os.clock()
 while s<50000 do
@@ -197,6 +187,7 @@ while s<50000 do
     print(s,guid())
 end
 print('execute_time='..tostring(os.clock()-start_time))
+--]]
 
 
 -- 获取子字符串。根据UTF8编码规则，避免了末位输出乱码
@@ -286,7 +277,6 @@ local function oo_processor(key, env)
   end
   
   local ch = key.keycode
-  local engine=env.engine
   local done=false
   
   if  context:has_menu() then
@@ -316,14 +306,14 @@ local function oo_processor(key, env)
       -- commit长词
       if string.len(commit_text)>80 and oo_buffer[commit_text] ~= nil then
         context:clear()
-        engine:commit_text(oo_buffer[commit_text])
+        env.engine:commit_text(oo_buffer[commit_text])
         return 1
       end
       -- commit 英文词条
       if string.match(commit_text, "^[%w%p]+$") ~= nil then
         -- 检查字符串是否只包含数字、字母和标点符号
         context:clear()
-        engine:commit_text(commit_text)
+        env.engine:commit_text(commit_text)
         return 1
       end
     end
