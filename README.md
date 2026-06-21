@@ -22,7 +22,7 @@
  目前本方案没有加入东风破，需要下载文件并放置到方案目录来使用。 
 1. [下载文件](https://github.com/tumuyan/rime-pinyin-simp/archive/master.zip)、解压文件
 2. 删除解压后others目录中不必要的文件。
-    * `rime.lua`是lua滤镜，如果你的其他输入方案已经预设了lua滤镜，需要手动合并此文件的内容到用户文件夹内的rime.lua文件中，完成文件引用。否则直接复制到`Rime用户文件夹`内即可
+    * `lua`目录是lua滤镜，直接复制到`Rime用户文件夹`内即可
     * `custom`目录下`melt_eng_custom.dict.yaml`和`pinyin_simp_custom.dict.yaml`分别是英文、中文用户自定义词库，由用户自己维护。如果`Rime用户文件夹`内没有这几个文件，请拷贝；如果存在，请不要替换，避免自己积累的词条被覆盖。`symbols.custom.yaml`为符号配置补丁文件，根据我的个人习惯微调了符号输入的行为；放不放置这个文件都OK。
     * `prelude`目录的文件来自 (rime-prelude)[https://github.com/rime/rime-prelude]，是大部分方案需要引用的配置文件。如果`程序文件夾`缺少这些文件，大部分方案都会部署失败。如果`程序文件夾`内没有这几个文件，请拷贝；如果存在，请不要替换，避免自己的设置被覆盖。
     * `others`目录的放置了一些杂项参考文件，可以直接删除。
