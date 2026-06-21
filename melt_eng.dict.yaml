@@ -18,6 +18,19 @@ import_tables:
 # 用户自定义词库
   - melt_eng_custom
 ...	
+ChatGPT	ChatGPT	100
+GPT	GPT	100
+DeepSeek	DeepSeek	100
+Transformer	Transformer	100
+encoder	endoder	100
+decoder	decoder	100
+embedding	embedding	100
+softmax	softmax	100
+sigmoid	sigmoid	100
+gemini	gemini	100
+Claude	Claude	100
+Anthropic	Anthropic	100
+NLP	NLP	100
 SoC	SoC	100
 AA	AA	100
 aptX	aptX	100

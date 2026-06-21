@@ -10,7 +10,7 @@
 # 如：已经在中文中已经在和“的（de）”互换的“の”，再如 μ - miu。
 ---
 name: melt_mult_language
-version: "2021.07.11"
+version: "2024.12.20"
 sort: by_weight
 use_preset_vocabulary: false
 ...
@@ -54,3 +54,4 @@ I2C	IIC
 K-ON！	kon
 Chiikawa	Chiikawa
 BanG Dream!	BanGDream
+C#	csharp

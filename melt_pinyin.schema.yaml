@@ -78,6 +78,7 @@ engine:
 
 speller:
   algebra:
+    - "xform/^([A-Z])$/_$1/"
     - "abbrev/^([zcs]h).+$/$1/"
     - "derive/^([nl])ue$/$1ve/"
     - "derive/^([jqxy])u/$1v/"
